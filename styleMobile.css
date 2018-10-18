@@ -16,6 +16,9 @@
        flex-direction: column;
        justify-content: center;
        align-items: center;
+       padding-left: 1em;
+       padding-right: 1em;
+       
        
     } 
 
@@ -23,13 +26,16 @@
         text-transform: uppercase;
        color: #ddd;
        text-shadow: 2px 2px #000;
-      
     } 
 
     .main-content-section-two {
         height: 20em;
        
     } 
+
+    .fa-wifi {
+        color: rgb(79, 169, 229);
+    }
 /* Login wrapper */
     .emptyOverHeaderContainer {
         height: 3em;
@@ -59,7 +65,7 @@
     }
 
     header {
-        height: 4em;
+        height: 5em;
         overflow: hidden;
         background-color: white;
         transition: height 1000ms 0ms; 
@@ -77,7 +83,7 @@
         overflow: hidden;
         width: auto;
         height: 100%;
-        padding-top: 1em;
+        margin-top: 2em;
         padding-left: 0;
         text-align: center;
         background-color: rgb(79, 169, 229);
@@ -86,20 +92,23 @@
     .navBar li a{
         list-style-type: none;
         font-size: 1.4em;
-        font-family: 'Roboto Condensed', sans-serif;
+       
         line-height: 2em;
         text-decoration: none;
         color: black;
     }
 
     .menu-button {
-        font-size: 2em;
-        margin-left: 1em;
+
         color: rgb(79, 169, 229);
     }
 
     .menuParent {
-        margin-top: 1em;
+
+        height: 4.9em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 
@@ -130,7 +139,7 @@
     .emptyOverHeaderContainer span {
         margin-top: 0.2em !important;
         margin-left: -0.6em!important;
-        font-family: 'Roboto Condensed', sans-serif;
+       
     }
 
     .actions {
@@ -138,12 +147,12 @@
     }
 
     .signInTextStyle {
-        font-family: 'Roboto Condensed', sans-serif;
+       
         color: black;
         padding: 1em;
     }
 
     .containerUsernameAndPassword {
         padding: 1em;
-        font-family: 'Roboto Condensed', sans-serif;
+        
     }
