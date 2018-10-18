@@ -9,12 +9,14 @@ footer {
 }
 
 .footerLogo{
-   width: 50%;
+    width: 50%;
     margin: 0 auto;
+    border: 1px solid red;
 }
 
 .footerLogo img{
     width: 100%;
+    border: 1px solid red;
  }
 
 .footerArrow {
