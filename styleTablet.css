@@ -1,18 +1,7 @@
 @media screen and (min-width: 768px) {
-    .emptyOverHeaderContainer {
-        height: 2.5em;
-        background-color: rgb(79, 169, 229);
-        display: flex;
-        justify-content: flex-end;
-    }
 
-    .signInContainer {
-        border: 1px solid red;
-        margin-top: 1em;
-    }
-  
     #header {
-        height: 3.8em;
+        height: 4.5em;
         display: flex;
         z-index: 1100;
         margin: 0;
@@ -42,6 +31,7 @@
         list-style-type: none;
         justify-content: flex-end;
         padding-right: 1em;
+        padding-top: 0;
     }
     
     header .navBar li a{

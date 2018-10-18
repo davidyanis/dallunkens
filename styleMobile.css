@@ -3,11 +3,18 @@
     }
 
     .emptyOverHeaderContainer {
-        height: 2.5em;
+        height: 3em;
+        display: flex;
+        justify-content: flex-end;
+        background-color: rgb(79, 169, 229);
         display: flex;
         justify-content: flex-end;
     }
 
+    .loginButton {
+        height: 3em;
+        margin-right: 0.7em;
+    }
 
     .logo {
         margin-top: 0.1em;
@@ -22,7 +29,7 @@
     }
 
     header {
-        height: 2.5em;
+        height: 4em;
         overflow: hidden;
         background-color: white;
         transition: height 1000ms 0ms; 
@@ -77,11 +84,4 @@
         width: 1em;
         color: rgb(79, 169, 229);
     }
-
-    .fa-angle-up:hover {
-        -webkit-transform: scale(0.8);
-        -ms-transform: scale(0.8);
-        transform: scale(0.8);
-    }
-
    

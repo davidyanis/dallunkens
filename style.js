@@ -1,3 +1,4 @@
+
 function menuButtonClicked() {
     var header = document.getElementById("header");
     header.classList.toggle("fullscreen")
@@ -10,4 +11,6 @@ function scrollToTop() {
     });
 }
 
-
+$('.ui.modal')
+  .modal('show')
+  ;

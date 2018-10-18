@@ -10,13 +10,42 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./styleMobile.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./style.js"></script>
+    <link rel="stylesheet" href="./semantic/semantic.css">
 </head>
 <body>
     <div class="emptyOverHeaderContainer">
-        <a href="#">Investor <i class="fas fa-sign-in-alt"></i></a>
+        <button class="mini ui right labeled icon button buttonStyleLogIn">
+            <i class="ui sign-in icon"></i>
+            <p>Investor</p>
+          </button>
     </div>
+    <div class="ui modal">
+            <i class="close icon"></i>
+            <div class="header">
+              Profile Picture
+            </div>
+            <div class="image content">
+              <div class="ui medium image">
+                <img src="images/children-1822559_1920.jpg">
+              </div>
+              <div class="description">
+                <div class="ui header">We've auto-chosen a profile image for you.</div>
+                <p>We've grabbed the following image from the <a href="https://www.gravatar.com" target="_blank">gravatar</a> image associated with your registered e-mail address.</p>
+                <p>Is it okay to use this photo?</p>
+              </div>
+            </div>
+            <div class="actions">
+              <div class="ui black deny button">
+                Nope
+              </div>
+              <div class="ui positive right labeled icon button">
+                Yep, that's me
+                <i class="checkmark icon"></i>
+              </div>
+            </div>
+          </div>
     <header id="header">
         <div class="logo">
             <a href="#home"><img src="./images/SweratelLogo.png"></a>
@@ -66,6 +95,7 @@
     </header>
     <main>
         <div class="content">
+              
         </div>
         <div class="scrollUpArrow">
             <a onclick="scrollToTop()"><i class="fas fa-angle-up fa-3x"></i></a>
