@@ -2,6 +2,35 @@
         margin: 0;
     }
 
+    main {
+        height: 100%;
+        width: 100%;
+        background-image: url("images/children.jpg");
+        background-size: cover;
+    }
+    .main-content-section-one {
+        padding-bottom: 15em;
+        height: 100%;
+        width: 100%;
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       
+    } 
+
+    .main-content-section-one h1{
+        text-transform: uppercase;
+       color: #ddd;
+       text-shadow: 2px 2px #000;
+      
+    } 
+
+    .main-content-section-two {
+        height: 20em;
+       
+    } 
+/* Login wrapper */
     .emptyOverHeaderContainer {
         height: 3em;
         display: flex;
@@ -16,13 +45,14 @@
         margin-right: 0.7em;
     }
 
+    /* Header Logo */
+
     .logo {
         margin-top: 0.1em;
         margin-left: 0.5em;
         width: 75%;
         float: left;
     }
-
     .logo img {
         width: 60%;
         padding-top: 0.4em;
@@ -35,12 +65,14 @@
         transition: height 1000ms 0ms; 
         padding-bottom: 1.5em;
         border-bottom: 1px solid #ddd;
+        
     }
 
     header.fullscreen {
         height: 160vh;
     }
     
+    /* Navigation styling EJ Dropdown */
     .navBar {
         overflow: hidden;
         width: auto;
@@ -70,9 +102,6 @@
         margin-top: 1em;
     }
 
-    .content {
-        height: 40em;
-    } 
 
     .scrollUpArrow {
         height: 3em;
@@ -83,6 +112,11 @@
     .fa-angle-up {
         width: 1em;
         color: rgb(79, 169, 229);
+    }
+
+    .fa-angle-up:hover{
+        color: #333;
+        cursor: pointer;
     }
    
     .emptyOverHeaderContainer button{

@@ -6,17 +6,19 @@ footer {
     padding-top: 1em;
     bottom: 0;
     font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
 }
 
 .footerLogo{
-    width: 50%;
-    margin: 0 auto;
-    border: 1px solid red;
+    width: 100%;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
 }
 
 .footerLogo img{
-    width: 100%;
-    border: 1px solid red;
+    width: 13em;
+    height: 4em;
  }
 
 .footerArrow {
@@ -29,68 +31,37 @@ footer {
     outline: white;
 } 
 
-.copyRight {
-    height: auto;
-    width: 100%;                
-    background-color: #b7b8bb;
-    color: #333;
+.adressInfo {
+    width: 100%;
+    color: #333; 
     text-align: center;
-}
-
-.copyRight h6 {
-    margin: 0;
-    padding-top: 1em;
     padding-bottom: 1em;
 }
 
-.adressInfo p {
-    margin-top: -1em;
-}
-.adressInfo {
-    margin-left: 0.5em;
-    width: 60%;
-    color: #333;       
-}
+/* Social media on footer, icons etc styling */
 .socialMediaIcons {
-    width: 40%;
-}
-.footer-wrapper{
-    display: flex;
+    width: 100%;
+    text-align: center;
+    color: #333; 
+    padding-bottom: 2em;
 }
 
-.fa-linkedin-in {
-    font-size: 1.5em;
-    margin-right: 0.5em;
+.socialMediaIcons .fa-linkedin-in {
     color: #0077B5;
+    font-size: 1.5em;
 }
 
-.fa-twitter {
-    font-size: 1.5em;
-    margin-right: 0.5em;
+.socialMediaIcons .fa-twitter {
     color: rgb(0, 198, 255);
-}
-
-.fa-envelope {
     font-size: 1.5em;
-    color: black;
+    padding-left: 0.4em;
+   
 }
 
-.emptyOverHeaderContainer {
-    background-color: rgb(79, 169, 229);
-    height: 2em;
-    display: flex;
-    justify-content: flex-end;
-    font-family: 'Roboto Condensed', sans-serif;
-}
-
-.signIn {
-    margin-top: 0.4em;
-    margin-right: 1.0em;
-}
-
-.fa-sign-in-alt {
-    margin-left: 0.3em;
-    color: black;
+.socialMediaIcons .fa-envelope {
+    color: #333;
+    font-size: 1.5em;
+    padding-left: 0.4em;
 }
 
 /* do not display this footer text in mobile version */
@@ -106,96 +77,101 @@ footer {
     display: none;
 }
 
+/* Copyright and our credits */
+.copyRight {
+    height: auto;
+    width: 100%;                
+    background-color: #b7b8bb;
+    color: #333;
+    text-align: center;
+}
+
+.copyRight h6 {
+    font-size: 0.9em;
+    margin: 0;
+    line-height: 2em;
+}
+
+/* These styles activates when screen goes OVER 768 pixels */
 @media screen and (min-width: 768px) {
     .footerLogo {
         width: 100%;
+        height: 8em;
         text-align: center;
     }
 
     footer .footerLogo img {
-        width: 13em;
+        width: 18em;
         margin: 0 auto;
-        height: 3.5em;                        
+        height: 5em;     
+                   
     }
      
     footer .footer-wrapper {
-        height: 18%;
+       justify-content: space-around;
         display: flex;
-        margin-top: 2em;
-        padding: 0 3em 0 3em;
-    }
+
         
-    footer .socialMediaIcons {
-        text-align: center;
-        width: 30%;
+       
     }
 
-    footer .fa-linkedin-in { 
-        font-size: 2em;
+    .socialMediaIcons .fa-linkedin-in { 
+       font-size: 2em;
         color: #0077B5;
     }
 
-    footer .fa-linkedin-in:hover {
-        color: rgb(41, 166, 233);
-    }
 
-    footer .fa-twitter {        
-        font-size: 2em;
+    .socialMediaIcons .fa-twitter {  
+        font-size: 2em;      
         color: rgb(0, 200, 255);
     }
-
-    footer .fa-twitter:hover {
-        color: rgb(96, 205, 255);
-    }
     
-    footer .fa-envelope {      
-        font-size: 2em;
+    .socialMediaIcons .fa-envelope {  
+        font-size: 2em;    
         color: black;
     }
 
-    footer .fa-envelope:hover {
-        color: rgb(110, 104, 104);
+    footer .fa-envelope:hover, .fa-twitter:hover, .fa-linkedin-in:hover {
+        transform: scale(1.3);
     }
 
+    footer .socialMediaIcons {
+        text-align: center;
+        width: auto;
+        
+    }
 
     footer .adressInfo {
-        width: 20%;
         color: #333;
         text-align: center;
-    }
-
-    .adressInfo p {
-        margin-top: -1em;
+        width: auto;
+        
     }
 
     footer .footerCompanyText {
-        display: block;
-        width: 25%;
+     
         text-align: center;
         color: #333;
+        display: block;
     }
 
     footer .footerTechnologyText {
         display: block;
-        width: 25%;
         text-align: center;
         color: #333;
+       
     }
 
     footer .footerProductsText {
         display: block;
-        width: 25%;
         text-align: center;
         color: #333;
+        
     }
 
     footer .fa-building {
         font-size: 2em;
         color: rgb(79, 169, 229);
-    }
-
-    footer .fa-building:hover {
-        color: rgb(126, 199, 248);
     }
     
     footer .fa-broadcast-tower {
@@ -203,21 +179,13 @@ footer {
         color: rgb(79, 169, 229);
     }
     
-    footer .fa-broadcast-tower:hover {
-        color: rgb(126, 199, 248);
+    footer .fa-broadcast-tower:hover, .fa-briefcase:hover, .fa-building:hover {
+        transform: scale(1.3);
     }
     
     footer .fa-briefcase {
         font-size: 2em;
         color: rgb(79, 169, 229);
     }
-    
-    footer .fa-briefcase:hover {
-        color: rgb(126, 199, 248);
-    }
 
-    .fa-angle-up:hover {
-        cursor: pointer;
-        color: rgb(126, 182, 219);
-    }
 }

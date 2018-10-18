@@ -17,6 +17,7 @@
 </head>
 <body>
     <div class="emptyOverHeaderContainer">
+
         <button class="buttonStyleLogIn ui right labeled icon button">
                 <span>Investor</span>
             <i class="ui sign-in icon"></i>
@@ -29,7 +30,7 @@
             </div>
               <div class="description signInTextStyle">
                 <div class="ui header">Investors content</div>
-                <p>This site is password protected, investors only have access to this content.</p>
+                <p>This site is password protected, only Investors have access to this content.</p>
               </div>
                <!-- detta är loginformulär, vi jobbar vidare med denna. link via slack-->
               <form action="action_page.php">
@@ -92,13 +93,26 @@
         </ul>
     </header>
     <main>
-        <div class="content">
+        <div class="main-content-section-one">
+              <h1 class="main-big-text">home is where wi-fi connects automatically<br>unless sweratel is in your zone.</h1>
+              <div>
+                    <button class='big ui animated blue basic inverted button' role='button'>
+                      <div class='visible content'>Work with us</div>
+                      <div class='hidden content'>
+                        <i aria-hidden='true' class='arrow right icon'></i>
+                      </div>
+                    </button>
+            </div>
+        </main>
+              
+    </div>
+        <div class="main-content-section-two">
               
         </div>
         <div class="scrollUpArrow">
             <a onclick="scrollToTop()"><i class="fas fa-angle-up fa-3x"></i></a>
         </div>
-    </main>
+
 
     <footer>
         <div class="footerLogo">
@@ -151,11 +165,11 @@
             <h2>Follow us</h2>
             <a href="https://www.linkedin.com/company/sweratel-ab/?trk=top_nav_home" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             <a href="https://twitter.com/sweratel" target="_blank"><i class="fab fa-twitter"></i></a>
-            <i class="far fa-envelope"></i>
+            <a href="#kontaktformulärsenare"><i class="far fa-envelope"></i></a>
         </div>
     </div>
         <div class="copyRight">
-            <h6>Copyright © 2018 - Sweratel AB</h6>
+            <h6>All rights reserved © 2018 | Sweratel AB</h6>
             <h6>Site by: Peter Cavar & David Yan</h6>
         </div>
     </footer>

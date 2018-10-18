@@ -1,16 +1,17 @@
 @media screen and (min-width: 768px) {
 
     #header {
-        height: 4.5em;
+        height: 6em;
         display: flex;
-        z-index: 1100;
+        z-index: -1;
         margin: 0;
+
     }    
     header .logo img {
         padding-left: 1em;
         padding-top: 0.5em;
-        width: 13em;
-        height: 3.5em;
+        width: 20em;
+        height: 5em;
     }
 
     header .logo{
@@ -22,7 +23,7 @@
     }
 
     header .navBar {
-        margin: 0;
+        
         height: 4.8em;
         width: 100%;
         /* background-color: rgb(79, 169, 229); */
@@ -53,6 +54,7 @@
     
     /* Underkatalog box */
     header li ul {
+        margin-top: 0.7em;
         border-top: 3px solid #333;
         display: none;
         position: absolute;
@@ -65,11 +67,16 @@
         -webkit-box-shadow: -1px 13px 37px -8px rgba(0,0,0,0.75);
         -moz-box-shadow: -1px 13px 37px -8px rgba(0,0,0,0.75);
         box-shadow: -1px 13px 37px -8px rgba(0,0,0,0.75);
+        border-bottom: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        background-color: white;
+        border-right: 1px solid #ddd;
     }
     
     header ul li:hover > ul,
     header ul li ul:hover {
         display: block;
+       
     }
 
     header ul li a:hover {
