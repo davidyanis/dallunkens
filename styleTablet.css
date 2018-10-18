@@ -1,0 +1,93 @@
+@media screen and (min-width: 768px) {
+    .emptyOverHeaderContainer {
+        height: 2.5em;
+        background-color: rgb(79, 169, 229);
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .signInContainer {
+        border: 1px solid red;
+        margin-top: 1em;
+    }
+  
+    #header {
+        height: 3.8em;
+        display: flex;
+        z-index: 1100;
+        margin: 0;
+    }    
+    header .logo img {
+        padding-left: 1em;
+        padding-top: 0.5em;
+        width: 13em;
+        height: 3.5em;
+    }
+
+    header .logo{
+        width: 30%;
+    }
+
+    header .menu-button {
+        display: none;
+    }
+
+    header .navBar {
+        margin: 0;
+        height: 4.8em;
+        width: 100%;
+        /* background-color: rgb(79, 169, 229); */
+        background-color: white;        
+        display: flex;
+        list-style-type: none;
+        justify-content: flex-end;
+        padding-right: 1em;
+    }
+    
+    header .navBar li a{
+        font-family: 'Roboto Condensed', sans-serif;
+        text-decoration: none;
+        display: block;
+        padding: 0.5em;
+        white-space: nowrap;
+    }
+
+    /* header .navBar li a:hover{
+        
+    } */
+    
+    /* Länken du är inne på */
+    .active{
+        color: rgb(79, 169, 229) !important;
+    }
+    
+    /* Underkatalog box */
+    header li ul {
+        border-top: 3px solid #333;
+        display: none;
+        position: absolute;
+        width: 16em;
+        padding: 0; 
+        list-style: none;
+        text-align: left;
+        font-family: 'Roboto Condensed', sans-serif;
+        white-space: nowrap;
+        -webkit-box-shadow: -1px 13px 37px -8px rgba(0,0,0,0.75);
+        -moz-box-shadow: -1px 13px 37px -8px rgba(0,0,0,0.75);
+        box-shadow: -1px 13px 37px -8px rgba(0,0,0,0.75);
+    }
+    
+    header ul li:hover > ul,
+    header ul li ul:hover {
+        display: block;
+    }
+
+    header ul li a:hover {
+        color: rgb(79, 169, 229);
+    }
+
+    header .dropDown li a{
+        margin-left: 0.5em;
+        padding: 0;
+    }
+}

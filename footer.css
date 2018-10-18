@@ -1,0 +1,221 @@
+footer {
+    position: relative;
+    background-color: #ddd;
+    width: 100%;
+    height: auto;
+    padding-top: 1em;
+    bottom: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.footerLogo{
+   width: 50%;
+    margin: 0 auto;
+}
+
+.footerLogo img{
+    width: 100%;
+ }
+
+.footerArrow {
+    z-index: 2;
+    position: absolute;
+    top: -1;
+    width: 2em;
+    height: 1.5em;
+    left: 1em;
+    outline: white;
+} 
+
+.copyRight {
+    height: auto;
+    width: 100%;                
+    background-color: #b7b8bb;
+    color: #333;
+    text-align: center;
+}
+
+.copyRight h6 {
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.adressInfo p {
+    margin-top: -1em;
+}
+.adressInfo {
+    margin-left: 0.5em;
+    width: 60%;
+    color: #333;       
+}
+.socialMediaIcons {
+    width: 40%;
+}
+.footer-wrapper{
+    display: flex;
+}
+
+.fa-linkedin-in {
+    font-size: 1.5em;
+    margin-right: 0.5em;
+    color: #0077B5;
+}
+
+.fa-twitter {
+    font-size: 1.5em;
+    margin-right: 0.5em;
+    color: rgb(0, 198, 255);
+}
+
+.fa-envelope {
+    font-size: 1.5em;
+    color: black;
+}
+
+.emptyOverHeaderContainer {
+    background-color: rgb(79, 169, 229);
+    height: 2em;
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.signIn {
+    margin-top: 0.4em;
+    margin-right: 1.0em;
+}
+
+.fa-sign-in-alt {
+    margin-left: 0.3em;
+    color: black;
+}
+
+/* do not display this footer text in mobile version */
+.footerCompanyText {
+    display: none;
+}
+
+.footerTechnologyText {
+    display: none;
+}
+
+.footerProductsText {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .footerLogo {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .footerLogo img {
+        width: 13em;
+        margin: 0 auto;
+        height: 3.5em;                        
+    }
+     
+    footer .footer-wrapper {
+        height: 18%;
+        display: flex;
+        margin-top: 2em;
+        padding: 0 3em 0 3em;
+    }
+        
+    footer .socialMediaIcons {
+        text-align: center;
+        width: 30%;
+    }
+
+    footer .fa-linkedin-in { 
+        font-size: 2em;
+        color: #0077B5;
+    }
+
+    footer .fa-linkedin-in:hover {
+        color: rgb(41, 166, 233);
+    }
+
+    footer .fa-twitter {        
+        font-size: 2em;
+        color: rgb(0, 200, 255);
+    }
+
+    footer .fa-twitter:hover {
+        color: rgb(96, 205, 255);
+    }
+    
+    footer .fa-envelope {      
+        font-size: 2em;
+        color: black;
+    }
+
+    footer .fa-envelope:hover {
+        color: rgb(110, 104, 104);
+    }
+
+
+    footer .adressInfo {
+        width: 20%;
+        color: #333;
+        text-align: center;
+    }
+
+    .adressInfo p {
+        margin-top: -1em;
+    }
+
+    footer .footerCompanyText {
+        display: block;
+        width: 25%;
+        text-align: center;
+        color: #333;
+    }
+
+    footer .footerTechnologyText {
+        display: block;
+        width: 25%;
+        text-align: center;
+        color: #333;
+    }
+
+    footer .footerProductsText {
+        display: block;
+        width: 25%;
+        text-align: center;
+        color: #333;
+    }
+
+    footer .fa-building {
+        font-size: 2em;
+        color: rgb(79, 169, 229);
+    }
+
+    footer .fa-building:hover {
+        color: rgb(126, 199, 248);
+    }
+    
+    footer .fa-broadcast-tower {
+        font-size: 2em;
+        color: rgb(79, 169, 229);
+    }
+    
+    footer .fa-broadcast-tower:hover {
+        color: rgb(126, 199, 248);
+    }
+    
+    footer .fa-briefcase {
+        font-size: 2em;
+        color: rgb(79, 169, 229);
+    }
+    
+    footer .fa-briefcase:hover {
+        color: rgb(126, 199, 248);
+    }
+
+    .fa-angle-up:hover {
+        cursor: pointer;
+        color: rgb(126, 182, 219);
+    }
+}
