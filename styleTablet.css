@@ -1,5 +1,9 @@
 @media screen and (min-width: 768px) {
 
+    body {
+        margin: 0;
+    }
+
     #header {
         height: 6em;
         display: flex;
@@ -43,9 +47,9 @@
         white-space: nowrap;
     }
 
-    /* header .navBar li a:hover{
-        
-    } */
+    header .navBar li a:hover{
+        color: rgb(79, 169, 229) !important;
+    }
     
     /* Länken du är inne på */
     .active{
@@ -53,39 +57,53 @@
     }
     
     /* Underkatalog box */
-    header li ul {
+    ul .dropDown {
         margin-top: 0.7em;
         border-top: 3px solid #333;
         display: none;
         position: absolute;
         width: 16em;
-        padding: 0; 
-        list-style: none;
-        text-align: left;
-        font-family: 'Roboto Condensed', sans-serif;
-        white-space: nowrap;
         -webkit-box-shadow: -1px 13px 37px -8px rgba(0,0,0,0.75);
         -moz-box-shadow: -1px 13px 37px -8px rgba(0,0,0,0.75);
         box-shadow: -1px 13px 37px -8px rgba(0,0,0,0.75);
         border-bottom: 1px solid #ddd;
         border-left: 1px solid #ddd;
-        background-color: white;
         border-right: 1px solid #ddd;
     }
     
-    header ul li:hover > ul,
-    header ul li ul:hover {
-        display: block;
-       
+
+
+  
+    main {
+        height: auto;
+        width: 100%;
+        background-size: cover;
+        display: flex!important;
+        flex-wrap: wrap!important;
+        justify-content: space-evenly;
     }
 
-    header ul li a:hover {
-        color: rgb(79, 169, 229);
+    .main-content-section-one {
+        height: 30em!important;
+        width: 45em;
+        text-align: center;
     }
 
-    header .dropDown li a{
-        margin-left: 0.5em;
-        padding: 0;
+    .main-content-section-two {
+        height: 30em!important;
+        width: 45em;
+        text-align: center;
     }
 
+    .main-content-section-three {
+        height: 30em!important;
+        width: 45em;
+        text-align: center;
+    }
+
+    .main-content-section-four {
+        height: 30em!important;
+        width: 45em;
+        text-align: center;
+    }
 }

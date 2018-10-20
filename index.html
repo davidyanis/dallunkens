@@ -1,179 +1,212 @@
 <!DOCTYPE <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Sweratel AB</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./footer.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./styleTablet.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./styleMobile.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="./style.js"></script>
-    <script src="./semantic/semantic.js"></script>
-    <link rel="stylesheet" href="./semantic/semantic.css">
-</head>
-<body>
-    <div class="emptyOverHeaderContainer">
-
-        <button class="buttonStyleLogIn ui right labeled icon button">
-                <span>Investor</span>
-            <i class="ui sign-in icon"></i>
-          </button>
-    </div>
-    <div class="mini ui modal">
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Sweratel</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" media="screen" href="./footer.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="./styleTablet.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="./styleMobile.css" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <link rel="shortcut icon" href="/images/SweratelLogo (kopia).png" />
+      <script src="./style.js"></script>
+      <script src="./semantic/semantic.js"></script>
+      <link rel="stylesheet" href="./semantic/semantic.css">
+   </head>
+   <body>
+      <div class="emptyOverHeaderContainer">
+         <button class="buttonStyleLogIn ui right labeled icon button">
+         <span>Investor</span>
+         <i class="ui sign-in icon"></i>
+         </button>
+      </div>
+      <div class="mini ui modal">
             <i class="close icon"></i>
-            <div class="header">
-                <img src="./images/SweratelLogo.png">
-            </div>
-              <div class="description signInTextStyle">
-                <div class="ui header">Investors content</div>
-                <p>This site is password protected, only Investors have access to this content.</p>
-              </div>
-               <!-- detta är loginformulär, vi jobbar vidare med denna. link via slack-->
-              <form action="action_page.php">
-                    <div class="containerUsernameAndPassword">
-                      <label for="uname"><b></b></label>
-                      <input type="text" placeholder="Enter Username" name="uname" required><br>
-                  
-                      <label for="psw"><b></b></label>
-                      <input type="password" placeholder="Enter Password" name="psw" required>
-                  
-                      <button type="submit">Login</button>
-                    </div>
-          </div>
-    <header id="header">
-        <div class="logo">
+         <div class="header">
+            <img src="./images/SweratelLogo.png">
+         </div>
+         <div class="description">
+            <p>Investor account</p>
+         </div>
+         <!-- detta är loginformulär, vi jobbar vidare med denna. länk via slack-->
+         <form action="action_page.php">
+         <div class="containerUsernameAndPassword">
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button class='big ui blue inverted button'>Login</button>
+         </div>
+      </div>
+      <header id="header">
+         <div class="logo">
             <a href="#home"><img src="./images/SweratelLogo.png"></a>
-        </div>
-        <div class="menuParent">
-        <i class="fas fa-bars menu-button fa-2x" onclick="menuButtonClicked()"></i>
-        </div>
-
-        <ul class="navBar">
+         </div>
+         <div class="menuParent">
+            <i id="exit-button" class="fas fa-bars menu-button fa-2x" onclick="menuButtonClicked()"></i>
+         </div>
+         <ul class="navBar">
             <li><a href="#" class="active">HOME</a></li>
-            <li><a href="#">COMPANY</i></a>
-                <ul class="dropDown">
-                    <li><a href="#CompanyFacts">Company Facts</a></li>
-                    <li><a href="#Organisation">Organisation</a></li>
-                    <li><a href="#Organisation">Core Values</a></li>
-                </ul>
+            <li>
+               <a href="#">COMPANY</i></a>
+               <ul class="dropDown">
+                  <li><a href="#CompanyFacts">Company Facts</a></li>
+                  <li><a href="#Organisation">Organisation</a></li>
+                  <li><a href="#Organisation">Core Values</a></li>
+               </ul>
             </li>
-            <li><a href="#">TECHNOLOGY</a>
-                <ul class="dropDown">
-                    <li><a href="#">RNMS</a></li>
-                    <li><a href="#">SCM</a></li>
-                    <li><a href="#">CRM</a></li>
-                    <li><a href="#">OLS</a></li>
-                    <li><a href="#">MNC</a></li>
-                    <li><a href="#">Het-Net</a></li>
-                </ul>
+            <li>
+               <a href="#">TECHNOLOGY</a>
+               <ul class="dropDown">
+                  <li><a href="#">RNMS</a></li>
+                  <li><a href="#">SCM</a></li>
+                  <li><a href="#">CRM</a></li>
+                  <li><a href="#">OLS</a></li>
+                  <li><a href="#">MNC</a></li>
+                  <li><a href="#">Het-Net</a></li>
+               </ul>
             </li>
-            <li><a href="#">RAN</a>
-                <ul class="dropDown">
-                    <li><a href="#">BS</a></li>
-                    <li><a href="#">EBS</a></li>
-                    <li><a href="#">IBS</a></li>
-                    <li><a href="#">MNC</a></li>
-                </ul>
+            <li>
+               <a href="#">RAN</a>
+               <ul class="dropDown">
+                  <li><a href="#">BS</a></li>
+                  <li><a href="#">EBS</a></li>
+                  <li><a href="#">IBS</a></li>
+                  <li><a href="#">MNC</a></li>
+               </ul>
             </li>
-           <li><a href="#">ANTENNAS</a>
-                <ul class="dropDown">
-                    <li><a href="#">AX2.4</a></li>
-                    <li><a href="#">AX5</a></li>
-                    <li><a href="#">BH2.4</a></li>
-                    <li><a href="#">BH5</a></li>
-                </ul>
+            <li>
+               <a href="#">ANTENNAS</a>
+               <ul class="dropDown">
+                  <li><a href="#">AX2.4</a></li>
+                  <li><a href="#">AX5</a></li>
+                  <li><a href="#">BH2.4</a></li>
+                  <li><a href="#">BH5</a></li>
+               </ul>
             </li>
             <li><a href="#">ICOOLNESS</a></li>
             <li><a href="#">PRESS</a></li>
             <li><a href="#">CONTACT US</a></li>
-        </ul>
-    </header>
-    <main>
-        <div class="main-content-section-one">
+         </ul>
+      </header>
+      <section class="home-wide-background">
+
+
+      </section>
+      <main>
+                    <div class="left-side-wrapper">
+                    <div class="main-content-section-one">
+                            <h1 class="main-huge-text">Together is better<i class="fas fa-wifi"></i></h1>
+                    
+                            <button class='big ui animated blue basic inverted button' role='button'>
+                            <div class='visible content'>Work with us</div>
+                            <div class='hidden content'>
+                                <i aria-hidden='true' class='arrow right icon'></i>
+                            </div>
+                            </div>   
+                       
+                <div class="main-content-section-two">
+                    <h1 class="main-huge-text">Mission & Vision <i class="globe icon"></i></h1>
+            
+                        <button class='big ui animated blue basic inverted button' role='button'>
+                        <div class='visible content'>Learn more</div>
+                        <div class='hidden content'>
+                            <i aria-hidden='true' class='arrow right icon'></i>
+                        </div>
+                    </div>
                 
-              <h1 class="main-big-text">we make sure everybody is connected to wi-fi <i class="fas fa-wifi"></i></h1>
-              <div>
-                    <button class='big ui animated blue basic inverted button' role='button'>
-                      <div class='visible content'>Work with us</div>
-                      <div class='hidden content'>
-                        <i aria-hidden='true' class='arrow right icon'></i>
-                      </div>
-                    </button>
-            </div>
-        </main>
-              
-    </div>
-        <div class="main-content-section-two">
-              
-        </div>
-        <div class="scrollUpArrow">
-            <a onclick="scrollToTop()"><i class="fas fa-angle-up fa-3x"></i></a>
-        </div>
+                
+                <div class="main-content-section-three">
+                        <h1 class="main-huge-text">Innovation <i class="cloud icon"></i></h1>
+                            <button class='big ui animated blue basic inverted button' role='button'>
+                            <div class='visible content'>Wireless</div>
+                            <div class='hidden content'>
+                                <i asria-hidden='true' class='arrow right icon'></i>
+                            </div>
+                        </div>
+                    
+                <div class="main-content-section-four">
+                        <h1 class="main-huge-text">Core Values <i class="shield alternate icon"></i></h1>
+                            <button class='big ui animated blue basic inverted button' role='button'>
+                            <div class='visible content'>Security</div>
+                            <div class='hidden content'>
+                                <i asria-hidden='true' class='arrow right icon'></i>
+                        </div>
+                    </div>
 
 
-    <footer>
-        <div class="footerLogo">
+                </div>
+
+                <div class="main-content-section-awards">
+                        <h1>Awards</h1>
+                        
+                            <button class='big ui animated blue basic inverted button' role='button'>
+                            <div class='visible content'>.......</div>
+                            <div class='hidden content'>
+                                <i asria-hidden='true' class='arrow right icon'></i>
+                            </div>
+                        </div>
+                    
+      </main>
+      </div>
+      <div class="scrollUpArrow">
+         <a onclick="scrollToTop()"><i class="fas fa-angle-up fa-3x"></i></a>
+      </div>
+      <footer>
+         <div class="footerLogo">
             <a href="#home"><img src="./images/SweratelLogo.png"></a>  
-        </div>
-           <img class="footerArrow" src="./images/sweratelFooterArrow.png"/>
-        <div class="footer-wrapper">
-        <div class="adressInfo">
-            <h2 class="adress">Adress</h2>
-            <p>Kindgrensgatan 15 <br>554 74 Jönköping <br>Sweden</p>
-        </div>
-
-        <div class="footerCompanyText">
-            <h2>Company</h2>
-                    <a href="" target="_blank">
-                        <i class="fas fa-building"></i>
-                    </a>
-            <!-- <p>
-            Sweratel is a Swedish company that focuses on 
-            new technology to develop innovative IP(core) 
-            products and systems for real-time communication and
-            infrastructure <br> solutions.
-            </p> -->
-        </div>
-
-        <div class="footerTechnologyText">
-            <h2>Technology</h2>
-                    <a href="" target="_blank">
-                        <i class="fas fa-broadcast-tower"></i>
-                    </a>
-            <!-- <p>The Sweratel RTWIP (RealTime Wireless IP),
-             forms the CORE architecture and the fundamental operational 
-             framework of all system elements solution,
-             and all Sweratel products.
-            </p> -->
-        </div>
-
-        <div class="footerProductsText">
-            <h2>Products</h2>
-                    <a href="" target="_blank">
-                        <i class="fas fa-briefcase"></i>
-                    </a>
-            <!-- <p>The Sweratel RTWIP-CORE platform enables network owners,
-            operators and ISPs to deploy flexible, high performance and highly scalable IP(core)
-            Carrier-grade MetroWiFi infrastructure solutions.
-            </p> -->
-        </div>
-
-        <div class="socialMediaIcons">
-            <h2>Follow us</h2>
-            <a href="https://www.linkedin.com/company/sweratel-ab/?trk=top_nav_home" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-            <a href="https://twitter.com/sweratel" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="#kontaktformulärsenare"><i class="far fa-envelope"></i></a>
-        </div>
-    </div>
-        <div class="copyRight">
+         </div>
+         <img class="footerArrow" src="./images/sweratelFooterArrow.png"/>
+         <div class="footer-wrapper">
+            <div class="adressInfo">
+               <h2 class="adress">Adress</h2>
+               <p>Kindgrensgatan 15 <br>554 74 Jönköping <br>Sweden</p>
+            </div>
+            <div class="footerCompanyText">
+               <h2>Company</h2>
+               <a href="" target="_blank">
+               <i class="fas fa-building"></i>
+               </a>
+               <!-- <p>
+                  Sweratel is a Swedish company that focuses on 
+                  new technology to develop innovative IP(core) 
+                  products and systems for real-time communication and
+                  infrastructure <br> solutions.
+                  </p> -->
+            </div>
+            <div class="footerTechnologyText">
+               <h2>Technology</h2>
+               <a href="" target="_blank">
+               <i class="fas fa-broadcast-tower"></i>
+               </a>
+               <!-- <p>The Sweratel RTWIP (RealTime Wireless IP),
+                  forms the CORE architecture and the fundamental operational 
+                  framework of all system elements solution,
+                  and all Sweratel products.
+                  </p> -->
+            </div>
+            <div class="footerProductsText">
+               <h2>Products</h2>
+               <a href="" target="_blank">
+               <i class="fas fa-briefcase"></i>
+               </a>
+               <!-- <p>The Sweratel RTWIP-CORE platform enables network owners,
+                  operators and ISPs to deploy flexible, high performance and highly scalable IP(core)
+                  Carrier-grade MetroWiFi infrastructure solutions.
+                  </p> -->
+            </div>
+            <div class="socialMediaIcons">
+               <h2>Follow us</h2>
+               <a href="https://www.linkedin.com/company/sweratel-ab/?trk=top_nav_home" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+               <a href="https://twitter.com/sweratel" target="_blank"><i class="fab fa-twitter"></i></a>
+               <a href="#kontaktformulärsenare"><i class="far fa-envelope"></i></a>
+            </div>
+         </div>
+         <div class="copyRight">
             <h6>All rights reserved © 2018 | Sweratel AB</h6>
             <h6>Site by: Peter Cavar & David Yan</h6>
-        </div>
-    </footer>
-    
-</body>
+         </div>
+      </footer>
+   </body>
 </html>

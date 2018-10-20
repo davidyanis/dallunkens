@@ -2,40 +2,88 @@
         margin: 0;
     }
 
-    main {
-        height: 100%;
+    /* Bild eller gif här? */
+    .home-wide-background {
+        background-color: black;
+        height: 40em;
         width: 100%;
+    }
+
+    main {
+        width: 100%;
+        background-size: cover;
+        
+        flex-wrap: nowrap;
+        
+       
+    }
+
+    .left-side-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ska vi ha column eller flex wrap på mobile? */
+    .main-content-section-one {
         background-image: url("images/children.jpg");
         background-size: cover;
+        height: 17em;
+        margin: 2em;
+        border: 1px solid red;
     }
-    .main-content-section-one {
-        padding-bottom: 15em;
-        height: 100%;
-        width: 100%;
-        display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       padding-left: 1em;
-       padding-right: 1em;
-       
-       
-    } 
-
-    .main-content-section-one h1{
-        text-transform: uppercase;
-       color: #ddd;
-       text-shadow: 2px 2px #000;
-    } 
 
     .main-content-section-two {
-        height: 20em;
-       
-    } 
+        height: 17em;
+        background-image: url("images/clouds-2517653_1920.jpg");
+        background-size: cover;
+        margin: 2em;
+        border: 1px solid red;
+    }
 
-    .fa-wifi {
+
+
+    .main-content-section-three {
+
+        background-image: url("/images/earth-2581631_1920.jpg");
+        height: 17em;
+        background-size: cover;
+        margin: 2em;
+        border: 1px solid red;
+    }
+
+    .main-content-section-four {
+        background-image: url("images/security-3742114_1920.jpg");
+        background-size: cover;
+        height: 17em;
+        flex-grow: 3;
+        margin: 2em;
+        border: 1px solid red;
+    }
+
+    .main-content-section-awards {
+        background-color: #ddd;
+        height: 50em;
+        color: #333;
+        flex-grow: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1em;
+        border: 1px solid red;
+        margin: 2em;
+    }
+    
+    .main-huge-text{
+        padding-top: 1em;
+        text-transform: uppercase;
+        color: #ddd;
+        text-shadow: 2px 2px #000;
+    }
+
+    .cloud, .shield, .fa-wifi, .globe {
         color: rgb(79, 169, 229);
     }
+    
 /* Login wrapper */
     .emptyOverHeaderContainer {
         height: 3em;
@@ -54,9 +102,7 @@
     /* Header Logo */
 
     .logo {
-        margin-top: 0.1em;
-        margin-left: 0.5em;
-        width: 75%;
+        padding-left: 0.5em;
         float: left;
     }
     .logo img {
@@ -71,11 +117,10 @@
         transition: height 1000ms 0ms; 
         padding-bottom: 1.5em;
         border-bottom: 1px solid #ddd;
-        
     }
 
     header.fullscreen {
-        height: 160vh;
+        height: 161vh;
     }
     
     /* Navigation styling EJ Dropdown */
@@ -83,20 +128,23 @@
         overflow: hidden;
         width: auto;
         height: 100%;
-        margin-top: 2em;
-        padding-left: 0;
-        text-align: center;
+        padding-top: 2em;
+        list-style-type: none;
+        
         background-color: rgb(79, 169, 229);
     }
     
     .navBar li a{
-        list-style-type: none;
         font-size: 1.4em;
-       
         line-height: 2em;
         text-decoration: none;
+        color: #333;
+    }
+
+    header .navBar li a:hover{
         color: black;
     }
+
 
     .menu-button {
 
@@ -104,12 +152,41 @@
     }
 
     .menuParent {
-
         height: 4.9em;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
+        margin-right: 1em;
     }
+
+        /* Underkatalog box */
+        .dropDown {
+            margin-top: 0.7em;
+            border: 1px solid #ddd;
+            display: none;
+            width: 60%;
+            list-style: none;
+            text-align: left;
+          background-color: white;
+          padding: 0;
+        
+        }
+        
+        header ul li:hover > ul,
+        header .dropDown:hover {
+            display: block;
+           
+        }
+    
+        header ul li a:hover {
+            color: rgb(79, 169, 229);
+        }
+    
+        header .dropDown li a{
+            margin-left: 0.5em;
+            padding: 0;
+        }
+      
 
 
     .scrollUpArrow {
@@ -138,8 +215,7 @@
 
     .emptyOverHeaderContainer span {
         margin-top: 0.2em !important;
-        margin-left: -0.6em!important;
-       
+        margin-left: -0.8em!important;
     }
 
     .actions {
@@ -148,11 +224,31 @@
 
     .signInTextStyle {
        
-        color: black;
-        padding: 1em;
+    }
+
+    .containerUsernameAndPassword input{
+        width: 10em;
+        padding: 0.8em;
+        margin-top: 1em;
+        font-size: 1.2em;
+        
+    }
+
+    .containerUsernameAndPassword button{
+       margin-top: 1em!important;
+       align-items: center;
     }
 
     .containerUsernameAndPassword {
-        padding: 1em;
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .description p {
+        text-align: center;
+        color: #333;
+        font-size: 1.3em;
+        margin-top: 1em;
     }
