@@ -1,9 +1,9 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
    <head>
       <meta charset="utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>Sweratel</title>
+      <title>Sweratel Radio & Networks Communication</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" type="text/css" media="screen" href="./footer.css" />
       <link rel="stylesheet" type="text/css" media="screen" href="./styleTablet.css" />
@@ -24,14 +24,15 @@
          </button>
       </div>
       <div class="mini ui modal">
-            <i class="close icon"></i>
+         <i class="close icon"></i>
          <div class="header">
             <img src="./images/SweratelLogo.png">
          </div>
          <div class="description">
-            <p>Investor account</p>
+            <p>Password protected content</p>
          </div>
-         <!-- detta är loginformulär, vi jobbar vidare med denna. länk via slack-->
+         <!-- detta är loginformulär, vi jobbar vidare med denna. länk via slack,
+            kan vara så att det bara är password required-->
          <form action="action_page.php">
          <div class="containerUsernameAndPassword">
             <input type="text" placeholder="Enter Username" name="username" required>
@@ -39,26 +40,29 @@
             <button class='big ui blue inverted button'>Login</button>
          </div>
       </div>
-      <header id="header">
+       <!-- <header id="header">
          <div class="logo">
             <a href="#home"><img src="./images/SweratelLogo.png"></a>
          </div>
          <div class="menuParent">
             <i id="exit-button" class="fas fa-bars menu-button fa-2x" onclick="menuButtonClicked()"></i>
          </div>
-         <ul class="navBar">
+         -->
+         <nav>
+            <i id="exit-button" class="fas fa-bars menu-button fa-2x" onclick="menuButtonClicked()"></i>
+         <ul>
             <li><a href="#" class="active">HOME</a></li>
             <li>
                <a href="#">COMPANY</i></a>
-               <ul class="dropDown">
+               <ul class="fallback">
                   <li><a href="#CompanyFacts">Company Facts</a></li>
                   <li><a href="#Organisation">Organisation</a></li>
-                  <li><a href="#Organisation">Core Values</a></li>
+                  <li><a href="#Organisation">Slogan</a></li>
                </ul>
             </li>
             <li>
                <a href="#">TECHNOLOGY</a>
-               <ul class="dropDown">
+               <ul class="fallback">
                   <li><a href="#">RNMS</a></li>
                   <li><a href="#">SCM</a></li>
                   <li><a href="#">CRM</a></li>
@@ -69,7 +73,7 @@
             </li>
             <li>
                <a href="#">RAN</a>
-               <ul class="dropDown">
+               <ul class="fallback">
                   <li><a href="#">BS</a></li>
                   <li><a href="#">EBS</a></li>
                   <li><a href="#">IBS</a></li>
@@ -78,78 +82,73 @@
             </li>
             <li>
                <a href="#">ANTENNAS</a>
-               <ul class="dropDown">
+               <ul class="fallback">
                   <li><a href="#">AX2.4</a></li>
                   <li><a href="#">AX5</a></li>
                   <li><a href="#">BH2.4</a></li>
                   <li><a href="#">BH5</a></li>
                </ul>
             </li>
-            <li><a href="#">ICOOLNESS</a></li>
             <li><a href="#">PRESS</a></li>
             <li><a href="#">CONTACT US</a></li>
          </ul>
-      </header>
-      <section class="home-wide-background">
+        </nav>
+     <!--  </header>  --> 
+      <section class="home-wide-background" id="wide-background-picture">
+         <h1 id="we-make-impact-header">Smart Cities</h1>
 
-
+         <div class="ui huge animated fade button smart-cities-button" tabindex="0">
+            <div class="visible content">Public Wi-Fi</div>
+            <div class="hidden content">
+               Unique Solution
+            </div>
+         </div>
       </section>
       <main>
-                    <div class="left-side-wrapper">
-                    <div class="main-content-section-one">
-                            <h1 class="main-huge-text">Together is better<i class="fas fa-wifi"></i></h1>
-                    
-                            <button class='big ui animated blue basic inverted button' role='button'>
-                            <div class='visible content'>Work with us</div>
-                            <div class='hidden content'>
-                                <i aria-hidden='true' class='arrow right icon'></i>
-                            </div>
-                            </div>   
-                       
-                <div class="main-content-section-two">
-                    <h1 class="main-huge-text">Mission & Vision <i class="globe icon"></i></h1>
-            
-                        <button class='big ui animated blue basic inverted button' role='button'>
-                        <div class='visible content'>Learn more</div>
-                        <div class='hidden content'>
-                            <i aria-hidden='true' class='arrow right icon'></i>
-                        </div>
-                    </div>
-                
-                
-                <div class="main-content-section-three">
-                        <h1 class="main-huge-text">Innovation <i class="cloud icon"></i></h1>
-                            <button class='big ui animated blue basic inverted button' role='button'>
-                            <div class='visible content'>Wireless</div>
-                            <div class='hidden content'>
-                                <i asria-hidden='true' class='arrow right icon'></i>
-                            </div>
-                        </div>
-                    
-                <div class="main-content-section-four">
-                        <h1 class="main-huge-text">Core Values <i class="shield alternate icon"></i></h1>
-                            <button class='big ui animated blue basic inverted button' role='button'>
-                            <div class='visible content'>Security</div>
-                            <div class='hidden content'>
-                                <i asria-hidden='true' class='arrow right icon'></i>
-                        </div>
-                    </div>
-
-
-                </div>
-
-                <div class="main-content-section-awards">
-                        <h1>Awards</h1>
-                        
-                            <button class='big ui animated blue basic inverted button' role='button'>
-                            <div class='visible content'>.......</div>
-                            <div class='hidden content'>
-                                <i asria-hidden='true' class='arrow right icon'></i>
-                            </div>
-                        </div>
-                    
+         <!-- Fyra fyrkantiga boxar -->
+         <div class="four-box-wrapper">
+            <div class="main-content-section-one" id="mainContentSectionOne">
+               <h1 class="main-huge-text" id="missonAndVisonText">Mission & Vision <i class="globe icon"></i></h1>
+               <button class='big ui animated blue basic inverted button section-button' role='button'>
+               <div class='visible content' id="more">More</div>
+               <div class='hidden content'>
+                  <i aria-hidden='true' class='arrow right icon'></i>
+               </div>
+            </div>
+            <div class="main-content-section-two" id="mainContentSectionTwo">
+               <h1 class="main-huge-text" id="innovationText">Innovation <i class="cloud icon"></i></h1>
+               <button class='big ui animated blue basic inverted button section-button' role='button'>
+               <div class='visible content' id="wireless">Wireless</div>
+               <div class='hidden content'>
+                  <i aria-hidden='true' class='arrow right icon'></i>
+               </div>
+            </div>
+            <div class="main-content-section-three" id="mainContentSectionThree">
+               <h1 class="main-huge-text" id="coreValuesText">Core Values <i class="shield alternate icon"></i></h1>
+               <button class='big ui animated blue basic inverted button section-button' role='button'>
+               <div class='visible content' id="security">Security</div>
+               <div class='hidden content' id="rightIcon">
+                  <i aria-hidden='true' class='arrow right icon'></i>
+               </div>
+            </div>
+            <div class="main-content-section-four" id="mainContentSectionFour">
+               <h1 class="main-huge-text" id="jobOpeningsText">Job openings</h1>
+               <button class='big ui animated blue basic inverted button section-button' role='button'>
+               <div class='visible content' id="workWithUs">Work with us</div>
+               <div class='hidden content'>
+                  <i aria-hidden='true' class='arrow right icon'></i>
+               </div>
+            </div>
+         </div>
+         <div class="main-content-section-text">
+            <h1></h1>
+            <button class='big ui animated blue basic inverted button section-button-text' role='button'>
+            <div class='visible content'>More information</div>
+            <div class='hidden content'>
+               <i aria-hidden='true' class='arrow right icon'></i>
+            </div>
+         </div>
       </main>
-      </div>
       <div class="scrollUpArrow">
          <a onclick="scrollToTop()"><i class="fas fa-angle-up fa-3x"></i></a>
       </div>

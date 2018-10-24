@@ -2,86 +2,116 @@
         margin: 0;
     }
 
-    /* Bild eller gif här? */
+    /* jag vet  vad vi ska gör här!*/
     .home-wide-background {
-        background-color: black;
-        height: 40em;
-        width: 100%;
+        background-image: url("images/new-york-city-dark.jpg");
+        font-family: 'Roboto Condensed', sans-serif!important;
+        background-size: cover!important;
+        background-color: white;
+        height: 20em;
+        width: auto;
+        margin-top: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+        border-radius: 1em;
+        text-align: center;
+       
+    }
+    
+    .home-wide-background h1 {
+        font-family: 'Roboto Condensed', sans-serif!important;
+        padding-top: 0.1em;
+        font-size: 400%;
+        color: white;
+        
+    }
+
+    .smart-cities-button {
+        background-color: rgb(79, 169, 229)!important;
+        color: white!important;
+        border: 0.1em solid white!important;
+        margin-top: 5.8em!important;
+       
     }
 
     main {
         width: 100%;
         background-size: cover;
-        
-        flex-wrap: nowrap;
-        
-       
+        font-family: 'Roboto Condensed', sans-serif;
     }
 
-    .left-side-wrapper{
+    .four-box-wrapper {
         display: flex;
-        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+        margin: 2em;
+        justify-content: center;
     }
+
+    
 
     /* ska vi ha column eller flex wrap på mobile? */
     .main-content-section-one {
-        background-image: url("images/children.jpg");
+        background-image: url("images/new-york-city-night.jpg");
         background-size: cover;
         height: 17em;
-        margin: 2em;
-        border: 1px solid red;
+        margin: 0.5em;
+        text-align: center;
+        box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
+        width: 40em;
+        border-radius: 1em;
     }
-
+    
     .main-content-section-two {
+        background-image: url("images/send-system-999245_1920.jpg");
         height: 17em;
-        background-image: url("images/clouds-2517653_1920.jpg");
+        margin: 0.5em;
         background-size: cover;
-        margin: 2em;
-        border: 1px solid red;
+        text-align: center;
+        box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
+        width: 40em;
+        border-radius: 1em;
     }
-
-
 
     .main-content-section-three {
-
         background-image: url("/images/earth-2581631_1920.jpg");
         height: 17em;
+        margin: 0.5em;
+        width: 40em;
         background-size: cover;
-        margin: 2em;
-        border: 1px solid red;
+        text-align: center;
+        box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
+        border-radius: 1em;
     }
 
     .main-content-section-four {
-        background-image: url("images/security-3742114_1920.jpg");
+        background-image: url("images/agreement-3489902_1920.jpg");
         background-size: cover;
         height: 17em;
-        flex-grow: 3;
-        margin: 2em;
-        border: 1px solid red;
+        margin:0.5em;
+        width: 40em;
+        text-align: center;
+        box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
+        border-radius: 1em;
     }
 
-    .main-content-section-awards {
-        background-color: #ddd;
-        height: 50em;
-        color: #333;
-        flex-grow: 3;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 1em;
-        border: 1px solid red;
-        margin: 2em;
+    .section-button-text {
+        margin-top: 3.6em!important;
     }
     
     .main-huge-text{
-        padding-top: 1em;
-        text-transform: uppercase;
+        padding-top: 0.5em;
         color: #ddd;
         text-shadow: 2px 2px #000;
     }
 
-    .cloud, .shield, .fa-wifi, .globe {
+    .section-button {
+        margin-top: 6.6em!important;
         color: rgb(79, 169, 229);
+    }
+    
+    .cloud, .shield, .globe {
+        color: rgb(79, 169, 229)!important;
     }
     
 /* Login wrapper */
@@ -101,16 +131,16 @@
 
     /* Header Logo */
 
-    .logo {
+    /* .logo {
         padding-left: 0.5em;
         float: left;
     }
     .logo img {
         width: 60%;
         padding-top: 0.4em;
-    }
+    } */
 
-    header {
+    /* header {
         height: 5em;
         overflow: hidden;
         background-color: white;
@@ -120,17 +150,16 @@
     }
 
     header.fullscreen {
-        height: 161vh;
-    }
+        height: 100vh;
+    } */
     
-    /* Navigation styling EJ Dropdown */
-    .navBar {
+    /* /* Navigation styling EJ Dropdown */
+    /* .navBar {
         overflow: hidden;
         width: auto;
         height: 100%;
         padding-top: 2em;
         list-style-type: none;
-        
         background-color: rgb(79, 169, 229);
     }
     
@@ -157,35 +186,47 @@
         justify-content: flex-end;
         align-items: center;
         margin-right: 1em;
-    }
+    } */
 
-        /* Underkatalog box */
-        .dropDown {
-            margin-top: 0.7em;
-            border: 1px solid #ddd;
-            display: none;
-            width: 60%;
-            list-style: none;
-            text-align: left;
-          background-color: white;
-          padding: 0;
+    /* Underkatalog box */
+    /* .dropDown {
+        margin-top: 0.7em;
+        display: none;
+        width: 60%;
+        list-style: none;
+        text-align: left;
+        background-color: rgb(79, 169, 229);
+        padding: 0;
         
-        }
+    } */
         
-        header ul li:hover > ul,
-        header .dropDown:hover {
-            display: block;
-           
-        }
     
-        header ul li a:hover {
-            color: rgb(79, 169, 229);
-        }
     
-        header .dropDown li a{
-            margin-left: 0.5em;
-            padding: 0;
-        }
+    
+    /* header ul li a:hover {
+        color: rgb(79, 169, 229);
+    }
+    
+    header .dropDown li a{
+        margin-left: 1em;
+        padding: 0;
+    }  */
+
+    nav {
+        background:#FFF;
+        float:left;
+        
+    }
+    nav ul {text-align:center;}
+    nav ul li {float:left;display:inline;}
+    nav ul li:hover {background:#E6E6E6;}
+    nav ul li a {display:block;padding:15px 25px;color:#444;}
+    nav ul li ul {position:absolute;width:110px;background:#FFF;}
+    nav ul li ul li {width:110px;}
+    nav ul li ul li a {display:block;padding:15px 10px;color:#444;}
+    nav ul li ul li:hover a {background:#F7F7F7;}
+    nav ul li ul.fallback {display:none;}
+    nav ul li:hover ul.fallback {display:block;}
       
 
 
@@ -236,6 +277,7 @@
 
     .containerUsernameAndPassword button{
        margin-top: 1em!important;
+       margin-bottom: 0.5em!important;
        align-items: center;
     }
 
@@ -252,3 +294,5 @@
         font-size: 1.3em;
         margin-top: 1em;
     }
+
+   

@@ -60,6 +60,7 @@
     ul .dropDown {
         margin-top: 0.7em;
         border-top: 3px solid #333;
+        background-color: white;
         display: none;
         position: absolute;
         width: 16em;
@@ -71,39 +72,83 @@
         border-right: 1px solid #ddd;
     }
     
-
-
-  
     main {
         height: auto;
         width: 100%;
         background-size: cover;
-        display: flex!important;
-        flex-wrap: wrap!important;
-        justify-content: space-evenly;
     }
 
-    .main-content-section-one {
-        height: 30em!important;
-        width: 45em;
-        text-align: center;
+    .home-wide-background {
+        background-image: url("images/new-york-city-dark.jpg");
+        background-size: cover;
+        height: 45em!important;
     }
 
-    .main-content-section-two {
-        height: 30em!important;
+    section .smart-cities-button {
+        margin-top: 0!important;
+       
+    }
+
+    main .main-content-section-one {
+        background-image: url("images/new-york-city-night.jpg");
+        height: 30em;
+        width: 35em;
+        flex-grow: 2;
+    }
+    
+    main .main-content-section-two {
+        background-image: url("images/send-system-999245_1920.jpg");
+        height: 30em;
+        width: 35em;
+        flex-grow: 1;
+    }
+
+    main .main-content-section-three {
+        background-image: url("/images/earth-2581631_1920.jpg");
+        height: 30em;
+        width: 35em;
+        flex-grow: 1;
+    }
+
+    main .main-content-section-four {
+        background-image: url("images/agreement-3489902_1920.jpg");
+        height: 30em;
+        width: 35em;
+        flex-grow: 2;
+    }
+
+    main .section-button {
+        margin-top: 16em!important;
+    }
+    
+    /* .main-content-section-two {
+        height: 28em!important;
         width: 45em;
         text-align: center;
     }
 
     .main-content-section-three {
-        height: 30em!important;
+        height: 28em!important;
         width: 45em;
         text-align: center;
     }
 
     .main-content-section-four {
-        height: 30em!important;
+        height: 28em!important;
         width: 45em;
         text-align: center;
     }
+
+    .main-content-section-awards {
+
+        width: 30em;
+        height: 28em!important;
+    }
+
+    .main-content-section-text {
+        width: 30em;
+        display: flex;
+        justify-content: wrap;
+    } */
+
 }

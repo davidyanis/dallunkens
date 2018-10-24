@@ -21,12 +21,13 @@ footer {
     height: 4em;
  }
 
+
 .footerArrow {
     z-index: 2;
     position: absolute;
-    top: -1;
-    width: 2em;
-    height: 1.5em;
+    top: -0.5em;
+    width: 3em;
+    height: 3em;
     left: 1em;
     outline: white;
 } 
@@ -110,9 +111,6 @@ footer {
     footer .footer-wrapper {
        justify-content: space-around;
         display: flex;
-
-        
-       
     }
 
     .socialMediaIcons .fa-linkedin-in { 
@@ -144,12 +142,10 @@ footer {
     footer .adressInfo {
         color: #333;
         text-align: center;
-        width: auto;
-        
+        width: auto; 
     }
 
     footer .footerCompanyText {
-     
         text-align: center;
         color: #333;
         display: block;
@@ -166,7 +162,6 @@ footer {
         display: block;
         text-align: center;
         color: #333;
-        
     }
 
     footer .fa-building {
