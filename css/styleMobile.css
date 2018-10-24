@@ -4,7 +4,7 @@
 
     /* jag vet  vad vi ska gör här!*/
     .home-wide-background {
-        background-image: url("images/new-york-city-dark.jpg");
+        background-image: url("/images/new-york-city-dark.jpg");
         font-family: 'Roboto Condensed', sans-serif!important;
         background-size: cover!important;
         background-color: white;
@@ -52,7 +52,7 @@
 
     /* ska vi ha column eller flex wrap på mobile? */
     .main-content-section-one {
-        background-image: url("images/new-york-city-night.jpg");
+        background-image: url("/images/new-york-city-dark.jpg");
         background-size: cover;
         height: 17em;
         margin: 0.5em;
@@ -63,7 +63,7 @@
     }
     
     .main-content-section-two {
-        background-image: url("images/send-system-999245_1920.jpg");
+        background-image: url("../images/send-system-999245_1920.jpg");
         height: 17em;
         margin: 0.5em;
         background-size: cover;
@@ -74,7 +74,7 @@
     }
 
     .main-content-section-three {
-        background-image: url("/images/earth-2581631_1920.jpg");
+        background-image: url("../images/earth-2581631_1920.jpg");
         height: 17em;
         margin: 0.5em;
         width: 40em;
@@ -85,7 +85,7 @@
     }
 
     .main-content-section-four {
-        background-image: url("images/agreement-3489902_1920.jpg");
+        background-image: url("../images/agreement-3489902_1920.jpg");
         background-size: cover;
         height: 17em;
         margin:0.5em;
@@ -129,105 +129,7 @@
         margin-right: 0.7em;
     }
 
-    /* Header Logo */
 
-    /* .logo {
-        padding-left: 0.5em;
-        float: left;
-    }
-    .logo img {
-        width: 60%;
-        padding-top: 0.4em;
-    } */
-
-    /* header {
-        height: 5em;
-        overflow: hidden;
-        background-color: white;
-        transition: height 1000ms 0ms; 
-        padding-bottom: 1.5em;
-        border-bottom: 1px solid #ddd;
-    }
-
-    header.fullscreen {
-        height: 100vh;
-    } */
-    
-    /* /* Navigation styling EJ Dropdown */
-    /* .navBar {
-        overflow: hidden;
-        width: auto;
-        height: 100%;
-        padding-top: 2em;
-        list-style-type: none;
-        background-color: rgb(79, 169, 229);
-    }
-    
-    .navBar li a{
-        font-size: 1.4em;
-        line-height: 2em;
-        text-decoration: none;
-        color: #333;
-    }
-
-    header .navBar li a:hover{
-        color: black;
-    }
-
-
-    .menu-button {
-
-        color: rgb(79, 169, 229);
-    }
-
-    .menuParent {
-        height: 4.9em;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        margin-right: 1em;
-    } */
-
-    /* Underkatalog box */
-    /* .dropDown {
-        margin-top: 0.7em;
-        display: none;
-        width: 60%;
-        list-style: none;
-        text-align: left;
-        background-color: rgb(79, 169, 229);
-        padding: 0;
-        
-    } */
-        
-    
-    
-    
-    /* header ul li a:hover {
-        color: rgb(79, 169, 229);
-    }
-    
-    header .dropDown li a{
-        margin-left: 1em;
-        padding: 0;
-    }  */
-
-    nav {
-        background:#FFF;
-        float:left;
-        
-    }
-    nav ul {text-align:center;}
-    nav ul li {float:left;display:inline;}
-    nav ul li:hover {background:#E6E6E6;}
-    nav ul li a {display:block;padding:15px 25px;color:#444;}
-    nav ul li ul {position:absolute;width:110px;background:#FFF;}
-    nav ul li ul li {width:110px;}
-    nav ul li ul li a {display:block;padding:15px 10px;color:#444;}
-    nav ul li ul li:hover a {background:#F7F7F7;}
-    nav ul li ul.fallback {display:none;}
-    nav ul li:hover ul.fallback {display:block;}
-      
 
 
     .scrollUpArrow {
@@ -263,9 +165,9 @@
         background-color: #ddd!important;
     }
 
-    .signInTextStyle {
+    /* vad ska vi ha här? .signInTextStyle {
        
-    }
+    } */
 
     .containerUsernameAndPassword input{
         width: 10em;
