@@ -1,0 +1,139 @@
+/* Mobile css */
+
+main {
+    background-size: cover;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.two-box-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 2em;
+    justify-content: center;
+    margin-bottom: 0.2em;
+}
+
+.two-box-wrapper-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 2em;
+    justify-content: center;
+    margin-top: 0;
+}
+
+
+
+/* ska vi ha column eller flex wrap på mobile? */
+.main-content-section-one {
+    background-image: url("../images/new-york-city-night.jpg");
+    background-size: cover;
+    height: 17em;
+    margin: 0.5em;
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
+    width: 40em;
+    display: none;
+}
+
+.main-content-section-two {
+    background-image: url("../images/send-system-999245_1920.jpg");
+    height: 17em;
+    margin: 0.5em;
+    background-size: cover;
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
+    width: 40em;
+    display: none;
+}
+
+.main-content-section-three {
+    background-image: url("../images/coreValuesPictures.jpg");
+    height: 17em;
+    margin: 0.5em;
+    width: 40em;
+    background-size: cover;
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
+    display: none;
+}
+
+.main-content-section-four {
+    background-image: url("../images/tianjin-2185510_1920.jpg");
+    background-size: cover;
+    height: 17em;
+    margin:0.5em;
+    width: 40em;
+    text-align: center;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
+    display: none;
+}
+
+.section-button-text {
+    margin-top: 3.6em!important;
+}
+
+.main-huge-text{
+    padding-top: 0.5em;
+    color: #ddd;
+    text-shadow: 2px 2px #000;
+}
+
+.section-button {
+    margin-top: 6.6em!important;
+    color: rgb(79, 169, 229);
+}
+
+.cloud, .shield, .globe, .fa-user {
+    color: rgb(79, 169, 229)!important;
+}
+
+/* tablet css */
+
+@media screen and (min-width: 768px) {
+    .two-box-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        margin: 2em;
+        justify-content: center;
+    }
+
+    .two-box-wrapper-2 {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        margin: 2em;
+        justify-content: center;
+    }
+    
+    main .main-content-section-one {
+        height: 30em;
+        width: 35em;
+        flex-grow: 2;
+    }
+    
+    main .main-content-section-two {
+        height: 30em;
+        width: 35em;
+        flex-grow: 1;
+    }
+    
+    main .main-content-section-three {
+        height: 30em;
+        width: 35em;
+        flex-grow: 1;
+    }
+    
+    main .main-content-section-four {
+        height: 30em;
+        width: 35em;
+        flex-grow: 2;
+    }
+    
+    main .section-button {
+        margin-top: 16em!important;
+    }
+}

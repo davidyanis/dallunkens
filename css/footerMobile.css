@@ -1,12 +1,43 @@
 footer {
     position: relative;
-    background-color: #ddd;
+    background-color: rgb(184, 192, 198)!important;
     width: 100%;
     height: auto;
     padding-top: 1em;
     font-family: 'Roboto Condensed'!important;
     bottom: 0;
+}
+
+.footer-wrapper {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Roboto Condensed'!important;
+}
+
+
+.footerCompanyText h4 {
+    margin: 0;
+}
+
+.footerTechnologyText h4 {
+    margin: 0;
+}
+
+.footerProductsText h4 {
+    margin: 0;
+}
+
+.footerCompanyText h3 {
+    margin-top: 0.5em;
+}
+
+.footerTechnologyText h3 {
+    margin-top: 0.5em;
+}
+
+.footerProductsText h3 {
+    margin-top: 0.5em;
 }
 
 .footerLogo{
@@ -33,16 +64,17 @@ footer {
 
 .adressInfo {
     width: 100%;
-    color: #333; 
+    color: rgb(75, 78, 84)!important;
     text-align: center;
     padding-bottom: 1em;
+    margin-top: 0.5em;
 }
 
 /* Social media on footer, icons etc styling */
 .socialMediaIcons {
     width: 100%;
     text-align: center;
-    color: #333; 
+    color: #0077B5; 
     padding-bottom: 2em;
 }
 
@@ -52,10 +84,8 @@ footer {
 }
 
 .socialMediaIcons .fa-twitter {
-    color: rgb(0, 198, 255);
     font-size: 1.5em;
     padding-left: 0.4em;
-   
 }
 
 .socialMediaIcons .fa-envelope {
@@ -64,25 +94,26 @@ footer {
     padding-left: 0.4em;
 }
 
+.fa-angle-up {
+    color: rgb(118, 185, 230)!important;
+}
+
+.fa-angle-up:hover {
+    color: rgb(75, 78, 84)!important;
+}
+
 /* do not display this footer text in mobile version */
-.footerCompanyText {
-    display: none;
-}
 
-.footerTechnologyText {
-    display: none;
-}
-
-.footerProductsText {
-    display: none;
+.footer-wrapper h2 {
+    color: rgb(75, 78, 84)!important;
 }
 
 /* Copyright and our credits */
 .copyRight {
     height: auto;
     width: 100%;                
-    background-color: #b7b8bb;
-    color: #333;
+    background-color: rgb(133, 143, 150)!important;
+    color: rgb(75, 78, 84);
     text-align: center;
 }
 
@@ -108,19 +139,20 @@ footer {
     }
      
     footer .footer-wrapper {
-       justify-content: space-around;
+        justify-content: space-around;
         display: flex;
     }
 
+
     .socialMediaIcons .fa-linkedin-in { 
-       font-size: 2em;
+        font-size: 2em;
         color: #0077B5;
     }
 
 
     .socialMediaIcons .fa-twitter {  
         font-size: 2em;      
-        color: rgb(0, 200, 255);
+        color: rgb(29, 161, 242)!important;
     }
     
     .socialMediaIcons .fa-envelope {  
@@ -135,32 +167,32 @@ footer {
     footer .socialMediaIcons {
         text-align: center;
         width: auto;
+        color: white!important;
         
     }
 
     footer .adressInfo {
-        color: #333;
         text-align: center;
         width: auto; 
     }
 
     footer .footerCompanyText {
         text-align: center;
-        color: #333;
+        color: white!important;
         display: block;
     }
 
     footer .footerTechnologyText {
         display: block;
         text-align: center;
-        color: #333;
+        color: white!important;
        
     }
 
     footer .footerProductsText {
         display: block;
         text-align: center;
-        color: #333;
+        color: white!important;
     }
 
     footer .fa-building {

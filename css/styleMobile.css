@@ -2,118 +2,122 @@
         margin: 0;
     }
 
+    .video-player {
+        margin: 0;
+        padding: 0;
+        height: auto!important;
+ 
+    }
+
+    video {
+        height: auto;
+        width: 100%;
+    }
+        
     /* jag vet  vad vi ska gör här!*/
     .home-wide-background {
-        background-image: url("/images/new-york-city-dark.jpg");
-        font-family: 'Roboto Condensed', sans-serif!important;
-        background-size: cover!important;
-        background-color: white;
-        height: 20em;
-        width: auto;
-        margin-top: 2em;
-        margin-left: 2em;
-        margin-right: 2em;
-        border-radius: 1em;
-        text-align: center;
-       
-    }
-    
-    .home-wide-background h1 {
-        font-family: 'Roboto Condensed', sans-serif!important;
-        padding-top: 0.1em;
-        font-size: 400%;
-        color: white;
-        
-    }
-
-    .smart-cities-button {
-        background-color: rgb(79, 169, 229)!important;
-        color: white!important;
-        border: 0.1em solid white!important;
-        margin-top: 5.8em!important;
-       
-    }
-
-    main {
-        width: 100%;
-        background-size: cover;
+        background-image: url("/images/homeWideBackgroundPicture.jpg");
         font-family: 'Roboto Condensed', sans-serif;
-    }
-
-    .four-box-wrapper {
+        background-size: cover;
+        height: 15em;
         display: flex;
-        flex-wrap: wrap;
-        align-content: space-between;
-        margin: 2em;
-        justify-content: center;
-    }
-
-    
-
-    /* ska vi ha column eller flex wrap på mobile? */
-    .main-content-section-one {
-        background-image: url("/images/new-york-city-dark.jpg");
-        background-size: cover;
-        height: 17em;
-        margin: 0.5em;
-        text-align: center;
-        box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
-        width: 40em;
-        border-radius: 1em;
+        flex-direction: column;
+        width: 100%;
+        justify-content:stretch;
+      
     }
     
-    .main-content-section-two {
-        background-image: url("../images/send-system-999245_1920.jpg");
-        height: 17em;
-        margin: 0.5em;
-        background-size: cover;
+     .home-wide-background h1 {
+        font-family: 'Roboto Condensed', sans-serif!important;
+        color: white;
+        height: auto;
         text-align: center;
-        box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
-        width: 40em;
-        border-radius: 1em;
-    }
-
-    .main-content-section-three {
-        background-image: url("../images/earth-2581631_1920.jpg");
-        height: 17em;
-        margin: 0.5em;
-        width: 40em;
-        background-size: cover;
-        text-align: center;
-        box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
-        border-radius: 1em;
-    }
-
-    .main-content-section-four {
-        background-image: url("../images/agreement-3489902_1920.jpg");
-        background-size: cover;
-        height: 17em;
-        margin:0.5em;
-        width: 40em;
-        text-align: center;
-        box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
-        border-radius: 1em;
-    }
-
-    .section-button-text {
-        margin-top: 3.6em!important;
     }
     
-    .main-huge-text{
-        padding-top: 0.5em;
-        color: #ddd;
-        text-shadow: 2px 2px #000;
+    .smart-cities-button {
+        display: none!important;
     }
 
-    .section-button {
-        margin-top: 6.6em!important;
+    /* .over-footer-wrapper {
+        background-color: rgb(179, 199, 230);
+    } */
+
+    .software-image {
+        height: 18em;
+        width: auto;
+        background-image: url("/images/softwarePicture.jpg");
+        background-size: cover;
+        margin: 1em;
+        box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+    }
+
+    .hardware-image {
+        height: 18em;
+        width: auto;
+        background-image: url("/images/hardwarePicture.jpg");
+        background-size: cover;
+        margin: 1em;
+        box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+    }
+
+    .flexibility-image {
+        height: 18em;
+        width: auto;
+        background-image: url("/images/flexibilityPicture.jpg");
+        background-size: cover;
+        margin: 1em;
+        box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+    }
+
+    .over-footer-wrapper h3 {
         color: rgb(79, 169, 229);
     }
+
+
+    .over-footer-text-software p{
+        font-size: 1.5em;
+        padding-top: 0.3em;
+        margin-left: 0.8em;
+    }
+
+    .over-footer-text-hardware p {
+        font-size: 1.5em;
+        padding-top: 0.3em;
+        margin-left: 0.8em;
+    }
+
+    .over-footer-text-flexibility p{
+        font-size: 1.5em;
+        padding-top: 0.3em;
+        margin-left: 0.8em;
+    }
+
+    .over-footer-text-software {
+        margin-top: 6em;
+    }    
     
-    .cloud, .shield, .globe {
-        color: rgb(79, 169, 229)!important;
+    .over-footer-text-hardware{
+        margin-top: 5em;
+    }
+
+    .over-footer-text-flexibility {
+        margin-top: 5em;
+        margin-bottom: 1em;
     }
     
+    .over-footer-text-software h3 {
+        margin-left: 0.8em;
+    } 
+
+    .over-footer-text-hardware h3 {
+        margin-left: 0.8em;
+    }
+
+    .over-footer-text-flexibility h3 {
+        margin-left: 0.8em;
+    }
+
+
 /* Login wrapper */
     .emptyOverHeaderContainer {
         height: 3em;
@@ -128,9 +132,6 @@
         height: 3em;
         margin-right: 0.7em;
     }
-
-
-
 
     .scrollUpArrow {
         height: 3em;
@@ -174,7 +175,6 @@
         padding: 0.8em;
         margin-top: 1em;
         font-size: 1.2em;
-        
     }
 
     .containerUsernameAndPassword button{
@@ -196,5 +196,4 @@
         font-size: 1.3em;
         margin-top: 1em;
     }
-
    

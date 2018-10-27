@@ -3,26 +3,29 @@
    <head>
       <meta charset="utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <title>Sweratel Radio & Networks Communication</title>
+      <title>Sweratel AB</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" type="text/css" media="screen" href="./css/footer.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="./css/footerMobile.css" />
       <link rel="stylesheet" type="text/css" media="screen" href="./css/header.css" />
       <link rel="stylesheet" type="text/css" media="screen" href="./css/styleTablet.css" />
       <link rel="stylesheet" type="text/css" media="screen" href="./css/styleMobile.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="./css/mainContentBoxes.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="./css/footerTablet.css">
       <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <link rel="shortcut icon" href="/images/SweratelLogo (kopia).png" />
+      <link rel="shortcut icon" href="" />
       <script src="./style.js"></script>
+      <script src="./script.js"></script>
       <script src="./semantic/semantic.js"></script>
       <link rel="stylesheet" href="./semantic/semantic.css">
    </head>
    <body>
       <div class="emptyOverHeaderContainer">
-         <button class="buttonStyleLogIn ui right labeled icon button">
+         <!-- <button class="buttonStyleLogIn ui right labeled icon button">
          <span>Investor</span>
          <i class="ui sign-in icon"></i>
-         </button>
+         </button> -->
       </div>
       <div class="mini ui modal">
          <i class="close icon"></i>
@@ -33,7 +36,7 @@
             <p>Password protected content</p>
          </div>
          <!-- detta är loginformulär, vi jobbar vidare med denna. länk via slack,
-            kan vara så att det bara är password required-->
+            kan vara så att det bara är password required vill ej ha på overbar-->
          <form action="action_page.php">
          <div class="containerUsernameAndPassword">
             <input type="text" placeholder="Enter Username" name="username" required>
@@ -49,15 +52,21 @@
             <i id="exit-button" class="fas fa-bars menu-button fa-2x" onclick="menuButtonClicked()"></i>
          </div>
          -->
-         <header>
-         <nav>
-            <i id="exit-button" class="fas fa-bars menu-button fa-2x" onclick="menuButtonClicked()"></i>
-         <ul>
+         <header id="header">
+        
+         <div class="logo-nav-wrapper">
+          <a class="nav-logo" href="#home"><img src="./images/SweratelLogo.png"></a>
+          <i id="exit-button" class="fas fa-bars menu-button fa-2x" onclick="menuButtonClicked()"></i>
+        </div>
+         
+       
+          <nav>
+          <ul>
             <li><a href="#" class="active">HOME</a></li>
             <li>
                <a href="#">COMPANY</i></a>
                <ul class="fallback">
-                  <li><a href="#CompanyFacts">Company Facts</a></li>
+                  <li><a href="#CompanyFacts">Facts</a></li>
                   <li><a href="#Organisation">Organisation</a></li>
                   <li><a href="#Organisation">Slogan</a></li>
                </ul>
@@ -98,19 +107,28 @@
       </header>
      <!--  </header>  --> 
       <section class="home-wide-background" id="wide-background-picture">
-         <h1 id="we-make-impact-header">Smart Cities</h1>
+      
+        <div class="video-player">
 
-         <div class="ui huge animated fade button smart-cities-button" tabindex="0">
-            <div class="visible content">Public Wi-Fi</div>
-            <div class="hidden content">
-               Unique Solution
-            </div>
-         </div>
+          <video autoplay src="/images/video-home-wide-screen-4Sec.mp4">
+          </video>
+        </div>
+  
+       <h1 id="we-make-impact-header">Smart Cities</h1>
+ 
+           <div class="ui huge animated fade button smart-cities-button">
+            <div class="visible content">CellularWiFi</div>
+             <div class="hidden content">
+                Request Demo
+             </div>
+          </div>
+        </div>
+
       </section>
       <main>
          <!-- Fyra fyrkantiga boxar -->
-         <div class="four-box-wrapper">
-            <div class="main-content-section-one" id="mainContentSectionOne">
+         <div style="min-height: 20em" class="two-box-wrapper">
+            <div class="main-content-section-one">
                <h1 class="main-huge-text" id="missonAndVisonText">Mission & Vision <i class="globe icon"></i></h1>
                <button class='big ui animated blue basic inverted button section-button' role='button'>
                <div class='visible content' id="more">More</div>
@@ -118,7 +136,7 @@
                   <i aria-hidden='true' class='arrow right icon'></i>
                </div>
             </div>
-            <div class="main-content-section-two" id="mainContentSectionTwo">
+            <div class="main-content-section-two">
                <h1 class="main-huge-text" id="innovationText">Innovation <i class="cloud icon"></i></h1>
                <button class='big ui animated blue basic inverted button section-button' role='button'>
                <div class='visible content' id="wireless">Wireless</div>
@@ -126,31 +144,46 @@
                   <i aria-hidden='true' class='arrow right icon'></i>
                </div>
             </div>
-            <div class="main-content-section-three" id="mainContentSectionThree">
-               <h1 class="main-huge-text" id="coreValuesText">Core Values <i class="shield alternate icon"></i></h1>
-               <button class='big ui animated blue basic inverted button section-button' role='button'>
-               <div class='visible content' id="security">Security</div>
-               <div class='hidden content' id="rightIcon">
-                  <i aria-hidden='true' class='arrow right icon'></i>
-               </div>
+          </div>
+          <div style="min-height: 20em" class="two-box-wrapper-2">
+          <div class="main-content-section-three">
+            <h1 class="main-huge-text" id="coreValuesText">Core Values <i class="shield alternate icon"></i></h1>
+            <button class='big ui animated blue basic inverted button section-button' role='button'>
+              <div class='visible content' id="security">Security</div>
+              <div class='hidden content' id="rightIcon">
+                <i aria-hidden='true' class='arrow right icon'></i>
+              </div>
             </div>
-            <div class="main-content-section-four" id="mainContentSectionFour">
-               <h1 class="main-huge-text" id="jobOpeningsText">Job openings</h1>
-               <button class='big ui animated blue basic inverted button section-button' role='button'>
-               <div class='visible content' id="workWithUs">Work with us</div>
+            <div class="main-content-section-four">
+              <h1 class="main-huge-text" id="jobOpeningsText">Blog <i class="fas fa-user"></i></h1>
+              <button class='big ui animated blue basic inverted button section-button' role='button'>
+               <div class='visible content' id="workWithUs">Read our wireless blog</div>
                <div class='hidden content'>
                   <i aria-hidden='true' class='arrow right icon'></i>
                </div>
             </div>
+          </div>
+         <div class="over-footer-wrapper">
+           <div class="over-footer-text-software">
+             <div class="software-image"></div>
+             <h3 tyle="font-family: 'Roboto Condensed', sans-serif;">Software</h3>
+             <p tyle="font-family: 'Roboto Condensed', sans-serif;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+           </div>
+           <div class="over-footer-text-hardware">
+             <div class="hardware-image"></div>
+             <h3 style="font-family: 'Roboto Condensed', sans-serif;">Hardware</h3>
+             <p tyle="font-family: 'Roboto Condensed', sans-serif;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+          </div>
+          <div class="over-footer-text-flexibility">
+            <div class="flexibility-image"></div>
+            <h3 tyle="font-family: 'Roboto Condensed', sans-serif;">Flexibility</h3>
+            <p tyle="font-family: 'Roboto Condensed', sans-serif;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+          </div>
          </div>
-         <div class="main-content-section-text">
-            <h1></h1>
-            <button class='big ui animated blue basic inverted button section-button-text' role='button'>
-            <div class='visible content'>More information</div>
-            <div class='hidden content'>
-               <i aria-hidden='true' class='arrow right icon'></i>
-            </div>
-         </div>
+
       </main>
       <div class="scrollUpArrow">
          <a onclick="scrollToTop()"><i class="fas fa-angle-up fa-3x"></i></a>
@@ -161,36 +194,41 @@
          </div>
          <img class="footerArrow" src="./images/sweratelFooterArrow.png"/>
          <div class="footer-wrapper">
-            <div class="adressInfo">
-               <h2 class="adress">Adress</h2>
-               <p>Kindgrensgatan 15 <br>554 74 Jönköping <br>Sweden</p>
+           <div class="footerCompanyText" style="margin-top: 1em">
+             <h3>Company</h3>
+             <h4>Heterogenoussoluton</h4>
+             <h4>infrascrutcure</h4>
+             <h4>request demo</h4>
+             <h4>delivireance time</h4>
+             <h4>investor relations</h4>
             </div>
-            <div class="footerCompanyText">
-               <h2>Company</h2>
-               <a href="" target="_blank">
-               <i class="fas fa-building"></i>
-               </a>
+            <div class="footerTechnologyText" style="margin-top: 1em">
+              <h3>Technology</h3>
+              <h4>software</h4>
+              <h4>security</h4>
+              <h4>privacy</h4>
+              <h4>maintainance</h4>
+              <h4>CellularWiFi</h4>
             </div>
-            <div class="footerTechnologyText">
-               <h2>Technology</h2>
-               <a href="" target="_blank">
-               <i class="fas fa-broadcast-tower"></i>
-               </a>
+            <div class="footerProductsText" style="margin-top: 1em">
+              <h3>Products</h3>
+              <h4>protforlio</h4>
+              <h4>antennas</h4>
+              <h4>inve</h4>
+              <h4>hardeware</h4>
+              <h4>contact us</h4>
             </div>
-            <div class="footerProductsText">
-               <h2>Products</h2>
-               <a href="" target="_blank">
-               <i class="fas fa-briefcase"></i>
-               </a>
-            </div>
+                <div class="adressInfo">
+                   <h2 class="adress">Adress</h2>
+                   <p>Kindgrensgatan 15 <br>554 74 Jönköping <br>Sweden</p>
+                </div>
             <div class="socialMediaIcons">
-               <h2>Follow us</h2>
                <a href="https://www.linkedin.com/company/sweratel-ab/?trk=top_nav_home" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                <a href="https://twitter.com/sweratel" target="_blank"><i class="fab fa-twitter"></i></a>
                <a href="#kontaktformulärsenare"><i class="far fa-envelope"></i></a>
             </div>
          </div>
-         <div class="copyRight">
+         <div class="copyRight"> <!-- sitemap, om oss, kontakta oss, investorrelationer, request demo system-->
             <h6>All rights reserved © 2018 | Sweratel AB</h6>
             <h6>Site by: Peter Cavar & David Yan</h6>
          </div>

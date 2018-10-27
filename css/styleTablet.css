@@ -2,87 +2,34 @@
 
     body {
         margin: 0;
-    }
+    }   
 
-    /* #header {
-        height: 6em;
-        display: flex;
-        z-index: -1;
-        margin: 0;
-
-    }     */
-    /* header .logo img {
-        padding-left: 1em;
-        padding-top: 0.5em;
-        width: 20em;
-        height: 5em;
-    }
-
-    header .logo{
-        width: 30%;
-    } */
-
-   
-
-    /* header .navBar {
-        margin-top: 1em;
-        height: 4.8em;
-        width: 100%;
-        /* background-color: rgb(79, 169, 229); */
-       /*  background-color: white;        
-        display: flex;
-        list-style-type: none;
-        justify-content: flex-end;
-        padding-right: 1em;
-        padding-top: 0; */
-        
-        /*  header .navBar li a{
-            font-family: 'Roboto Condensed', sans-serif;
-            text-decoration: none;
-            display: block;
-            padding: 0.5em;
-            white-space: nowrap;
-        } */
-        
-        /*  header .navBar li a:hover{
-            color: rgb(79, 169, 229) !important;
-        } */
-        
-        /* Länken du är inne på */
-        /*  .active{
-            color: rgb(79, 169, 229) !important;
-        } */
-        
-        /* Underkatalog box */
-        /*  ul .dropDown {
-            margin-top: 0.7em;
-            border-top: 3px solid #333;
-            background-color: white;
-            display: none;
-            position: absolute;
-            width: 16em;
-            -webkit-box-shadow: -1px 13px 37px -8px rgba(0,0,0,0.75);
-            -moz-box-shadow: -1px 13px 37px -8px rgba(0,0,0,0.75);
-            box-shadow: -1px 13px 37px -8px rgba(0,0,0,0.75);
-            border-bottom: 1px solid #ddd;
-            border-left: 1px solid #ddd;
-            border-right: 1px solid #ddd;
-        } 
-        */
-        main {
-            height: auto;
+        .video-player {
             width: 100%;
-            background-size: cover;
+            display: flex;
+            justify-content: center;
+            height: 45em!important;
         }
-        
+    
         .home-wide-background {
-            background-size: cover;
             height: 45em!important;
         }
         
-        section .smart-cities-button {
-            margin-top: 0!important;
-            
+
+        .two-box-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            margin: 2em;
+            justify-content: center;
+        }
+    
+        .two-box-wrapper-2 {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: space-between;
+            margin: 2em;
+            justify-content: center;
         }
         
         main .main-content-section-one {
@@ -112,36 +59,82 @@
         main .section-button {
             margin-top: 16em!important;
         }
-        
-        /* .main-content-section-two {
-            height: 28em!important;
-            width: 45em;
-            text-align: center;
-        }
-        
-        .main-content-section-three {
-            height: 28em!important;
-            width: 45em;
-            text-align: center;
-        }
-        
-        .main-content-section-four {
-            height: 28em!important;
-            width: 45em;
-            text-align: center;
-        }
-        
-        .main-content-section-awards {
-            
-            width: 30em;
-            height: 28em!important;
-        }
-        
-        .main-content-section-text {
-            width: 30em;
+
+        .over-footer-wrapper {
+            font-family: 'Roboto Condensed', sans-serif;
+            height: 35.5em;
             display: flex;
-            justify-content: wrap;
-        } */
+            justify-content: space-evenly;
+            margin-right: 2em;
+            margin-left: 2em;
+            border-left: 0.4em solid rgb(79, 169, 229);
+            margin-bottom: 5em;
+            background-color: rgb(250, 246, 246);
+            padding-left: 2em;
+        }
+
+        /* footer text should be contained and rgb white, picture and one more text.*/
+
+
+        .over-footer-text-software p {
+            font-size: 1.5em;
+            margin: 0!important;
+            padding-left: 0.6em!important;
+            
+        }
+
+        .over-footer-text-hardware p{
+            font-size: 1.5em;
+            margin: 0!important;
+            padding-left: 0.6em!important;
+        }
+
+        .over-footer-text-flexibility p{
+            font-size: 1.5em;
+            margin: 0!important;
+            padding-left: 0.6em!important;
+        }
+
+        .over-footer-text-software {
+            margin-top: 0!important;
+        }
+        
+        .over-footer-text-hardware {
+            margin-top: 0!important;
+            
+        }
+        
+        .over-footer-text-flexibility {
+            margin-top: 0!important;
+        }
+
+        .software-image {
+            height: 18em;
+            width: auto;
+            background-image: url("/images/softwarePicture.jpg");
+            background-size: cover;
+            margin: 1em;
+            box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+
+        }
+
+        .hardware-image {
+            height: 18em;
+            width: auto;
+            background-image: url("/images/hardwarePicture.jpg");
+            background-size: cover;
+            margin: 1em;
+            box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+        }
+
+        .flexibility-image {
+            height: 18em;
+            width: auto;
+            background-image: url("/images/flexibilityPicture.jpg");
+            background-size: cover;
+            margin: 1em;
+            box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
+        }
     }
         
         
