@@ -38,9 +38,9 @@
         display: none!important;
     }
 
-    /* .over-footer-wrapper {
-        background-color: rgb(179, 199, 230);
-    } */
+    .over-footer-wrapper {
+        background-color: #e6e8ec;
+    }
 
     .software-image {
         height: 18em;
@@ -118,7 +118,7 @@
     }
 
 
-/* Login wrapper */
+/* Blue empty container on the top */
     .emptyOverHeaderContainer {
         height: 3em;
         display: flex;

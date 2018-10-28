@@ -5,14 +5,14 @@ header {
     transition: height 0.8s;
 }
 .fullscreen {
-    height: 100vh!important;
+    height: 120vh;
    background-color: rgb(79, 169, 229);
 } 
 
 .nav-logo img{
     float: left;
     height: 6em;
-    width: 18em;
+    width: 17em;
     padding: 0.5em;
 }
 
@@ -28,84 +28,104 @@ header {
    float: right;
    padding: 1em;
 } 
+
+/* Parent of navigation bar */
 nav {
-    height: 4em;
+   margin-top: 8em;
     width: 100%;
-    border: 1px solid red;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 nav ul {
-    margin-top: 3em;
-    padding: 0;
-    padding-top: 3em;
+   list-style: none;
+   
+   
 }
-nav ul li {
-    display:inline;
-    font-size: 1.2em;
-}
+
+/* Hover on navigation bar link */
 nav ul li a:hover {
     color:black;
-    
 }
+
+/* Navigation bar change TEXT styling */
 nav ul li a {
-    display:block;
-    padding:15px 25px;
-    color:black;
+    color: #333;
+    font-size: 1.4em;
+    padding: 0.5em;
+    display: block;
+    margin-top: 0.5em;
 }
+
+/* Dropdown menu box styling */
 nav ul li ul {
-    position:absolute;
-    border-top: 2px solid rgb(79, 169, 229);
-    width: 200px;
-    background: white;
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    padding-left: 2em;
+    background-color:rgb(79, 169, 229);
+   
 }
-nav ul li ul li {
-    width:110px;
-}
+
+/* Dropdown menu change TEXT */
 nav ul li ul li a {
     display:block;
     padding:15px 10px;
-    color:black;
+    color: #333;
+    border: none;
+    margin-top: 0;
 }
+
+/* Dropdown menu hover on text */
 nav ul li ul li:hover a {
     background-color: white;
 }
+
+/* Hidden dropdown menu */
 nav ul li ul.fallback {
     display:none;
 }
+
+/* On hover show dropdown menu */
 nav ul li:hover ul.fallback {
     display:block;
 }
 
-@media screen and (min-width: 768px) {
+.fa-angle-down {
+    padding-left: 0.4em;
+}
+
+@media screen and (min-width: 1050px) {
+
+    #header {
+        height: 7em;
+        display: flex;
+    }
+
     header .nav-logo img{
         width: 100%;
-        padding: 0.5em;
+        padding-top: 1em;
     }
 
     header .logo-nav-wrapper {
         background-color: white;
+      
         width: 25%;
-        float: left;
         
     }
 
     nav {
         background-color: white;
-        width: 75%;
-       
-      
-    }
-nav ul {
-   
+        height: 7em;
+      border: 1px solid red;
+       margin: 0;
     
-}
+    }
+    nav ul {
+       float: right;
+       padding: 0;
+    }
     
     nav ul li {
        float: left;
-        font-size: 1.2em;
+        font-size: 1.1em;
+       
     }
     nav ul li a:hover {
         color: rgb(79, 169, 229) !important;
@@ -113,7 +133,9 @@ nav ul {
     }
     nav ul li a {
         display:block;
-        padding:15px 25px;
+        font-size: 1.2em;
+        padding: 1em;
+
         color:#444;
     }
     nav ul li ul {
@@ -127,6 +149,7 @@ nav ul {
     }
     nav ul li ul li {
         width:110px;
+        
     }
     nav ul li ul li a {
         display:block;
@@ -151,9 +174,6 @@ nav ul {
         display: none!important;
     }
 
-    header {
-        height: 7em;
-    }
 
     .nav-logo img{
         height: 6em;

@@ -10,11 +10,11 @@ var shouldPrintWrapperOne = true
 var shouldPrintWrapperTwo = true
 
     $(document).ready(function() {
-    $('#we-make-impact-header').hide(1000).fadeIn(2000)
+    $('#we-make-impact-header').hide().fadeIn(2000)
 });
 
 $('.video-player').ready(function() {
-    $('.video-player').delay(3500).fadeOut(2000)
+    $('.video-player').delay(4000).fadeOut(1000)
 }); 
 
 

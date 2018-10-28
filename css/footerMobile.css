@@ -42,9 +42,9 @@ footer {
 
 .footerLogo{
     width: 100%;
-    padding-bottom: 1em;
     display: flex;
     justify-content: center;
+  
 }
 
 .footerLogo img{
@@ -112,7 +112,7 @@ footer {
 .copyRight {
     height: auto;
     width: 100%;                
-    background-color: rgb(133, 143, 150)!important;
+   background: #00001a;
     color: rgb(75, 78, 84);
     text-align: center;
 }
@@ -125,11 +125,7 @@ footer {
 
 /* These styles activates when screen goes OVER 768 pixels */
 @media screen and (min-width: 768px) {
-    .footerLogo {
-        width: 100%;
-        height: 8em;
-        text-align: center;
-    }
+    
 
     footer .footerLogo img {
         width: 18em;
