@@ -3,6 +3,7 @@ header {
     height: 6em;
     overflow: hidden;
     transition: height 0.8s;
+    background-color:rgb(79, 169, 229);
 }
 .fullscreen {
     height: 120vh;
@@ -113,7 +114,6 @@ nav ul li:hover ul.fallback {
     nav {
         background-color: white;
         height: 7em;
-      border: 1px solid red;
        margin: 0;
     
     }

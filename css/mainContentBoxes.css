@@ -85,11 +85,6 @@ main {
     margin-top: 6.6em!important;
     color: rgb(79, 169, 229);
 }
-
-.cloud, .shield, .globe, .fa-user {
-    color: rgb(79, 169, 229)!important;
-}
-
 /* tablet css */
 
 @media screen and (min-width: 768px) {

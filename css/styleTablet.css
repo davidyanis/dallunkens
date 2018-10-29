@@ -1,18 +1,23 @@
 @media screen and (min-width: 768px) {
-
-    body {
-        margin: 0;
-    }   
-
-        .video-player {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            height: 45em!important;
-        }
+    .video-player {
+        height:auto;
+        width:auto;
+        overflow:hidden;
+    }
+    .video-player > video {
+        min-width: 100%;
+        min-height: 100%;
+    }
     
         .home-wide-background {
-            height: 45em!important;
+            height: 40em!important;
+            width: auto;
+        }
+
+        .smart-cities-button {
+            border: 0.3em solid white!important;
+            background-color: rgb(79, 169, 229)!important;
+            overflow: hidden;
         }
         
 

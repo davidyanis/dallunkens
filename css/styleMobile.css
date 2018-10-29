@@ -2,11 +2,15 @@
         margin: 0;
     }
 
+    video {
+        height: auto;
+        width:auto;
+    }
+
     .video-player {
         margin: 0;
         padding: 0;
         height: auto!important;
- 
     }
 
     video {
@@ -14,7 +18,6 @@
         width: 100%;
     }
         
-    /* jag vet  vad vi ska gör här!*/
     .home-wide-background {
         background-image: url("/images/homeWideBackgroundPicture.jpg");
         font-family: 'Roboto Condensed', sans-serif;
@@ -23,23 +26,31 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        justify-content:stretch;
-      
+        justify-content: stretch;
+        text-align: center!important;
+        display: none;
     }
     
      .home-wide-background h1 {
         font-family: 'Roboto Condensed', sans-serif!important;
         color: white;
         height: auto;
-        text-align: center;
+        align-content: center;
+        font-size: 3em;
     }
     
     .smart-cities-button {
-        display: none!important;
+        width: 100%;
+        height: auto;
+        border: 0.3em solid white!important;
+        background-color: rgb(79, 169, 229)!important;
+        margin: 0!important;
+        justify-content: flex-end!important;
     }
 
     .over-footer-wrapper {
-        background-color: #e6e8ec;
+        background-color: rgb(211, 218, 223);
+        height: auto;
     }
 
     .software-image {
@@ -93,15 +104,15 @@
     }
 
     .over-footer-text-software {
-        margin-top: 6em;
+        padding-top: 1em;
     }    
     
     .over-footer-text-hardware{
-        margin-top: 5em;
+        padding-top: 1em;
     }
 
     .over-footer-text-flexibility {
-        margin-top: 5em;
+        padding-top: 1em;
         margin-bottom: 1em;
     }
     
