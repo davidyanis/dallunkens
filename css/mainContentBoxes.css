@@ -4,131 +4,149 @@ main {
     background-size: cover;
     width: 100%;
     font-family: 'Roboto Condensed', sans-serif;
+    height: auto;
 }
 
-.two-box-wrapper {
+.main-section-wrapper-one {
+    margin: 0.5em;
     display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    margin: 2em;
-    justify-content: center;
-    margin-bottom: 0.2em;
+    flex-direction: row;
+    border: 1px solid #ddd;
 }
 
-.two-box-wrapper-2 {
+.main-section-wrapper-two {
+    margin: 0.5em;
     display: flex;
-    flex-wrap: wrap;
-    align-content: space-between;
-    margin: 2em;
-    justify-content: center;
-    margin-top: 0;
+    flex-direction: row;
+    border: 1px solid #ddd;
 }
 
+.main-section-wrapper-three {
+    margin: 0.5em;
+    display: flex;
+    flex-direction: row;  
+    border: 1px solid #ddd;
+}
+
+.main-section-wrapper-four {
+    margin: 0.5em;
+    display: flex;
+    flex-direction: row; 
+    border: 1px solid #ddd;
+}
 
 
 /* ska vi ha column eller flex wrap på mobile? */
 .main-content-section-one {
     background-image: url("../images/new-york-city-night.jpg");
     background-size: cover;
-    height: 17em;
-    margin: 0.5em;
+    height: auto;
     text-align: center;
-    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
-    width: 40em;
-    display: none;
+    width: 60%;
+}
+
+.main-content-section-one-text {
+    width: 40%;
+    height: auto;
+    padding-top: 2em;
+    padding-left: 1em;
 }
 
 .main-content-section-two {
     background-image: url("../images/send-system-999245_1920.jpg");
-    height: 17em;
-    margin: 0.5em;
     background-size: cover;
+    height: auto;
     text-align: center;
-    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
-    width: 40em;
-    display: none;
+    width: 60%;
+}
+
+.main-content-section-two-text {
+    width: 40%;
+    height: auto;
+    padding-top: 2em;
+    padding-left: 1em;
 }
 
 .main-content-section-three {
     background-image: url("../images/coreValuesPictures.jpg");
-    height: 17em;
-    margin: 0.5em;
-    width: 40em;
     background-size: cover;
+    height: auto;
     text-align: center;
-    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
-    display: none;
+    width: 60%;
 }
+
+.main-content-section-three-text {
+    width: 40%;
+    height: auto;
+    padding-top: 2em;
+    padding-left: 1em;
+}
+
 
 .main-content-section-four {
     background-image: url("../images/tianjin-2185510_1920.jpg");
     background-size: cover;
-    height: 17em;
-    margin:0.5em;
-    width: 40em;
+    height: auto;
     text-align: center;
-    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.75);
-    display: none;
+    width: 60%;
 }
 
-.section-button-text {
-    margin-top: 3.6em!important;
+.main-content-section-four-text {
+    width: 40%;
+    height: auto;
+    padding-top: 2em;
+    padding-left: 1em;
 }
 
-.main-huge-text{
-    padding-top: 0.5em;
-    color: #ddd;
-    text-shadow: 2px 2px #000;
-}
 
-.section-button {
-    margin-top: 6.6em!important;
+.main-header-text{
     color: rgb(79, 169, 229);
+    text-align: center;
+    margin-top: 0.5em;
 }
+
+main .section-button {
+    margin-top: 5em!important;
+    margin-right:0!important;
+    float: right;
+    border: 0.05em solid rgb(79, 169, 229)!important;
+}
+
 /* tablet css */
 
 @media screen and (min-width: 768px) {
-    .two-box-wrapper {
+    main .main-section-wrapper-one {
+        margin: 0.5em;
         display: flex;
-        flex-wrap: wrap;
-        align-content: space-between;
-        margin: 2em;
-        justify-content: center;
+        flex-direction: row;
+        border: 1px solid #ddd;
+    }
+    
+    main .main-section-wrapper-two {
+        margin: 0.5em;
+        display: flex;
+        flex-direction: row;
+        border: 1px solid #ddd;
+    }
+    
+    main .main-section-wrapper-three {
+        margin: 0.5em;
+        display: flex;
+        flex-direction: row;  
+        border: 1px solid #ddd;
+    }
+    
+   main  .main-section-wrapper-four {
+        margin: 0.5em;
+        display: flex;
+        flex-direction: row; 
+        border: 1px solid #ddd;
     }
 
-    .two-box-wrapper-2 {
-        display: flex;
-        flex-wrap: wrap;
-        align-content: space-between;
-        margin: 2em;
-        justify-content: center;
-    }
-    
-    main .main-content-section-one {
-        height: 30em;
-        width: 35em;
-        flex-grow: 2;
-    }
-    
-    main .main-content-section-two {
-        height: 30em;
-        width: 35em;
-        flex-grow: 1;
-    }
-    
-    main .main-content-section-three {
-        height: 30em;
-        width: 35em;
-        flex-grow: 1;
-    }
-    
-    main .main-content-section-four {
-        height: 30em;
-        width: 35em;
-        flex-grow: 2;
-    }
-    
     main .section-button {
-        margin-top: 16em!important;
+        margin-top: 10em!important;
+        float: right;
+        border: 0.05em solid rgb(79, 169, 229)!important;
     }
+    
 }

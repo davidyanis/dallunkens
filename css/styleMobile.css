@@ -17,115 +17,41 @@
         height: auto;
         width: 100%;
     }
-        
-    .home-wide-background {
-        background-image: url("/images/homeWideBackgroundPicture.jpg");
-        font-family: 'Roboto Condensed', sans-serif;
-        background-size: cover;
-        height: 15em;
+
+    .above-main-section {
         display: flex;
         flex-direction: column;
-        width: 100%;
-        justify-content: stretch;
-        text-align: center!important;
-        display: none;
-    }
-    
-     .home-wide-background h1 {
-        font-family: 'Roboto Condensed', sans-serif!important;
+        justify-content: left;
         color: white;
-        height: auto;
-        align-content: center;
-        font-size: 3em;
+        text-align: center;
     }
-    
-    .smart-cities-button {
+
+    .above-main-section h2 {
+        margin: 0.4em!important;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .main-section-1 {
+        background-image: url("/images/homeWideBackgroundPicture.jpg");
+        background-size: cover;
+        height: 15em;
         width: 100%;
-        height: auto;
-        border: 0.3em solid white!important;
+        border: 0.2em solid white;
+    }
+
+    .main-section-2 {
+        background-image: url("/images/antennas-for-homewidebackground.jpg");
+        background-size: cover;
+        height: 15em;
+        width: 100%;
+        border: 0.2em solid white;
+    }
+
+    .smart-cities-button {
+        font-family: 'Roboto Condensed', sans-serif!important;
         background-color: rgb(79, 169, 229)!important;
-        margin: 0!important;
-        justify-content: flex-end!important;
-    }
-
-    .over-footer-wrapper {
-        background-color: rgb(211, 218, 223);
-        height: auto;
-    }
-
-    .software-image {
-        height: 18em;
-        width: auto;
-        background-image: url("/images/softwarePicture.jpg");
-        background-size: cover;
-        margin: 1em;
-        box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
-    }
-
-    .hardware-image {
-        height: 18em;
-        width: auto;
-        background-image: url("/images/hardwarePicture.jpg");
-        background-size: cover;
-        margin: 1em;
-        box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
-    }
-
-    .flexibility-image {
-        height: 18em;
-        width: auto;
-        background-image: url("/images/flexibilityPicture.jpg");
-        background-size: cover;
-        margin: 1em;
-        box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.75);
-    }
-
-    .over-footer-wrapper h3 {
-        color: rgb(79, 169, 229);
-    }
-
-
-    .over-footer-text-software p{
-        font-size: 1.5em;
-        padding-top: 0.3em;
-        margin-left: 0.8em;
-    }
-
-    .over-footer-text-hardware p {
-        font-size: 1.5em;
-        padding-top: 0.3em;
-        margin-left: 0.8em;
-    }
-
-    .over-footer-text-flexibility p{
-        font-size: 1.5em;
-        padding-top: 0.3em;
-        margin-left: 0.8em;
-    }
-
-    .over-footer-text-software {
-        padding-top: 1em;
-    }    
-    
-    .over-footer-text-hardware{
-        padding-top: 1em;
-    }
-
-    .over-footer-text-flexibility {
-        padding-top: 1em;
-        margin-bottom: 1em;
-    }
-    
-    .over-footer-text-software h3 {
-        margin-left: 0.8em;
-    } 
-
-    .over-footer-text-hardware h3 {
-        margin-left: 0.8em;
-    }
-
-    .over-footer-text-flexibility h3 {
-        margin-left: 0.8em;
+        color: white!important;
+        border: 0.1em solid white!important;
     }
 
 

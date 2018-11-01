@@ -10,7 +10,7 @@ var shouldPrintWrapperOne = true
 var shouldPrintWrapperTwo = true
 
 $(document).ready(function(){
-    $('.home-wide-background').hide().delay(5000).fadeIn(2000)
+    $('.above-main-section').hide().delay(5000).fadeIn(2000)
 });
 
 $('.video-player').ready(function() {
@@ -26,8 +26,9 @@ $('.video-player').ready(function() {
         $('#wireless').hide().fadeIn(2000)
     });
 
+
     
-    $(window).on('scroll', function() {
+    /* $(window).on('scroll', function() { */
 
         /* if($(this).scrollTop() > ($('.two-box-wrapper').offset().top) - 700 && shouldPrintWrapperOne) {
 
@@ -47,20 +48,20 @@ $('.video-player').ready(function() {
             $('.over-footer-text-flexibility').hide().fadeIn(1000) */
         /* }  */
 
-        if ($(this).scrollTop() > ($('.two-box-wrapper-2').offset().top) - 700 && shouldPrintWrapperTwo) {
+        /* if ($(this).scrollTop() > ($('.two-box-wrapper-2').offset().top) - 700 && shouldPrintWrapperTwo) {
             $('.main-content-section-three').hide().transition('slide right', '500ms')
             $('.main-content-section-four').hide().transition('slide right', '500ms')
             $('#coreValuesText').hide().fadeIn(1500)
             $('#jobOpeningsText').hide().fadeIn(1500)
             $('#security').hide().fadeIn(2000)
-            $('#workWithUs').hide().fadeIn(2000)
+            $('#workWithUs').hide().fadeIn(2000) */
             /* this is the second wrapper */
 
-            shouldPrintWrapperTwo = !shouldPrintWrapperTwo
+        /*     shouldPrintWrapperTwo = !shouldPrintWrapperTwo
         }
       
     });
-
+ */
     /* Dropdown menu on hover */
     $(document).ready(function() {
         $('nav li ul').hide().removeClass('fallback');
@@ -80,3 +81,5 @@ $('.video-player').ready(function() {
             behavior: "smooth",
         });
     }
+     
+    
