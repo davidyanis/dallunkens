@@ -9,13 +9,13 @@
 var shouldPrintWrapperOne = true
 var shouldPrintWrapperTwo = true
 
-$(document).ready(function(){
+/* $(document).ready(function(){
     $('.above-main-section').hide().delay(5000).fadeIn(2000)
 });
 
 $('.video-player').ready(function() {
     $('.video-player').delay(4000).fadeOut(1000)
-}); 
+});  */
 
     $(document).ready(function() {
         $('.main-content-section-one').hide().transition('slide right', '500ms')
