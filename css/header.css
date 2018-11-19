@@ -106,16 +106,13 @@ nav ul li:hover ul.fallback {
 
     header .logo-nav-wrapper {
         background-color: white;
-      
         width: 25%;
-        
     }
 
     nav {
         background-color: white;
         height: 7em;
-       margin: 0;
-    
+        margin: 0;
     }
     nav ul {
        float: right;
@@ -123,8 +120,8 @@ nav ul li:hover ul.fallback {
     }
     
     nav ul li {
-       float: left;
-        font-size: 1.em;
+        float: left;
+        font-size: 1em;
        
     }
     nav ul li a:hover {
@@ -132,7 +129,7 @@ nav ul li:hover ul.fallback {
         
     }
     nav ul li a {
-        padding: 1.4em;
+        padding: 1.65em;
         font-size: 1.2em;
         color:#333;
     }

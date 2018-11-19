@@ -31,14 +31,17 @@ footer {
 
 .footerCompanyText h3 {
     margin-top: 1.5em!important;
+    color:rgb(79, 169, 229);
 }
 
 .footerTechnologyText h3 {
     margin-top: 2.5em!important;
+    color:rgb(79, 169, 229);
 }
 
 .footerProductsText h3 {
     margin-top: 2.5em!important;
+    color:rgb(79, 169, 229);
 }
 
 .footerLogo{
@@ -62,6 +65,10 @@ footer {
     left: 1em;
     outline: white;
 } 
+
+.adressInfo h3 {
+    color:rgb(79, 169, 229);
+}
 
 .adressInfo {
     padding-top: 1em!important;
@@ -117,7 +124,6 @@ footer {
     background-color: rgb(172, 180, 185);
     color: rgb(75, 78, 84);
     text-align: center;
-
 }
 
 .copyRight h6 {
@@ -125,7 +131,6 @@ footer {
     margin: 0;
     line-height: 2em;
     text-align: center;
-
 }
 
 /* These styles activates when screen goes OVER 768 pixels */
@@ -134,15 +139,15 @@ footer {
     footer .footerLogo img {
         width: 18em;
         margin: auto!important;
-        height: 5em;        
+        height: 5em; 
     }
 
     .footer-wrapper {
         justify-content: space-around;
         display: flex;
         flex-direction: row;
-        margin-bottom: 3em!important;
-        margin-top: 3em!important;
+        margin-bottom: 2em!important;
+        margin-top: 2em!important;
     }
 
 
@@ -171,28 +176,29 @@ footer {
         flex-direction: column;
         font-size: 1.5em;
         padding: 0!important;
-        margin-top: 8em;
+        margin-top: 4.7em;
     }
 
 
     footer .adressInfo {
         text-align: center;
         width: auto;
-        margin-top: 11em;
+        margin-top: 6em;
     }
 
     footer .footerCompanyText {
         color: rgb(75, 78, 84);
-       
+        width: 20em;
     }
 
     footer .footerTechnologyText {
         color: rgb(75, 78, 84);
-       
+        width: 20em;
     }
 
     footer .footerProductsText {
         color: rgb(75, 78, 84);
+        width: 20em;
     }
 
     .footerCompanyText h3 {
@@ -206,5 +212,18 @@ footer {
     .footerProductsText h3 {
         margin-top: 1.5em!important;
     }
+
+    .footerCompanyText h4 {
+        margin: 0.5em;
+    }
+    
+    .footerTechnologyText h4 {
+        margin: 0.5em;
+    }
+    
+    .footerProductsText h4 {
+        margin: 0.5em;
+    }
+    
 
 }
