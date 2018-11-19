@@ -1,8 +1,5 @@
 
 /* Mobile only */
 @media screen and (max-width: 768px) {
-    .containerForBs {
-        height: 20em;
-        border: 1px solid red;
-    }
+
 }
