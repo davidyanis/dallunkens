@@ -22,27 +22,36 @@
     }
 
     .home-wide-bg {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("/images/homePagePicture.jpg");
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("/images/homeWideBackgroundPicture.jpg");
         background-size: cover;
-        height: 100vh;
+        height: 85vh;
         width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-content: center;
         align-items: center;
     }
 
     .h1-bg {
-        border: 1px solid red;
+        padding-top: 2em;
+        font-size: 4em;
         text-align: center;
+        color: white;
+        margin: 0;
+    }
+    .description-bg {
+        font-size: 2em;
         color: white;
     }
 
-    main .home-wide-btn {
+    .home-wide-btn {
         background-color: white!important;
         font-size: 3em;
         width: 10em;
+    }
+
+    .cards-container {
+        margin-top: 3em !important;
     }
 
    
