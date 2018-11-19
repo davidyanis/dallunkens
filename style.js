@@ -28,11 +28,25 @@ $('.video-player').ready(function() {
         $('nav li').mouseleave(function() {
             $('ul', this).stop().slideUp(300);
           });
-    });
 
-    $('.specification-btn').toggle(function() {
-        $('.specification').show();
+
+            /* shows and hides divs depending on which you click on */
+            $( '.specification-btn' ).click(function() {
+                $( '.specification' ).toggle( "fast", function() {
+                  // Animation complete.
+                });
+            });
+         $( '.key-features-btn' ).click(function() {
+            $( '.key-features' ).toggle( "fast", function() {
+              // Animation complete.
+            });
+        });
+     $( '.data-sheet-btn' ).click(function() {
+        $( '.data-sheet' ).toggle( "fast", function() {
+          // Animation complete.
+        });
     });
+});
 
 /* Arrow up scrolling to top smooth animation */
     function scrollToTop() {
