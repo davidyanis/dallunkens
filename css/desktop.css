@@ -1,33 +1,5 @@
 @media screen and (min-width: 768px) {
-    /* .video-player {
-        height: auto;
-        width: auto;
-        overflow:hidden;
-        border: 1px solid red;
-    }
-
-    .video-player > video {
-        min-width: 20%;
-        min-height: 30%;
-    } */
-    
-    .above-main-section {
-        height: 30em;
-        display: flex;
-        flex-direction: row!important;
-        margin-bottom: 3em;
-        margin-top: 3em;
-    }
-
-    .main-section-1 {
-        border: 1px solid red;
-        height: 30em!important;
-    }
-
-    .main-section-2 {
-        border: 1px solid red;
-        height: 30em!important;
-    }
+   
 
 }
         

@@ -21,41 +21,31 @@
         width: 100%;
     }
 
-    .above-main-section {
+    .home-wide-bg {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("/images/homePagePicture.jpg");
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: left;
-        color: white;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+
+    .h1-bg {
+        border: 1px solid red;
         text-align: center;
+        color: white;
     }
 
-    .above-main-section h2 {
-        margin: 0.4em!important;
-        font-family: 'Roboto Condensed', sans-serif;
+    main .home-wide-btn {
+        background-color: white!important;
+        font-size: 3em;
+        width: 10em;
     }
 
-    .main-section-1 {
-        background-image: url("/images/homeWideBackgroundPicture.jpg");
-        background-size: cover;
-        height: 15em;
-        width: 100%;
-        border: 0.2em solid white;
-    }
-
-    .main-section-2 {
-        background-image: url("/images/antennas-for-homewidebackground.jpg");
-        background-size: cover;
-        height: 15em;
-        width: 100%;
-        border: 0.2em solid white;
-    }
-
-    .smart-cities-button {
-        font-family: 'Roboto Condensed', sans-serif!important;
-        background-color: rgb(79, 169, 229)!important;
-        color: white!important;
-        border: 0.1em solid white!important;
-    }
+   
 
 
 /* Blue empty container on the top */
