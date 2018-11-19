@@ -1,15 +1,10 @@
 @media screen and (min-width: 768px) {
-    /* .video-player {
+    .video-player {
         height: auto;
         width: auto;
-        overflow:hidden;
-        border: 1px solid red;
+        border: 5px solid red;
+        margin: 0;
     }
-
-    .video-player > video {
-        min-width: 20%;
-        min-height: 30%;
-    } */
     
     .above-main-section {
         height: 30em;

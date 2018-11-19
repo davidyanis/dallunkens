@@ -112,6 +112,12 @@ main .section-button {
     text-decoration: underline!important;
 }
 
+.someTextForNow {
+    height: 40em;
+    border: 1px solid red;
+    width: 100%;
+}
+
 /* tablet css */
 
 @media screen and (min-width: 768px) {

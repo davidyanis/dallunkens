@@ -44,14 +44,14 @@ footer {
 .footerLogo{
     width: 100%;
     display: flex;
-  
+    
 }
 
 .footerLogo img{
     width: 13em;
     height: 4em;
     margin-top: 0.5em;
- }
+}
 
 .footerArrow {
     z-index: 2;
