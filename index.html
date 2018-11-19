@@ -4,21 +4,24 @@
       <meta charset="utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>Sweratel AB</title>
+      <link rel="shortcut icon" href="" />
       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- CSS-->
+      <link rel="stylesheet" type="text/css" media="screen" href="./css/desktop.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="./css/footerTablet.css">
       <link rel="stylesheet" type="text/css" media="screen" href="./css/footer.css" />
       <link rel="stylesheet" type="text/css" media="screen" href="./css/header.css" />
-      <link rel="stylesheet" type="text/css" media="screen" href="./css/styleTablet.css" />
-      <link rel="stylesheet" type="text/css" media="screen" href="./css/styleMobile.css" />
-      <link rel="stylesheet" type="text/css" media="screen" href="./css/mainContentBoxes.css">
-      <link rel="stylesheet" type="text/css" media="screen" href="./css/footerTablet.css">
+      <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+      <link rel="stylesheet" href="./semantic/semantic.css">
+      <!-- Fonts-->
       <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+      <!-- Javascript, jQuery -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <link rel="shortcut icon" href="" />
       <script src="./style.js"></script>
       <script src="./script.js"></script>
       <script src="./semantic/semantic.js"></script>
-      <link rel="stylesheet" href="./semantic/semantic.css">
+
    </head>
    <body>
       <div class="emptyOverHeaderContainer">
@@ -104,14 +107,10 @@
             </ul>
          </nav>
       </header>
-
-      <!--  </header>  --> 
-
-      <div class="video-player">
+    <!--  <div class="video-player">
          <video autoplay src="/images/video-home-wide-screen-4Sec.mp4">
          </video>
-      </div>
-
+      </div>  -->
       <div class="above-main-section">
          <div class="main-section-1">
             <h2>Smart Cities</h2>
@@ -134,76 +133,58 @@
          </div>
       </div>
 
-      <main>
-
-         <!-- Fyra fyrkantiga boxar -->
-         <div class="main-section-wrapper-one">
-               <!-- this contains section picture -->
-            <div class="main-content-section-one">
-            </div>
-            <div class="main-content-section-one-text">
-               <h4 class="main-header-text" id="missonAndVisonText">Misson & Vision</h4>
-               <p> Our Core values go beyong and we always thrive on being secure and proseprous.
-               </p>
-               <button class='big ui animated blue basic inverted button section-button' role='button'>
-               <div class='visible content' id="security">Slogan</div>
-               <div class='hidden content' id="rightIcon">
-                  <i aria-hidden='true' class='arrow right icon'></i>
+      <!-- Four cards -->
+      <div class="ui grid container">
+         <div class="ui two stackable link cards">
+            <div class="ui blue card">
+               <div class="image">
+                  <img src="./images/cloudsForTablet.jpg">
+               </div>
+               <div class="content mobile-float-right">
+                  <a class="header">Kristy</a>
+               <div class="description">
+                     Kristy is an art director living in New York.
+               </div>
                </div>
             </div>
-         </div>
-
-         <div class="main-section-wrapper-two">
-            <!-- this contains section picture -->
-            <div class="main-content-section-two">
-            </div>
-            <div class="main-content-section-two-text">
-               <h4 class="main-header-text" id="innovationText">Innovation</h4>
-               <p> Our Core values go beyong and we always thrive on being secure and proseprous.
-               </p>
-               <button class='big ui animated blue basic inverted button section-button' role='button'>
-               <div class='visible content' id="security">More</div>
-               <div class='hidden content' id="rightIcon">
-                  <i aria-hidden='true' class='arrow right icon'></i>
+           
+               <div class="ui blue card">
+                  <div class="image">
+                  <img src="./images/cloudsForTablet.jpg">
+                  </div>
+                  <div class="content">
+                  <a class="header">Kristy</a>
+                  <div class="description">
+                     Kristy is an art director living in New York.
+                  </div>
+                  </div>
+               </div>
+               <div class="ui blue card">
+                  <div class="image">
+                  <img src="./images/cloudsForTablet.jpg">
+                  </div>
+                  <div class="content">
+                  <a class="header">Kristy</a>
+                  <div class="description">
+                     Kristy is an art director living in New York.
+                  </div>
+                  </div>
+               </div>
+               <div class="ui blue card">
+                  <div class="image">
+                  <img src="./images/cloudsForTablet.jpg">
+                  </div>
+                  <div class="content">
+                  <a class="header">Kristy</a>
+                  <div class="description">
+                     Kristy is an art director living in New York.
+                  </div>
+                  </div>
+               </div>
                </div>
             </div>
-         </div>
-
-         <div class="main-section-wrapper-three">
-            <!-- this contains section picture -->
-            <div class="main-content-section-three">
-            </div>
-            <div class="main-content-section-three-text">
-               <h4 class="main-header-text" id="coreValuesText">Core Values</h4>
-               <p> Our Core values go beyong and we always thrive on being secure and proseprous.
-               </p>
-               <button class='big ui animated blue basic inverted button section-button' role='button'>
-               <div class='visible content' id="workWithUs">Safety</div>
-               <div class='hidden content'>
-                  <i aria-hidden='true' class='arrow right icon'></i>
-               </div>
-            </div>
-         </div>
-         <div class="main-section-wrapper-four">
-
-            <!-- this contains section picture -->
-            <div class="main-content-section-four">
-            </div>
-            <div class="main-content-section-four-text">
-               <h4 class="main-header-text" id="jobOpeningsText">Wireless</h4>
-               <p> Our Core values go beyong and we always thrive on being secure and proseprous.
-               </p>
-               <button class='big ui animated blue basic inverted button section-button' role='button'>
-               <div class='visible content' id="workWithUs">Blog</div>
-               <div class='hidden content'>
-                  <i aria-hidden='true' class='arrow right icon'></i>
-               </div>
-            </div>
-         </div>
-
-         <div class=""></div>
-
-      </main>
+    
+       
       <div class="scrollUpArrow">
          <a onclick="scrollToTop()"><i class="fas fa-angle-up fa-3x"></i></a>
       </div>

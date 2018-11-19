@@ -4,6 +4,7 @@ header {
     overflow: hidden;
     transition: height 0.8s;
     background-color:rgb(79, 169, 229);
+    border-bottom: 1px solid #ddd;
 }
 .fullscreen {
     height: 120vh;
@@ -90,6 +91,7 @@ nav ul li:hover ul.fallback {
     padding-left: 0.4em;
 }
 
+/* Desktop only */
 @media screen and (min-width: 1050px) {
 
     #header {
@@ -130,16 +132,14 @@ nav ul li:hover ul.fallback {
         
     }
     nav ul li a {
-        display:block;
+        padding: 1.4em;
         font-size: 1.2em;
-        padding: 1em;
-
-        color:#444;
+        color:#333;
     }
     nav ul li ul {
         position:absolute;
         border-top: 2px solid rgb(79, 169, 229);
-        width: 200px;
+        width: 300px;
         background: white;
         border-left: 1px solid #ddd;
         border-right: 1px solid #ddd;
