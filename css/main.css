@@ -237,9 +237,26 @@
     outline: none;
 }
 
+.container-for-moreinformation {
+    width: 100%;
+    height: auto;
+}
+
+.container-for-buttons {
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
 /* divs should switch inbetween depending on which you click */
 .specification, .key-features, .data-sheet  {
     display: none;
+    margin-top: 2em;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.4em;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .specification-btn:hover, .key-features-btn:hover, .data-sheet-btn:hover {
