@@ -150,11 +150,9 @@ footer {
         margin-top: 2em!important;
     }
 
-
     .fa-linkedin-in { 
         color: #0077B5;
     }
-
 
     .socialMediaIcons .fa-twitter {  
         color: rgb(29, 161, 242);
@@ -178,7 +176,6 @@ footer {
         padding: 0!important;
         margin-top: 4.7em;
     }
-
 
     footer .adressInfo {
         text-align: center;
@@ -224,6 +221,5 @@ footer {
     .footerProductsText h4 {
         margin: 0.5em;
     }
-    
 
 }
