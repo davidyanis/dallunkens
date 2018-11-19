@@ -22,7 +22,7 @@
     }
 
     .home-wide-bg {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("/images/homeWideBackgroundPicture.jpg");
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("/images/mainSectionPicture.jpg");
         background-size: cover;
         height: 100vh;
         width: 100%;
@@ -176,3 +176,63 @@
     display: flex;
     flex-direction: column;
 }
+
+.containerForProductSheet {
+    height: 80em;
+    border: 1px solid red;
+    width: 100%;
+}
+
+.containerForBsProductPicture {
+    height: 17em;
+    width: 17em;
+    border: 1px solid red;
+    margin: 1em;
+}
+
+.headerForProducts {
+    margin-top: 0.5em!important;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.containerForBsProductPicture img {
+    width: 100%;
+    height: 100%
+}
+
+.informationAboutBsText {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+}
+
+.specification-btn {
+    background-color: rgb(79, 169, 229);
+    font-size: 1.4em;
+    border-radius: 0.3em;
+    height: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0.3em;
+}
+
+.key-features-btn {
+    background-color: rgb(79, 169, 229);
+    font-size: 1.4em;
+    height: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 0.3em;
+    margin: 0.3em;
+}
+
+.data-sheet-btn {
+    background-color: rgb(79, 169, 229);
+    font-size: 1.4em;
+    border-radius: 0.3em;
+    height: 2em;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0.3em;
+}
+
+.specification, .key-features, .data-sheet  {
+    display: none;
+}
+

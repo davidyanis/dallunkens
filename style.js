@@ -17,20 +17,8 @@ $('.video-player').ready(function() {
     $('.video-player').delay(4000).fadeOut(1000)
 });  */
 
-    $(document).ready(function() {
-        $('.main-content-section-one').hide().transition('slide right', '500ms')
-        $('.main-content-section-two').hide().transition('slide right', '500ms')
-        $('#missonAndVisonText').hide().fadeIn(1500)
-        $('#innovationText').hide().fadeIn(1500)
-        $('#more').hide().fadeIn(2000)
-        $('#wireless').hide().fadeIn(2000)
-    });
 
-
-    
-  
- 
-    /* Dropdown menu on hover */
+     /* Dropdown menu on hover */
     $(document).ready(function() {
         $('nav li ul').hide().removeClass('fallback');
         $('nav li').mouseover(function () {
@@ -40,6 +28,10 @@ $('.video-player').ready(function() {
         $('nav li').mouseleave(function() {
             $('ul', this).stop().slideUp(300);
           });
+    });
+
+    $('.specification-btn').toggle(function() {
+        $('.specification').show();
     });
 
 /* Arrow up scrolling to top smooth animation */
