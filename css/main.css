@@ -22,7 +22,7 @@
     }
 
     .home-wide-bg {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("/images/homeWideBackgroundPicture.jpg");
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("/images/mainSectionPicture.jpg");
         background-size: cover;
         height: 100vh;
         width: 100%;
