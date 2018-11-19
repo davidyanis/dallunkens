@@ -137,7 +137,7 @@
         margin-top: 1em;
     }
    
-
+/* Contact us site */
 .contact-container {
     border: 1px solid red;
     display: flex;
@@ -145,4 +145,10 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
+    padding-top: 3em;
+    background-color: #ddd;
+}
+
+.contact-form {
+    margin-top: 1em;
 }
