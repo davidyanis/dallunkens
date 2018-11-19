@@ -142,16 +142,37 @@
    
 /* Contact us site */
 .contact-container {
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-content: center;
     align-items: center;
-    padding-top: 3em;
-    background-color: #ddd;
+    padding: 2em;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6) ), url("/images/tianjin-2185510_1920.jpg");
+}
+.contact-container h1{
+    text-align: center;
+    padding: 0.4em;
+    margin: 0;
+    border-top: 1px solid #ddd;
+}
+.contact-container img{
+    width: 15em;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  
+   
+}
+.contact-container input, textarea{
+    background-color: #f7f7f7!important;
+    color: #f7f7f7;
 }
 
 .contact-form {
     margin-top: 1em;
+    width: 60%;
+    padding: 3em;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
 }
