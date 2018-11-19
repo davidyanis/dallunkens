@@ -147,7 +147,7 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
-    padding: 2em;
+    padding: 1em;
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6) ), url("/images/tianjin-2185510_1920.jpg");
 }
 .contact-container h1{
@@ -170,7 +170,6 @@
 
 .contact-form {
     margin-top: 1em;
-    width: 60%;
     padding: 3em;
     background-color: white;
     display: flex;
