@@ -32,25 +32,25 @@ $(document).ready(function() {
 
         /* shows and hides divs depending on which you click on */
         $('.specification-btn').click(function() {
-            $('.specification').toggle( "slow", function() {
-                $('.key-features').hide("slow")
-                $('.data-sheet').hide("slow")
+            $('.specification').toggle( "fast", function() {
+                $('.key-features').hide("fast")
+                $('.data-sheet').hide("fast")
                 // Animation complete.
             });
         });
 
         $('.key-features-btn').click(function() {
-            $('.key-features').toggle( "slow", function() {
-                $('.specification').hide("slow")
-                $('.data-sheet').hide("slow")
+            $('.key-features').toggle( "fast", function() {
+                $('.specification').hide("fast")
+                $('.data-sheet').hide("fast")
                 // Animation complete.
             });
         });
 
     $('.data-sheet-btn' ).click(function() {
-        $('.data-sheet' ).toggle( "slow", function() {
-            $('.specification').hide("slow")
-            $('.key-features').hide("slow")
+        $('.data-sheet' ).toggle( "fast", function() {
+            $('.specification').hide("fast")
+            $('.key-features').hide("fast")
             // Animation complete.
         });
     });
