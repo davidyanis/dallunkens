@@ -250,3 +250,32 @@
 
 
 
+/* Press site */
+
+.press-container {
+    border: 1px solid red;
+    padding: 5em;
+   display: flex;
+
+}
+
+.press-side-bar {
+    border: 1px solid #ddd;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 1em;
+   
+}
+.press-side-bar a{
+    color: #333;
+}
+
+.press-post {
+    margin-right: 4em;
+}
+
+.press-description {
+    width: 50em;
+}
