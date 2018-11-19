@@ -19,31 +19,39 @@ $('.video-player').ready(function() {
 
 
      /* Dropdown menu on hover */
-    $(document).ready(function() {
-        $('nav li ul').hide().removeClass('fallback');
-        $('nav li').mouseover(function () {
-            /* Change animation speed here slideDown(speed) */
-            $('ul', this).stop().slideDown(300);
+$(document).ready(function() {
+    $('nav li ul').hide().removeClass('fallback');
+    $('nav li').mouseover(function () {
+        /* Change animation speed here slideDown(speed) */
+        $('ul', this).stop().slideDown(300);
+    });
+    $('nav li').mouseleave(function() {
+        $('ul', this).stop().slideUp(300);
         });
-        $('nav li').mouseleave(function() {
-            $('ul', this).stop().slideUp(300);
-          });
 
 
-            /* shows and hides divs depending on which you click on */
-            $( '.specification-btn' ).click(function() {
-                $( '.specification' ).toggle( "fast", function() {
-                  // Animation complete.
-                });
-            });
-         $( '.key-features-btn' ).click(function() {
-            $( '.key-features' ).toggle( "fast", function() {
-              // Animation complete.
+        /* shows and hides divs depending on which you click on */
+        $('.specification-btn').click(function() {
+            $('.specification').toggle( "slow", function() {
+                $('.key-features').hide("slow")
+                $('.data-sheet').hide("slow")
+                // Animation complete.
             });
         });
-     $( '.data-sheet-btn' ).click(function() {
-        $( '.data-sheet' ).toggle( "fast", function() {
-          // Animation complete.
+
+        $('.key-features-btn').click(function() {
+            $('.key-features').toggle( "slow", function() {
+                $('.specification').hide("slow")
+                $('.data-sheet').hide("slow")
+                // Animation complete.
+            });
+        });
+
+    $('.data-sheet-btn' ).click(function() {
+        $('.data-sheet' ).toggle( "slow", function() {
+            $('.specification').hide("slow")
+            $('.key-features').hide("slow")
+            // Animation complete.
         });
     });
 });
