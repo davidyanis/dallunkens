@@ -259,11 +259,6 @@
 }
 
 .data-sheet a {
-    color: black;
-    text-decoration: underline;
-}
-
-.data-sheet a:hover {
     color: rgb(79, 169, 229);
     text-decoration: underline;
 }

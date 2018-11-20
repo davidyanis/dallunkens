@@ -55,10 +55,10 @@
     }
 
     .data-sheet a:hover {
-        color: rgb(79, 169, 229);
+        color: rgb(137, 202, 245);
         text-decoration: underline;
     }
-
+    
     .show-more-text-btn {
         background: transparent;
         border: none;
