@@ -54,14 +54,10 @@ $(document).ready(function() {
     $('.show-more-text-btn').click(function() {
         $('.hidden-text-product').toggle()
     });
-});
 
-/* Arrow up scrolling to top smooth animation */
-    function scrollToTop() {
-        window.scroll({
-         top: 0,
-            behavior: "smooth",
-        });
-    }
+});
+     
+
+
      
     
