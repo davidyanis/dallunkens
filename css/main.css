@@ -175,10 +175,12 @@
     display: flex;
     flex-direction: column;
 }
-
+/* product container */
 .containerForProductSheet {
-    height: 77em;
+    height: 60em;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .containerForBsProductPicture {
@@ -190,6 +192,7 @@
 .headerForProducts {
     margin-top: 0.5em!important;
     font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
 }
 
 .containerForBsProductPicture img {
@@ -197,9 +200,11 @@
     height: 100%
 }
 
-.informationAboutBsText {
+.informationAboutBsText p {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.2em;
+    margin-left: -3em;
+    margin-right: -3em;
 }
 
 
@@ -239,13 +244,11 @@
 
 .container-for-moreinformation {
     width: 100%;
-    height: auto;
 }
 
 .container-for-buttons {
     text-align: center;
     width: 100%;
-    height: auto;
 }
 
 /* divs should switch inbetween depending on which you click */
