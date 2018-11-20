@@ -40,4 +40,16 @@
         margin-left: 2em;
         margin-right: 2em;
     }
+
+    .show-more-text-btn {
+        background: transparent;
+        border: none;
+        outline: none;
+    }
+
+    .show-less-text-btn {
+        background: transparent;
+        border: none;
+        outline: none;
+    }
 }

@@ -262,6 +262,18 @@
     display: none;
 }
 
+.show-more-text-btn {
+    text-decoration: underline;
+    margin-bottom: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.show-less-text-btn {
+    text-decoration: underline;
+    margin-bottom: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 /* Press site */
 .press-container {
    flex-wrap: wrap;

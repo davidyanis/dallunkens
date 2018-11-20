@@ -44,11 +44,15 @@ $(document).ready(function() {
                 // Animation complete.
         });
 
-    $('.data-sheet-btn' ).click(function() {
-        $('.data-sheet' ).toggle( "fast")
+    $('.data-sheet-btn').click(function() {
+        $('.data-sheet').toggle( "fast")
             $('.specification').hide("fast")
             $('.key-features').hide("fast")
             // Animation complete.
+    });
+
+    $('.show-more-text-btn').click(function() {
+        $('.hidden-text-product').toggle()
     });
 });
 
