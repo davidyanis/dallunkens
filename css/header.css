@@ -9,6 +9,8 @@ header {
 .fullscreen {
     height: 120vh;
     background-color: rgb(79, 169, 229);
+    position: fixed;
+    z-index: 9999;
 }
 
 .nav-logo img{

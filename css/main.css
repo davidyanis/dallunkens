@@ -275,7 +275,7 @@
 .press-container {
    flex-wrap: wrap;
     display: flex;
-    padding: 1em;
+    
 }
 
 .press-release-header {
@@ -303,4 +303,8 @@
 .press-description {
     max-width: 50em;
     font-size: 1.2em;
+}
+
+article {
+    border-bottom: 1px solid #ddd;
 }
