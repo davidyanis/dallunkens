@@ -258,6 +258,16 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.data-sheet a {
+    color: black;
+    text-decoration: underline;
+}
+
+.data-sheet a:hover {
+    color: rgb(79, 169, 229);
+    text-decoration: underline;
+}
+
 .hidden-text-product {
     display: none;
 }
