@@ -13,17 +13,29 @@
         display: flex;
     }
 
-   section .container-for-product-picture {
+    section .container-for-product-picture {
         width: 60em;
-        height: 30em;
-
     }
 
-    .press-container .press-post {
-        width: 80%;
+    .section-container-products {
+        margin: 1em;
+        display: flex;
+        border: 0.1em solid rgb(169, 177, 182);
+        border-radius: 0.2em;
     }
-    
+
+    section .information-about-product-text {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.2em;
+    }
+
+    .specification, .key-features, .data-sheet  {
+        display: none;
+        margin-top: 2em;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.4em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
 }
-        
-        
-        

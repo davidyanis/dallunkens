@@ -74,7 +74,7 @@ nav ul li ul li a {
 
 /* Dropdown menu hover on text */
 nav ul li ul li:hover a {
-    background-color: white;
+    color: rgb(79, 169, 229);
 }
 
 /* Hidden dropdown menu */
