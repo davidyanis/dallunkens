@@ -1,3 +1,3 @@
 # dallunkens
 
-[test] (https://davidyanis.github.io/dallunkens/)!
+[test] (https://davidyanis.github.io/dallunkens/)
