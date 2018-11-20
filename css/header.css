@@ -84,7 +84,7 @@ nav ul li ul.fallback {
 
 /* On hover show dropdown menu */
 nav ul li:hover ul.fallback {
-    display:block;
+    display: block;
 }
 
 .fa-angle-down {
@@ -100,7 +100,6 @@ nav ul li:hover ul.fallback {
     }
 
     header .nav-logo img{
-      
        height: 7em;
     }
 
@@ -114,6 +113,7 @@ nav ul li:hover ul.fallback {
         height: 7em;
         margin: 0;
     }
+
     nav ul {
        float: right;
        padding: 0;
@@ -126,12 +126,12 @@ nav ul li:hover ul.fallback {
     }
     nav ul li a:hover {
         color: rgb(79, 169, 229) !important;
-        
     }
+
     nav ul li a {
         padding: 1.65em;
         font-size: 1.2em;
-        color:#333;
+        color: #333;
     }
 
     /* dropdown anchorbox tablet */
@@ -140,19 +140,18 @@ nav ul li:hover ul.fallback {
         border-top: 2px solid rgb(79, 169, 229);
         width: 12em;
         background: white;
-        opacity: 0.9;
+        opacity: 0.95;
         z-index: 100;
     }
     
     nav ul li ul li {
-        width:110px;
-        
+        width:110px; 
     }
 
     nav ul li ul li a {
-        display:block;
-        padding:15px 10px;
-        color:#444;
+        display: block;
+        padding: 10px 3px;
+        color: #444;
     }
 
     nav ul li ul li:hover a {
@@ -161,11 +160,11 @@ nav ul li:hover ul.fallback {
     }
 
     nav ul li ul.fallback {
-        display:none;
+        display: none;
     }
 
     nav ul li:hover ul.fallback {
-        display:block;
+        display: block;
     }
     
     .active {
@@ -175,7 +174,6 @@ nav ul li:hover ul.fallback {
     header .menu-button {
         display: none!important;
     }
-
 
     .nav-logo img{
         height: 6em;

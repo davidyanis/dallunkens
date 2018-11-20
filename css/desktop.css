@@ -3,32 +3,42 @@
     body {
         margin: 0;
     }
+
     .contact-form {
         width: 45em;
     }
 
     section .container-for-product-sheet {
-        border: 1px solid red;
-        height: 65em;
         justify-content: flex-start;
+        display: flex;
     }
 
    section .container-for-product-picture {
-        border: 1px solid red;
-        width: 30em;
+        width: 60em;
         height: 30em;
+
     }
 
-    section  .header-for-products {
-        margin-top: 0.5em;
-        font-family: 'Roboto Condensed', sans-serif;
-        text-align: center;
-        border: 1px solid red;
-    }
-
-    section .information-about-text p {
+    section .information-about-product-text {
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 1.2em;
+    }
+
+    .section-container-products {
+        margin: 1em;
+        display: flex;
+        border: 0.1em solid rgb(79, 169, 229);
+        border-radius: 0.2em;
+    }
+
+    .specification, .key-features, .data-sheet  {
+        display: none;
+        margin-top: 2em;
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.4em;
+        margin-left: 2em;
+        margin-right: 2em;
     }
     
 }
