@@ -24,6 +24,8 @@
 
     section .container-for-product-picture {
         width: 60em;
+        display: flex;
+        flex-direction: column;
     }
 
     .section-container-products {
