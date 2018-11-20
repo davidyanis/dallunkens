@@ -272,6 +272,7 @@
     text-decoration: underline;
     margin-bottom: 1em;
     font-family: 'Roboto Condensed', sans-serif;
+    display: none;
 }
 
 /* Press site */
