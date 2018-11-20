@@ -8,6 +8,15 @@
         width: 45em;
     }
 
+    .press-container .press-post {
+        width: 70%;
+        padding: 2em;
+        border: 1px solid #ddd;
+    }
+    .press-container{
+        margin: 0 auto;
+    }
+    
     section .container-for-product-sheet {
         justify-content: flex-start;
         display: flex;

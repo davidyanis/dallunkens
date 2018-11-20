@@ -266,7 +266,7 @@
 .press-container {
    flex-wrap: wrap;
     display: flex;
-    
+    width: 100%;
 }
 
 .press-release-header {
@@ -288,7 +288,6 @@
     width: 100%;
     padding: 2em;
     border: 1px solid #ddd;
-
 }
 
 .press-description {
@@ -298,4 +297,5 @@
 
 article {
     border-bottom: 1px solid #ddd;
+    margin-top: 2em;
 }
