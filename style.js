@@ -31,23 +31,23 @@ $(document).ready(function() {
 
         /* shows and hides divs depending on which you click on */
         $('.specification-btn').click(function() {
-            $('.specification').toggle( "fast")
-                $('.key-features').hide("fast")
-                $('.data-sheet').hide("fast")
+            $('.specification').toggle()
+                $('.key-features').hide("slow")
+                $('.data-sheet').hide("slow")
                 // Animation complete.
         });
 
         $('.key-features-btn').click(function() {
-            $('.key-features').toggle( "fast")
-                $('.specification').hide("fast")
-                $('.data-sheet').hide("fast")
+            $('.key-features').toggle()
+                $('.specification').hide("slow")
+                $('.data-sheet').hide("slow")
                 // Animation complete.
         });
 
     $('.data-sheet-btn').click(function() {
-        $('.data-sheet').toggle( "fast")
-            $('.specification').hide("fast")
-            $('.key-features').hide("fast")
+        $('.data-sheet').toggle()
+            $('.specification').hide("slow")
+            $('.key-features').hide("slow")
             // Animation complete.
     });
 
