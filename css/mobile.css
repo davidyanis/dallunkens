@@ -1,0 +1,7 @@
+
+/* Mobile only */
+@media screen and (max-width: 768px) {
+    .press-container .press-side-bar {
+        display: none;
+    }
+}

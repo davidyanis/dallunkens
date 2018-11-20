@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title>Sweratel AB</title>
+      <link rel="shortcut icon" href="" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- CSS-->
+     
+      <link rel="stylesheet" type="text/css" href="./css/desktop.css" />
+      <link rel="stylesheet" type="text/css" href="./css/footerTablet.css">
+      <link rel="stylesheet" type="text/css" href="./css/footer.css" />
+      <link rel="stylesheet" type="text/css" href="./css/header.css" />
+      <link rel="stylesheet" type="text/css" href="./css/mobile.css">
+      <link rel="stylesheet" type="text/css" href="./css/main.css" />
+      <link rel="stylesheet" href="./semantic/semantic.css">
+      <!-- Fonts-->
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+      <!-- Javascript, jQuery -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="./style.js"></script>
+      <script src="./script.js"></script>
+      <script src="./semantic/semantic.js"></script>
+
+   </head>
+   <body>
+      <div class="emptyOverHeaderContainer">
+         <!-- <button class="buttonStyleLogIn ui right labeled icon button">
+            <span>Investor</span>
+            <i class="ui sign-in icon"></i>
+            </button> -->
+      </div>
+      <div class="mini ui modal">
+         <i class="close icon"></i>
+         <div class="header">
+            <img src="./images/SweratelLogo.png">
+         </div>
+         <div class="description">
+            <p>Password protected content</p>
+         </div>
+         <!-- detta är loginformulär, vi jobbar vidare med denna. länk via slack,
+            kan vara så att det bara är password required vill ej ha på overbar-->
+         <form action="action_page.php">
+         <div class="containerUsernameAndPassword">
+            <input type="text" placeholder="Enter Username" name="username" required>
+            <input type="password" placeholder="Enter Password" name="password" required>
+            <button class='big ui blue inverted button'>Login</button>
+         </div>
+      </div>
+
+      <!-- <header id="header">
+         <div class="logo">
+            <a href="#home"><img src="./images/SweratelLogo.png"></a>
+         </div>
+         <div class="menuParent">
+            <i id="exit-button" class="fas fa-bars menu-button fa-2x" onclick="menuButtonClicked()"></i>
+         </div>
+         -->
+         
+      <header id="header">
+         <div class="logo-nav-wrapper">
+            <a class="nav-logo" href="#home"><img src="./images/SweratelLogo.png"></a>
+            <i id="exit-button" class="fas fa-bars menu-button fa-2x" onclick="menuButtonClicked()"></i>
+         </div>
+         <nav>
+            <ul>
+               <li><a href="index.html" class="active">Home</a></li>
+               <li>
+                  <a href="#">Company <i class="fas fa-angle-down"></i></a>
+                  <ul class="fallback">
+                     <li><a href="facts.html">Facts</a></li>
+                     <li><a href="slogan.html">Slogan</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a href="#">Technology <i class="fas fa-angle-down"></i></a>
+                  <ul class="fallback">
+                     <li><a href="RNMS.html">RNMS</a></li>
+                     <li><a href="SCM.html">SCM</a></li>
+                     <li><a href="CRM.html">CRM</a></li>
+                     <li><a href="OLS.html">OLS</a></li>
+                     <li><a href="Het-Net.html">Het-Net</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a href="#">RAN <i class="fas fa-angle-down"></i></a>
+                  <ul class="fallback">
+                     <li><a href="BS.html">BS</a></li>
+                     <li><a href="EBS.html">EBS</a></li>
+                     <li><a href="IBS.html">IBS</a></li>
+                     <li><a href="MNC.html">MNC</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a href="#">Antennas <i class="fas fa-angle-down"></i></a>
+                  <ul class="fallback">
+                     <li><a href="AX2.4.html">AX2.4</a></li>
+                     <li><a href="AX5.html">AX5</a></li>
+                     <li><a href="BH2.4.html">BH2.4</a></li>
+                     <li><a href="BH5.html">BH5</a></li>
+                  </ul>
+               </li>
+               <li><a href="press.html">Press</a></li>
+               <li><a href="contactus.html">Contact us</a></li>
+            </ul>
+         </nav>
+      </header>
+    <!--  <div class="video-player">
+         <video autoplay src="/images/video-home-wide-screen-4Sec.mp4">
+         </video>
+      </div>  -->
+   <main>
+         <div class="ui fluid home-wide-bg">
+            <h1 class="h1-bg">Smartcities</h1>
+            <p class="description-bg"> &rdquo;Innovation beyond comparison&rdquo;</p>
+            <div class="ui big animated fade button home-wide-btn">
+               <div class="visible content">CellularWiFi</div>
+               <div class="hidden content">
+                  Request demo
+               </div>
+            </div>
+         </div>
+   </main>
+        <!--  <div class="main-section-2">
+            <h2>Future WiFi</h2>
+            <div class="ui medium animated fade button smart-cities-button">
+               <div class="visible content">Possibilities</div>
+               <div class="hidden content">
+                  Learn more
+               </div>
+            </div>
+         </div> -->
+     
+
+      <!-- Four cards -->
+      <div class="ui grid container cards-container">
+         <div class="ui two stackable link cards">
+            <div class="ui blue card">
+               <div class="image">
+                  <img src="./images/iot-3337536_1920.png">
+               </div>
+               <div class="content">
+                  <a class="header">Mission and Vison</a>
+               <div class="description">
+                  <p>&rdquo;Everyone should be connected&rdquo;</p>
+               </div>
+               </div>
+            </div>
+           
+               <div class="ui blue card">
+                  <div class="image">
+                  <img src="./images/coreValuesPictures.jpg">
+                  </div>
+                  <div class="content">
+                  <a class="header">Core Values</a>
+                  <div class="description">
+                     <p>&rdquo;Privacy is security&rdquo;</p>
+                  </div>
+                  </div>
+               </div>
+               <div class="ui blue card">
+                  <div class="image">
+                  <img src="./images/send-system-999245_1920.jpg">
+                  </div>
+                  <div class="content">
+                  <a class="header">Software</a>
+                  <div class="description">
+                     <p> Quality innovation makes us flexibel and ready the future.</p>
+                  </div>
+                  </div>
+               </div>
+               <div class="ui blue card">
+                  <div class="image">
+                  <img src="./images/paper-3187096_1920.jpg">
+                  </div>
+                  <div class="content">
+                  <a class="header">Read our blog</a>
+                  <div class="description">
+                     <p>See how we make an impact across the world.</p>
+                  </div>
+                  </div>
+               </div>
+               </div>
+            </div>
+    
+       
+      <div class="scrollUpArrow">
+         <a onclick="scrollToTop()"><i class="fas fa-angle-up fa-3x"></i></a>
+      </div>
+      <footer>
+         <img class="footerArrow" src="./images/sweratelFooterArrow.png"/>
+         <div class="footer-wrapper">
+            <div class="footerCompanyText">
+               <h3>Company</h3>
+               <h4>Heterogenoussoluton</h4>
+               <h4>infrascrutcure</h4>
+               <h4>request demo</h4>
+               <h4>delivireance time</h4>
+               <h4>investor relations</h4>
+            </div>
+            <div class="footerTechnologyText">
+               <h3>Technology</h3>
+               <h4>software</h4>
+               <h4>security</h4>
+               <h4>privacy</h4>
+               <h4>maintainance</h4>
+               <h4>CellularWiFi</h4>
+            </div>
+            <div class="footerProductsText">
+               <h3>Products</h3>
+               <h4>protforlio</h4>
+               <h4>antennas</h4>
+               <h4>hardware</h4>
+               <h4>security</h4>
+               <h4>contact us</h4>
+            </div>
+            <div class="adressInfo">
+               <h3>Adress</h3>
+               <p>Kindgrensgatan 15 <br>554 74 Jönköping <br>Sweden</p>
+            </div>
+            <div class="socialMediaIcons">
+               <a href="https://www.linkedin.com/company/sweratel-ab/?trk=top_nav_home" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+               <a href="https://twitter.com/sweratel" target="_blank"><i class="fab fa-twitter"></i></a>
+               <a href="#kontaktformulärsenare"><i class="far fa-envelope"></i></a>
+               <!--                               <a href="#home"><img src="./images/Sweratel_logo_oneline2-300x83.png"></a>
+                  -->                            
+            </div>
+         </div>
+         <div class="copyRight">
+            <!-- sitemap, om oss, kontakta oss, investorrelationer, request demo system-->
+            <h6>All rights reserved © 2018 | Sweratel AB</h6>
+            <h6>Site by: Peter Cavar & David Yan</h6>
+         </div>
+      </footer>
+   </body>
+</html>

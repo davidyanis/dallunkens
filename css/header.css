@@ -1,0 +1,189 @@
+header {
+    width: 100%;
+    height: 6em;
+    overflow: hidden;
+    transition: height 0.8s;
+    background-color:rgb(79, 169, 229);
+    border-bottom: 1px solid #ddd;
+}
+.fullscreen {
+    height: 120vh;
+    background-color: rgb(79, 169, 229);
+}
+
+.nav-logo img{
+    float: left;
+    height: 6em;
+    width: 17em;
+    padding: 0.5em;
+}
+
+.logo-nav-wrapper {
+    background-color: white;
+    height: 7em;
+    width: 100%;
+    float: left;
+}
+
+.menu-button {
+    color: rgb(79, 169, 229);
+    float: right;
+    padding: 1em;
+} 
+
+/* Parent of navigation bar */
+nav {
+    margin-top: 8em;
+    width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav ul {
+   list-style: none;
+}
+
+/* Hover on navigation bar link */
+nav ul li a:hover {
+    color:black;
+}
+
+/* Navigation bar change TEXT styling */
+nav ul li a {
+    color: #333;
+    font-size: 1.4em;
+    padding: 0.5em;
+    display: block;
+    margin-top: 0.5em;
+}
+
+/* Dropdown menu box styling */
+nav ul li ul {
+    padding-left: 2em;
+    background-color:rgb(79, 169, 229);
+   
+}
+
+/* Dropdown menu change TEXT */
+nav ul li ul li a {
+    display:block;
+    padding:15px 10px;
+    color: #333;
+    border: none;
+    margin-top: 0;
+}
+
+/* Dropdown menu hover on text */
+nav ul li ul li:hover a {
+    background-color: white;
+}
+
+/* Hidden dropdown menu */
+nav ul li ul.fallback {
+    display:none;
+}
+
+/* On hover show dropdown menu */
+nav ul li:hover ul.fallback {
+    display:block;
+}
+
+.fa-angle-down {
+    padding-left: 0.4em;
+}
+
+/* Desktop only */
+@media screen and (min-width: 1050px) {
+
+    #header {
+        height: 7em;
+        display: flex;
+    }
+
+    header .nav-logo img{
+      
+       height: 7em;
+    }
+
+    header .logo-nav-wrapper {
+        background-color: white;
+        width: 25%;
+    }
+
+    nav {
+        background-color: white;
+        height: 7em;
+        margin: 0;
+    }
+    nav ul {
+       float: right;
+       padding: 0;
+    }
+    
+    nav ul li {
+        float: left;
+        font-size: 1em;
+       
+    }
+    nav ul li a:hover {
+        color: rgb(79, 169, 229) !important;
+        
+    }
+    nav ul li a {
+        padding: 1.65em;
+        font-size: 1.2em;
+        color:#333;
+    }
+
+    /* dropdown anchorbox tablet */
+    nav ul li ul {
+        position: absolute;
+        border-top: 2px solid rgb(79, 169, 229);
+        width: 12em;
+        background: white;
+        opacity: 0.9;
+        z-index: 100;
+    }
+    
+    nav ul li ul li {
+        width:110px;
+        
+    }
+
+    nav ul li ul li a {
+        display:block;
+        padding:15px 10px;
+        color:#444;
+    }
+
+    nav ul li ul li:hover a {
+        background-color: transparent;
+        color: white;
+    }
+
+    nav ul li ul.fallback {
+        display:none;
+    }
+
+    nav ul li:hover ul.fallback {
+        display:block;
+    }
+    
+    .active {
+        color: white;
+    }
+
+    header .menu-button {
+        display: none!important;
+    }
+
+
+    .nav-logo img{
+        height: 6em;
+        width: 22em;
+    }
+
+    .active {
+        color: rgb(79, 169, 229);
+    }
+}
+
