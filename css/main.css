@@ -275,10 +275,13 @@
 
 /* Press site */
 .press-container {
-    border: 1px solid red;
    flex-wrap: wrap;
-    padding: 5em;
     display: flex;
+    padding: 1em;
+}
+
+.press-release-header {
+    padding-left: 1.5em;
 }
 
 .press-side-bar {
@@ -294,12 +297,13 @@
 }
 
 .press-post {
-    width: 80%;
-    padding: 3em;
-    border: 1px solid red;
+    width: 100%;
+    padding: 2em;
+    border: 1px solid #ddd;
 
 }
 
 .press-description {
     max-width: 50em;
+    font-size: 1.2em;
 }
