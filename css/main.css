@@ -177,15 +177,13 @@
 }
 
 .containerForProductSheet {
-    height: 80em;
-    border: 1px solid red;
+    height: 77em;
     width: 100%;
 }
 
 .containerForBsProductPicture {
     height: 17em;
     width: 17em;
-    border: 1px solid red;
     margin: 1em;
 }
 
@@ -204,6 +202,8 @@
     font-size: 1.2em;
 }
 
+
+/* this is the specification buttons for prodcuts */
 .specification-btn {
     background-color: rgb(79, 169, 229);
     font-size: 1.4em;
@@ -252,7 +252,6 @@
 .specification, .key-features, .data-sheet  {
     display: none;
     margin-top: 2em;
-    text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.4em;
     margin-left: 2em;
@@ -265,15 +264,17 @@
     cursor: pointer;
 } 
 
-
+.specification-list li, .key-features-list li{
+    list-style: none;
+    margin: 0.5em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
 /* Press site */
-
 .press-container {
     border: 1px solid red;
     padding: 5em;
-   display: flex;
-
+    display: flex;
 }
 
 .press-side-bar {
