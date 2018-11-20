@@ -3,6 +3,7 @@
         width: 45em;
     }
 
+<<<<<<< HEAD
   /* product container */
 .containerForProductSheet {
     height: 60em;
@@ -100,6 +101,12 @@
     margin: 0.5em;
     font-family: 'Roboto Condensed', sans-serif;
 }
+=======
+    .h1-bg {
+        padding-top: 4em;
+    }
+
+>>>>>>> 5c080ce4a3d87eceac9d44d9e281f352a1eefb5e
 }
         
         
