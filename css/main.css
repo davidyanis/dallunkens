@@ -258,6 +258,11 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.data-sheet a {
+    color: rgb(79, 169, 229);
+    text-decoration: underline;
+}
+
 .hidden-text-product {
     display: none;
 }
@@ -272,6 +277,7 @@
     text-decoration: underline;
     margin-bottom: 1em;
     font-family: 'Roboto Condensed', sans-serif;
+    display: none;
 }
 
 /* Press site */

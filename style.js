@@ -32,22 +32,22 @@ $(document).ready(function() {
         /* shows and hides divs depending on which you click on */
         $('.specification-btn').click(function() {
             $('.specification').toggle()
-                $('.key-features').hide("slow")
-                $('.data-sheet').hide("slow")
+                $('.key-features').hide()
+                $('.data-sheet').hide()
                 // Animation complete.
         });
 
         $('.key-features-btn').click(function() {
             $('.key-features').toggle()
-                $('.specification').hide("slow")
-                $('.data-sheet').hide("slow")
+                $('.specification').hide()
+                $('.data-sheet').hide()
                 // Animation complete.
         });
 
     $('.data-sheet-btn').click(function() {
         $('.data-sheet').toggle()
-            $('.specification').hide("slow")
-            $('.key-features').hide("slow")
+            $('.specification').hide()
+            $('.key-features').hide()
             // Animation complete.
     });
 
