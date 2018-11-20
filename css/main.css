@@ -148,8 +148,9 @@
     align-content: center;
     align-items: center;
     padding: 1em;
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6) ), url("/images/tianjin-2185510_1920.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8) ), url("/images/weareHiring.jpg");
 }
+
 .contact-container h1{
     text-align: center;
     padding: 0.4em;
@@ -176,17 +177,16 @@
     flex-direction: column;
 }
 /* product container */
-.containerForProductSheet {
-    height: 60em;
+.container-for-product-sheet {
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.containerForBsProductPicture {
-    height: 17em;
-    width: 17em;
-    margin: 1em;
+.container-for-product-picture {
+    height: 20em;
+    display: flex;
+    justify-content: center;
 }
 
 .headerForProducts {
@@ -195,18 +195,16 @@
     text-align: center;
 }
 
-.containerForBsProductPicture img {
-    width: 100%;
-    height: 100%
+.container-for-product-picture img {
+    height: 100%;
+    text-align: center;
 }
 
-.informationAboutBsText p {
+.information-about-product-text {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.2em;
-    margin-left: -3em;
-    margin-right: -3em;
+    padding: 1em;
 }
-
 
 /* this is the specification buttons for prodcuts */
 .specification-btn {
@@ -242,7 +240,7 @@
     outline: none;
 }
 
-.container-for-moreinformation {
+.container-for-more-information {
     width: 100%;
 }
 
@@ -267,7 +265,7 @@
     cursor: pointer;
 } 
 
-.specification-list li, .key-features-list li{
+.specification-list li, .key-features-list li {
     list-style: none;
     margin: 0.5em;
     font-family: 'Roboto Condensed', sans-serif;
@@ -288,9 +286,8 @@
     border: 1px solid #ddd;
     width: 20%;
     padding: 1em;
-   
-   
 }
+
 .press-side-bar a{
     color: #333;
   

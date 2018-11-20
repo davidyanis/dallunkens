@@ -1,10 +1,22 @@
 @media screen and (min-width: 768px) {
+
+    body {
+        margin: 0;
+    }
+
     .contact-form {
         width: 45em;
     }
 
-    .h1-bg {
-        padding-top: 4em;
+    section .container-for-product-sheet {
+        justify-content: flex-start;
+        display: flex;
+    }
+
+   section .container-for-product-picture {
+        width: 60em;
+        height: 30em;
+
     }
 
     .press-container .press-post {
