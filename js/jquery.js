@@ -55,21 +55,21 @@ $(document).ready(function() {
         /* shows and hides divs depending on which you click on */
 
     $('.key-features-btn').click(function() {
-        $('.key-features').toggle("fast")
-            $('.specification').hide("fast")
-            $('.data-sheet').hide("fast")
+        $('.key-features').toggle()
+            $('.specification').hide()
+            $('.data-sheet').hide()
             // Animation complete.
     });
 
     $('.data-sheet-btn').click(function() {
-        $('.data-sheet').toggle("fast")
-            $('.specification').hide("fast")
-            $('.key-features').hide("fast")
+        $('.data-sheet').toggle()
+            $('.specification').hide()
+            $('.key-features').hide()
             // Animation complete.
     });
 
     $('.show-more-text-btn').click(function() {
-        $('.hidden-text-product').slideDown()
+        $('.hidden-text-product').slideDown("fast")
         $('.show-less-text-btn').show()
         $('.show-more-text-btn').hide()
     });
