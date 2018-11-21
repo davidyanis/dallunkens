@@ -40,7 +40,7 @@ $(document).ready(function() {
         $('ul', this).stop().slideUp(300);
         });
     }
-
+    $('nav li').click(function () {
     var nav = document.getElementById("toggle-icon");
     console.log(nav)
     if (nav.contains("fa-angle-down")) {
@@ -49,6 +49,7 @@ $(document).ready(function() {
       else{
         console.log("nere")
       }
+    });
     
 
         /* shows and hides divs depending on which you click on */
