@@ -148,7 +148,9 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
-    padding: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8) ), url("/images/weareHiring.jpg");
 }
 
