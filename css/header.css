@@ -16,7 +16,7 @@ header {
     float: left;
     height: 6em;
     width: 17em;
-    padding: 0.5em;
+    padding: 1em;
 }
 
 .logo-nav-wrapper {
@@ -99,8 +99,9 @@ nav ul li:hover ul.fallback {
     }
 
     header .nav-logo img{
-       height: 7em;
-       padding: 1em;
+        width: 320px;
+      height: 100px;
+      
     }
 
     header .logo-nav-wrapper {

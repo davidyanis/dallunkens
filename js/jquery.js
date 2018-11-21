@@ -21,6 +21,16 @@ var shouldPrintWrapperTwo = true
 
      /* Dropdown menu on hover */
 $(document).ready(function() {
+    /* If device under 960px */
+    if ($(window).width() < 960) {
+        $('nav li ul').hide().removeClass('fallback');
+        $('nav li').click(function () {
+            $('ul', this).stop().toggle(300);
+        });
+        $('nav li').mouseleave(function() {
+            $('ul', this).stop().slideUp(300);
+        });
+    } else {
     $('nav li ul').hide().removeClass('fallback');
     $('nav li').mouseover(function () {
         /* Change animation speed here slideDown(speed) */
@@ -29,6 +39,17 @@ $(document).ready(function() {
     $('nav li').mouseleave(function() {
         $('ul', this).stop().slideUp(300);
         });
+    }
+
+    var nav = document.getElementById("toggle-icon");
+    console.log(nav)
+    if (nav.contains("fa-angle-down")) {
+        console.log("uppe")
+      }
+      else{
+        console.log("nere")
+      }
+    
 
         /* shows and hides divs depending on which you click on */
 
