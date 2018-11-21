@@ -92,7 +92,7 @@ nav ul li:hover ul.fallback {
 }
 
 /* Desktop only */
-@media screen and (min-width: 970px) {
+@media screen and (min-width: 1050px) {
     header {
         height: 7em;
         display: flex;
@@ -130,8 +130,8 @@ nav ul li:hover ul.fallback {
     }
 
     nav ul li a {
-        padding: 0.6em;
-        height: 3.4em;
+        padding: 1em;
+        height: 3.7em;
         font-size: 1.4em;
         color: #333;
      
