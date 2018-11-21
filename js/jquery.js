@@ -34,15 +34,15 @@ $(document).ready(function() {
 
     $('.key-features-btn').click(function() {
         $('.key-features').toggle("fast")
-            $('.specification').hide()
-            $('.data-sheet').hide()
+            $('.specification').hide("fast")
+            $('.data-sheet').hide("fast")
             // Animation complete.
     });
 
     $('.data-sheet-btn').click(function() {
         $('.data-sheet').toggle("fast")
-            $('.specification').hide()
-            $('.key-features').hide()
+            $('.specification').hide("fast")
+            $('.key-features').hide("fast")
             // Animation complete.
     });
 

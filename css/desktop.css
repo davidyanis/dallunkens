@@ -43,7 +43,6 @@
     section .information-about-product-text {
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 1.2em;
-        border: 1px solid red;
     }
 
     .key-features, .data-sheet  {
