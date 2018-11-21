@@ -31,35 +31,32 @@ $(document).ready(function() {
         });
 
         /* shows and hides divs depending on which you click on */
-        $('.specification-btn').click(function() {
-            $('.specification').toggle()
-                $('.key-features').hide()
-                $('.data-sheet').hide()
-                // Animation complete.
-        });
 
-        $('.key-features-btn').click(function() {
-            $('.key-features').toggle()
-                $('.specification').hide()
-                $('.data-sheet').hide()
-                // Animation complete.
-        });
+    $('.key-features-btn').click(function() {
+        $('.key-features').toggle("fast")
+            $('.specification').hide()
+            $('.data-sheet').hide()
+            // Animation complete.
+    });
 
     $('.data-sheet-btn').click(function() {
-        $('.data-sheet').toggle()
+        $('.data-sheet').toggle("fast")
             $('.specification').hide()
             $('.key-features').hide()
             // Animation complete.
     });
 
     $('.show-more-text-btn').click(function() {
-        $('.hidden-text-product').toggle()
+        $('.hidden-text-product').slideDown()
+        $('.show-less-text-btn').show()
         $('.show-more-text-btn').hide()
     });
     
     $('.show-less-text-btn').click(function() {
-        $('.hidden-text-product').toggle()
+        $('.hidden-text-product').slideUp()
+        $('.show-more-text-btn').show()
         $('.show-less-text-btn').hide()
+
     });
 
 });
