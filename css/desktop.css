@@ -28,6 +28,10 @@
         flex-direction: column;
     }
 
+    section .container-for-product-picture img {
+        height: auto;
+    }
+
     .section-container-products {
         margin: 1em;
         display: flex;
