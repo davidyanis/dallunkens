@@ -6,9 +6,6 @@
     
 }); */
 
-var shouldPrintWrapperOne = true
-var shouldPrintWrapperTwo = true
-
 /* $(document).ready(function(){
     $('.above-main-section').hide().delay(5000).fadeIn(2000)
 });
@@ -16,6 +13,10 @@ var shouldPrintWrapperTwo = true
 $('.video-player').ready(function() {
     $('.video-player').delay(4000).fadeOut(1000)
 });  */
+
+var shouldPrintWrapperOne = true
+var shouldPrintWrapperTwo = true
+
 
 
      /* Dropdown menu on hover */
@@ -53,6 +54,12 @@ $(document).ready(function() {
 
     $('.show-more-text-btn').click(function() {
         $('.hidden-text-product').toggle()
+        $('.show-more-text-btn').hide()
+    });
+    
+    $('.show-less-text-btn').click(function() {
+        $('.hidden-text-product').toggle()
+        $('.show-less-text-btn').hide()
     });
 
 });

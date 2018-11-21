@@ -268,7 +268,7 @@
 }
 
 .show-more-text-btn {
-    text-decoration: underline;
+    text-decoration: none;
     margin-bottom: 1em;
     font-family: 'Roboto Condensed', sans-serif;
 }

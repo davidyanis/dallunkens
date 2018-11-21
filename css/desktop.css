@@ -79,4 +79,9 @@
         border: none;
         outline: none;
     }
+
+    .show-less-text-btn:hover {
+        color: rgb(79, 169, 229);
+        cursor: pointer;
+    }
 }
