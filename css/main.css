@@ -148,7 +148,9 @@
     flex-direction: column;
     align-content: center;
     align-items: center;
-    padding: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
     background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8) ), url("/images/weareHiring.jpg");
 }
 
@@ -156,8 +158,8 @@
     text-align: center;
     padding: 0.4em;
     margin: 0;
-    border-top: 1px solid #ddd;
 }
+
 .contact-container img{
     width: 15em;
     margin: 0 auto;
