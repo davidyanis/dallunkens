@@ -92,8 +92,7 @@ nav ul li:hover ul.fallback {
 }
 
 /* Desktop only */
-@media screen and (min-width: 1050px) {
-
+@media screen and (min-width: 970px) {
     header {
         height: 7em;
         display: flex;
