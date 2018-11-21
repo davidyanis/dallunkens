@@ -1,9 +1,90 @@
 @media screen and (min-width: 768px) {
+
+    body {
+        margin: 0;
+    }
+
     .contact-form {
         width: 45em;
     }
 
+    .press-container .press-post {
+        width: 70%;
+        padding: 2em;
+        border: 1px solid #ddd;
+    }
+    .press-container{
+        margin: 0 auto;
+    }
+    
+    section .container-for-product-sheet {
+        justify-content: flex-end;
+        display: flex;
+    }
+
+    section .container-for-product-picture {
+        width: 60em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section .container-for-product-picture img {
+        height: auto;
+    }
+
+    .section-container-products {
+        margin: 1em;
+        display: flex;
+        border: 0.1em solid rgb(169, 177, 182);
+        border-radius: 0.2em;
+        justify-content: center;        
+    }
+
+    section .information-about-product-text {
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.2em;
+    }
+
+    .key-features, .data-sheet  {
+        display: none;
+        margin-top: 2em;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 1.4em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .data-sheet a {
+        color: black;
+        text-decoration: underline;
+    }
+
+    .data-sheet a:hover {
+        color: rgb(137, 202, 245);
+        text-decoration: underline;
+    }
+    
+    .show-more-text-btn {
+        background: transparent;
+        border: none;
+        outline: none;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .show-more-text-btn:hover {
+        color: rgb(79, 169, 229);
+        cursor: pointer;
+    }
+
+    .show-less-text-btn {
+        background: transparent;
+        border: none;
+        outline: none;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .show-less-text-btn:hover {
+        color: rgb(79, 169, 229);
+        cursor: pointer;
+    }
 }
-        
-        
-        

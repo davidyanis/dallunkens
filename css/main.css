@@ -33,10 +33,11 @@
     }
 
     .h1-bg {
-        font-size: 4em;
+        font-size: 3em;
         text-align: center;
         color: white;
         margin: 0;
+        padding-top: 3em;
     }
 
     .description-bg {
@@ -148,8 +149,9 @@
     align-content: center;
     align-items: center;
     padding: 1em;
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6) ), url("/images/tianjin-2185510_1920.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8) ), url("/images/weareHiring.jpg");
 }
+
 .contact-container h1{
     text-align: center;
     padding: 0.4em;
@@ -176,17 +178,10 @@
     flex-direction: column;
 }
 /* product container */
-.containerForProductSheet {
-    height: 60em;
+.container-for-product-sheet {
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-.containerForBsProductPicture {
-    height: 17em;
-    width: 17em;
-    margin: 1em;
 }
 
 .headerForProducts {
@@ -195,30 +190,19 @@
     text-align: center;
 }
 
-.containerForBsProductPicture img {
+.container-for-product-picture img {
+    height: 20em;
     width: 100%;
-    height: 100%
+    display: flex;
 }
 
-.informationAboutBsText p {
+.information-about-product-text {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.2em;
-    margin-left: -3em;
-    margin-right: -3em;
+    padding: 1em;
 }
-
 
 /* this is the specification buttons for prodcuts */
-.specification-btn {
-    background-color: rgb(79, 169, 229);
-    font-size: 1.4em;
-    border-radius: 0.3em;
-    height: 2em;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin: 0.3em;
-    color: white;
-    outline: none;
-}
 
 .key-features-btn {
     background-color: rgb(79, 169, 229);
@@ -242,7 +226,7 @@
     outline: none;
 }
 
-.container-for-moreinformation {
+.container-for-more-information {
     width: 100%;
 }
 
@@ -252,51 +236,90 @@
 }
 
 /* divs should switch inbetween depending on which you click */
-.specification, .key-features, .data-sheet  {
+.key-features, .data-sheet  {
     display: none;
-    margin-top: 2em;
+    margin-top: 1em;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.4em;
     margin-left: 2em;
     margin-right: 2em;
+    margin-bottom: 1em;
 }
 
-.specification-btn:hover, .key-features-btn:hover, .data-sheet-btn:hover {
+.key-features-btn:hover, .data-sheet-btn:hover {
     background-color: white;
     color: rgb(79, 169, 229);
     cursor: pointer;
 } 
 
-.specification-list li, .key-features-list li{
+.key-features-list li {
     list-style: none;
     margin: 0.5em;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.data-sheet a {
+    color: rgb(79, 169, 229);
+    text-decoration: underline;
+}
+
+.hidden-text-product {
+    display: none;
+}
+
+.show-more-text-btn {
+    text-decoration: underline;
+    margin-bottom: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.show-less-text-btn {
+    text-decoration: underline;
+    margin-bottom: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: none;
+}
+
 /* Press site */
 .press-container {
-    border: 1px solid red;
-    padding: 5em;
+   flex-wrap: wrap;
     display: flex;
+    width: 100%;
+    padding: 1em;
+}
+
+.press-release-header {
+    padding-left: 1.5em;
 }
 
 .press-side-bar {
     border: 1px solid #ddd;
-    width: 20em;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    width: 20%;
     padding: 1em;
-   
 }
+
 .press-side-bar a{
     color: #333;
+  
 }
 
 .press-post {
-    margin-right: 4em;
+    width: 100%;
+    padding: 2em;
+    border: 1px solid #ddd;
 }
 
 .press-description {
-    width: 50em;
+    max-width: 50em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+article {
+    border-bottom: 1px solid #ddd;
+    margin-top: 2em;
+}
+
+.margin-fix-cards {
+    margin: 0!important;
 }

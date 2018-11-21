@@ -2,7 +2,7 @@ footer {
     display: flex;
     flex-direction: column;
     position: relative;
-    background-color: #F7F7F7!important;
+    background-color: #F1F0EB!important;
     width: 100%;
     height: auto;
     padding-top: 1em;
@@ -18,15 +18,15 @@ footer {
 
 
 .footerCompanyText h4 {
-    margin: 1.5em;
+    margin: 1em;
 }
 
 .footerTechnologyText h4 {
-    margin: 1.5em;
+    margin: 1em;
 }
 
 .footerProductsText h4 {
-    margin: 1.5em;
+    margin: 1em;
 }
 
 .footerCompanyText h3 {
@@ -59,7 +59,7 @@ footer {
 .footerArrow {
     z-index: 2;
     position: absolute;
-    top: -0.5em;
+    top: -0.1em;
     width: 3em;
     height: 3em;
     left: 1em;
@@ -121,8 +121,8 @@ footer {
 .copyRight {
     height: auto;
     width: 100%;                
-    background-color: rgb(172, 180, 185);
-    color: rgb(75, 78, 84);
+    background-color: rgb(4, 0, 37);
+    color: #bfbfbf;
     text-align: center;
 }
 
@@ -135,7 +135,9 @@ footer {
 
 /* These styles activates when screen goes OVER 768 pixels */
 @media screen and (min-width: 768px) {
-
+    footer {
+        padding-top: 0.4em;
+    }
     footer .footerLogo img {
         width: 18em;
         margin: auto!important;
@@ -174,28 +176,31 @@ footer {
         flex-direction: column;
         font-size: 1.5em;
         padding: 0!important;
-        margin-top: 4.7em;
+        margin-top: 2em;
     }
 
     footer .adressInfo {
         text-align: center;
         width: auto;
-        margin-top: 6em;
+       
     }
 
     footer .footerCompanyText {
         color: rgb(75, 78, 84);
         width: 20em;
+        border-right: 1px solid #a6a6a6;
     }
 
     footer .footerTechnologyText {
         color: rgb(75, 78, 84);
         width: 20em;
+        border-right: 1px solid #a6a6a6;
     }
 
     footer .footerProductsText {
         color: rgb(75, 78, 84);
         width: 20em;
+        border-right: 1px solid #a6a6a6;
     }
 
     .footerCompanyText h3 {

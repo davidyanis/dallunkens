@@ -3,19 +3,20 @@ header {
     height: 6em;
     overflow: hidden;
     transition: height 0.8s;
-    background-color:rgb(79, 169, 229);
     border-bottom: 1px solid #ddd;
 }
 .fullscreen {
     height: 120vh;
-    background-color: rgb(79, 169, 229);
+    background-color: #e6e6e6;
+    position: fixed;
+    z-index: 9999;
 }
 
 .nav-logo img{
     float: left;
     height: 6em;
     width: 17em;
-    padding: 0.5em;
+    padding: 1em;
 }
 
 .logo-nav-wrapper {
@@ -59,8 +60,6 @@ nav ul li a {
 /* Dropdown menu box styling */
 nav ul li ul {
     padding-left: 2em;
-    background-color:rgb(79, 169, 229);
-   
 }
 
 /* Dropdown menu change TEXT */
@@ -74,7 +73,7 @@ nav ul li ul li a {
 
 /* Dropdown menu hover on text */
 nav ul li ul li:hover a {
-    background-color: white;
+    color: rgb(79, 169, 229);
 }
 
 /* Hidden dropdown menu */
@@ -84,24 +83,25 @@ nav ul li ul.fallback {
 
 /* On hover show dropdown menu */
 nav ul li:hover ul.fallback {
-    display:block;
+    display: block;
 }
 
 .fa-angle-down {
     padding-left: 0.4em;
+    font-size: 0.7em;
 }
 
 /* Desktop only */
-@media screen and (min-width: 1050px) {
-
-    #header {
+@media screen and (min-width: 970px) {
+    header {
         height: 7em;
         display: flex;
     }
 
     header .nav-logo img{
+        width: 320px;
+      height: 100px;
       
-       height: 7em;
     }
 
     header .logo-nav-wrapper {
@@ -114,6 +114,7 @@ nav ul li:hover ul.fallback {
         height: 7em;
         margin: 0;
     }
+
     nav ul {
        float: right;
        padding: 0;
@@ -121,17 +122,19 @@ nav ul li:hover ul.fallback {
     
     nav ul li {
         float: left;
-        font-size: 1em;
+       
        
     }
     nav ul li a:hover {
         color: rgb(79, 169, 229) !important;
-        
     }
+
     nav ul li a {
-        padding: 1.65em;
-        font-size: 1.2em;
-        color:#333;
+        padding: 0.6em;
+        height: 3.4em;
+        font-size: 1.4em;
+        color: #333;
+     
     }
 
     /* dropdown anchorbox tablet */
@@ -140,19 +143,22 @@ nav ul li:hover ul.fallback {
         border-top: 2px solid rgb(79, 169, 229);
         width: 12em;
         background: white;
-        opacity: 0.9;
-        z-index: 100;
+        opacity: 0.95;
+        z-index: 9999;
+       
+     
     }
     
     nav ul li ul li {
-        width:110px;
-        
+        width:110px; 
     }
 
     nav ul li ul li a {
-        display:block;
-        padding:15px 10px;
-        color:#444;
+        display: block;
+        padding: 10px 3px;
+        color: #444;
+        height: 2em;
+       
     }
 
     nav ul li ul li:hover a {
@@ -161,11 +167,11 @@ nav ul li:hover ul.fallback {
     }
 
     nav ul li ul.fallback {
-        display:none;
+        display: none;
     }
 
     nav ul li:hover ul.fallback {
-        display:block;
+        display: block;
     }
     
     .active {
@@ -174,12 +180,6 @@ nav ul li:hover ul.fallback {
 
     header .menu-button {
         display: none!important;
-    }
-
-
-    .nav-logo img{
-        height: 6em;
-        width: 22em;
     }
 
     .active {

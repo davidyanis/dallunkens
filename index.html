@@ -20,8 +20,8 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
       <!-- Javascript, jQuery -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="./style.js"></script>
-      <script src="./script.js"></script>
+      <script src="./js/jquery.js"></script>
+      <script src="./js/script.js"></script>
       <script src="./semantic/semantic.js"></script>
 
    </head>
@@ -61,7 +61,7 @@
          
       <header id="header">
          <div class="logo-nav-wrapper">
-            <a class="nav-logo" href="#home"><img src="./images/SweratelLogo.png"></a>
+            <a class="nav-logo" href="index.html"><img src="./images/SweratelLogo.png"></a>
             <i id="exit-button" class="fas fa-bars menu-button fa-2x" onclick="menuButtonClicked()"></i>
          </div>
          <nav>
@@ -84,8 +84,7 @@
                      <li><a href="Het-Net.html">Het-Net</a></li>
                   </ul>
                </li>
-               <li>
-                  <a href="#">RAN <i class="fas fa-angle-down"></i></a>
+               <li id="toggle-icon"><a href="#">RAN <i class="fas fa-angle-down"></i></a>
                   <ul class="fallback">
                      <li><a href="BS.html">BS</a></li>
                      <li><a href="EBS.html">EBS</a></li>
@@ -111,6 +110,7 @@
          <video autoplay src="/images/video-home-wide-screen-4Sec.mp4">
          </video>
       </div>  -->
+      <div class="segment">
    <main>
          <div class="ui fluid home-wide-bg">
             <h1 class="h1-bg">Smartcities</h1>
@@ -123,20 +123,13 @@
             </div>
          </div>
    </main>
-        <!--  <div class="main-section-2">
-            <h2>Future WiFi</h2>
-            <div class="ui medium animated fade button smart-cities-button">
-               <div class="visible content">Possibilities</div>
-               <div class="hidden content">
-                  Learn more
-               </div>
-            </div>
-         </div> -->
+</div>
+       
      
 
       <!-- Four cards -->
       <div class="ui grid container cards-container">
-         <div class="ui two stackable link cards">
+         <div class="ui two stackable link cards margin-fix-cards">
             <div class="ui blue card">
                <div class="image">
                   <img src="./images/iot-3337536_1920.png">
@@ -184,12 +177,12 @@
                </div>
                </div>
             </div>
-    
-       
-      <div class="scrollUpArrow">
-         <a onclick="scrollToTop()"><i class="fas fa-angle-up fa-3x"></i></a>
-      </div>
-      <footer>
+            
+            
+            <footer>
+               <div class="scrollUpArrow">
+                  <a onclick="scrollToTop()"><i class="fas fa-angle-up fa-3x"></i></a>
+               </div>
          <img class="footerArrow" src="./images/sweratelFooterArrow.png"/>
          <div class="footer-wrapper">
             <div class="footerCompanyText">
@@ -223,9 +216,7 @@
             <div class="socialMediaIcons">
                <a href="https://www.linkedin.com/company/sweratel-ab/?trk=top_nav_home" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                <a href="https://twitter.com/sweratel" target="_blank"><i class="fab fa-twitter"></i></a>
-               <a href="#kontaktformulärsenare"><i class="far fa-envelope"></i></a>
-               <!--                               <a href="#home"><img src="./images/Sweratel_logo_oneline2-300x83.png"></a>
-                  -->                            
+               <a href="#kontaktformulärsenare"><i class="far fa-envelope"></i></a>                         
             </div>
          </div>
          <div class="copyRight">
