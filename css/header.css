@@ -30,6 +30,7 @@ header {
     color: rgb(79, 169, 229);
     float: right;
     padding: 1em;
+    margin-right: 0.5em!important;
 } 
 
 /* Parent of navigation bar */
@@ -86,9 +87,9 @@ nav ul li:hover ul.fallback {
     display: block;
 }
 
-.fa-angle-down {
+.arrow-down {
     padding-left: 0.4em;
-    font-size: 0.7em;
+    font-size: 0.7em!important;
 }
 
 /* Desktop only */
