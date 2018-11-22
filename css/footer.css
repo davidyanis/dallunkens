@@ -16,6 +16,15 @@ footer {
     margin-top: 1em;
 }
 
+.fa-angle-up {
+   color: #ddd;
+    
+}
+
+.fa-angle-up:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
 
 .footerCompanyText h4 {
     margin: 1em;
@@ -44,17 +53,6 @@ footer {
     color:rgb(79, 169, 229);
 }
 
-.footerLogo{
-    width: 100%;
-    display: flex;
-  
-}
-
-.footerLogo img{
-    width: 13em;
-    height: 4em;
-    margin-top: 0.5em;
- }
 
 .footerArrow {
     z-index: 2;
@@ -72,19 +70,20 @@ footer {
 
 .adressInfo {
     padding-top: 1em!important;
-    margin-top: 2em;
+  
     width: auto;
-    margin-left: 1.5em;
+  
     color: rgb(75, 78, 84);
 }
 
 /* Social media on footer, icons etc styling */
 .socialMediaIcons {
     width: auto;
-    margin-top: 1em;
     margin-left: 1.5em;
     color: #0077B5; 
     padding-bottom: 2em;
+   
+   
 }
 
 .socialMediaIcons .fa-linkedin-in {
@@ -101,14 +100,6 @@ footer {
     color: #333;
     font-size: 1.5em;
     padding-left: 0.4em;
-}
-
-.fa-angle-up {
-    color: rgb(118, 185, 230)!important;
-}
-
-.fa-angle-up:hover {
-    color: rgb(75, 78, 84)!important;
 }
 
 /* do not display this footer text in mobile version */
@@ -174,11 +165,12 @@ footer {
         flex-direction: column;
         font-size: 1.5em;
         padding: 0!important;
-        margin-top: 2em;
+        margin-top: 1.2em;
     }
 
     footer .adressInfo {
         text-align: center;
+        margin-top: 1em;
     }
 
     footer .footerCompanyText {
@@ -226,11 +218,8 @@ footer {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .footer-wrapper {
-        justify-content: space-around;
         display: flex;
         flex-direction: row;
-        margin-bottom: 2em!important;
-        margin-top: 2em!important;
         flex-wrap: wrap;
     }
     .fa-linkedin-in { 
@@ -246,7 +235,7 @@ footer {
     }
 
     footer .fa-envelope:hover, .fa-twitter:hover, .fa-linkedin-in:hover {
-        transform: scale(1.3);
+        opacity: 0.5;
     }
 
     footer .socialMediaIcons {
@@ -256,8 +245,8 @@ footer {
     }
 
     footer .adressInfo {
-        text-align: center;
-        margin-top: 5em;
+       margin-top: 3em;
+     
     }
 
     footer .footerCompanyText {
