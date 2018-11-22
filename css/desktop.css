@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
 
     body {
         margin: 0;
@@ -40,7 +40,7 @@
         display: flex;
         border: 0.1em solid rgb(169, 177, 182);
         border-radius: 0.2em;
-        justify-content: center;        
+        justify-content: center;    
     }
 
     section .information-about-product-text {
