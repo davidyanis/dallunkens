@@ -1,3 +1,5 @@
+@media screen and (min-width: 1025px) {
+
 footer {
     display: flex;
     flex-direction: column;
@@ -26,17 +28,7 @@ footer {
     cursor: pointer;
 }
 
-.footerCompanyText h4 {
-    margin: 1em;
-}
 
-.footerTechnologyText h4 {
-    margin: 1em;
-}
-
-.footerProductsText h4 {
-    margin: 1em;
-}
 
 .footerCompanyText h3 {
     margin-top: 1.5em!important;
@@ -122,167 +114,239 @@ footer {
     margin: 0;
     line-height: 2em;
     text-align: center;
+} 
 }
 
-/* These styles activates when screen goes OVER 768 pixels */
-@media screen and (min-width: 1024px) {
+/* Mobile device */
+@media screen and (max-width: 767px) {
     footer {
-        padding-top: 0.4em;
-    }
-    footer .footerLogo img {
-        width: 18em;
-        margin: auto!important;
-        height: 5em; 
-    }
-    .footer-wrapper {
-        justify-content: space-around;
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 2em!important;
-        margin-top: 2em!important;
-    }
-    .fa-linkedin-in { 
-        color: #0077B5;
-    }
-
-    .socialMediaIcons .fa-twitter {  
-        color: rgb(29, 161, 242);
-        padding: 0;
-    }
-    
-   .socialMediaIcons .fa-envelope {  
-        color: black;
-        padding: 0;
-    }
-
-    footer .fa-envelope:hover, .fa-twitter:hover, .fa-linkedin-in:hover {
-        transform: scale(1.3);
-    }
-
-    footer .socialMediaIcons {
-        width: auto;
         display: flex;
         flex-direction: column;
-        font-size: 1.5em;
-        padding: 0!important;
-        margin-top: 1.2em;
+        position: relative;
+        background-color: #F1F0EB!important;
+        width: 100%;
+        height: auto;
+        padding-top: 1em;
+        font-family: 'Roboto Condensed'!important;
+        bottom: 0;
     }
-
-    footer .adressInfo {
-        text-align: center;
+    
+    .footer-wrapper {
+        font-family: 'Roboto Condensed'!important;
+        margin-left: 4em;
         margin-top: 1em;
     }
-
-    footer .footerCompanyText {
-        color: rgb(75, 78, 84);
-        width: 20em;
-        border-right: 1px solid #a6a6a6;
+    
+    .fa-angle-up {
+       color: #ddd;
+        
     }
-
-    footer .footerTechnologyText {
-        color: rgb(75, 78, 84);
-        width: 20em;
-        border-right: 1px solid #a6a6a6;
+    
+    .fa-angle-up:hover{
+        opacity: 0.5;
+        cursor: pointer;
     }
-
-    footer .footerProductsText {
-        color: rgb(75, 78, 84);
-        width: 20em;
-        border-right: 1px solid #a6a6a6;
-    }
-
+    
+    
+    
     .footerCompanyText h3 {
         margin-top: 1.5em!important;
+        color:rgb(79, 169, 229);
     }
     
     .footerTechnologyText h3 {
-        margin-top: 1.5em!important;
+        margin-top: 2.5em!important;
+        color:rgb(79, 169, 229);
     }
     
     .footerProductsText h3 {
-        margin-top: 1.5em!important;
-    }
-
-    .footerCompanyText h4 {
-        margin: 0.5em;
+        margin-top: 2.5em!important;
+        color:rgb(79, 169, 229);
     }
     
-    .footerTechnologyText h4 {
-        margin: 0.5em;
+    
+    .footerArrow {
+        z-index: 2;
+        position: absolute;
+        top: -0.1em;
+        width: 3em;
+        height: 3em;
+        left: 1em;
+        outline: white;
+    } 
+    
+    .adressInfo h3 {
+        color:rgb(79, 169, 229);
     }
     
-    .footerProductsText h4 {
-        margin: 0.5em;
+    .adressInfo {
+        padding-top: 1em!important;
+      
+        width: auto;
+      
+        color: rgb(75, 78, 84);
+    }
+    
+    /* Social media on footer, icons etc styling */
+    .socialMediaIcons {
+        width: auto;
+        margin-left: 1.5em;
+        color: #0077B5; 
+        padding-bottom: 2em;
+       
+       
+    }
+    
+    .socialMediaIcons .fa-linkedin-in {
+        color: #0077B5;
+        font-size: 1.5em;
+    }
+    
+    .socialMediaIcons .fa-twitter {
+        font-size: 1.5em;
+        padding-left: 0.4em;
+    }
+    
+    .socialMediaIcons .fa-envelope {
+        color: #333;
+        font-size: 1.5em;
+        padding-left: 0.4em;
+    }
+    
+    /* do not display this footer text in mobile version */
+    .footer-wrapper h2 {
+        color: rgb(75, 78, 84)!important;
+    }
+    
+    /* Copyright and our credits */
+    .copyRight {
+        height: auto;
+        width: 100%;                
+        background-color: rgb(4, 0, 37);
+        color: #bfbfbf;
+        text-align: center;
+    }
+    
+    .copyRight h6 {
+        font-size: 0.9em;
+        margin: 0;
+        line-height: 2em;
+        text-align: center;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    .footer-wrapper {
+    footer {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+        background-color: #F1F0EB!important;
+        width: 100%;
+        height: auto;
+        padding-top: 1em;
+        font-family: 'Roboto Condensed'!important;
+        bottom: 0;
     }
-    .fa-linkedin-in { 
-        color: #0077B5;
+    
+    .footer-wrapper {
+        font-family: 'Roboto Condensed'!important;
+        margin-left: 4em;
+        margin-top: 1em;
     }
-    .socialMediaIcons .fa-twitter {  
-        color: rgb(29, 161, 242);
-        padding: 0;
-    }
-   .socialMediaIcons .fa-envelope {  
-        color: black;
-        padding: 0;
-    }
-
-    footer .fa-envelope:hover, .fa-twitter:hover, .fa-linkedin-in:hover {
-        opacity: 0.5;
-    }
-
-    footer .socialMediaIcons {
-        font-size: 1.5em;
-        padding: 0!important;
+    
+    .fa-angle-up {
+       color: #ddd;
         
     }
-
-    footer .adressInfo {
-       margin-top: 3em;
-     
-    }
-
-    footer .footerCompanyText {
-        color: rgb(75, 78, 84);
-        border-right: 1px solid #a6a6a6;
-        padding: 2em;
-    }
-
-    footer .footerTechnologyText {
-        color: rgb(75, 78, 84);
-        padding: 2em;
-        border-right: 1px solid #a6a6a6;
-    }
-
-    footer .footerProductsText {
-        color: rgb(75, 78, 84);
     
-        padding: 2em;
-        border-right: 1px solid #a6a6a6;
+    .fa-angle-up:hover{
+        opacity: 0.5;
+        cursor: pointer;
     }
+    
     .footerCompanyText h3 {
         margin-top: 1.5em!important;
+        color:rgb(79, 169, 229);
     }
+    
     .footerTechnologyText h3 {
-        margin-top: 1.5em!important;
+        margin-top: 2.5em!important;
+        color:rgb(79, 169, 229);
     }
+    
     .footerProductsText h3 {
-        margin-top: 1.5em!important;
+        margin-top: 2.5em!important;
+        color:rgb(79, 169, 229);
     }
-    .footerCompanyText h4 {
-        margin: 0.5em;
+    
+    
+    .footerArrow {
+        z-index: 2;
+        position: absolute;
+        top: -0.1em;
+        width: 3em;
+        height: 3em;
+        left: 1em;
+        outline: white;
+    } 
+    
+    .adressInfo h3 {
+        color:rgb(79, 169, 229);
     }
-    .footerTechnologyText h4 {
-        margin: 0.5em;
+    
+    .adressInfo {
+        padding-top: 1em!important;
+      
+        width: auto;
+      
+        color: rgb(75, 78, 84);
     }
-    .footerProductsText h4 {
-        margin: 0.5em;
+    
+    /* Social media on footer, icons etc styling */
+    .socialMediaIcons {
+        width: auto;
+        margin-left: 1.5em;
+        color: #0077B5; 
+        padding-bottom: 2em;
+       
+       
+    }
+    
+    .socialMediaIcons .fa-linkedin-in {
+        color: #0077B5;
+        font-size: 1.5em;
+    }
+    
+    .socialMediaIcons .fa-twitter {
+        font-size: 1.5em;
+        padding-left: 0.4em;
+    }
+    
+    .socialMediaIcons .fa-envelope {
+        color: #333;
+        font-size: 1.5em;
+        padding-left: 0.4em;
+    }
+    
+    /* do not display this footer text in mobile version */
+    
+    .footer-wrapper h2 {
+        color: rgb(75, 78, 84)!important;
+    }
+    
+    /* Copyright and our credits */
+    .copyRight {
+        height: auto;
+        width: 100%;                
+        background-color: rgb(4, 0, 37);
+        color: #bfbfbf;
+        text-align: center;
+    }
+    
+    .copyRight h6 {
+        font-size: 0.9em;
+        margin: 0;
+        line-height: 2em;
+        text-align: center;
     }
 }
