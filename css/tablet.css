@@ -163,19 +163,19 @@
     /* this is the specification buttons for prodcuts */
 
     .key-features-btn {
-        background-color: rgb(79, 169, 229);
+        background-color: white;
         font-size: 1.4em;
         height: 2em;
         font-family: 'Roboto Condensed', sans-serif;
         border-radius: 0.3em;
         margin: 0.3em;
-        color: white;
+        color: rgb(79, 169, 229);
         outline: none;
     }
 
     .data-sheet-btn {
-        background-color: rgb(79, 169, 229);
-        color: white;
+        background-color: white;
+        color: rgb(79, 169, 229);
         font-size: 1.4em;
         border-radius: 0.3em;
         height: 2em;
@@ -189,6 +189,7 @@
     }
 
     .container-for-buttons {
+        margin-top: 5em;
         text-align: center;
         width: 100%;
     }
@@ -205,8 +206,8 @@
     }
 
     .key-features-btn:hover, .data-sheet-btn:hover {
-        background-color: white;
-        color: rgb(79, 169, 229);
+        background-color: rgb(79, 169, 229);
+        color: white;
         cursor: pointer;
     } 
 
