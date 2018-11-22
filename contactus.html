@@ -25,38 +25,6 @@
 
    </head>
    <body>
-      <div class="emptyOverHeaderContainer">
-         <!-- <button class="buttonStyleLogIn ui right labeled icon button">
-            <span>Investor</span>
-            <i class="ui sign-in icon"></i>
-            </button> -->
-      </div>
-      <div class="mini ui modal">
-         <i class="close icon"></i>
-         <div class="header">
-            <img src="./images/SweratelLogo.png">
-         </div>
-         <div class="description">
-            <p>Password protected content</p>
-         </div>
-         <!-- detta är loginformulär, vi jobbar vidare med denna. länk via slack,
-            kan vara så att det bara är password required vill ej ha på overbar-->
-         <form action="action_page.php">
-         <div class="containerUsernameAndPassword">
-            <input type="text" placeholder="Enter Username" name="username" required>
-            <input type="password" placeholder="Enter Password" name="password" required>
-            <button class='big ui blue inverted button'>Login</button>
-         </div>
-      </div>
-
-      <!-- <header id="header">
-         <div class="logo">
-            <a href="#home"><img src="./images/SweratelLogo.png"></a>
-         </div>
-         <div class="menuParent">
-            <i id="exit-button" class="fas fa-bars menu-button fa-2x" onclick="menuButtonClicked()"></i>
-         </div>
-         -->
          
       <header id="header">
          <div class="logo-nav-wrapper">
@@ -107,29 +75,31 @@
          </nav>
       </header>
       <div class="contact-container">
-         <div class="ui large form contact-form">
-               <h1>Get in touch with us</h1>
-                <p> Fill the contact form below and we will contact you shortly.</p>
-               <div class="two fields">
-                 <div class="field">
-                   <label>Company name *</label>
-                   <input placeholder="Company name" type="text">
-                 </div>
-                 <div class="field">
-                   <label>Country/Region *</label>
-                   <input placeholder="Country/Region" type="text">
-                 </div>
-                 <div class="field">
-                   <label>Email *</label>
-                   <input placeholder="Email" type="text">
-                 </div>
+         <form method="post" action="/mail.php">
+            <div class="ui large form contact-form">
+                  <h1>Get in touch with us</h1>
+                  <p> Fill the contact form below and we will contact you shortly.</p>
+                  <div class="two fields">
+                  <div class="field">
+                     <label>Company name *</label>
+                     <input name="companyName" placeholder="Company name" type="text">
+                  </div>
+                  <div class="field">
+                     <label>Country/Region *</label>
+                     <input name="country" placeholder="Country/Region" type="text">
+                  </div>
+                  <div class="field">
+                     <label>Email *</label>
+                     <input name="email" placeholder="Email" type="text">
+                  </div>
+                  </div>
+                  <div class="field">
+                        <label>Message</label>
+                        <textarea name="message"></textarea>
+                     </div>
+                  <button type="submit" class="ui submit blue big button">Send</button>
                </div>
-               <div class="field">
-                     <label>Message</label>
-                     <textarea></textarea>
-                   </div>
-               <button type="submit" class="ui submit blue big button">Send</button>
-             </div>
+            </form>
          </div>
       
 
