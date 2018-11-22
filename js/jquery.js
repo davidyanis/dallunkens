@@ -27,13 +27,19 @@ $(document).ready(function() {
         $('nav li').click(function () {
             $('ul', this).stop().toggle(300);
             // TODO: toggle...
-            $('i', this).removeClass("down").addClass("up");
+            if ($('i', this).hasClass('down')) {
+                $('i', this).removeClass("down").addClass("up");
+            } else {
+                $('i', this).removeClass("up").addClass("down");
+            } 
         });
+
         $('nav li').mouseleave(function() {
             $('ul', this).stop().slideUp(300);
             $('i', this).removeClass("up").addClass("down");
         });
     } else {
+
         $('nav li ul').hide().removeClass('fallback');
         $('nav li').mouseover(function () {
             /* Change animation speed here slideDown(speed) */
@@ -74,6 +80,10 @@ $(document).ready(function() {
 
     });
 
+     /* Arrow up scrolling to top smooth animation */
+     $(".scrollToTop").click(function() {
+        $("html, body").animate({scrollTop: 0}, "slow");
+      });
 });
      
 

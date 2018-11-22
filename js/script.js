@@ -7,16 +7,9 @@ function menuButtonClicked() {
 
         if (exitButton.classList.contains("fa-bars")) {
             exitButton.classList.replace("fa-bars", "fa-times");
-          }
-          else{
+        } else{
             exitButton.classList.replace("fa-times", "fa-bars");
-          }
-    }
-
-/* Arrow up scrolling to top smooth animation */
-function scrollToTop() {
-  window.scroll({
-   top: 0,
-      behavior: "smooth",
-  });
+        }
 }
+
+    
