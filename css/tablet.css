@@ -188,6 +188,7 @@
     }
 
     .container-for-buttons {
+        margin-top: 5em;
         text-align: center;
         width: 100%;
     }

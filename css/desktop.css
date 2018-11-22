@@ -243,25 +243,25 @@
 /* this is the specification buttons for prodcuts */
 
 .key-features-btn {
-    background-color: rgb(79, 169, 229);
-    font-size: 1.4em;
-    height: 2em;
+    background-color: white!important;
+    color: rgb(79, 169, 229)!important;
+    height: 3em;
     font-family: 'Roboto Condensed', sans-serif;
     border-radius: 0.3em;
     margin: 0.3em;
-    color: white;
     outline: none;
+    width: 10em;
 }
 
 .data-sheet-btn {
-    background-color: rgb(79, 169, 229);
-    color: white;
-    font-size: 1.4em;
+    background-color: white!important;
+    color: rgb(79, 169, 229)!important;
     border-radius: 0.3em;
-    height: 2em;
+    height: 3em;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0.3em;
     outline: none;
+    width: 10em;
 }
 
 .container-for-more-information {
@@ -269,7 +269,9 @@
 }
 
 .container-for-buttons {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
     width: 100%;
 }
 
@@ -284,9 +286,13 @@
     margin-bottom: 1em;
 }
 
+.data-sheet-btn {
+    border-left: 1px solid rgb(199, 198, 198)!important;
+}
+
 .key-features-btn:hover, .data-sheet-btn:hover {
-    background-color: white;
-    color: rgb(79, 169, 229);
+    background-color: rgb(79, 169, 229)!important;
+    color: white!important;
     cursor: pointer;
 } 
 
