@@ -38,7 +38,6 @@
         margin-top: 3em;
         margin-bottom: 3em;
         display: flex;
-        border: 0.1em solid rgb(169, 177, 182);
         border-radius: 0.2em;
         justify-content: center;    
     }
