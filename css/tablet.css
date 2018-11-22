@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1025px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
     body {
         margin: 0;
         font-family: 'Roboto Condensed', sans-serif;
@@ -154,10 +154,10 @@
         text-align: center;
     }
 
-    .information-about-product-text {
+    section .information-about-product-text {
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 1.2em;
-        padding: 1em;
+        margin-right: 0;
     }
 
     /* this is the specification buttons for prodcuts */

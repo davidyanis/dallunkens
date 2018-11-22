@@ -26,30 +26,23 @@ $(document).ready(function() {
         $('nav li ul').hide().removeClass('fallback');
         $('nav li').click(function () {
             $('ul', this).stop().toggle(300);
+            // TODO: toggle...
+            $('i', this).removeClass("down").addClass("up");
+        });
+        $('nav li').mouseleave(function() {
+            $('ul', this).stop().slideUp(300);
+            $('i', this).removeClass("up").addClass("down");
+        });
+    } else {
+        $('nav li ul').hide().removeClass('fallback');
+        $('nav li').mouseover(function () {
+            /* Change animation speed here slideDown(speed) */
+            $('ul', this).stop().slideDown(300);
         });
         $('nav li').mouseleave(function() {
             $('ul', this).stop().slideUp(300);
         });
-    } else {
-    $('nav li ul').hide().removeClass('fallback');
-    $('nav li').mouseover(function () {
-        /* Change animation speed here slideDown(speed) */
-        $('ul', this).stop().slideDown(300);
-    });
-    $('nav li').mouseleave(function() {
-        $('ul', this).stop().slideUp(300);
-        });
     }
-    $('nav li').click(function () {
-    var nav = document.getElementById("toggle-icon");
-    console.log(nav)
-    if (nav.contains("fa-angle-down")) {
-        console.log("uppe")
-      }
-      else{
-        console.log("nere")
-      }
-    });
     
 
         /* shows and hides divs depending on which you click on */
