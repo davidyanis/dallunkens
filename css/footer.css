@@ -14,37 +14,23 @@ footer {
 
 .footer-wrapper {
     font-family: 'Roboto Condensed'!important;
-    margin-left: 4em;
-    margin-top: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3em;
 }
 
-.fa-angle-up {
-   color: #ddd;
-    
-}
-
-.fa-angle-up:hover{
-    opacity: 0.5;
-    cursor: pointer;
-}
-
-
-
-.footerCompanyText h3 {
-    margin-top: 1.5em!important;
+.footerCompanyText h3, .footerTechnologyText h3, .footerProductsText h3{
+   
     color:rgb(79, 169, 229);
 }
 
-.footerTechnologyText h3 {
-    margin-top: 2.5em!important;
-    color:rgb(79, 169, 229);
+.footerCompanyText, .footerTechnologyText, .footerProductsText {
+    border-right: 1px solid #b3b3b3;
+    width: 30em;
+    border: 1px solid red;
+    padding-left: 10em;
+    margin-left: 2em;
 }
-
-.footerProductsText h3 {
-    margin-top: 2.5em!important;
-    color:rgb(79, 169, 229);
-}
-
 
 .footerArrow {
     z-index: 2;
@@ -61,43 +47,40 @@ footer {
 }
 
 .adressInfo {
-    padding-top: 1em!important;
-  
-    width: auto;
-  
+    font-size: 1.2em;
     color: rgb(75, 78, 84);
+    padding-left: 1em;
 }
 
 /* Social media on footer, icons etc styling */
 .socialMediaIcons {
-    width: auto;
+    width: 100%;
     margin-left: 1.5em;
     color: #0077B5; 
     padding-bottom: 2em;
-   
-   
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
-.socialMediaIcons .fa-linkedin-in {
+.socialMediaIcons .twitter {
+    font-size: 2em;
+    color: #1da1f2;
+}
+
+.socialMediaIcons .linkedin {
     color: #0077B5;
-    font-size: 1.5em;
+    font-size: 2em;
 }
 
-.socialMediaIcons .fa-twitter {
-    font-size: 1.5em;
-    padding-left: 0.4em;
-}
-
-.socialMediaIcons .fa-envelope {
+.socialMediaIcons .envelope {
     color: #333;
-    font-size: 1.5em;
-    padding-left: 0.4em;
+    font-size: 2em;
+  
 }
-
-/* do not display this footer text in mobile version */
-
-.footer-wrapper h2 {
-    color: rgb(75, 78, 84)!important;
+.footerTechnologyText h4, .footerProductsText h4, .footerCompanyText h4{
+    margin: 0;
+    color: rgb(75, 78, 84);
 }
 
 /* Copyright and our credits */
@@ -180,37 +163,30 @@ footer {
     }
     
     .adressInfo {
-        padding-top: 1em!important;
-      
+        margin-top: 2em;
         width: auto;
-      
         color: rgb(75, 78, 84);
+        font-size: 1.2em;
     }
     
     /* Social media on footer, icons etc styling */
     .socialMediaIcons {
         width: auto;
-        margin-left: 1.5em;
-        color: #0077B5; 
+        margin-top: 2em;
         padding-bottom: 2em;
-       
-       
     }
     
-    .socialMediaIcons .fa-linkedin-in {
+    .socialMediaIcons .linkedin {
         color: #0077B5;
-        font-size: 1.5em;
+        font-size: 2em;
     }
-    
-    .socialMediaIcons .fa-twitter {
-        font-size: 1.5em;
-        padding-left: 0.4em;
+    .socialMediaIcons .twitter {
+        color: #1da1f2;
+        font-size: 2em; 
     }
-    
-    .socialMediaIcons .fa-envelope {
+    .socialMediaIcons .envelope {
         color: #333;
-        font-size: 1.5em;
-        padding-left: 0.4em;
+        font-size: 2em;    
     }
     
     /* do not display this footer text in mobile version */
@@ -232,6 +208,11 @@ footer {
         margin: 0;
         line-height: 2em;
         text-align: center;
+    }
+
+    .footerTechnologyText h4, .footerProductsText h4, .footerCompanyText h4{
+        margin: 0;
+        color: rgb(75, 78, 84);
     }
 }
 
@@ -327,11 +308,10 @@ footer {
         font-size: 1.5em;
         padding-left: 0.4em;
     }
-    
-    /* do not display this footer text in mobile version */
-    
-    .footer-wrapper h2 {
-        color: rgb(75, 78, 84)!important;
+
+    .footerTechnologyText h4, .footerProductsText h4, .footerCompanyText h4{
+        margin: 0;
+        color: rgb(75, 78, 84);
     }
     
     /* Copyright and our credits */

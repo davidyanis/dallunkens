@@ -18,9 +18,6 @@
         flex-direction: column;
         align-content: center;
         align-items: center;
-        padding-right: 1em;
-        padding-bottom: 1em;
-        padding-left: 1em;
         background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8) ), url("../images/weareHiring.jpg");
     }
 
@@ -39,6 +36,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-content: center;
         align-items: center;
     }
@@ -48,7 +46,6 @@
         text-align: center;
         color: white;
         margin: 0;
-        padding-top: 3em;
     }
 
     .description-bg {
@@ -197,6 +194,7 @@
     margin-top: 5em;
     text-align: center;
     width: 100%;
+    margin-bottom: 5em;
 }
 
 /* divs should switch inbetween depending on which you click */
