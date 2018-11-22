@@ -157,7 +157,7 @@
 }
 
 .contact-form {
-    margin-top: 1em;
+    margin-top: 0!important;
     padding: 3em;
     background-color: white;
     display: flex;
@@ -308,4 +308,12 @@ article {
 
 .margin-fix-cards {
     margin: 0!important;
+}
+
+.press-container .press-side-bar {
+    display: none;
+}
+
+.contact-container {
+    padding: 0!important;
 }

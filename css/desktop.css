@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
 
     body {
         margin: 0;
@@ -33,16 +33,21 @@
     }
 
     .section-container-products {
-        margin: 1em;
+        margin-left: 7em;
+        margin-right: 7em;
+        margin-top: 3em;
+        margin-bottom: 3em;
         display: flex;
         border: 0.1em solid rgb(169, 177, 182);
         border-radius: 0.2em;
-        justify-content: center;        
+        justify-content: center;    
     }
 
     section .information-about-product-text {
         font-family: 'Roboto Condensed', sans-serif;
         font-size: 1.2em;
+        margin-left: 4.5em;
+        margin-right: 4.5em;
     }
 
     .key-features, .data-sheet  {
