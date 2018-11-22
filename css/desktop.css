@@ -1,6 +1,7 @@
 @media screen and (min-width: 1024px) {
     body {
         margin: 0;
+        font-family: 'Roboto Condensed', sans-serif!important;
     }
 
     .contact-form {
@@ -103,14 +104,14 @@
         flex-direction: column;
         align-content: center;
         align-items: center;
+        justify-content: center;
     }
 
     .h1-bg {
-        font-size: 3em;
+        font-size: 4em;
         text-align: center;
         color: white;
-        margin: 0;
-        padding-top: 3em;
+       margin: 0;
     }
 
     .description-bg {
@@ -323,17 +324,18 @@
 .press-container {
    flex-wrap: wrap;
     display: flex;
+    justify-content: center;
     width: 100%;
     padding: 1em;
 }
 
 .press-release-header {
-    padding-left: 1.5em;
+    padding: 2em;
+   border: 1px solid red;
 }
 
 .press-side-bar {
-    border: 1px solid #ddd;
-    width: 20%;
+    background-color: #ddd;
     padding: 1em;
 }
 
@@ -344,14 +346,13 @@
 
 .press-post {
     width: 100%;
-    padding: 2em;
-    border: 1px solid #ddd;
 }
 
 .press-description {
     max-width: 50em;
     font-size: 1.2em;
     line-height: 1.5em;
+    padding-bottom: 1em;
 }
 
 article {
@@ -361,10 +362,6 @@ article {
 
 .margin-fix-cards {
     margin: 0!important;
-}
-
-.press-container .press-side-bar {
-    display: none;
 }
 
 }
