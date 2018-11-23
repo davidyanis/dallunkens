@@ -25,55 +25,55 @@
 
    </head>
    <body>
-         
-      <header id="header">
-         <div class="logo-nav-wrapper">
-            <a class="nav-logo" href="index.html"><img src="./images/SweratelLogo.png"></a>
-            <i id="exit-button" class="fas fa-bars menu-button fa-2x" onclick="menuButtonClicked()"></i>
-         </div>
-         <nav>
-            <ul>
-               <li><a href="index.html">Home</a></li>
-               <li>
-                  <a href="#">Company <i class="fas fa-angle-down"></i></a>
-                  <ul class="fallback">
-                     <li><a href="facts.html">Facts</a></li>
-                     <li><a href="slogan.html">Slogan</a></li>
-                  </ul>
-               </li>
-               <li>
-                  <a href="#">Technology <i class="fas fa-angle-down"></i></a>
-                  <ul class="fallback">
-                     <li><a href="RNMS.html">RNMS</a></li>
-                     <li><a href="SCM.html">SCM</a></li>
-                     <li><a href="CRM.html">CRM</a></li>
-                     <li><a href="OLS.html">OLS</a></li>
-                     <li><a href="Het-Net.html">Het-Net</a></li>
-                  </ul>
-               </li>
-               <li>
-                  <a href="#">RAN <i class="fas fa-angle-down"></i></a>
-                  <ul class="fallback">
-                     <li><a href="BS.html">BS</a></li>
-                     <li><a href="EBS.html">EBS</a></li>
-                     <li><a href="IBS.html">IBS</a></li>
-                     <li><a href="MNC.html">MNC</a></li>
-                  </ul>
-               </li>
-               <li>
-                  <a href="#">Antennas <i class="fas fa-angle-down"></i></a>
-                  <ul class="fallback">
-                     <li><a href="AX2.4.html">AX2.4</a></li>
-                     <li><a href="AX5.html">AX5</a></li>
-                     <li><a href="BH2.4.html">BH2.4</a></li>
-                     <li><a href="BH5.html">BH5</a></li>
-                  </ul>
-               </li>
-               <li><a href="press.html">Press</a></li>
-               <li><a href="contactus.html" class="active">Contact us</a></li>
-            </ul>
-         </nav>
-      </header>
+
+<header id="header">
+      <div class="logo-nav-wrapper">
+         <a class="nav-logo" href="index.html"><img src="./images/SweratelLogo.png"></a>
+         <i id="exit-button" class="bars big icon menu-button" onclick="menuButtonClicked()"></i>
+      </div>
+      <nav>
+         <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li>
+               <a href="#">Company <i class="chevron down icon arrow-down"></i></a>
+               <ul class="fallback">
+                  <li><a href="facts.html">Facts</a></li>
+                  <li><a href="slogan.html">Slogan</a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="#">Technology <i class="chevron down icon arrow-down"></i></a>
+               <ul class="fallback">
+                  <li><a href="RNMS.html">RNMS</a></li>
+                  <li><a href="SCM.html">SCM</a></li>
+                  <li><a href="CRM.html">CRM</a></li>
+                  <li><a href="OLS.html">OLS</a></li>
+                  <li><a href="Het-Net.html">Het-Net</a></li>
+               </ul>
+            </li>
+            <li id="toggle-icon"><a href="#">RAN <i class="chevron down icon arrow-down"></i></a>
+               <ul class="fallback">
+                  <li><a href="BS.html">BS</a></li>
+                  <li><a href="EBS.html">EBS</a></li>
+                  <li><a href="IBS.html">IBS</a></li>
+                  <li><a href="MNC.html">MNC</a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="#">Antennas <i class="chevron down icon arrow-down"></i></a>
+               <ul class="fallback">
+                  <li><a href="AX2.4.html">AX2.4</a></li>
+                  <li><a href="AX5.html">AX5</a></li>
+                  <li><a href="BH2.4.html">BH2.4</a></li>
+                  <li><a href="BH5.html">BH5</a></li>
+               </ul>
+            </li>
+            <li><a href="press.html">Press</a></li>
+            <li><a href="contactus.html">Contact us</a></li>
+         </ul>
+      </nav>
+   </header>
+
       <div class="contact-container">
          <form method="post" action="/mail.php">
             <div class="ui large form contact-form">
@@ -103,53 +103,50 @@
          </div>
       
 
-       
          <footer>
-         <div class="scrollUpArrow">
-            <a onclick="scrollToTop()"><i class="fas fa-angle-up fa-3x"></i></a>
-         </div>
-         <img class="footerArrow" src="./images/sweratelFooterArrow.png"/>
-         <div class="footer-wrapper">
-            <div class="footerCompanyText">
-               <h3>Company</h3>
-               <h4>Heterogenoussoluton</h4>
-               <h4>infrascrutcure</h4>
-               <h4>request demo</h4>
-               <h4>delivireance time</h4>
-               <h4>investor relations</h4>
-            </div>
-            <div class="footerTechnologyText">
-               <h3>Technology</h3>
-               <h4>software</h4>
-               <h4>security</h4>
-               <h4>privacy</h4>
-               <h4>maintainance</h4>
-               <h4>CellularWiFi</h4>
-            </div>
-            <div class="footerProductsText">
-               <h3>Products</h3>
-               <h4>protforlio</h4>
-               <h4>antennas</h4>
-               <h4>hardware</h4>
-               <h4>security</h4>
-               <h4>contact us</h4>
-            </div>
-            <div class="adressInfo">
-               <h3>Adress</h3>
-               <p>Kindgrensgatan 15 <br>554 74 Jönköping <br>Sweden</p>
-            </div>
-            <div class="socialMediaIcons">
-               <a href="https://www.linkedin.com/company/sweratel-ab/?trk=top_nav_home" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-               <a href="https://twitter.com/sweratel" target="_blank"><i class="fab fa-twitter"></i></a>
-               <a href="#kontaktformulärsenare"><i class="far fa-envelope"></i></a>
-               <!--                               <a href="#home"><img src="./images/Sweratel_logo_oneline2-300x83.png"></a>
-                  -->                            
-            </div>
-         </div>
-         <div class="copyRight">
-            <a onclick="scrollToTop()"><i class="fas fa-angle-up fa-3x"></i></a>
-            <h6>All rights reserved © 2018 | Sweratel AB</h6>
-         </div>
-      </footer>
-   </body>
-</html>
+               
+               <img class="footerArrow" src="./images/sweratelFooterArrow.png"/>
+               <div class="footer-wrapper">
+                  <div class="footerCompanyText">
+                     <h3>Company</h3>
+                     <h4>Heterogenoussoluton</h4>
+                     <h4>infrascrutcure</h4>
+                     <h4>request demo</h4>
+                     <h4>delivireance time</h4>
+                     <h4>investor relations</h4>
+                  </div>
+                  <div class="footerTechnologyText">
+                     <h3>Technology</h3>
+                     <h4>software</h4>
+                     <h4>security</h4>
+                     <h4>privacy</h4>
+                     <h4>maintainance</h4>
+                     <h4>CellularWiFi</h4>
+                  </div>
+                  <div class="footerProductsText">
+                     <h3>Products</h3>
+                     <h4>Portfolio</h4>
+                     <h4>antennas</h4>
+                     <h4>hardware</h4>
+                     <h4>security</h4>
+                     <h4>contact us</h4>
+                  </div>
+                  <div class="adressInfo">
+                     <h3>Adress</h3>
+                     <p>Kindgrensgatan 15 <br>554 74 Jönköping <br>Sweden</p>
+                  </div>
+                  <div class="socialMediaIcons">
+                     <a href="https://www.linkedin.com/company/sweratel-ab/?trk=top_nav_home" target="_blank"><i class="linkedin icon"></i></a>
+                     <a href="https://twitter.com/sweratel" target="_blank"><i class="twitter icon"></i></a>
+                     <a href="#kontaktformulärsenare"><i class="envelope outline icon"></i></a>                         
+                  </div>
+               </div>
+               <div class="copyRight">
+                  <!-- sitemap, om oss, kontakta oss, investorrelationer, request demo system-->
+                  <span class="scrollToTop"><i class="angle up icon arrow-to-top"></i></span>
+                  <h6>All rights reserved © 2018 | Sweratel AB</h6>
+               
+               </div>
+            </footer>
+         </body>
+      </html>
