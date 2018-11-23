@@ -6,8 +6,8 @@ header {
     border-bottom: 1px solid #ddd;
 }
 .fullscreen {
-    height: 120vh;
-    background-color: #e6e6e6;
+    height: 110vh;
+    background-color: rgb(202, 234, 255);
     z-index: 9999;
 }
 
