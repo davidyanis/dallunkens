@@ -149,16 +149,18 @@ nav ul li:hover ul.fallback {
     
     nav ul li {
         float: left;
+
        
        
     }
     nav ul li a:hover {
         color: rgb(79, 169, 229) !important;
+        border-bottom: 2px solid rgb(79, 169, 229);
     }
 
     nav ul li a {
         padding: 1em;
-        height: 3.7em;
+        height: 3.8em;
         font-size: 1.4em;
         color: #333;
         -o-transition:.5s;
@@ -170,7 +172,6 @@ nav ul li:hover ul.fallback {
 
     /* dropdown box tablet */
     nav ul li ul {
-        border-top: 2px solid rgb(79, 169, 229);
         position: absolute;
         width: 12em;
         background: white;
@@ -180,6 +181,7 @@ nav ul li:hover ul.fallback {
     
     nav ul li ul li {
         width:110px; 
+       
     }
 
     nav ul li ul li a {
@@ -187,12 +189,12 @@ nav ul li:hover ul.fallback {
         padding: 10px 3px;
         color: #444;
         height: 2em;
-       
+      
     }
 
     nav ul li ul li:hover a {
         background-color: transparent;
-        color: white;
+        border: none;
     }
 
     nav ul li ul.fallback {

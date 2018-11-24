@@ -105,17 +105,22 @@ footer {
 .copyRight {
     height: auto;
     width: 100%;                
-    background-color: rgb(4, 0, 37);
-    color: #bfbfbf;
+    background-color: rgb(79, 169, 229);
+    color: #fff;
     text-align: center;
 }
 
-.copyRight h6 {
-    font-size: 0.9em;
-    margin: 0;
-    line-height: 2em;
-    text-align: center;
-} 
+    .copyRight h6 {
+        font-size: 0.9em;
+        margin: 0;
+        line-height: 2em;
+        text-align: center;
+    } 
+
+    .arrow-to-top {
+    color: #fff!important;
+    }
+ 
 }
 
 /* Mobile device */
@@ -133,16 +138,6 @@ footer {
         margin: 4em 4em 0em 4em;
         justify-content: space-between;
         font-family: 'Roboto Condensed', sans-serif!important;
-    }
-    
-    .fa-angle-up {
-       color: #ddd;
-        
-    }
-    
-    .fa-angle-up:hover{
-        opacity: 0.5;
-        cursor: pointer;
     }
     
     .footer-links h3{
@@ -208,8 +203,8 @@ footer {
     .copyRight {
         height: auto;
         width: 100%;                
-        background-color: rgb(4, 0, 37);
-        color: #bfbfbf;
+        background-color: rgb(79, 169, 229);
+        color: #fff!important;
         text-align: center;
     }
     
@@ -219,6 +214,9 @@ footer {
         line-height: 2em;
         text-align: center;
     }
+    .arrow-to-top {
+        color: #fff!important;
+        }
 
 }
 
@@ -240,7 +238,7 @@ footer {
     }
     
     .fa-angle-up {
-       color: #ddd;
+       color: #fff;
         
     }
     
@@ -311,8 +309,8 @@ footer {
     .copyRight {
         height: auto;
         width: 100%;                
-        background-color: rgb(4, 0, 37);
-        color: #bfbfbf;
+        background-color: rgb(79, 169, 229);
+        color: #fff;
         text-align: center;
     }
     
@@ -321,6 +319,9 @@ footer {
         margin: 0;
         line-height: 2em;
         text-align: center;
+    }
+    .arrow-to-top {
+        color: #fff!important;
     }
 }
 
