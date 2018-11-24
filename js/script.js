@@ -1,14 +1,15 @@
 
+ 
 /* Navbar mobile toggle */
 function menuButtonClicked() {
-  var header = document.getElementById("header");
+  var header = document.querySelector("header");
     var exitButton = document.getElementById("exit-button");
         header.classList.toggle("fullscreen")
 
-        if (exitButton.classList.contains("fa-bars")) {
-            exitButton.classList.replace("fa-bars", "fa-times");
+        if (exitButton.classList.contains("bars")) {
+            exitButton.classList.replace("bars", "remove");
         } else{
-            exitButton.classList.replace("fa-times", "fa-bars");
+            exitButton.classList.replace("remove", "bars");
         }
 }
 

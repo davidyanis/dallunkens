@@ -61,9 +61,10 @@
         color: white!important;
     }
 
-    .cards-container {
+    .cards-container > *{
         margin-top: 3em !important;
         margin-bottom: 3em!important;
+        padding: 0!important;
     }
 
     .loginButton {
@@ -282,9 +283,7 @@ article {
     margin-top: 2em;
 }
 
-.margin-fix-cards {
-    margin: 0!important;
-}
+
 
 .press-container .press-side-bar {
     display: none;

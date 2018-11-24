@@ -1,36 +1,47 @@
 @media screen and (min-width: 1025px) {
 
 footer {
-    display: flex;
-    flex-direction: column;
     position: relative;
     background-color: #F1F0EB!important;
     width: 100%;
-    height: auto;
     padding-top: 1em;
-    font-family: 'Roboto Condensed'!important;
     bottom: 0;
 }
 
 .footer-wrapper {
-    font-family: 'Roboto Condensed'!important;
     display: flex;
-    justify-content: space-evenly;
-    margin: 3em;
+    margin: 4em;
+    font-family: 'Roboto Condensed', sans-serif!important;
 }
 
-.footerCompanyText h3, .footerTechnologyText h3, .footerProductsText h3{
-   
+.footer-links h3{
+    color:rgb(79, 169, 229);
+}
+.footer-links h3{
     color:rgb(79, 169, 229);
 }
 
-.footerCompanyText, .footerTechnologyText, .footerProductsText {
+.footer-links{
     border-right: 1px solid #b3b3b3;
-    width: 30em;
-    border: 1px solid red;
-    padding-left: 10em;
+   flex-grow: 2;
     margin-left: 2em;
+    list-style: none;
 }
+
+
+.footer-links li a{
+    color: #333!important;
+    font-size: 1.3em;
+    opacity: 0.9;
+}
+.footer-links li {
+    margin-bottom: 0.8em;
+}
+.footer-links li a:hover{
+    border-bottom: 2px solid rgb(79, 169, 229);
+}
+
+
 
 .footerArrow {
     z-index: 2;
@@ -44,23 +55,23 @@ footer {
 
 .adressInfo h3 {
     color:rgb(79, 169, 229);
+    font-family: 'Roboto Condensed', sans-serif!important;
 }
 
 .adressInfo {
     font-size: 1.2em;
     color: rgb(75, 78, 84);
-    padding-left: 1em;
+    margin-left: 2em;
+    flex-grow: 2;
 }
 
 /* Social media on footer, icons etc styling */
 .socialMediaIcons {
-    width: 100%;
-    margin-left: 1.5em;
-    color: #0077B5; 
-    padding-bottom: 2em;
+   align-items: flex-end;
+   justify-content: center;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    flex-grow: 2;
 }
 
 .socialMediaIcons .twitter {
@@ -78,7 +89,14 @@ footer {
     font-size: 2em;
   
 }
-.footerTechnologyText h4, .footerProductsText h4, .footerCompanyText h4{
+
+.twitter:hover, .linkedin:hover, .envelope:hover {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+.footer-links h4{
     margin: 0;
     color: rgb(75, 78, 84);
 }
@@ -103,21 +121,18 @@ footer {
 /* Mobile device */
 @media screen and (max-width: 767px) {
     footer {
-        display: flex;
-        flex-direction: column;
         position: relative;
         background-color: #F1F0EB!important;
         width: 100%;
         height: auto;
         padding-top: 1em;
-        font-family: 'Roboto Condensed'!important;
         bottom: 0;
     }
     
     .footer-wrapper {
-        font-family: 'Roboto Condensed'!important;
-        margin-left: 4em;
-        margin-top: 1em;
+        margin: 4em 4em 0em 4em;
+        justify-content: space-between;
+        font-family: 'Roboto Condensed', sans-serif!important;
     }
     
     .fa-angle-up {
@@ -130,21 +145,21 @@ footer {
         cursor: pointer;
     }
     
-    
-    
-    .footerCompanyText h3 {
-        margin-top: 1.5em!important;
+    .footer-links h3{
         color:rgb(79, 169, 229);
     }
-    
-    .footerTechnologyText h3 {
-        margin-top: 2.5em!important;
-        color:rgb(79, 169, 229);
+    .footer-links {
+    list-style: none;
+    padding-bottom: 2em;
+   
     }
-    
-    .footerProductsText h3 {
-        margin-top: 2.5em!important;
-        color:rgb(79, 169, 229);
+    .footer-links li a{
+        color: #333!important;
+        font-size: 1.3em;
+        opacity: 0.9;
+    }
+    .footer-links li {
+        margin-bottom: 1em;
     }
     
     
@@ -160,10 +175,10 @@ footer {
     
     .adressInfo h3 {
         color:rgb(79, 169, 229);
+        font-family: 'Roboto Condensed', sans-serif!important;
     }
-    
     .adressInfo {
-        margin-top: 2em;
+      
         width: auto;
         color: rgb(75, 78, 84);
         font-size: 1.2em;
@@ -189,11 +204,6 @@ footer {
         font-size: 2em;    
     }
     
-    /* do not display this footer text in mobile version */
-    .footer-wrapper h2 {
-        color: rgb(75, 78, 84)!important;
-    }
-    
     /* Copyright and our credits */
     .copyRight {
         height: auto;
@@ -210,29 +220,23 @@ footer {
         text-align: center;
     }
 
-    .footerTechnologyText h4, .footerProductsText h4, .footerCompanyText h4{
-        margin: 0;
-        color: rgb(75, 78, 84);
-    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     footer {
-        display: flex;
-        flex-direction: column;
         position: relative;
         background-color: #F1F0EB!important;
         width: 100%;
         height: auto;
         padding-top: 1em;
-        font-family: 'Roboto Condensed'!important;
         bottom: 0;
     }
     
     .footer-wrapper {
         font-family: 'Roboto Condensed'!important;
-        margin-left: 4em;
-        margin-top: 1em;
+        margin: 4em 4em 0em 4em;
+        display: flex;
+        flex-wrap: wrap;
     }
     
     .fa-angle-up {
@@ -245,19 +249,21 @@ footer {
         cursor: pointer;
     }
     
-    .footerCompanyText h3 {
-        margin-top: 1.5em!important;
+    .footer-links h3{
         color:rgb(79, 169, 229);
     }
-    
-    .footerTechnologyText h3 {
-        margin-top: 2.5em!important;
-        color:rgb(79, 169, 229);
+    .footer-links {
+    list-style: none;
+    padding-bottom: 2em;
+    width: 50%;
     }
-    
-    .footerProductsText h3 {
-        margin-top: 2.5em!important;
-        color:rgb(79, 169, 229);
+    .footer-links li a{
+        color: #333!important;
+        font-size: 1.3em;
+        opacity: 0.9;
+    }
+    .footer-links li {
+        margin-bottom: 1em;
     }
     
     
@@ -276,42 +282,29 @@ footer {
     }
     
     .adressInfo {
-        padding-top: 1em!important;
-      
-        width: auto;
-      
+        font-size: 1.2em;
         color: rgb(75, 78, 84);
+        flex-grow: 4;
     }
     
     /* Social media on footer, icons etc styling */
     .socialMediaIcons {
-        width: auto;
-        margin-left: 1.5em;
-        color: #0077B5; 
+        width: 100%;
+        margin-top: 2em;
         padding-bottom: 2em;
-       
-       
     }
     
-    .socialMediaIcons .fa-linkedin-in {
+    .socialMediaIcons .linkedin {
         color: #0077B5;
-        font-size: 1.5em;
+        font-size: 2em;
     }
-    
-    .socialMediaIcons .fa-twitter {
-        font-size: 1.5em;
-        padding-left: 0.4em;
+    .socialMediaIcons .twitter {
+        color: #1da1f2;
+        font-size: 2em; 
     }
-    
-    .socialMediaIcons .fa-envelope {
+    .socialMediaIcons .envelope {
         color: #333;
-        font-size: 1.5em;
-        padding-left: 0.4em;
-    }
-
-    .footerTechnologyText h4, .footerProductsText h4, .footerCompanyText h4{
-        margin: 0;
-        color: rgb(75, 78, 84);
+        font-size: 2em;    
     }
     
     /* Copyright and our credits */
@@ -328,5 +321,73 @@ footer {
         margin: 0;
         line-height: 2em;
         text-align: center;
+    }
+}
+
+/* Hover effect */
+@-webkit-keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+       transform: translateX(-5px);
+    } 
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+@keyframes swing
+{
+    15%
+    {
+        -webkit-transform: translateX(5px);
+        transform: translateX(5px);
+    }
+    30%
+    {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        -webkit-transform: translateX(3px);
+        transform: translateX(3px);
+    }
+    65%
+    {
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        -webkit-transform: translateX(2px);
+        transform: translateX(2px);
+    }
+    100%
+    {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
     }
 }
