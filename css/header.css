@@ -8,14 +8,13 @@ header {
 }
 .fullscreen {
     height: 110vh;
-    background-color: rgb(202, 234, 255);
+    background-color: white;
     z-index: 9999;
 }
 
 .nav-logo img{
     float: left;
     height: 7em;
-   
     padding: 1em;
 }
 
@@ -63,7 +62,7 @@ nav ul li a:hover {
 
 /* Navigation bar change TEXT styling */
 nav ul li a {
-    color: #333;
+    color: rgb(79, 169, 229);
     font-size: 1.4em;
     padding: 0.5em;
     display: block;
