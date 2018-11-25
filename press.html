@@ -22,143 +22,136 @@
       <script src="./js/jquery.js"></script>
       <script src="./js/script.js"></script>
       <script src="./semantic/semantic.js"></script>
-
    </head>
    <body>
-
-<header id="header">
-      <div class="logo-nav-wrapper">
-         <a class="nav-logo" href="index.html"><img src="./images/SweratelLogo.png"></a>
-         <i id="exit-button" class="bars big icon menu-button" onclick="menuButtonClicked()"></i>
-      </div>
-      <nav>
-         <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li>
-               <a href="#">Company <i class="chevron down icon arrow-down"></i></a>
-               <ul class="fallback">
-                  <li><a href="facts.html">Facts</a></li>
-                  <li><a href="slogan.html">Slogan</a></li>
-               </ul>
-            </li>
-            <li>
-               <a href="#">Technology <i class="chevron down icon arrow-down"></i></a>
-               <ul class="fallback">
-                  <li><a href="RNMS.html">RNMS</a></li>
-                  <li><a href="SCM.html">SCM</a></li>
-                  <li><a href="CRM.html">CRM</a></li>
-                  <li><a href="OLS.html">OLS</a></li>
-                  <li><a href="Het-Net.html">Het-Net</a></li>
-               </ul>
-            </li>
-            <li id="toggle-icon"><a href="#">RAN <i class="chevron down icon arrow-down"></i></a>
-               <ul class="fallback">
-                  <li><a href="BS.html">BS</a></li>
-                  <li><a href="EBS.html">EBS</a></li>
-                  <li><a href="IBS.html">IBS</a></li>
-                  <li><a href="MNC.html">MNC</a></li>
-               </ul>
-            </li>
-            <li>
-               <a href="#">Antennas <i class="chevron down icon arrow-down"></i></a>
-               <ul class="fallback">
-                  <li><a href="AX2.4.html">AX2.4</a></li>
-                  <li><a href="AX5.html">AX5</a></li>
-                  <li><a href="BH2.4.html">BH2.4</a></li>
-                  <li><a href="BH5.html">BH5</a></li>
-               </ul>
-            </li>
-            <li><a href="press.html">Press</a></li>
-            <li><a href="contactus.html">Contact us</a></li>
-         </ul>
-      </nav>
-   </header>
-
+      <!-- Hold space behind fixed navbar -->
+      <div class="place-holder"></div>
+      <header id="header" class="nav-down">
+         <div class="logo-nav-wrapper">
+            <a class="nav-logo" href="index.html"><img id="Logo" src="./images/SweratelLogo.png"></a>
+            <i id="exit-button" class="bars big icon menu-button" onclick="menuButtonClicked()"></i>
+         </div>
+         <nav>
+            <ul>
+               <li><a href="index.html">Home</a></li>
+               <li>
+                  <a href="#">Company <i class="chevron down icon arrow-down"></i></a>
+                  <ul class="fallback">
+                     <li><a href="facts.html">Facts</a></li>
+                     <li><a href="slogan.html">Slogan</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a href="#">Technology <i class="chevron down icon arrow-down"></i></a>
+                  <ul class="fallback">
+                     <li><a href="RNMS.html">RNMS</a></li>
+                     <li><a href="SCM.html">SCM</a></li>
+                     <li><a href="CRM.html">CRM</a></li>
+                     <li><a href="OLS.html">OLS</a></li>
+                     <li><a href="Het-Net.html">Het-Net</a></li>
+                  </ul>
+               </li>
+               <li id="toggle-icon">
+                  <a href="#">RAN <i class="chevron down icon arrow-down"></i></a>
+                  <ul class="fallback">
+                     <li><a href="BS.html">BS</a></li>
+                     <li><a href="EBS.html">EBS</a></li>
+                     <li><a href="IBS.html">IBS</a></li>
+                     <li><a href="MNC.html">MNC</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <a href="#">Antennas <i class="chevron down icon arrow-down"></i></a>
+                  <ul class="fallback">
+                     <li><a href="AX2.4.html">AX2.4</a></li>
+                     <li><a href="AX5.html">AX5</a></li>
+                     <li><a href="BH2.4.html">BH2.4</a></li>
+                     <li><a href="BH5.html">BH5</a></li>
+                  </ul>
+               </li>
+               <li><a href="press.html" class="active">Press</a></li>
+               <li><a href="contactus.html">Contact us</a></li>
+            </ul>
+         </nav>
+      </header>
       <h1 class="press-release-header">Press release</h1>
-   <div class="press-container">
-          <div class="press-post">
+      <div class="press-container">
+         <div class="press-post">
             <article>
-                <h2 class="ui header"><a href="#">The Sweratel RTWIP-CORE solution equipped with robust Ultra-Wide Band MIMO Antenna solutions provide improved MIMO Networked Efficiency</a>
-                    <div class="sub header"><i class="far fa-clock"></i> Jönköping, Sweden 2017-12-14
-                    <span class="ui right floated medium labels">
-                    <div class="ui label">
-                        <i class="tag icon"></i> Public WiFi
-                    </div>
-                    <div class="ui label">
-                        <i class="tag icon"></i> Metrostation broadband
-                    </div>
-                        </span>
-                    </div>
-                </h2>
-    
-             
-                <p class="press-description">
-                     <strong>Sweratel allows customers to extend their fiber coverage to existing Smart devices, Things, Personal wearables and tap new networked society including smart grid markets.</strong>
-                     <br>
-                     With a sleek slim new innovative Pard MIMO antenna series that integrate the Sweratel® RTWIP-CORE solution with 802.11-family standards capabilities, operators and ISP etc, can now offer their customers the ability to create their own Cloud-managed Metro-Public-WiFi clusters instantly – unlimited access on the move, the lowest cost per Mbps and unmatched capacity vs cellular data limitation, Sweratel announced today.
-                     
-                     Operators, Telcos and ISPs including other new entrants from Municipalities, IoT and Networked Society sectors can bundle the best last-mile WAN technology with the state-of-art RTWIP-CORE system to offer customers instant Heterogeneous Metro-Public WiFi Networked solution riding the data tsunami heading their way delivering coverage and data-capacity demands in the most challenging areas such as urban, suburban, rural, smart communities etc, providing users with a truly complete mobility lifestyle.
-                     
-                     The new advance Pard Ultra-wide/Multi-band MIMO series contains the specification for the 3×3 MIMO access antenna designed for the Sweratel RTWIP Carrier-class MetroWiFi Networks operating in the 2.4 ~ 6 GHz frequency bands including 4.9 GHz for public safety. The antennas utilize polarization diversity and offset azimuth beams to maximize MIMO throughput.
-                     
-                     The Pard antenna product-line includes 3×3 MIMO (4×4 MIMO optional) each with its own RF connector, and housed in a single IP67 chassis.  Emphasis has been placed on rugged mechanical construction, combined with an aesthetically pleasing appearance and simple rapid installation. The antennas are supplied with user-friendly mounting brackets providing either a fixed T0 tilt, or adjustable tilt.                   
-                </p>
-            </article>
-            <article>
-                <h2 class="ui header"><a href="#">Sweratel Announces Initial Deployments for RTWIP-CORE Solution in MENA</a>
-                    <div class="sub header"><i class="far fa-clock"></i> Jönköping, Sweden 2017-10-26
-                              <span class="ui right floated medium labels">
-                    <div class="ui label">
-                        <i class="tag icon"></i> Personal
-                    </div>
-                    <div class="ui label">
-                        <i class="tag icon"></i> Internet
-                    </div>
-                        </span>
-                    
-                    </div>
-                </h2>
-                <p class="press-description">
-               Sweratel today announced further deployments of its RTWIP Carrier-class MetroWiFi broadband solution designed for both the Public MetroWiFi and the Smart Networked Society. 
-                A MENA IT- & Telecom group with Regional telco, are moving forward with the first deployment of the Sweratel RTWIP solution to offer Carrier-class MetroWiFi broadband services to both consumers and business.
-                </p>
-            </article>
-            <article>
-               <h2 class="ui header"><a href="#">Sweratel participates in the Smart City Infrastructure Event in Hanoi</a>
-                   <div class="sub header"><i class="far fa-clock"></i> Jönköping, Sweden 2017-10-25
+               <h2 id="theSweratelSolution" class="ui header">
+                  <a href="#">The Sweratel RTWIP-CORE solution equipped with robust Ultra-Wide Band MIMO Antenna solutions provide improved MIMO Networked Efficiency</a>
+                  <div class="sub header">
+                     <i class="far fa-clock"></i> Jönköping, Sweden 2017-12-14
                      <span class="ui right floated medium labels">
-                   <div class="ui label">
-                       <i class="tag icon"></i> Public WiFi
-                   </div>
-                   <div class="ui label">
-                       <i class="tag icon"></i> Metrostation broadband
-                   </div>
+                        <div class="ui label">
+                           <i class="tag icon"></i> Public WiFi
+                        </div>
+                        <div class="ui label">
+                           <i class="tag icon"></i> Metrostation broadband
+                        </div>
                      </span>
-                   </div>
+                  </div>
                </h2>
-   
-            
+               <p class="press-description">
+                  <strong>Sweratel allows customers to extend their fiber coverage to existing Smart devices, Things, Personal wearables and tap new networked society including smart grid markets.</strong>
+                  <br>
+                  With a sleek slim new innovative Pard MIMO antenna series that integrate the Sweratel® RTWIP-CORE solution with 802.11-family standards capabilities, operators and ISP etc, can now offer their customers the ability to create their own Cloud-managed Metro-Public-WiFi clusters instantly – unlimited access on the move, the lowest cost per Mbps and unmatched capacity vs cellular data limitation, Sweratel announced today.
+                  Operators, Telcos and ISPs including other new entrants from Municipalities, IoT and Networked Society sectors can bundle the best last-mile WAN technology with the state-of-art RTWIP-CORE system to offer customers instant Heterogeneous Metro-Public WiFi Networked solution riding the data tsunami heading their way delivering coverage and data-capacity demands in the most challenging areas such as urban, suburban, rural, smart communities etc, providing users with a truly complete mobility lifestyle.
+                  The new advance Pard Ultra-wide/Multi-band MIMO series contains the specification for the 3×3 MIMO access antenna designed for the Sweratel RTWIP Carrier-class MetroWiFi Networks operating in the 2.4 ~ 6 GHz frequency bands including 4.9 GHz for public safety. The antennas utilize polarization diversity and offset azimuth beams to maximize MIMO throughput.
+                  The Pard antenna product-line includes 3×3 MIMO (4×4 MIMO optional) each with its own RF connector, and housed in a single IP67 chassis.  Emphasis has been placed on rugged mechanical construction, combined with an aesthetically pleasing appearance and simple rapid installation. The antennas are supplied with user-friendly mounting brackets providing either a fixed T0 tilt, or adjustable tilt.                   
+               </p>
+            </article>
+            <article>
+               <h2 id="publicWiFi"class="ui header">
+                  <a href="#">Sweratel Announces Initial Deployments for RTWIP-CORE Solution in MENA</a>
+                  <div class="sub header">
+                     <i class="far fa-clock"></i> Jönköping, Sweden 2017-10-26
+                     <span class="ui right floated medium labels">
+                        <div class="ui label">
+                           <i class="tag icon"></i> Personal
+                        </div>
+                        <div class="ui label">
+                           <i class="tag icon"></i> Internet
+                        </div>
+                     </span>
+                  </div>
+               </h2>
+               <p class="press-description">
+                  Sweratel today announced further deployments of its RTWIP Carrier-class MetroWiFi broadband solution designed for both the Public MetroWiFi and the Smart Networked Society. 
+                  A MENA IT- & Telecom group with Regional telco, are moving forward with the first deployment of the Sweratel RTWIP solution to offer Carrier-class MetroWiFi broadband services to both consumers and business.
+               </p>
+            </article>
+            <article>
+               <h2 class="ui header">
+                  <a href="#">Sweratel participates in the Smart City Infrastructure Event in Hanoi</a>
+                  <div class="sub header">
+                     <i class="far fa-clock"></i> Jönköping, Sweden 2017-10-25
+                     <span class="ui right floated medium labels">
+                        <div class="ui label">
+                           <i class="tag icon"></i> Public WiFi
+                        </div>
+                        <div class="ui label">
+                           <i class="tag icon"></i> Metrostation broadband
+                        </div>
+                     </span>
+                  </div>
+               </h2>
                <p class="press-description">
                   Sweratel participates in Smart City Infrastructure Event in Hanoi,  27 October,  2017.
-<a href="https://qdtek.vn/su-kien/chi-tiet/technology-day-2017—smart-city-infrastructure-2/vi"></a>
-
-<a href="https://qdtek.vn/tin-tuc/chi-tiet/qdtek-northern-technology-day-2017—smart-city-infrastructure–102/en"></a>
-
-<a href="https://www.icoolness.com/profile/118/post/9w5ofqtjrt3acax.jpg"></a>                 
+                  <a href="https://qdtek.vn/su-kien/chi-tiet/technology-day-2017—smart-city-infrastructure-2/vi"></a>
+                  <a href="https://qdtek.vn/tin-tuc/chi-tiet/qdtek-northern-technology-day-2017—smart-city-infrastructure–102/en"></a>
+                  <a href="https://www.icoolness.com/profile/118/post/9w5ofqtjrt3acax.jpg"></a>                 
                </p>
-           </article>
+            </article>
          </div>
-      <div class="press-side-bar">
-         <li><a href="">The Sweratel solution</a></li>
-         <li><a href="">Public WiFi for everybody</a></li>
-         <li><a href="">Elmia</a></li>
-         <li><a href="">Elmia</a></li>
+         <div class="press-side-bar">
+            <li><a href="#theSweratelSolution">The Sweratel solution</a></li>
+            <li><a href="#publicWiFi">Public WiFi for everybody</a></li>
+            <li><a href="">Elmia</a></li>
+            <li><a href="">Elmia</a></li>
+         </div>
       </div>
-   </div>
-
-
-   <footer>
-               
+      <footer>
          <img class="footerArrow" src="./images/sweratelFooterArrow.png"/>
          <div class="footer-wrapper">
             <div class="footerCompanyText">
@@ -199,7 +192,6 @@
             <!-- sitemap, om oss, kontakta oss, investorrelationer, request demo system-->
             <span class="scrollToTop"><i class="angle up icon arrow-to-top"></i></span>
             <h6>All rights reserved © 2018 | Sweratel AB</h6>
-         
          </div>
       </footer>
    </body>
