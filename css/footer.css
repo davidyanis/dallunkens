@@ -64,6 +64,7 @@ footer {
     color: rgb(75, 78, 84);
     margin-left: 2em;
     flex-grow: 2;
+    margin-top: 5.1em;
 }
 
 /* Social media on footer, icons etc styling */
@@ -147,6 +148,7 @@ footer {
     .footer-links {
     list-style: none;
     padding-bottom: 2em;
+    display: none;
    
     }
     .footer-links li a{
@@ -172,9 +174,10 @@ footer {
     .adressInfo h3 {
         color:rgb(79, 169, 229);
         font-family: 'Roboto Condensed', sans-serif!important;
+        text-align: center;
     }
     .adressInfo {
-      
+        text-align: center;
         width: auto;
         color: rgb(75, 78, 84);
         font-size: 1.2em;
@@ -185,6 +188,7 @@ footer {
         width: auto;
         margin-top: 2em;
         padding-bottom: 2em;
+        text-align: center;
     }
     
     .socialMediaIcons .linkedin {
@@ -236,6 +240,7 @@ footer {
         margin: 4em 4em 0em 4em;
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-evenly!important;
     }
     
     .fa-angle-up {
@@ -255,7 +260,9 @@ footer {
     list-style: none;
     padding-bottom: 2em;
     width: 50%;
+    text-align: center;
     }
+
     .footer-links li a{
         color: #333!important;
         font-size: 1.3em;
@@ -269,7 +276,7 @@ footer {
     .footerArrow {
         z-index: 2;
         position: absolute;
-        top: -0.1em;
+        top: 0em;
         width: 3em;
         height: 3em;
         left: 1em;
@@ -281,9 +288,11 @@ footer {
     }
     
     .adressInfo {
+        text-align: center;
         font-size: 1.2em;
         color: rgb(75, 78, 84);
         flex-grow: 4;
+        margin-top: 3em;
     }
     
     /* Social media on footer, icons etc styling */
@@ -291,6 +300,7 @@ footer {
         width: 100%;
         margin-top: 2em;
         padding-bottom: 2em;
+        text-align: center;
     }
     
     .socialMediaIcons .linkedin {
