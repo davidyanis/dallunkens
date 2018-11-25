@@ -120,15 +120,14 @@ nav ul li:hover ul.fallback {
         top: -100px;
     }
 
-   
     header .nav-logo img{
         width: 320px;
-      height: 100px;
-      -o-transition:.5s;
-      -ms-transition:.5s;
-      -moz-transition:.5s;
-      -webkit-transition:.5s;
-      transition:.5s;
+        height: 100px;
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
     }
 
     header .logo-nav-wrapper {
@@ -140,6 +139,7 @@ nav ul li:hover ul.fallback {
 
     nav {
         background-color: white;
+        /* height: 7em; */
         margin: 0;
     }
 
@@ -149,21 +149,19 @@ nav ul li:hover ul.fallback {
     }
     
     nav ul li {
-        float: left;
-
-       
-       
+        float: left;       
     }
     nav ul li a:hover {
         color: rgb(79, 169, 229) !important;
-        border-bottom: 2px solid rgb(79, 169, 229);
-    }
+/*         border-bottom: 2px solid rgb(79, 169, 229);
+ */    }
 
     nav ul li a {
         padding: 1em;
         height: 3.8em;
         font-size: 1.4em;
-        color: #333;
+        /* color: #333; */
+        color: white;
         -o-transition:.5s;
         -ms-transition:.5s;
         -moz-transition:.5s;
@@ -174,9 +172,9 @@ nav ul li:hover ul.fallback {
     /* dropdown box tablet */
     nav ul li ul {
         position: absolute;
-        width: 12em;
+        width: 8em;
         background: white;
-        opacity: 0.95;
+        opacity: 0.8;
         z-index: 9999;
     }
     
