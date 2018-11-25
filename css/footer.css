@@ -39,6 +39,7 @@ footer {
 }
 .footer-links li a:hover{
     border-bottom: 2px solid rgb(79, 169, 229);
+    color: rgb(79, 169, 229)!important;
 }
 
 
