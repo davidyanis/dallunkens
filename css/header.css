@@ -70,6 +70,7 @@ nav ul li a {
 /* Dropdown menu box styling */
 nav ul li ul {
     padding-left: 2em;
+
 }
 
 /* Dropdown menu change TEXT */
@@ -94,7 +95,7 @@ nav ul li ul.fallback {
 /* On hover show dropdown menu */
 nav ul li:hover ul.fallback {
     display: block;
-
+    
 }
 
 .arrow-down {
@@ -112,6 +113,7 @@ nav ul li:hover ul.fallback {
         position: fixed;
         z-index: 99999;
         transition: top 0.3s ease-in-out;
+        background-color: rgba(0, 0, 0, 0.7);
     }
 
     .nav-up {
@@ -171,6 +173,7 @@ nav ul li:hover ul.fallback {
         background: white;
         opacity: 0.8;
         z-index: 9999;
+        border-top: 3px solid rgb(79, 169, 229)!important;
     }
     
     nav ul li ul li {

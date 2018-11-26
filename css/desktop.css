@@ -89,7 +89,7 @@
 
     /* New */
     .home-wide-bg {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("../images/mainSectionPicture.jpg");
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("../images/send-system-999245_1920.jpg");
         background-size: cover;
         background-attachment: fixed;
         height: 100vh;
@@ -101,7 +101,7 @@
         align-items: center;
     }
 
-    .h1-bg {
+    .h1-bg{
         font-size: 3em;
         color: white;
         margin: 0;

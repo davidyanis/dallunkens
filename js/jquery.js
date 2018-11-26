@@ -92,8 +92,6 @@ function hasScrolled() {
     if (st > lastScrollTop && st > navbarHeight){
         // Scroll Down
         $('header').removeClass('nav-down').addClass('nav-up');
-        $("nav ul li a").css("color", "#000")
-        $("header").css("background-color", "white")
     } else {
         // Scroll Up
         if(st + $(window).height() < $(document).height()) {
