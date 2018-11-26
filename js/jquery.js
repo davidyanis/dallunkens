@@ -92,17 +92,26 @@ function hasScrolled() {
     if (st > lastScrollTop && st > navbarHeight){
         // Scroll Down
         $('header').removeClass('nav-down').addClass('nav-up');
-      
+        $("nav ul li a").css("color", "#000")
+        $("header").css("background-color", "white")
     } else {
         // Scroll Up
         if(st + $(window).height() < $(document).height()) {
             $('header').removeClass('nav-up').addClass('nav-down');
-           
         }
     }
     
     lastScrollTop = st;
 }
+
+/* var distance = $('header').offset().top, $window = $(window);
+
+$window.scroll(function() {
+    if ( $window.scrollTop() >= distance ) {
+        $("nav ul li a").css("color", "#fff")
+        $("header").css("background-color", "rgba(0, 0, 0, 0.1)")
+    }
+}); */
 });
      
 
