@@ -92,6 +92,8 @@ function hasScrolled() {
     if (st > lastScrollTop && st > navbarHeight){
         // Scroll Down
         $('header').removeClass('nav-down').addClass('nav-up');
+        $('#Logo').css({"width": "120px", "height": "85px"});
+        $('header').css({"background-color": "rgba(0, 0, 0, 0.8"});
     } else {
         // Scroll Up
         if(st + $(window).height() < $(document).height()) {
@@ -102,14 +104,17 @@ function hasScrolled() {
     lastScrollTop = st;
 }
 
-/* var distance = $('header').offset().top, $window = $(window);
 
-$window.scroll(function() {
-    if ( $window.scrollTop() >= distance ) {
-        $("nav ul li a").css("color", "#fff")
-        $("header").css("background-color", "rgba(0, 0, 0, 0.1)")
-    }
-}); */
+    
+var stickyTop = $('header').offset().top;
+
+$(window).on( 'scroll', function(){
+        if ($(window).scrollTop() >= stickyTop) {
+            $('#Logo').css({"width": "200px", "height": "100px"});
+        } else {
+           
+        }
+    });
 });
      
 

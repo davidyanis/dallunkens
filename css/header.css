@@ -113,7 +113,7 @@ nav ul li:hover ul.fallback {
         position: fixed;
         z-index: 99999;
         transition: top 0.3s ease-in-out;
-        background-color: rgba(0, 0, 0, 0.7);
+        display: flex;
     }
 
     .nav-up {
@@ -121,8 +121,7 @@ nav ul li:hover ul.fallback {
     }
 
     header .nav-logo img{
-        width: 320px;
-        height: 100px;
+        height: 10em;
         -o-transition:.5s;
         -ms-transition:.5s;
         -moz-transition:.5s;
@@ -131,18 +130,22 @@ nav ul li:hover ul.fallback {
     }
 
     header .logo-nav-wrapper {
-        width: 25%;
+        width: 15%;
         height: 100%;
-       
+        display: flex;
+        justify-content: center;
+        padding: 0!important;
     }
 
     nav {
+        margin-left: 17em!important;
+        width: 100%;
         height: 7em;
         margin: 0;
     }
 
     nav ul {
-       float: right;
+       
        padding: 0;
     }
     
