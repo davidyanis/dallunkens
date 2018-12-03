@@ -4,6 +4,7 @@ header {
     height: 7em;
     overflow: hidden;
     transition: height 0.8s;
+    border-bottom: ;
 }
 .fullscreen {
     height: 110vh;
@@ -156,7 +157,7 @@ nav ul li:hover ul.fallback {
     
     nav ul li a {
         padding: 1em;
-        height: 3.8em;
+        height: 3.77em;
         font-size: 1.4em;
         color: #000;
         -o-transition:.3s;
@@ -169,11 +170,13 @@ nav ul li:hover ul.fallback {
     /* dropdown box tablet */
     nav ul li ul {
         position: absolute;
-        width: 15em;
+        width: 20em;
+        height: 120%;
         background: white;
         opacity: 1;
         z-index: 9999;
         border-top: 1px solid #5c5c5c;
+        
     }
 
     nav ul li ul:after, nav ul li ul:before {
@@ -185,6 +188,7 @@ nav ul li:hover ul.fallback {
         width: 0;
         position: absolute;
         pointer-events: none;
+        
     }
     
     nav ul li ul:after {
@@ -192,6 +196,7 @@ nav ul li:hover ul.fallback {
         border-bottom-color: #fff;
         border-width: 15px;
         margin-left: -15px;
+        
     }
     nav ul li ul:before {
         border-color: rgba(92, 92, 92, 0);
