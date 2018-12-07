@@ -6,7 +6,6 @@
     .press-container .press-post {
         width: 70%;
         padding: 2em;
-        border: 1px solid #ddd;
     }
     .press-container{
         margin: 0 auto;
@@ -71,7 +70,7 @@
     }
 
     .show-more-text-btn:hover {
-        color: rgb(79, 169, 229);
+        color: #22AAEB;
         cursor: pointer;
     }
 
@@ -83,13 +82,13 @@
     }
 
     .show-less-text-btn:hover {
-        color: rgb(79, 169, 229);
+        color: #22AAEB;
         cursor: pointer;
     }
 
     /* New */
     .home-wide-bg {
-        background: rgb(79, 169, 229);
+        background: #22AAEB;
         background-size: cover;
         background-attachment: fixed;
         height: 100vh;
@@ -114,9 +113,8 @@
     }
 
     .home-wide-btn {
-        background-color: rgba(79, 169, 229)!important;
+        background-color: #22AAEB!important;
         font-size: 3em;
-        
         color: white!important;
         border: 2px solid white!important;
         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1)!important;
@@ -131,7 +129,7 @@
         margin-top: 3em !important;
         margin-bottom: 3em!important;
     }
-
+    
     .loginButton {
         height: 3em;
         margin-right: 0.7em;
@@ -241,14 +239,14 @@
     font-family: 'Roboto Condensed', sans-serif;
     border-radius: 0.3em;
     margin: 0.3em;
-    color:  rgb(79, 169, 229);
+    color:  #22AAEB;
     outline: none;
     width: 10em;
 }
 
 .data-sheet-btn {
     background-color: white;
-    color: rgb(79, 169, 229);
+    color: #22AAEB;
     font-size: 1.4em;
     border-radius: 0.3em;
     height: 2em;
@@ -277,7 +275,7 @@
 }
 
 .key-features-btn:hover, .data-sheet-btn:hover {
-    background-color: rgb(79, 169, 229);
+    background-color: #22AAEB;
     color: white;
     cursor: pointer;
 } 
@@ -289,7 +287,7 @@
 }
 
 .data-sheet a {
-    color: rgb(79, 169, 229);
+    color: #22AAEB;
     text-decoration: underline;
 }
 
@@ -351,5 +349,7 @@ article {
 .margin-fix-cards {
     margin: 0!important;
 }
+
+
 
 }
