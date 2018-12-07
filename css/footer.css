@@ -10,7 +10,10 @@ footer {
 
 .footer-wrapper {
     display: flex;
-    margin: 4em;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
     font-family: 'Roboto Condensed', sans-serif!important;
 }
 
@@ -41,8 +44,6 @@ footer {
     border-bottom: 2px solid rgb(79, 169, 229);
     color: rgb(79, 169, 229)!important;
 }
-
-
 
 .footerArrow {
     z-index: 2;
