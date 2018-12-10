@@ -4,8 +4,8 @@ header {
     height: 7em;
     overflow: hidden;
     transition: height 0.8s;
-    border-bottom: ;
 }
+
 .fullscreen {
     height: 110vh;
     background-color: white;

@@ -106,21 +106,22 @@ footer {
 
 /* Copyright and our credits */
 .copyRight {
-    height: auto;
-    width: 100%;                
+    border: 1px solid red;
+    width: 100%;
+    height: auto;      
     background-color: rgb(79, 169, 229);
     color: #fff;
     text-align: center;
 }
 
-    .copyRight h6 {
+.copyRight h6 {
         font-size: 0.9em;
         margin: 0;
         line-height: 2em;
         text-align: center;
     } 
 
-    .arrow-to-top {
+.arrow-to-top {
     color: #fff!important;
     }
  
@@ -161,18 +162,7 @@ footer {
     .footer-links li {
         margin-bottom: 1em;
     }
-    
-    
-    .footerArrow {
-        z-index: 2;
-        position: absolute;
-        top: -0.1em;
-        width: 3em;
-        height: 3em;
-        left: 1em;
-        outline: white;
-    } 
-    
+ 
     .adressInfo h3 {
         color:rgb(79, 169, 229);
         font-family: 'Roboto Condensed', sans-serif!important;
