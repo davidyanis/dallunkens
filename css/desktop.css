@@ -3,6 +3,8 @@
         margin: 0;
     }
 
+   
+
     .press-container .press-post {
         width: 70%;
         padding: 2em;
@@ -86,12 +88,17 @@
         cursor: pointer;
     }
 
-    /* New */
-    .home-wide-bg {
+    /* Main home content */
+    main {
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("../images/urban-438393_1920.jpg");
         background-size: cover;
         background-attachment: fixed;
-        height: 100vh;
+        height: 75vh;
+        width: 100%;
+    }
+
+    .home-wide-bg {
+        height: 75vh;
         width: 100%;
         display: flex;
         flex-direction: column;

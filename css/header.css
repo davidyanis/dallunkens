@@ -113,16 +113,7 @@ nav ul li:hover ul.fallback {
         width: 100%;
         overflow: visible;
         transition: top 0.3s ease-in-out;
-        display: flex;
-<<<<<<< HEAD
         background-color: #fff;
-    }
-
-    .nav-up {
-        top: -100px;
-=======
-    
->>>>>>> 05fd5b17f0080a63810d835dd372f21f2a3073ec
     }
 
     header .nav-logo img{
