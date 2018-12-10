@@ -251,17 +251,6 @@
         padding-left: 1.5em;
     }
 
-    .press-side-bar {
-        border: 1px solid #ddd;
-        width: 20%;
-        padding: 1em;
-    }
-
-    .press-side-bar a{
-        color: #333;
-    
-    }
-
     .press-post {
         width: 100%;
         padding: 2em;

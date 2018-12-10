@@ -164,9 +164,6 @@
         font-size: 1.3em;
         margin-top: 1em;
     }
-   .place-holder{
-       height: 7em;
-   }
 
 /* Contact us SITE */
 .contact-container {
@@ -320,15 +317,6 @@
     padding-left: 1.5em;
 }
 
-.press-side-bar {
-    padding: 1em;
-   
-}
-
-.press-side-bar a{
-    color: #333;
-  
-}
 
 .press-post {
     width: 100%;
