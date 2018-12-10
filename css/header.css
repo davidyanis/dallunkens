@@ -121,7 +121,7 @@ nav ul li:hover ul.fallback {
         z-index: 99999;
         transition: top 0.3s ease-in-out;
         display: flex;
-        background: #fff;
+        background-color: #fff;
     }
 
     .nav-up {
