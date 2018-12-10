@@ -167,7 +167,7 @@ nav ul li:hover ul.fallback {
         background: white;
         opacity: 1;
         z-index: 9999;
-        border-top: 1px solid #5c5c5c;
+        border-top: 0.1em solid #22AAEB;
         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1)!important;
         
     }
@@ -193,7 +193,7 @@ nav ul li:hover ul.fallback {
     }
     nav ul li ul:before {
         border-color: rgba(92, 92, 92, 0);
-        border-bottom-color: #5c5c5c;
+        border-bottom-color: #22AAEB;
         border-width: 16px;
         margin-left: -16px;
     }
