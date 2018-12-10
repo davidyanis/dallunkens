@@ -108,24 +108,13 @@ nav ul li:hover ul.fallback {
 
 /* Desktop only */
 @media screen and (min-width: 1100px) {
-    .place-holder{
-        height: 7em;
-    }
-    
     header {
         height: 7em;
         width: 100%;
         overflow: visible;
-        top: 0;
-        position: fixed;
-        z-index: 99999;
         transition: top 0.3s ease-in-out;
         display: flex;
-        background: #fff;
-    }
-
-    .nav-up {
-        top: -100px;
+    
     }
 
     header .nav-logo img{
@@ -176,7 +165,6 @@ nav ul li:hover ul.fallback {
     nav ul li ul {
         position: absolute;
         width: 20em;
-        height: 120%;
         background: white;
         opacity: 1;
         z-index: 9999;
