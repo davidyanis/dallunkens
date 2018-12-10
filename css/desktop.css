@@ -88,7 +88,7 @@
 
     /* New */
     .home-wide-bg {
-        background: #22AAEB;
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("../images/urban-438393_1920.jpg");
         background-size: cover;
         background-attachment: fixed;
         height: 100vh;
@@ -116,7 +116,6 @@
         background-color: #22AAEB!important;
         font-size: 3em;
         color: white!important;
-        border: 2px solid white!important;
         box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1)!important;
         transition: all 0.3s ease 0s!important;
     }
