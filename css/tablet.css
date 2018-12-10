@@ -56,7 +56,7 @@
     }
 
     .home-wide-btn {
-        background-color: rgb(79, 169, 229)!important;
+        background-color: #22AAEB!important;
         font-size: 3em;
         width: 12em;
         color: white!important;
@@ -169,13 +169,13 @@
         font-family: 'Roboto Condensed', sans-serif;
         border-radius: 0.3em;
         margin: 0.3em;
-        color: rgb(79, 169, 229);
+        color: #22AAEB;
         outline: none;
     }
 
     .data-sheet-btn {
         background-color: white;
-        color: rgb(79, 169, 229);
+        color:#22AAEB;
         font-size: 1.4em;
         border-radius: 0.3em;
         height: 2em;
@@ -206,7 +206,7 @@
     }
 
     .key-features-btn:hover, .data-sheet-btn:hover {
-        background-color: rgb(79, 169, 229);
+        background-color: #22AAEB;
         color: white;
         cursor: pointer;
     } 
@@ -218,7 +218,7 @@
     }
 
     .data-sheet a {
-        color: rgb(79, 169, 229);
+        color: #22AAEB;
         text-decoration: underline;
     }
 

@@ -100,28 +100,44 @@
     }
 
 
-    .three-aligned-divs {
+    .wide-text-content {
         height: 25em;
         width: 100%;
         margin-top: 4em;
         margin-bottom: 4em;
-        background-color: #F1F0EB!important;
+        background-color: #22AAEB!important;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
 
-    .three-aligned-divs h1 {
+    .wide-text-content h1 {
         margin: 0;
         font-weight: 500;
+        color: #fff;
     }
 
-    .three-aligned-divs h3 {
+    .wide-text-content h3 {
         text-align: center;
         width: 50%;
         font-weight: 500;
+        color: #fff;
     }
+
+    .wide-text-btn {
+        background-color:#fff!important;
+        font-size: 3em;
+        color: #22AAEB!important;
+        transition: all 0.3s ease 0s!important;
+    }
+
+    .wide-text-btn:hover {
+        transform: translateY(-7px);
+      }
+
+
+
 
     .content a:hover {
         color: #22AAEB!important;
