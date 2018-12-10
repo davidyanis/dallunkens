@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
    <head>
       <meta charset="utf-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <title>Sweratel AB</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
       <!-- CSS-->
-     
       <link rel="stylesheet" type="text/css" href="./css/desktop.css">
       <link rel="stylesheet" type="text/css" href="./css/footerTablet.css">
       <link rel="stylesheet" type="text/css" href="./css/footer.css">
@@ -14,6 +13,7 @@
       <link rel="stylesheet" type="text/css" href="./css/mobile.css">
       <link rel="stylesheet" type="text/css" href="./css/tablet.css">
       <link rel="stylesheet" href="./semantic/semantic.css">
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
       <!-- Fonts-->
       <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
       <!-- Javascript, jQuery -->
@@ -21,15 +21,14 @@
       <script src="./js/jquery.js"></script>
       <script src="./js/script.js"></script>
       <script src="./semantic/semantic.js"></script>
-
    </head>
    <body>
-         
-      <header id="header">
-         <div class="logo-nav-wrapper">
-            <a class="nav-logo" href="index.html"><img src="./images/SweratelLogo.png"></a>
-            <i id="exit-button" class="bars big icon menu-button" onclick="menuButtonClicked()"></i>
-         </div>
+     
+      <header id="header" class="nav-down">
+            <div class="logo-nav-wrapper">
+                  <a class="nav-logo" href="index.html"><img id="Logo" src="./images/SwratelLogo.png"></a>
+                  <i id="exit-button" class="bars big icon menu-button" onclick="menuButtonClicked()"></i>
+               </div>
          <nav>
             <ul>
                <li><a href="index.html" class="active">Home</a></li>
@@ -50,7 +49,8 @@
                      <li><a href="Het-Net.html">Het-Net</a></li>
                   </ul>
                </li>
-               <li id="toggle-icon"><a href="#">RAN <i class="chevron down icon arrow-down"></i></a>
+               <li>
+                  <a href="#">RAN <i class="chevron down icon arrow-down"></i></a>
                   <ul class="fallback">
                      <li><a href="BS.html">BS</a></li>
                      <li><a href="EBS.html">EBS</a></li>
@@ -72,103 +72,167 @@
             </ul>
          </nav>
       </header>
- 
-      <div class="segment">
-   <main>
-         <div class="ui fluid home-wide-bg">
-            <h1 class="h1-bg">Secure Public Wi-Fi</h1>
-            <p class="description-bg">It's simple, secure and fast. Connect and enjoy</p>
-            <div class="ui big animated fade button home-wide-btn">
-               <div class="visible content">CellularWiFi</div>
-               <div class="hidden content">
-                  Request demo
-               </div>
-            </div>
-         </div>
-   </main>
-</div>
-       
      
+         <main>
+            <div class="home-wide-bg">
+               <h1 class="h1-bg">Secure Public Wi-Fi</h1>
+               <p class="description-bg">It's simple, secure and fast. Connect and enjoy</p>
+               <div class="ui big fade button home-wide-btn">
+                  CellularWiFi
+               </div>
+            </div>
+         </main>
+        
+    
+         <!-- Four cards -->
+         <div class="ui grid container cards-container">
+             
+               <div class="ui three stackable link cards margin-fix-cards">
+                  <div class="ui blue card">
+                     <div class="image">
+                        <img src="./images/sunrise-3808121_1920.jpg">
+                     </div>
+                     <div class="content">
+                        <a class="header">Core Values</a>
+                        <div class="description">
+                           <p>&rdquo;Privacy is security and security is Privacy&rdquo;</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="ui blue card">
+                     <div class="image">
+                        <img src="./images/telescope-187472_1920.jpg">
+                     </div>
+                     <div class="content">
+                        <a class="header">Mission and Vison</a>
+                        <div class="description">
+                           <p>&rdquo;Everyone should be connected&rdquo;</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="ui blue card">
+                     <div class="image">
+                        <img src="./images/send-system-999245_1920.jpg">
+                     </div>
+                     <div class="content">
+                        <a class="header">Software</a>
+                        <div class="description">
+                           <p> Quality innovation makes us flexibel and ready the future.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="ui blue card">
+                     <div class="image">
+                        <img src="./images/children.jpg">
+                     </div>
+                     <div class="content">
+                        <a class="header"> Heterogenoussolution</a>
+                        <div class="description">
+                           <p> &rdquo;See how we make an impact across the world, with solar Energy.&rdquo;</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="ui blue card">
+                     <div class="image">
+                        <img src="./images/weareHiring.jpg">
+                     </div>
+                     <div class="content">
+                        <a class="header">Become a Partner</a>
+                        <div class="description">
+                           <p>Join us in the task of secure the Internet-Tsunami coming towards us.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="ui blue card">
+                     <div class="image">
+                        <img src="./images/paper-3187096_1920.jpg">
+                     </div>
+                     <div class="content">
+                        <a class="header">Read our blog</a>
+                        <div class="description">
+                           <p>See how we make an impact across the world.</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
 
-      <!-- Four cards -->
-      <div class="ui grid container cards-container">
-         <div class="ui two stackable link cards margin-fix-cards">
-            <div class="ui blue card">
-               <div class="image">
-                  <img src="./images/iot-3337536_1920.png">
-               </div>
-               <div class="content">
-                  <a class="header">Mission and Vison</a>
-               <div class="description">
-                  <p>&rdquo;Everyone should be connected&rdquo;</p>
-               </div>
-               </div>
+
+            <div class="wide-text-content">
+               <h1> Sweratel combining flexible, robust and efficient solutions for worldwide customers.</h1>
+               <h3> Our edge technology has improved our customers view on industrial IT-Solutions. The Data-Tsunami heading our way demands new technology to increase user experience without decreasing quality, security or pace.
+               </h3>
+               <div class="ui big fade button wide-text-btn">
+                     Explore the solutions
+                     
+                  </div>
             </div>
-           
-               <div class="ui blue card">
-                  <div class="image">
-                  <img src="./images/coreValuesPictures.jpg">
-                  </div>
-                  <div class="content">
-                  <a class="header">Core Values</a>
-                  <div class="description">
-                     <p>&rdquo;Privacy is security&rdquo;</p>
-                  </div>
+         
+            <div class="ui grid container cards-container">
+             
+                  <div class="ui three stackable link cards margin-fix-cards">
+                     <div class="ui card">
+                        <div class="content">
+                           <a class="header">Flexibility</a>
+                        </div>
+                        <div class="image">
+                           <img src="./images/night-1149700_1920.jpg">
+                        </div>
+                        <div class="description" style=" margin-top: 1em;">
+                           <p>&rdquo;Everyone should be connected&rdquo;</p>
+                        </div>
+                     </div>
+                     <div class="ui card">
+                        <div class="content">
+                           <a class="header">Sweratel IT-Solutions</a>
+                        </div>
+                        <div class="image">
+                           <img src="./images/night-1149700_1920.jpg">
+                        </div>
+                        <div class="description" style=" margin-top: 1em;">
+                           <p>&rdquo;Connecting more than just people&rdquo;</p>
+                        </div>
+                     </div>
+                     <div class="ui card">
+                        <div class="content">
+                           <a class="header">Security</a>
+                        </div>
+                        <div class="image">
+                           <img src="./images/in-new-york-city-1316639_1920.jpg">
+                        </div>
+                     <div class="description" style=" margin-top: 1em;">
+                        <p> Innovativ, Flexible and ready for the future.</p>
+                     </div>
+                     </div>
                   </div>
                </div>
-               <div class="ui blue card">
-                  <div class="image">
-                  <img src="./images/send-system-999245_1920.jpg">
-                  </div>
-                  <div class="content">
-                  <a class="header">Software</a>
-                  <div class="description">
-                     <p> Quality innovation makes us flexibel and ready the future.</p>
-                  </div>
-                  </div>
-               </div>
-               <div class="ui blue card">
-                  <div class="image">
-                  <img src="./images/paper-3187096_1920.jpg">
-                  </div>
-                  <div class="content">
-                  <a class="header">Read our blog</a>
-                  <div class="description">
-                     <p>See how we make an impact across the world.</p>
-                  </div>
-                  </div>
-               </div>
-               </div>
-            </div>
-            
-            
-            <footer>
-               
-         <img class="footerArrow" src="./images/sweratelFooterArrow.png"/>
+     
+		
+      <footer>
          <div class="footer-wrapper">
-            <div class="footerCompanyText">
+            <div class="footer-links">
                <h3>Company</h3>
-               <h4>Heterogenoussoluton</h4>
-               <h4>infrascrutcure</h4>
-               <h4>request demo</h4>
-               <h4>delivireance time</h4>
-               <h4>investor relations</h4>
+               <li><a href="#">Heterogenoussoluton &nbsp;></a></li>
+               <li><a href="#">Infrastructure &nbsp;></a></li>
+               <li><a href="#">Request demo &nbsp;></a></li>
+               <li><a href="#">Delivery time &nbsp;></a></li>
+               <li><a href="#">Investor relations &nbsp;></a></li>
             </div>
-            <div class="footerTechnologyText">
+            <div class="footer-links">
                <h3>Technology</h3>
-               <h4>software</h4>
-               <h4>security</h4>
-               <h4>privacy</h4>
-               <h4>maintainance</h4>
-               <h4>CellularWiFi</h4>
+               <li><a href="#">Software &nbsp;></a></li>
+               <li><a href="#">Security &nbsp;></a></li>
+               <li><a href="#">Privacy &nbsp;></a></li>
+               <li><a href="#">Maintainance &nbsp;></a></li>
+               <li><a href="#">CellularWiFi &nbsp;></a></li>
             </div>
-            <div class="footerProductsText">
+            <div class="footer-links">
                <h3>Products</h3>
-               <h4>Portfolio</h4>
-               <h4>antennas</h4>
-               <h4>hardware</h4>
-               <h4>security</h4>
-               <h4>contact us</h4>
+               <li><a href="#">Portfolio &nbsp;></a></li>
+               <li><a href="#">Antennas &nbsp;></a></li>
+               <li><a href="#">Hardware &nbsp;></a></li>
+               <li><a href="#">Security &nbsp;></a></li>
+               <li><a href="#">Contact us &nbsp;></a></li>
             </div>
             <div class="adressInfo">
                <h3>Adress</h3>
@@ -184,8 +248,8 @@
             <!-- sitemap, om oss, kontakta oss, investorrelationer, request demo system-->
             <span class="scrollToTop"><i class="angle up icon arrow-to-top"></i></span>
             <h6>All rights reserved © 2018 | Sweratel AB</h6>
-         
          </div>
       </footer>
+ 
    </body>
 </html>

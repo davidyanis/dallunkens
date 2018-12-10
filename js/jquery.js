@@ -1,45 +1,23 @@
-/* $(document).ready(function(){
 
-    $(".buttonStyleLogIn").click(function(){
-        $('.ui.modal').modal('show');      
-    });
-    
-}); */
-
-/* $(document).ready(function(){
-    $('.above-main-section').hide().delay(5000).fadeIn(2000)
-});
-
-$('.video-player').ready(function() {
-    $('.video-player').delay(4000).fadeOut(1000)
-});  */
-
-var shouldPrintWrapperOne = true
-var shouldPrintWrapperTwo = true
-
-
-
-     /* Dropdown menu on hover */
 $(document).ready(function() {
+    /* Dropdown menu on hover */
     /* If device under 960px */
     if ($(window).width() < 960) {
         $('nav li ul').hide().removeClass('fallback');
         $('nav li').click(function () {
             $('ul', this).stop().toggle(300);
-            // TODO: toggle...
             if ($('i', this).hasClass('down')) {
                 $('i', this).removeClass("down").addClass("up");
             } else {
                 $('i', this).removeClass("up").addClass("down");
             } 
         });
-
+        /* Leave hover */
         $('nav li').mouseleave(function() {
             $('ul', this).stop().slideUp(300);
             $('i', this).removeClass("up").addClass("down");
         });
     } else {
-
         $('nav li ul').hide().removeClass('fallback');
         $('nav li').mouseover(function () {
             /* Change animation speed here slideDown(speed) */
@@ -84,6 +62,50 @@ $(document).ready(function() {
      $(".scrollToTop").click(function() {
         $("html, body").animate({scrollTop: 0}, "slow");
       });
+
+//       // Hide Header on on scroll down
+// var didScroll;
+// var lastScrollTop = 0;
+// var delta = 5;
+// var navbarHeight = $('header').outerHeight();
+
+// $(window).scroll(function(){
+//     didScroll = true;
+// });
+
+// setInterval(function() {
+//     if (didScroll) {
+//         hasScrolled();
+//         didScroll = false;
+//     }
+// }, 250);
+
+// function hasScrolled() {
+//     var st = $(this).scrollTop();
+    
+//     // Make sure they scroll more than delta
+//     if(Math.abs(lastScrollTop - st) <= delta)
+//         return;
+      
+//     // If they scrolled down and are past the navbar, add class .nav-up.
+//     // This is necessary so you never see what is "behind" the navbar.
+//     if (st > lastScrollTop && st > navbarHeight){
+//         // Scroll Down
+//         $('header').removeClass('nav-down').addClass('nav-up');
+        
+//     } else {
+//         // Scroll Up
+//         if(st + $(window).height() < $(document).height()) {
+//             $('header').removeClass('nav-up').addClass('nav-down');
+//         }
+//     }
+    
+//     lastScrollTop = st;
+// }
+
+
+    
+
 });
      
 
