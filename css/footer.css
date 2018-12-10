@@ -20,10 +20,8 @@ footer {
 }
 
 .footer-links h3{
-    color:rgb(79, 169, 229);
-}
-.footer-links h3{
-    color:rgb(79, 169, 229);
+    color:#22AAEB;
+    font-size: 1.3em;
 }
 
 .footer-links{
@@ -36,7 +34,7 @@ footer {
 
 .footer-links li a{
     color: #333!important;
-    font-size: 1.3em;
+    font-size: 1.1em;
     opacity: 0.9;
 }
 
@@ -89,10 +87,11 @@ footer {
 .adressInfo h3 {
     color: #22AAEB;
     font-family: 'Roboto Condensed', sans-serif!important;
+    font-size: 1.3em;
 }
 
 .adressInfo {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: rgb(75, 78, 84);
     margin-left: 2em;
     flex-grow: 2;
