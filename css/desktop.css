@@ -107,7 +107,11 @@
         margin-top: 4em;
         margin-bottom: 4em;
         background-image: url("../images/sunrise-3808121_1920.jpg");
+<<<<<<< HEAD
 
+=======
+        background-position: center;
+>>>>>>> 8b33b29cc6bcee2da55608466c3942078b67b14d
         background-size: cover;
         display: flex;
         justify-content: center;
@@ -256,14 +260,14 @@
     border-radius: 10px!important;
 }
 
-.section-container-products .button {
+.capacity-btn, .dataSheet-btn, .specs-btn, .warranty-btn{
     background-color: #22AAEB!important;
     color: #fff!important;
 }
 
 .section-container-products .button:hover {
     background-color: #fff!important;
-    color: #22AAEB!important;
+    color: #000!important;
 }
 
 .container-for-buttons {
@@ -292,6 +296,11 @@
 
 .hidden-text-product {
     display: none;
+}
+
+.product-active-button {
+    background-color: #fff!important;
+    color: #000!important;
 }
 
 .show-more-text-btn {

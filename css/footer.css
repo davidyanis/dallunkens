@@ -12,7 +12,7 @@ footer {
 .footer-wrapper {
     width: 80%;
     display: flex!important;
-    margin: 2em;
+    padding: 2em;
     font-family: 'Roboto Condensed', sans-serif!important;
 }
 
@@ -115,7 +115,7 @@ footer {
 .socialMediaIcons {
     display: flex;
     flex-direction: column;
-    margin-left: 4em;
+    padding-left: 4em;
     flex-grow: 1;
 }
 
