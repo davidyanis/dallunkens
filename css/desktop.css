@@ -200,6 +200,15 @@ div .field {
     padding-right: 0!important;
 }
 
+.ui.multiple.dropdown > .label {
+    text-align: center;
+    background-color: #22AAEB;
+    color: #fff;
+}
+
+a.ui.label {
+    padding-bottom: 10px!important;
+}
 
 .contact-container h1{
     text-align: center;
