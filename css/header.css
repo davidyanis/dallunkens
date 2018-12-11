@@ -12,12 +12,11 @@ header {
     z-index: 9999;
 }
 
-.nav-logo img{
-    float: left;
+.nav-logo img {
     height: 7em;
     padding: 1em;
+    float: left;
 }
-
 
 .logo-nav-wrapper {
     height: 7em;
