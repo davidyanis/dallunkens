@@ -26,23 +26,23 @@
    </head>
    <body>
 
-<header id="header">
-      <div class="logo-nav-wrapper">
-         <a class="nav-logo" href="index.html"><img src="./images/SweratelLogo.png"></a>
-         <i id="exit-button" class="bars big icon menu-button" onclick="menuButtonClicked()"></i>
-      </div>
-      <nav>
+      <header id="header" class="nav-down">
+         <div class="logo-nav-wrapper">
+               <a class="nav-logo" href="index.html"><img id="Logo" src="./images/SwratelLogo.png"></a>
+               <i id="exit-button" class="bars big icon menu-button" onclick="menuButtonClicked()"></i>
+            </div>
+      <nav >
          <ul>
             <li><a href="index.html" class="active">Home</a></li>
             <li>
-               <a href="#">Company <i class="chevron down icon arrow-down"></i></a>
+               <a href="#" class="hvr-overline-from-center">Company <i class="chevron down icon arrow-down"></i></a>
                <ul class="fallback">
                   <li><a href="facts.html">Facts</a></li>
                   <li><a href="slogan.html">Slogan</a></li>
                </ul>
             </li>
             <li>
-               <a href="#">Technology <i class="chevron down icon arrow-down"></i></a>
+               <a href="#" class="hvr-overline-from-center">Technology <i class="chevron down icon arrow-down"></i></a>
                <ul class="fallback">
                   <li><a href="RNMS.html">RNMS</a></li>
                   <li><a href="SCM.html">SCM</a></li>
@@ -51,7 +51,8 @@
                   <li><a href="Het-Net.html">Het-Net</a></li>
                </ul>
             </li>
-            <li id="toggle-icon"><a href="#">RAN <i class="chevron down icon arrow-down"></i></a>
+            <li>
+               <a href="#" class="hvr-overline-from-center">RAN <i class="chevron down icon arrow-down"></i></a>
                <ul class="fallback">
                   <li><a href="BS.html">BS</a></li>
                   <li><a href="EBS.html">EBS</a></li>
@@ -60,7 +61,7 @@
                </ul>
             </li>
             <li>
-               <a href="#">Antennas <i class="chevron down icon arrow-down"></i></a>
+               <a href="#" class="hvr-overline-from-center">Antennas <i class="chevron down icon arrow-down"></i></a>
                <ul class="fallback">
                   <li><a href="AX2.4.html">AX2.4</a></li>
                   <li><a href="AX5.html">AX5</a></li>
@@ -68,22 +69,32 @@
                   <li><a href="BH5.html">BH5</a></li>
                </ul>
             </li>
-            <li><a href="press.html">Press</a></li>
-            <li><a href="contactus.html">Contact us</a></li>
+            <li><a href="press.html" class="hvr-overline-from-center">Press</a></li>
+            <li><a href="contactus.html" class="hvr-overline-from-center">Contact us</a></li>
          </ul>
       </nav>
    </header>
-      
+
+
 <section class="section-container-products">
    <div class="container-for-product-picture">
       <div class="image">
-         <img src="./images/iot-3337536_1920.png">
+         <img src="./images/telescope-187472_1920.jpg">
       </div>
       
-      <div class="container-for-buttons">
+     <!--  <div class="container-for-buttons">
       <button class="key-features-btn">Key features</i></button>
       <button class="data-sheet-btn">Data sheet</i></button>
-      </div>
+      </div> -->
+
+      <div class="five ui buttons for-specification">
+         <button class="ui button">Capacity</button>
+         <button class="ui button">Specs</button>
+         <button class="ui button">Warranty</button>
+         <button class="ui button">Support</button>
+       </div>
+
+
       
       <div class="container-for-more-information">
       <div class="key-features">
@@ -95,7 +106,7 @@
             <li>- Point-to-point or multi-point radio</li>
          </ul>
    </div>
-      <div class="data-sheet"> This information is under NDA.<a href="contactus.html"> Contact us</a> for further information</div>
+      <div class="data-sheet"> This information is under NDA. <br><a href="contactus.html" class="underlined-animation"> Contact us</a> for further information.</div>
       </div>
    </div>
 
@@ -117,54 +128,55 @@
                   <p>The Intelligent MeshNode Network system delivers infrastructure that enables the first anywhere, anytime.</p> 
                   <p>IP(core) wireless/mobile broadband network solution as opposite to traditional circuit-switched networks.</p> 
                </span>
-               <h3 class="show-more-text-btn">Read more <i class="fas fa-plus"> </i></h3>
-               <h3 class="show-less-text-btn">Read less <i class="fas fa-minus"></i></h3>
+               <h3 class="show-more-text-btn">Read more</h3>
+               <h3 class="show-less-text-btn">Read less</h3>
              </div>
          </div>
       </section>
 
 
-<footer>
-   <div class="footer-wrapper">
-      <div class="footer-links">
-         <h3>Company</h3>
-         <li><a href="#">Heterogenoussoluton &nbsp;></a></li>
-         <li><a href="#">Infrastructure &nbsp;></a></li>
-         <li><a href="#">Request demo &nbsp;></a></li>
-         <li><a href="#">Delivery time &nbsp;></a></li>
-         <li><a href="#">Investor relations &nbsp;></a></li>
-      </div>
-      <div class="footer-links">
-         <h3>Technology</h3>
-         <li><a href="#">Software &nbsp;></a></li>
-         <li><a href="#">Security &nbsp;></a></li>
-         <li><a href="#">Privacy &nbsp;></a></li>
-         <li><a href="#">Maintainance &nbsp;></a></li>
-         <li><a href="#">CellularWiFi &nbsp;></a></li>
-      </div>
-      <div class="footer-links">
-         <h3>Products</h3>
-         <li><a href="#">Portfolio &nbsp;></a></li>
-         <li><a href="#">Antennas &nbsp;></a></li>
-         <li><a href="#">Hardware &nbsp;></a></li>
-         <li><a href="#">Security &nbsp;></a></li>
-         <li><a href="#">Contact us &nbsp;></a></li>
-      </div>
-      <div class="adressInfo">
-         <h3>Adress</h3>
-         <p>Kindgrensgatan 15 <br>554 74 Jönköping <br>Sweden</p>
-      </div>
-      <div class="socialMediaIcons">
-         <a href="https://www.linkedin.com/company/sweratel-ab/?trk=top_nav_home" target="_blank"><i class="linkedin icon"></i></a>
-         <a href="https://twitter.com/sweratel" target="_blank"><i class="twitter icon"></i></a>
-         <a href="#kontaktformulärsenare"><i class="envelope outline icon"></i></a>                         
-      </div>
-   </div>
-   <div class="copyRight">
-      <!-- sitemap, om oss, kontakta oss, investorrelationer, request demo system-->
-      <span class="scrollToTop"><i class="angle up icon arrow-to-top"></i></span>
-      <h6>All rights reserved © 2018 | Sweratel AB</h6>
-   </div>
-</footer>
-</body>
+      <footer>
+         <div class="footer-wrapper">
+            <div class="footer-links">
+               <h3>Company</h3>
+               <li><a href="#" class="underlined-animation">Heterogenoussolution &nbsp;></a></li>
+               <li><a href="#" class="underlined-animation">Infrastructure &nbsp;></a></li>
+               <li><a href="#" class="underlined-animation">Request demo &nbsp;></a></li>
+               <li><a href="#" class="underlined-animation">Delivery time &nbsp;></a></li>
+               <li><a href="#" class="underlined-animation">Investor relations &nbsp;></a></li>
+            </div>
+            <div class="footer-links">
+               <h3>Technology</h3>
+               <li><a href="#" class="underlined-animation">Software &nbsp;></a></li>
+               <li><a href="#" class="underlined-animation">Security &nbsp;></a></li>
+               <li><a href="#" class="underlined-animation">Privacy &nbsp;></a></li>
+               <li><a href="#" class="underlined-animation">Maintainance &nbsp;></a></li>
+               <li><a href="#" class="underlined-animation">CellularWiFi &nbsp;></a></li>
+            </div>
+            <div class="footer-links">
+               <h3>Products</h3>
+               <li><a href="#" class="underlined-animation">Portfolio &nbsp;></a></li>
+               <li><a href="#" class="underlined-animation">Antennas &nbsp;></a></li>
+               <li><a href="#" class="underlined-animation">Hardware &nbsp;></a></li>
+               <li><a href="#" class="underlined-animation">Security &nbsp;></a></li>
+               <li><a href="#" class="underlined-animation">Contact us &nbsp;></a></li>
+            </div>
+            <div class="adressInfo">
+               <h3>Adress</h3>
+               <p>Kindgrensgatan 15 <br>554 74 Jönköping <br>Sweden</p>
+            </div>
+            <div class="socialMediaIcons">
+               <a href="https://www.linkedin.com/company/sweratel-ab/?trk=top_nav_home" target="_blank"><i class="linkedin icon"></i></a>
+               <a href="https://twitter.com/sweratel" target="_blank"><i class="twitter icon"></i></a>
+               <a href="#kontaktformulärsenare"><i class="envelope outline icon"></i></a>                         
+            </div>
+         </div>
+         <div class="copyRight">
+            <!-- sitemap, om oss, kontakta oss, investorrelationer, request demo system-->
+            <!-- <span class="scrollToTop"><i class="angle up icon arrow-to-top"></i></span> -->
+            <h6>All rights reserved © 2018 | Sweratel AB</h6>
+         </div>
+      </footer>
+ 
+   </body>
 </html>

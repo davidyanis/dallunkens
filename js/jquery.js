@@ -46,13 +46,13 @@ $(document).ready(function() {
     });
 
     $('.show-more-text-btn').click(function() {
-        $('.hidden-text-product').slideDown("fast")
+        $('.hidden-text-product').slideDown(1)
         $('.show-less-text-btn').show()
         $('.show-more-text-btn').hide()
     });
     
     $('.show-less-text-btn').click(function() {
-        $('.hidden-text-product').slideUp()
+        $('.hidden-text-product').slideUp(1)
         $('.show-more-text-btn').show()
         $('.show-less-text-btn').hide()
 
@@ -62,6 +62,8 @@ $(document).ready(function() {
      $(".scrollToTop").click(function() {
         $("html, body").animate({scrollTop: 0}, "slow");
       });
+
+
 
 //       // Hide Header on on scroll down
 // var didScroll;

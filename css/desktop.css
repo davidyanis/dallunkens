@@ -49,21 +49,15 @@
         display: none;
         margin-top: 2em;
         font-family: 'Roboto Condensed', sans-serif;
-        font-size: 1.4em;
+        font-size: 1em;
         margin-left: 2em;
         margin-right: 2em;
     }
 
     .data-sheet a {
         color: black;
-        text-decoration: underline;
     }
 
-    .data-sheet a:hover {
-        color: rgb(137, 202, 245);
-        text-decoration: underline;
-    }
-    
     .show-more-text-btn {
         background: transparent;
         border: none;
@@ -265,43 +259,35 @@
     height: 20em;
     width: 100%;
     display: flex;
+    border-radius: 1em;
 }
 
 .information-about-product-text {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.2em;
-    padding: 1em;
-}
-
-/* this is the specification buttons for prodcuts */
-
-.key-features-btn {
-    background-color:white;
-    font-size: 1.4em;
-    height: 2em;
-    font-family: 'Roboto Condensed', sans-serif;
-    border-radius: 0.3em;
-    margin: 0.3em;
-    color:  #22AAEB;
-    outline: none;
-    width: 10em;
-}
-
-.data-sheet-btn {
-    background-color: white;
-    color: #22AAEB;
-    font-size: 1.4em;
-    border-radius: 0.3em;
-    height: 2em;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin: 0.3em;
-    outline: none;
-    width: 10em;
+    padding: 0em 1em 1em 1em;
 }
 
 .container-for-more-information {
     width: 100%;
 }
+
+.section-container-products .for-specification {
+    margin-top: 20px!important;
+    border-radius: 10px!important;
+}
+
+.section-container-products .button {
+    background-color: #22AAEB!important;
+    color: #fff!important;
+}
+
+.section-container-products .button:hover {
+    background-color: #fff!important;
+    color: #22AAEB!important;
+}
+
+
 
 .container-for-buttons {
     display: flex;
@@ -317,12 +303,6 @@
     font-size: 1.4em;
 }
 
-.key-features-btn:hover, .data-sheet-btn:hover {
-    background-color: #22AAEB;
-    color: white;
-    cursor: pointer;
-} 
-
 .key-features-list li {
     list-style: none;
     margin: 0.5em;
@@ -331,7 +311,6 @@
 
 .data-sheet a {
     color: #22AAEB;
-    text-decoration: underline;
 }
 
 .hidden-text-product {
