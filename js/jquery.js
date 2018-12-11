@@ -69,6 +69,9 @@ $(document).ready(function() {
         $("html, body").animate({scrollTop: 0}, "slow");
       });
 
+     $(".press-description").hide();
+      
+
 
 
 //       // Hide Header on on scroll down
