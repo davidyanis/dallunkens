@@ -70,9 +70,10 @@ $(document).ready(function() {
       });
 
      $(".press-description").hide();
-      
-
-
+             //animation done
+             $('.ui.dropdown')
+             .dropdown()
+           ;
 
 //       // Hide Header on on scroll down
 // var didScroll;

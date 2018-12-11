@@ -12,5 +12,3 @@ function menuButtonClicked() {
             exitButton.classList.replace("remove", "bars");
         }
 }
-
-    
