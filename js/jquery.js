@@ -31,28 +31,34 @@ $(document).ready(function() {
 
         /* shows and hides divs depending on which you click on */
 
-    $('.key-features-btn').click(function() {
-        $('.key-features').toggle()
+    $('.capacity-btn').click(function() {
+        $('.key-capacity').toggle()
+            $(".capacity-btn").toggleClass("product-active-button");
             $('.specification').hide()
             $('.data-sheet').hide()
+            $(".dataSheet-btn").removeClass("product-active-button");
             // Animation complete.
     });
 
-    $('.data-sheet-btn').click(function() {
+    $('.dataSheet-btn').click(function() {
         $('.data-sheet').toggle()
-            $('.specification').hide()
-            $('.key-features').hide()
+        $(".dataSheet-btn").toggleClass("product-active-button");
+            $('.key-capacity').hide()
+            $('.key-capacity').hide()
+            $(".capacity-btn").removeClass("product-active-button");
             // Animation complete.
     });
 
+
+     //this is show more/show less text on product site.
     $('.show-more-text-btn').click(function() {
-        $('.hidden-text-product').slideDown("fast")
+        $('.hidden-text-product').slideDown(1)
         $('.show-less-text-btn').show()
         $('.show-more-text-btn').hide()
     });
     
     $('.show-less-text-btn').click(function() {
-        $('.hidden-text-product').slideUp()
+        $('.hidden-text-product').slideUp(1)
         $('.show-more-text-btn').show()
         $('.show-less-text-btn').hide()
 
@@ -62,6 +68,12 @@ $(document).ready(function() {
      $(".scrollToTop").click(function() {
         $("html, body").animate({scrollTop: 0}, "slow");
       });
+
+     $(".press-description").hide();
+             //animation done
+             $('.ui.dropdown')
+             .dropdown()
+           ;
 
 //       // Hide Header on on scroll down
 // var didScroll;

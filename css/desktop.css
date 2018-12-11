@@ -6,7 +6,8 @@
    
 
     .press-container .press-post {
-        width: 70%;
+        width: 65%;
+       font-size: 0.5em;
         padding: 2em;
     }
     .press-container{
@@ -45,25 +46,19 @@
         margin-right: 4.5em;
     }
 
-    .key-features, .data-sheet  {
+    .key-capacity, .data-sheet  {
         display: none;
         margin-top: 2em;
         font-family: 'Roboto Condensed', sans-serif;
-        font-size: 1.4em;
+        font-size: 1em;
         margin-left: 2em;
         margin-right: 2em;
     }
 
     .data-sheet a {
         color: black;
-        text-decoration: underline;
     }
 
-    .data-sheet a:hover {
-        color: rgb(137, 202, 245);
-        text-decoration: underline;
-    }
-    
     .show-more-text-btn {
         background: transparent;
         border: none;
@@ -108,11 +103,13 @@
 
 
     .wide-text-content {
-        height: 25em;
+        height: 40em;
         width: 100%;
         margin-top: 4em;
         margin-bottom: 4em;
-        background-color: #22AAEB!important;
+        background-image: url("../images/sunrise-3808121_1920.jpg");
+        background-position: center;
+        background-size: cover;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -121,21 +118,22 @@
 
     .wide-text-content h1 {
         margin: 0;
-        font-weight: 500;
+        font-weight: bold;
         color: #fff;
     }
 
     .wide-text-content h3 {
         text-align: center;
         width: 50%;
-        font-weight: 500;
-        color: #fff;
+        font-weight: 100;
+        color: #e6e6e6;
     }
 
     .wide-text-btn {
-        background-color:#fff!important;
+        margin-top: 1em!important;
+        background-color:#22AAEB!important;
         font-size: 3em;
-        color: #22AAEB!important;
+        color: #fff!important;
         transition: all 0.3s ease 0s!important;
     }
 
@@ -146,7 +144,6 @@
 
     .content a:hover {
         color: #22AAEB!important;
-        text-decoration: underline;
     }
 
     .h1-bg{
@@ -174,36 +171,7 @@
 
     .cards-container {
         margin-top: 3em !important;
-        margin-bottom: 3em!important;
-    }
-
-    .loginButton {
-        height: 3em;
-        margin-right: 0.7em;
-    }
-   
-    .actions {
-        background-color: #ddd!important;
-    }
-
-    .containerUsernameAndPassword input{
-        width: 10em;
-        padding: 0.8em;
-        margin-top: 1em;
-        font-size: 1.2em;
-    }
-
-    .containerUsernameAndPassword button{
-       margin-top: 1em!important;
-       margin-bottom: 0.5em!important;
-       align-items: center;
-    }
-
-    .containerUsernameAndPassword {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
+        margin-bottom: 6em!important;
     }
 
     .description p {
@@ -213,13 +181,14 @@
     }
 
 /* Contact us SITE */
+
 .contact-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     align-content: center;
     align-items: center;
-    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8) ), url("../images/weareHiring.jpg");
+    margin-top: 1em;
+    margin-right: 20em;
+    margin-left: 20em;
+    margin-bottom: 1em;
 }
 
 
@@ -242,13 +211,20 @@
 }
 
 .contact-form {
-    width: 45em;
-    margin: 2em;
+    width: 100%;
     padding: 3em;
     background-color: white;
-    display: flex;
     flex-direction: column;
 }
+
+.confirmation-button-mail {
+    background-color: #22AAEB!important;
+}
+
+.confirmation-button-mail:hover {
+    background-color: rgb(39, 183, 250)!important;
+}
+
 /* product container */
 .container-for-product-sheet {
     width: 100%;
@@ -266,42 +242,34 @@
     height: 20em;
     width: 100%;
     display: flex;
+    border-radius: 1em;
 }
 
 .information-about-product-text {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.2em;
-    padding: 1em;
-}
-
-/* this is the specification buttons for prodcuts */
-
-.key-features-btn {
-    background-color:white;
-    font-size: 1.4em;
-    height: 2em;
-    font-family: 'Roboto Condensed', sans-serif;
-    border-radius: 0.3em;
-    margin: 0.3em;
-    color:  #22AAEB;
-    outline: none;
-    width: 10em;
-}
-
-.data-sheet-btn {
-    background-color: white;
-    color: #22AAEB;
-    font-size: 1.4em;
-    border-radius: 0.3em;
-    height: 2em;
-    font-family: 'Roboto Condensed', sans-serif;
-    margin: 0.3em;
-    outline: none;
-    width: 10em;
+    padding: 0em 1em 1em 1em;
 }
 
 .container-for-more-information {
     width: 100%;
+    justify-content: center;
+    margin-left: 4.5em;
+}
+
+.section-container-products .for-specification {
+    margin-top: 20px!important;
+    border-radius: 10px!important;
+}
+
+.capacity-btn, .dataSheet-btn, .specs-btn, .warranty-btn{
+    background-color: #22AAEB!important;
+    color: #fff!important;
+}
+
+.section-container-products .button:hover {
+    background-color: #fff!important;
+    color: #000!important;
 }
 
 .container-for-buttons {
@@ -311,20 +279,14 @@
 }
 
 /* divs should switch inbetween depending on which you click */
-.key-features, .data-sheet  {
+.key-capacity, .data-sheet  {
     display: none;
     margin-top: 1em;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.4em;
 }
 
-.key-features-btn:hover, .data-sheet-btn:hover {
-    background-color: #22AAEB;
-    color: white;
-    cursor: pointer;
-} 
-
-.key-features-list li {
+.key-capacity-list li {
     list-style: none;
     margin: 0.5em;
     font-family: 'Roboto Condensed', sans-serif;
@@ -332,11 +294,15 @@
 
 .data-sheet a {
     color: #22AAEB;
-    text-decoration: underline;
 }
 
 .hidden-text-product {
     display: none;
+}
+
+.product-active-button {
+    background-color: #fff!important;
+    color: #000!important;
 }
 
 .show-more-text-btn {
