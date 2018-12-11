@@ -31,20 +31,22 @@ $(document).ready(function() {
 
         /* shows and hides divs depending on which you click on */
 
-    $('.key-features-btn').click(function() {
-        $('.key-features').toggle()
+    $('.capacity-btn').click(function() {
+        $('.key-capacity').toggle()
             $('.specification').hide()
             $('.data-sheet').hide()
             // Animation complete.
     });
 
-    $('.data-sheet-btn').click(function() {
+    $('.dataSheet-btn').click(function() {
         $('.data-sheet').toggle()
-            $('.specification').hide()
-            $('.key-features').hide()
+            $('.key-capacity').hide()
+            $('.key-capacity').hide()
             // Animation complete.
     });
 
+
+     //this is show more/show less text on product site.
     $('.show-more-text-btn').click(function() {
         $('.hidden-text-product').slideDown(1)
         $('.show-less-text-btn').show()
