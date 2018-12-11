@@ -6,35 +6,44 @@ footer {
     width: 100%;
     padding-top: 1em;
     bottom: 0;
-    border-top: 0.1em solid #22AAEB;
+   
 }
 
 .footer-wrapper {
-    display: flex;
-    justify-content: space-evenly;
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-right: 5px;
-    margin-bottom: 5px;
+    width: 80%;
+    display: flex!important;
+    margin: 2em;
     font-family: 'Roboto Condensed', sans-serif!important;
 }
 
+.move-footer-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .footer-links h3{
-    color:#22AAEB;
-    font-size: 1.3em;
+    color:#000;
+    font-size: 1.1em;
 }
 
 .footer-links{
-    border-right: 0.1em solid #22AAEB;
-    flex-grow: 2;
-    margin-left: 2em;
+    flex-grow: 1;
     list-style: none;
 }
 
+.footer-logo {
+    margin-right: 3em;
+    flex-grow: 1;
+}
+
+.footer-logo-size img{
+    width: 7em;
+}
 
 .footer-links li a{
-    color: #333!important;
-    font-size: 1.1em;
+    color: #757575!important;
+    font-size: 1em;
     opacity: 0.9;
 }
 
@@ -42,7 +51,13 @@ footer {
     margin-bottom: 0.8em;
 }
 
-.underlined-animation {
+.underlined-animation:hover {
+	color: #22AAEB!important;
+}
+
+
+
+/* .underlined-animation {
 	position: relative;
 	color: #fff;
 	text-decoration: none;
@@ -83,43 +98,43 @@ footer {
   -o-transform: scaleX(1);
   transform: scaleX(1);
 }
-
+ */
 .adressInfo h3 {
-    color: #22AAEB;
+    color: #000;
     font-family: 'Roboto Condensed', sans-serif!important;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 
 .adressInfo {
-    font-size: 1.1em;
-    color: rgb(75, 78, 84);
-    margin-left: 2em;
-    flex-grow: 2;
-    margin-top: 5.1em;
+    flex-grow: 1;
+    font-size: 1em;
+    color: #757575;
 }
 
 /* Social media on footer, icons etc styling */
 .socialMediaIcons {
-    align-items: flex-end;
-    justify-content: center;
     display: flex;
     flex-direction: column;
-    flex-grow: 2;
+    margin-left: 4em;
+    flex-grow: 1;
 }
 
 .socialMediaIcons .twitter {
     font-size: 2.5em;
     color: #1da1f2;
+    line-height: 0.5em!important;
 }
 
 .socialMediaIcons .linkedin {
     color: #0077B5;
     font-size: 2.5em;
+    line-height: 0.5em!important;
 }
 
 .socialMediaIcons .envelope {
     color: #333;
     font-size: 2.5em;
+    line-height: 0.5em!important;
   
 }
 
@@ -137,8 +152,9 @@ footer {
 /* Copyright and our credits */
 .copyRight {
     width: 100%;
+    padding: 0.5em;
     height: auto;      
-    background-color: rgb(79, 169, 229);
+    background-color: #22AAEB;
     color: #fff;
     text-align: center;
 }
