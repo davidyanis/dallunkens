@@ -91,7 +91,7 @@ nav ul li ul li:hover a {
 
 /* Hidden dropdown menu */
 nav ul li ul.fallback {
-    display:none;
+    display: none;
 }
 
 /* On hover show dropdown menu */
@@ -163,39 +163,12 @@ nav ul li:hover ul.fallback {
     /* dropdown box tablet */
     nav ul li ul {
         position: absolute;
-        width: 20em;
+        width: 12em;
         background: white;
         opacity: 1;
         z-index: 9999;
-        border-top: 0.1em solid #22AAEB;
-        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1)!important;
-        
-    }
-
-    nav ul li ul:after, nav ul li ul:before {
-        bottom: 100%;
-        left: 20%;
-        border: solid transparent;
-        content: " ";
-        height: 0;
-        width: 0;
-        position: absolute;
-        pointer-events: none;
-        
-    }
-    
-    nav ul li ul:after {
-        border-color: rgba(255, 255, 255, 0);
-        border-bottom-color: #fff;
-        border-width: 15px;
-        margin-left: -15px;
-        
-    }
-    nav ul li ul:before {
-        border-color: rgba(92, 92, 92, 0);
-        border-bottom-color: #22AAEB;
-        border-width: 16px;
-        margin-left: -16px;
+        border-top: 0.1em solid #ddd;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1)!important; 
     }
     
     nav ul li ul li {
@@ -231,5 +204,42 @@ nav ul li:hover ul.fallback {
     .active {
         color: #000000;
     }
+
+
+    .hvr-overline-from-center {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        position: relative;
+        overflow: hidden;
+      }
+      .hvr-overline-from-center:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 50%;
+        right: 50%;
+        top: 0;
+        background: #22AAEB;
+        height: 0.1em;
+        -webkit-transition-property: left, right;
+        transition-property: left, right;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        -webkit-transition-timing-function: ease-out;
+        transition-timing-function: ease-out;
+      }
+      .hvr-overline-from-center:hover:before, .hvr-overline-from-center:focus:before, .hvr-overline-from-center:active:before {
+        left: 0;
+        right: 0;
+      }
+      
+    
+
 }
 
