@@ -33,15 +33,19 @@ $(document).ready(function() {
 
     $('.capacity-btn').click(function() {
         $('.key-capacity').toggle()
+            $(".capacity-btn").toggleClass("product-active-button");
             $('.specification').hide()
             $('.data-sheet').hide()
+            $(".dataSheet-btn").removeClass("product-active-button");
             // Animation complete.
     });
 
     $('.dataSheet-btn').click(function() {
         $('.data-sheet').toggle()
+        $(".dataSheet-btn").toggleClass("product-active-button");
             $('.key-capacity').hide()
             $('.key-capacity').hide()
+            $(".capacity-btn").removeClass("product-active-button");
             // Animation complete.
     });
 
