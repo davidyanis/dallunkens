@@ -206,6 +206,14 @@ div .field {
     color: #fff;
 }
 
+.ui.multiple.dropdown > .label:hover {
+    background-color: #fff;
+    color: #22AAEB;
+}
+
+
+
+
 a.ui.label {
     padding-bottom: 10px!important;
 }
@@ -240,7 +248,8 @@ a.ui.label {
 }
 
 .confirmation-button-mail:hover {
-    background-color: rgb(39, 183, 250)!important;
+    background-color: #fff!important;
+    color: #22AAEB!important;
 }
 
 /* product container */
