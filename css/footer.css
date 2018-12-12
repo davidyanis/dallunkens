@@ -6,7 +6,7 @@ footer {
     width: 100%;
     padding-top: 1em;
     bottom: 0;
-    border-top: 0.1em solid #000;
+    border-top: 0.1em solid #ddd;
 }
 
 .footer-wrapper {
