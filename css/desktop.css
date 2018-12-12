@@ -201,7 +201,6 @@ div .field {
 }
 
 .ui.multiple.dropdown > .label {
-    text-align: center;
     background-color: #22AAEB;
     color: #fff;
 }
@@ -215,7 +214,8 @@ div .field {
 
 
 a.ui.label {
-    padding-bottom: 10px!important;
+    font-size: 0.8em!important;
+    padding-bottom: 0.7em!important;
 }
 
 .contact-container h1{
