@@ -192,7 +192,7 @@
 }
 
 div .field {
-    margin: 0.2em!important;
+    margin: 0.3em!important;
 } 
 
 .ui.form .fields > .field {
@@ -245,6 +245,8 @@ a.ui.label {
 
 .confirmation-button-mail {
     background-color: #22AAEB!important;
+    font-size: 1em!important;
+    margin-left: 0.3em!important;
 }
 
 .confirmation-button-mail:hover {

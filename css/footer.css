@@ -2,11 +2,11 @@
 
 footer {
     position: relative;
-    background-color: #F2F2F2!important;
+    background-color: #fff!important;
     width: 100%;
     padding-top: 1em;
     bottom: 0;
-   
+    border-top: 0.1em solid #000;
 }
 
 .footer-wrapper {
@@ -56,7 +56,6 @@ footer {
 }
 
 
-/*
 .underlined-animation {
 	position: relative;
 	color: #fff;
@@ -90,8 +89,6 @@ footer {
     transform: scaleX(0);
 }
 
-<<<<<<< HEAD
-=======
 .underlined-animation:hover:before,
 .post-preview:hover .underlined-animation:before {
   visibility: visible;
@@ -99,9 +96,8 @@ footer {
   -moz-transform: scaleX(1);
   -o-transform: scaleX(1);
   transform: scaleX(1);
-} */
+} 
 
->>>>>>> navbar-left-logo
 .adressInfo h3 {
     color: #000;
     font-family: 'Roboto Condensed', sans-serif!important;
