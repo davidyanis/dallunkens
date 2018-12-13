@@ -391,10 +391,11 @@ article {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 5em;
+    margin-top: 2em;
     margin-bottom: 5em;
     margin-left: 8em;
     margin-right: 8em;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .main-facts-container {
