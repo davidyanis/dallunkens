@@ -476,6 +476,9 @@ article {
 
 }
 
+.paragraf-facts {
+    line-height: 1.3em;
+}
 
 .wrapper-facts-picture {
     flex-direction: column;
