@@ -114,6 +114,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        background-attachment: fixed;
     }
 
     .wide-text-content h1 {
@@ -381,7 +382,8 @@ article {
 }
 
 .margin-fix-cards {
-    margin: 0!important;
+    margin-top: 2em!important;
+    margin-bottom: 2em!important;
 }
 
 /* facts and slogan site */
