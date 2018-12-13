@@ -139,6 +139,8 @@
 
     .wide-text-btn:hover {
         transform: translateY(-7px);
+        color: #22AAEB!important;
+        background-color: #fff!important;
       }
 
 
@@ -148,25 +150,27 @@
 
     .h1-bg{
         font-size: 3em;
-        color: white;
+        color: #fff;
         margin: 0;
     }
 
     .description-bg {
         text-align: center;
         font-size: 2em;
-        color: white;
+        color: #fff;
     }
 
     .home-wide-btn {
         background-color: #22AAEB!important;
         font-size: 3em;
-        color: white!important;
+        color: #fff!important;
         transition: all 0.3s ease 0s!important;
     }
 
     .home-wide-btn:hover {
         transform: translateY(-7px);
+        color: #22AAEB!important;
+        background-color: #fff!important;
       }
 
     .cards-container {
@@ -239,7 +243,7 @@ a.ui.label {
 .contact-form {
     width: 100%;
     padding: 3em;
-    background-color: white!important;
+    background-color: #fff!important;
     flex-direction: column;
 }
 
@@ -271,7 +275,7 @@ a.ui.label {
     height: 20em;
     width: 100%;
     display: flex;
-    border-radius: 1em;
+    border-radius: 0.3em;
 }
 
 .information-about-product-text {
@@ -383,16 +387,18 @@ article {
 /* facts and slogan site */
 
 .main-facts-wrapper {
-    height: 65em;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 5em;
     margin-bottom: 5em;
+    margin-left: 8em;
+    margin-right: 8em;
 }
 
 .main-facts-container {
-    width: 60em;
+    width: 50em;
     height: auto;
 }
 
@@ -437,7 +443,42 @@ article {
     font-size: 1.2em;
 }
 
+.section-one-facts1 {
+    margin-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+}
 
+.section-one-facts1 h1 {
+    border-bottom: 2px solid #22AAEB;
+}
+
+.container-facts-picture {
+    width: 20em;
+    height: 15em;
+    margin-top: 11.7em;
+}
+
+.container-facts-picture img {
+    width: 20em;
+    height: 15em;
+    border-radius: 0.2em;
+}
+
+.container-facts-picture2 img {
+    width: 20em;
+    height: 15em;
+    margin-top: 3.5em;
+    border-radius: 0.2em;
+
+}
+
+
+.wrapper-facts-picture {
+    flex-direction: column;
+}
 
 
 
