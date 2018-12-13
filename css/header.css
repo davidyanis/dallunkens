@@ -165,7 +165,7 @@ nav ul li:hover ul.fallback {
     nav ul li ul {
         position: absolute;
         width: 12em;
-        background: white;
+        background: rgba(255, 255, 255, 0.8);
         opacity: 1;
         z-index: 9999;
         border-top: 0.1em solid #ddd;
