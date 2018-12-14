@@ -34,6 +34,22 @@ footer {
     font-family: 'PT Sans', sans-serif!important;
 }
 
+.footer-links-contact {
+    flex-grow: 1;
+    list-style: none;
+    font-family: 'PT Sans', sans-serif!important;
+}
+
+.footer-links-contact li a {
+    color: #757575!important;
+    font-size: 1em;
+    opacity: 0.9;
+}
+
+.footer-links-contact li {
+    padding-top: 0.8em;
+}
+
 .footer-logo {
     margin-right: 3em;
     flex-grow: 1;
