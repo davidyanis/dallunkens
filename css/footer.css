@@ -13,7 +13,7 @@ footer {
     width: 80%;
     display: flex!important;
     padding: 2em;
-    font-family: 'Roboto Condensed', sans-serif!important;
+    font-family: 'PT Sans', sans-serif!important;
 }
 
 .move-footer-center {
@@ -25,11 +25,13 @@ footer {
 .footer-links h3{
     color:#000;
     font-size: 1.1em;
+    font-family: 'PT Sans', sans-serif!important;
 }
 
 .footer-links{
     flex-grow: 1;
     list-style: none;
+    font-family: 'PT Sans', sans-serif!important;
 }
 
 .footer-logo {
@@ -78,10 +80,10 @@ footer {
 	background-color: #22AAEB;
     visibility: hidden;
 
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -moz-transition: all 0.3s ease-in-out 0s;
-    -o-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.1s ease-in-out 0s;
+    -moz-transition: all 0.1s ease-in-out 0s;
+    -o-transition: all 0.1s ease-in-out 0s;
+    transition: all 0.1s ease-in-out 0s;
   
     -webkit-transform: scaleX(0);
     -moz-transform: scaleX(0);
@@ -100,7 +102,7 @@ footer {
 
 .adressInfo h3 {
     color: #000;
-    font-family: 'Roboto Condensed', sans-serif!important;
+    font-family: 'PT Sans', sans-serif!important;
     font-size: 1.1em;
 }
 
@@ -108,6 +110,7 @@ footer {
     flex-grow: 1;
     font-size: 1em;
     color: #757575;
+    font-family: 'PT Sans', sans-serif!important;
 }
 
 /* Social media on footer, icons etc styling */
@@ -186,7 +189,7 @@ footer {
     .footer-wrapper {
         margin: 4em 4em 0em 4em;
         justify-content: space-between;
-        font-family: 'Roboto Condensed', sans-serif!important;
+        font-family: 'PT Sans', sans-serif!important;
     }
     
     .footer-links h3{
@@ -210,7 +213,7 @@ footer {
  
     .adressInfo h3 {
         color: #22AAEB;
-        font-family: 'Roboto Condensed', sans-serif!important;
+        font-family: 'PT Sans', sans-serif!important;
         text-align: center;
     }
     .adressInfo {
