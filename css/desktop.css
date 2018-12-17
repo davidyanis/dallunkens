@@ -180,6 +180,32 @@
     margin-bottom: 1em;
 }
 
+div .field {
+    margin: 0.2em!important;
+} 
+
+.ui.form .fields > .field {
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.ui.multiple.dropdown > .label {
+    text-align: center;
+    background-color: #22AAEB;
+    color: #fff;
+}
+
+.ui.multiple.dropdown > .label:hover {
+    background-color: #fff;
+    color: #22AAEB;
+}
+
+
+
+
+a.ui.label {
+    padding-bottom: 10px!important;
+}
 
 .contact-container h1{
     text-align: center;
@@ -195,14 +221,14 @@
    
 }
 .contact-container input, textarea{
-    background-color: #f7f7f7!important;
     color: #f7f7f7;
+    font-size: 0.88em!important;
 }
 
 .contact-form {
     width: 100%;
     padding: 3em;
-    background-color: white;
+    background-color: white!important;
     flex-direction: column;
 }
 
@@ -211,7 +237,8 @@
 }
 
 .confirmation-button-mail:hover {
-    background-color: rgb(39, 183, 250)!important;
+    background-color: #fff!important;
+    color: #22AAEB!important;
 }
 
 /* product container */
