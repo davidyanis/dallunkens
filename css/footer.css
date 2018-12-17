@@ -2,7 +2,7 @@
 
 footer {
     position: relative;
-    background-color: #F2F2F2!important;
+    background-image: linear-gradient(to right top, #22aaeb, #5b75ac, #554769, #342430, #000000)!important;
     width: 100%;
     padding-top: 1em;
     bottom: 0;
@@ -23,7 +23,7 @@ footer {
 }
 
 .footer-links h3{
-    color:#000;
+    color:#ddd;
     font-size: 1.1em;
 }
 
@@ -42,7 +42,7 @@ footer {
 }
 
 .footer-links li a{
-    color: #757575!important;
+    color: #ddd!important;
     font-size: 1em;
     opacity: 0.9;
 }
@@ -100,44 +100,23 @@ footer {
 } */
 
 .adressInfo h3 {
-    color: #000;
+    color: #ddd;
     font-family: 'Roboto Condensed', sans-serif!important;
     font-size: 1.1em;
+    margin-top: 0;
 }
 
 .adressInfo {
     flex-grow: 1;
     font-size: 1em;
-    color: #757575;
+    color: #ddd;
 }
 
 /* Social media on footer, icons etc styling */
-.socialMediaIcons {
-    display: flex;
-    flex-direction: column;
-    padding-left: 4em;
-    flex-grow: 1;
-}
 
-.socialMediaIcons .twitter {
-    font-size: 2.5em;
-    color: #1da1f2;
-    line-height: 0.5em!important;
+.linkedin, .twitter {
+    
 }
-
-.socialMediaIcons .linkedin {
-    color: #0077B5;
-    font-size: 2.5em;
-    line-height: 0.5em!important;
-}
-
-.socialMediaIcons .envelope {
-    color: #333;
-    font-size: 2.5em;
-    line-height: 0.5em!important;
-  
-}
-
 .twitter:hover, .linkedin:hover, .envelope:hover {
     -webkit-animation: swing 1s ease;
     animation: swing 1s ease;
@@ -154,12 +133,13 @@ footer {
     width: 100%;
     padding: 0.5em;
     height: auto;      
-    background-color: #22AAEB;
+    background-color: #fff;
     color: #fff;
     text-align: center;
 }
 
 .copyRight h6 {
+        color: #333;
         font-size: 0.9em;
         margin: 0;
         line-height: 2em;

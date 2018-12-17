@@ -3,17 +3,6 @@
         margin: 0;
     }
 
-   
-
-    .press-container .press-post {
-        width: 65%;
-       font-size: 0.5em;
-        padding: 2em;
-    }
-    .press-container{
-        margin: 0 auto;
-    }
-    
     section .container-for-product-sheet {
         justify-content: flex-end;
         display: flex;
@@ -319,15 +308,28 @@
 }
 
 /* Press site */
+
+
 .press-container {
-   flex-wrap: wrap;
-    display: flex;
-    width: 100%;
+    margin: 0 auto;
+    width: 60%;
     padding: 1em;
+    margin-top: 1em;
 }
 
+.press-container .press-post {
+    padding: 2em;
+   
+}
+
+.display-press-release {
+    font-size: 0.8em;
+}
+
+
 .press-release-header {
-    padding-left: 1.5em;
+    color: #000;
+    width: 60%;
 }
 
 
