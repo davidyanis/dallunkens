@@ -74,7 +74,7 @@ $(document).ready(function() {
       /*Scroll to top when arrow up clicked BEGIN*/
 $(window).scroll(function() {
     var height = $(window).scrollTop();
-    if (height > 600) {
+    if (height > 1300) {
         $('#back2Top').fadeIn();
     } else {
         $('#back2Top').fadeOut();
