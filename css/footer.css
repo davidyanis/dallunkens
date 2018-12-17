@@ -199,16 +199,15 @@ footer {
         position: fixed;
         bottom: 50px;
         right: 0;
-        background-color: #22AAEB!important;
+        background-color: #22AAEB;
         color: #fff;
-        text-align: center!important;
-        font-size: 1em;
+        text-align: center;
         border-radius: 2em;
         margin-right: 0.5em;
-        font-size: 3em!important;
-        text-align: center!important;
-        outline: none!important;
-        border: 1px solid #22AAEB!important;
+        font-size: 3em;
+        outline: none;
+        border: 1px solid #22AAEB;
+        text-decoration: none;
     }
 
     .fa-arrow-circle-up:hover {
