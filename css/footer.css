@@ -183,13 +183,16 @@ footer {
         line-height: 2em;
         text-align: center;
     } 
+
+    #back2Top {
+        display: none;
+    }
     
     .fa-arrow-circle-up{
         width: auto;
         line-height: auto;
         overflow: hidden;
         z-index: 999;
-        display: none;
         cursor: pointer;
         -moz-transform: rotate(360deg);
         -webkit-transform: rotate(360deg);
