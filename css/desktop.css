@@ -308,8 +308,8 @@ a.ui.label {
 }
 
 .capacity-btn, .dataSheet-btn, .specs-btn, .warranty-btn{
-    background-color: #22AAEB!important;
-    color: #fff!important;
+    background-color: #fff!important;
+    color: #22AAEB!important;
 }
 
 .section-container-products .button:hover {
@@ -324,6 +324,7 @@ a.ui.label {
 }
 
 /* divs should switch inbetween depending on which you click */
+
 .key-capacity, .data-sheet  {
     display: none;
     margin-top: 1em;
@@ -346,7 +347,6 @@ a.ui.label {
 }
 
 .product-active-button {
-    background-color: #fff!important;
     color: #000!important;
 }
 
