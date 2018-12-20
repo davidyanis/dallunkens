@@ -93,6 +93,12 @@ $(document).ready(function() {
  /*Scroll to top when arrow up clicked END*/
 
      $(".press-description").hide();
+<<<<<<< HEAD
+
+     // Contact us choose input
+        $('.ui.dropdown')
+            .dropdown();
+=======
              //animation done
              $('.ui.dropdown')
              .dropdown();
@@ -102,6 +108,7 @@ $(document).ready(function() {
 // var lastScrollTop = 0;
 // var delta = 5;
 // var navbarHeight = $('header').outerHeight();
+>>>>>>> Peters-Branch-For-template
 
     
     $('.special.cards .image').dimmer({
