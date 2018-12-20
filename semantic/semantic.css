@@ -20273,9 +20273,9 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.form textarea:not([rows]) {
-  height: 12em;
+  height: 20em;
   min-height: 8em;
-  max-height: 24em;
+  max-height: 40em;
 }
 
 .ui.form textarea,

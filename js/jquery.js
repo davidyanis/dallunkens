@@ -65,15 +65,50 @@ $(document).ready(function() {
     });
 
      /* Arrow up scrolling to top smooth animation */
-     $(".scrollToTop").click(function() {
+ /*     $(".scrollToTop").click(function() {
         $("html, body").animate({scrollTop: 0}, "slow");
       });
+ */
+
+
+      /*Scroll to top when arrow up clicked BEGIN*/
+    $(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 600) {
+        $('#back2Top').fadeIn();
+    } else {
+        $('#back2Top').fadeOut();
+    }
+
+});
+
+$(document).ready(function() {
+    $("#back2Top").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+ /*Scroll to top when arrow up clicked END*/
 
      $(".press-description").hide();
+<<<<<<< HEAD
 
      // Contact us choose input
         $('.ui.dropdown')
             .dropdown();
+=======
+             //animation done
+             $('.ui.dropdown')
+             .dropdown();
+             
+//       // Hide Header on on scroll down
+// var didScroll;
+// var lastScrollTop = 0;
+// var delta = 5;
+// var navbarHeight = $('header').outerHeight();
+>>>>>>> Peters-Branch-For-template
 
     
     $('.special.cards .image').dimmer({

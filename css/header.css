@@ -50,7 +50,7 @@ header {
 nav {
     margin-top: 8em;
     width: 100%;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 nav ul {
@@ -59,12 +59,12 @@ nav ul {
 
 /* Hover on navigation bar link */
 nav ul li a:hover {
-    color:black;
+    color:#22AAEB;
 }
 
 /* Navigation bar change TEXT styling */
 nav ul li a {
-    color: #22AAEB;
+    color: #000;
     font-size: 1.4em;
     padding: 0.5em;
     display: block;
@@ -166,11 +166,11 @@ nav ul li:hover ul.fallback {
     nav ul li ul {
         position: absolute;
         width: 12em;
-        background: white;
+        background: rgba(255, 255, 255, 0.9);
         opacity: 1;
         z-index: 9999;
         border-top: 0.1em solid #ddd;
-        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1)!important; 
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7)!important; 
     }
     
     nav ul li ul li {
@@ -232,8 +232,8 @@ nav ul li:hover ul.fallback {
         height: 0.1em;
         -webkit-transition-property: left, right;
         transition-property: left, right;
-        -webkit-transition-duration: 0.2s;
-        transition-duration: 0.2s;
+        -webkit-transition-duration: 0.1s;
+        transition-duration: 0.1s;
         -webkit-transition-timing-function: ease-out;
         transition-timing-function: ease-out;
       }

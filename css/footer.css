@@ -2,18 +2,22 @@
 
 footer {
     position: relative;
+<<<<<<< HEAD
     background-image: linear-gradient(to right top, #22aaeb, #5b75ac, #554769, #342430, #000000)!important;
+=======
+    background-color: #fff!important;
+>>>>>>> Peters-Branch-For-template
     width: 100%;
     padding-top: 1em;
     bottom: 0;
-   
+    border-top: 0.1em solid #ddd;
 }
 
 .footer-wrapper {
     width: 80%;
     display: flex!important;
     padding: 2em;
-    font-family: 'Roboto Condensed', sans-serif!important;
+    font-family: 'PT Sans', sans-serif!important;
 }
 
 .move-footer-center {
@@ -25,11 +29,29 @@ footer {
 .footer-links h3{
     color:#ddd;
     font-size: 1.1em;
+    font-family: 'PT Sans', sans-serif!important;
 }
 
 .footer-links{
     flex-grow: 1;
     list-style: none;
+    font-family: 'PT Sans', sans-serif!important;
+}
+
+.footer-links-contact {
+    flex-grow: 1;
+    list-style: none;
+    font-family: 'PT Sans', sans-serif!important;
+}
+
+.footer-links-contact li a {
+    color: #757575!important;
+    font-size: 1em;
+    opacity: 0.9;
+}
+
+.footer-links-contact li {
+    padding-top: 0.8em;
 }
 
 .footer-logo {
@@ -56,7 +78,6 @@ footer {
 }
 
 
-/*
 .underlined-animation {
 	position: relative;
 	color: #fff;
@@ -79,10 +100,10 @@ footer {
 	background-color: #22AAEB;
     visibility: hidden;
 
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    -moz-transition: all 0.3s ease-in-out 0s;
-    -o-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.1s ease-in-out 0s;
+    -moz-transition: all 0.1s ease-in-out 0s;
+    -o-transition: all 0.1s ease-in-out 0s;
+    transition: all 0.1s ease-in-out 0s;
   
     -webkit-transform: scaleX(0);
     -moz-transform: scaleX(0);
@@ -97,11 +118,16 @@ footer {
   -moz-transform: scaleX(1);
   -o-transform: scaleX(1);
   transform: scaleX(1);
-} */
+} 
 
 .adressInfo h3 {
+<<<<<<< HEAD
     color: #ddd;
     font-family: 'Roboto Condensed', sans-serif!important;
+=======
+    color: #000;
+    font-family: 'PT Sans', sans-serif!important;
+>>>>>>> Peters-Branch-For-template
     font-size: 1.1em;
     margin-top: 0;
 }
@@ -109,7 +135,12 @@ footer {
 .adressInfo {
     flex-grow: 1;
     font-size: 1em;
+<<<<<<< HEAD
     color: #ddd;
+=======
+    color: #757575;
+    font-family: 'PT Sans', sans-serif!important;
+>>>>>>> Peters-Branch-For-template
 }
 
 /* Social media on footer, icons etc styling */
@@ -146,9 +177,39 @@ footer {
         text-align: center;
     } 
 
-.arrow-to-top {
-    color: #fff!important;
-    margin-top: -0.6em!important;
+    #back2Top {
+        display: none;
+    }
+    
+    .fa-arrow-circle-up{
+        width: auto;
+        line-height: auto;
+        overflow: hidden;
+        z-index: 999;
+        cursor: pointer;
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+        position: fixed;
+        bottom: 50px;
+        right: 0;
+        background-color: #22AAEB;
+        color: #fff;
+        text-align: center;
+        border-radius: 2em;
+        margin-right: 0.5em;
+        font-size: 3em;
+        outline: none;
+        border: 1px solid #22AAEB;
+        text-decoration: none;
+    }
+
+    .fa-arrow-circle-up:hover {
+        background-color: #fff!important;
+        color: #22AAEB!important;
+        outline: none!important;
     }
  
 }
@@ -157,17 +218,17 @@ footer {
 @media screen and (max-width: 767px) {
     footer {
         position: relative;
-        background-color: #F1F0EB!important;
+        background-color: #fff!important;
         width: 100%;
-        height: auto;
         padding-top: 1em;
         bottom: 0;
+        border-top: 0.1em solid #ddd;
     }
     
     .footer-wrapper {
         margin: 4em 4em 0em 4em;
         justify-content: space-between;
-        font-family: 'Roboto Condensed', sans-serif!important;
+        font-family: 'PT Sans', sans-serif!important;
     }
     
     .footer-links h3{
@@ -191,7 +252,7 @@ footer {
  
     .adressInfo h3 {
         color: #22AAEB;
-        font-family: 'Roboto Condensed', sans-serif!important;
+        font-family: 'PT Sans', sans-serif!important;
         text-align: center;
     }
     .adressInfo {
@@ -230,15 +291,63 @@ footer {
         color: #fff!important;
         text-align: center;
     }
-    
-    .copyRight h6 {
-        font-size: 0.9em;
-        margin: 0;
-        line-height: 2em;
+
+    .footer-logo {
         text-align: center;
+        list-style: none;
+        margin-bottom: 2em;
     }
+    
+    .footer-links-contact li a{
+        font-size: 1.2em;
+        color: rgb(75, 78, 84);
+        line-height: 1.5em;
+    }
+
     .arrow-to-top {
         color: #fff!important;
+        }
+
+    .copyRight h6 {
+            font-size: 0.9em;
+            margin: 0;
+            line-height: 2em;
+            text-align: center;
+        } 
+    
+        #back2Top {
+            display: none;
+        }
+        
+        .fa-arrow-circle-up{
+            width: auto;
+            line-height: auto;
+            overflow: hidden;
+            z-index: 999;
+            cursor: pointer;
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+            position: fixed;
+            bottom: 50px;
+            right: 0;
+            background-color: #22AAEB;
+            color: #fff;
+            text-align: center;
+            border-radius: 2em;
+            margin-right: 0.5em;
+            font-size: 3em;
+            outline: none;
+            border: 1px solid #22AAEB;
+            text-decoration: none;
+        }
+    
+        .fa-arrow-circle-up:hover {
+            background-color: #fff!important;
+            color: #22AAEB!important;
+            outline: none!important;
         }
 
 }
