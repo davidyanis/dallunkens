@@ -120,6 +120,7 @@ footer {
     color: #000;
     font-family: 'PT Sans', sans-serif!important;
     font-size: 1.1em;
+    margin-top: 0;
 }
 
 .adressInfo {
@@ -129,7 +130,6 @@ footer {
     font-family: 'PT Sans', sans-serif!important;
 }
 
-/* Social media on footer, icons etc styling */
 .socialMediaIcons {
     display: flex;
     flex-direction: column;
@@ -144,17 +144,17 @@ footer {
 }
 
 .socialMediaIcons .linkedin {
-    color: #0077B5;
     font-size: 2.5em;
+    color: #1da1f2;
     line-height: 0.5em!important;
 }
 
 .socialMediaIcons .envelope {
-    color: #333;
     font-size: 2.5em;
+    color: #1da1f2;
     line-height: 0.5em!important;
-  
 }
+
 
 .twitter:hover, .linkedin:hover, .envelope:hover {
     -webkit-animation: swing 1s ease;
@@ -164,7 +164,7 @@ footer {
 }
 .footer-links h4{
     margin: 0;
-    color: rgb(75, 78, 84);
+    color: #000!important;
 }
 
 /* Copyright and our credits */
@@ -173,11 +173,11 @@ footer {
     padding: 0.5em;
     height: auto;      
     background-color: #22AAEB;
-    color: #fff;
     text-align: center;
 }
 
 .copyRight h6 {
+        color: #fff;
         font-size: 0.9em;
         margin: 0;
         line-height: 2em;
@@ -307,7 +307,7 @@ footer {
     
     .footer-links-contact li a{
         font-size: 1.2em;
-        color: rgb(75, 78, 84);
+        color: #333;
         line-height: 1.5em;
     }
 
@@ -390,11 +390,13 @@ footer {
     .footer-links h3{
         color: #22AAEB;
     }
+
     .footer-links {
         list-style: none;
         padding-bottom: 2em;
         width: 50%;
         text-align: center;
+        color: #000;
     }
 
     .footer-links li a{
@@ -404,6 +406,7 @@ footer {
     }
     .footer-links li {
         margin-bottom: 1em;
+        border: 1px solid red;
     }
     
     
