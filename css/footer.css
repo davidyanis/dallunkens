@@ -130,11 +130,32 @@ footer {
     font-family: 'PT Sans', sans-serif!important;
 }
 
-/* Social media on footer, icons etc styling */
-
-.linkedin, .twitter {
-    
+.socialMediaIcons {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4em;
+    flex-grow: 1;
 }
+
+.socialMediaIcons .twitter {
+    font-size: 2.5em;
+    color: #1da1f2;
+    line-height: 0.5em!important;
+}
+
+.socialMediaIcons .linkedin {
+    font-size: 2.5em;
+    color: #1da1f2;
+    line-height: 0.5em!important;
+}
+
+.socialMediaIcons .envelope {
+    font-size: 2.5em;
+    color: #1da1f2;
+    line-height: 0.5em!important;
+}
+
+
 .twitter:hover, .linkedin:hover, .envelope:hover {
     -webkit-animation: swing 1s ease;
     animation: swing 1s ease;
@@ -143,7 +164,7 @@ footer {
 }
 .footer-links h4{
     margin: 0;
-    color: rgb(75, 78, 84);
+    color: #000!important;
 }
 
 /* Copyright and our credits */
@@ -151,13 +172,12 @@ footer {
     width: 100%;
     padding: 0.5em;
     height: auto;      
-    background-color: #fff;
-    color: #fff;
+    background-color: #22AAEB;
     text-align: center;
 }
 
 .copyRight h6 {
-        color: #333;
+        color: #fff;
         font-size: 0.9em;
         margin: 0;
         line-height: 2em;
@@ -287,7 +307,7 @@ footer {
     
     .footer-links-contact li a{
         font-size: 1.2em;
-        color: rgb(75, 78, 84);
+        color: #333;
         line-height: 1.5em;
     }
 
@@ -370,11 +390,13 @@ footer {
     .footer-links h3{
         color: #22AAEB;
     }
+
     .footer-links {
         list-style: none;
         padding-bottom: 2em;
         width: 50%;
         text-align: center;
+        color: #000;
     }
 
     .footer-links li a{
@@ -384,6 +406,7 @@ footer {
     }
     .footer-links li {
         margin-bottom: 1em;
+        border: 1px solid red;
     }
     
     
