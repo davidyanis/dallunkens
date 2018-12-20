@@ -58,12 +58,12 @@ nav ul {
 
 /* Hover on navigation bar link */
 nav ul li a:hover {
-    color:black;
+    color:#22AAEB;
 }
 
 /* Navigation bar change TEXT styling */
 nav ul li a {
-    color: #22AAEB;
+    color: #000;
     font-size: 1.4em;
     padding: 0.5em;
     display: block;

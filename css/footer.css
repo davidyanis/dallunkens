@@ -225,11 +225,11 @@ footer {
 @media screen and (max-width: 767px) {
     footer {
         position: relative;
-        background-color: #F1F0EB!important;
+        background-color: #fff!important;
         width: 100%;
-        height: auto;
         padding-top: 1em;
         bottom: 0;
+        border-top: 0.1em solid #ddd;
     }
     
     .footer-wrapper {
@@ -298,15 +298,63 @@ footer {
         color: #fff!important;
         text-align: center;
     }
-    
-    .copyRight h6 {
-        font-size: 0.9em;
-        margin: 0;
-        line-height: 2em;
+
+    .footer-logo {
         text-align: center;
+        list-style: none;
+        margin-bottom: 2em;
     }
+    
+    .footer-links-contact li a{
+        font-size: 1.2em;
+        color: rgb(75, 78, 84);
+        line-height: 1.5em;
+    }
+
     .arrow-to-top {
         color: #fff!important;
+        }
+
+    .copyRight h6 {
+            font-size: 0.9em;
+            margin: 0;
+            line-height: 2em;
+            text-align: center;
+        } 
+    
+        #back2Top {
+            display: none;
+        }
+        
+        .fa-arrow-circle-up{
+            width: auto;
+            line-height: auto;
+            overflow: hidden;
+            z-index: 999;
+            cursor: pointer;
+            -moz-transform: rotate(360deg);
+            -webkit-transform: rotate(360deg);
+            -o-transform: rotate(360deg);
+            -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+            position: fixed;
+            bottom: 50px;
+            right: 0;
+            background-color: #22AAEB;
+            color: #fff;
+            text-align: center;
+            border-radius: 2em;
+            margin-right: 0.5em;
+            font-size: 3em;
+            outline: none;
+            border: 1px solid #22AAEB;
+            text-decoration: none;
+        }
+    
+        .fa-arrow-circle-up:hover {
+            background-color: #fff!important;
+            color: #22AAEB!important;
+            outline: none!important;
         }
 
 }
