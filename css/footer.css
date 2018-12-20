@@ -2,11 +2,7 @@
 
 footer {
     position: relative;
-<<<<<<< HEAD
-    background-image: linear-gradient(to right top, #22aaeb, #5b75ac, #554769, #342430, #000000)!important;
-=======
     background-color: #fff!important;
->>>>>>> Peters-Branch-For-template
     width: 100%;
     padding-top: 1em;
     bottom: 0;
@@ -121,13 +117,8 @@ footer {
 } 
 
 .adressInfo h3 {
-<<<<<<< HEAD
-    color: #ddd;
-    font-family: 'Roboto Condensed', sans-serif!important;
-=======
     color: #000;
     font-family: 'PT Sans', sans-serif!important;
->>>>>>> Peters-Branch-For-template
     font-size: 1.1em;
     margin-top: 0;
 }
@@ -135,12 +126,8 @@ footer {
 .adressInfo {
     flex-grow: 1;
     font-size: 1em;
-<<<<<<< HEAD
-    color: #ddd;
-=======
     color: #757575;
     font-family: 'PT Sans', sans-serif!important;
->>>>>>> Peters-Branch-For-template
 }
 
 /* Social media on footer, icons etc styling */
