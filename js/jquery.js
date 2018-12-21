@@ -87,7 +87,13 @@ $(document).ready(function() {
              $('.ui.dropdown')
              .dropdown();
              
-    /* Hover on card semantic effect */
+//       // Hide Header on on scroll down
+// var didScroll;
+// var lastScrollTop = 0;
+// var delta = 5;
+// var navbarHeight = $('header').outerHeight();
+
+    
     $('.special.cards .image').dimmer({
         on: 'hover'
      });
