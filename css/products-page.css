@@ -1,0 +1,140 @@
+section .container-for-product-sheet {
+    justify-content: flex-end;
+    display: flex;
+}
+
+section .container-for-product-picture {
+    width: 60em;
+    display: flex;
+    flex-direction: column;
+}
+
+section .container-for-product-picture img {
+    height: auto;
+}
+
+.section-container-products {
+    margin-left: 7em;
+    margin-right: 7em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: flex;
+    border-radius: 0.2em;
+    justify-content: center;    
+}
+
+section .information-about-product-text {
+    font-family: 'PT Sans', sans-serif!important;
+    font-size: 1.2em;
+    margin-left: 4.5em;
+    margin-right: 4.5em;
+}
+
+.show-more-text-btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-family: 'PT Sans', sans-serif;
+    margin-bottom: 1em;
+}
+
+.show-more-text-btn:hover {
+    color: #22AAEB;
+    cursor: pointer;
+}
+
+.show-less-text-btn {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-bottom: 1em;
+    font-family: 'PT Sans', sans-serif;
+    display: none;
+}
+
+.show-less-text-btn:hover {
+    color: #22AAEB;
+    cursor: pointer;
+}
+
+.container-for-product-sheet {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headerForProducts {
+    margin-top: 0.5em!important;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    
+}
+
+.container-for-product-picture img {
+    height: 20em;
+    width: 100%;
+    display: flex;
+    border-radius: 0.3em;
+}
+
+.information-about-product-text {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.2em;
+    padding: 0em 1em 1em 1em;
+}
+
+.container-for-more-information {
+    width: 100%;
+    justify-content: center;
+    margin-left: 4.5em;
+   
+}
+
+.section-container-products .for-specification {
+    margin-top: 20px!important;
+    border-radius: 10px!important;
+}
+
+.capacity-btn, .dataSheet-btn, .specs-btn, .warranty-btn{
+    background-color: #fff!important;
+    color: #22AAEB!important;
+}
+
+.section-container-products .button:hover {
+    background-color: #fff!important;
+    color: #000!important;
+}
+
+.container-for-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+/* divs should switch inbetween depending on which you click */
+
+.key-capacity, .data-sheet  {
+    display: none;
+    margin-top: 1em;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.4em;
+}
+
+.key-capacity-list li {
+    list-style: none;
+    margin: 0.5em;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.data-sheet a {
+    color: #22AAEB;
+}
+
+.hidden-text-product {
+    display: none;
+}
+
+.product-active-button {
+    color: #000!important;
+}
+

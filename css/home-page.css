@@ -1,0 +1,115 @@
+ /* Main home content */
+ main {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("../images/urban-438393_1920.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 75vh;
+    width: 100%;
+}
+
+.home-wide-bg {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.wide-text-content {
+    height: 40em;
+    width: 100%;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    background-image: url("../images/sunrise-3808121_1920.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    font-family: 'PT Sans', sans-serif!important;
+}
+
+.wide-text-content h1 {
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.wide-text-content h3 {
+    text-align: center;
+    width: 50%;
+    font-weight: 100;
+    color: #e6e6e6;
+}
+
+.wide-text-btn {
+    margin-top: 1em!important;
+    background-color:#22AAEB!important;
+    font-size: 3em;
+    color: #fff!important;
+    transition: all 0.3s ease 0s!important;
+    font-family: 'PT Sans', sans-serif!important;
+}
+
+.wide-text-btn:hover {
+    transform: translateY(-7px);
+    color: #22AAEB!important;
+    background-color: #fff!important;
+  }
+
+
+.content a:hover {
+    color: #22AAEB!important;
+}
+
+.content .header {
+    font-family: 'PT Sans', sans-serif!important;
+}
+
+.h1-bg{
+    font-size: 3em;
+    color: #fff;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif!important;
+}
+
+.description-bg {
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif!important;
+}
+
+.home-wide-btn {
+    background-color: #22AAEB!important;
+    font-size: 3em;
+    color: #fff!important;
+    transition: all 0.3s ease 0s!important;
+    font-family: 'PT Sans', sans-serif!important;
+}
+
+.home-wide-btn:hover {
+    transform: translateY(-7px);
+    color: #22AAEB!important;
+    background-color: #fff!important;
+  }
+
+.cards-container {
+    margin-top: 3em !important;
+    margin-bottom: 6em!important;
+}
+
+.description p {
+    color: #333;
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+
+.margin-fix-cards {
+    margin-top: 2em!important;
+    margin-bottom: 2em!important;
+}
