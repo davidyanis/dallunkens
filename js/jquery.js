@@ -64,14 +64,7 @@ $(document).ready(function() {
 
     });
 
-     /* Arrow up scrolling to top smooth animation */
- /*     $(".scrollToTop").click(function() {
-        $("html, body").animate({scrollTop: 0}, "slow");
-      });
- */
-
-
-      /*Scroll to top when arrow up clicked BEGIN*/
+      /* On scroll down > 600px, display arrow */
     $(window).scroll(function() {
     var height = $(window).scrollTop();
     if (height > 600) {
@@ -79,19 +72,16 @@ $(document).ready(function() {
     } else {
         $('#back2Top').fadeOut();
     }
-
 });
 
-$(document).ready(function() {
+/* Clickable arrow to top */
     $("#back2Top").click(function(event) {
         event.preventDefault();
         $("html, body").animate({ scrollTop: 0 }, "slow");
         return false;
     });
 
-});
- /*Scroll to top when arrow up clicked END*/
-
+    
      $(".press-description").hide();
              //animation done
              $('.ui.dropdown')

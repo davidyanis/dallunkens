@@ -1,3 +1,9 @@
+/* * * * * CSS apply for ALL pages * * * * */
+
+body {
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
 
 header {
     width: 100%;
