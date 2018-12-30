@@ -41,7 +41,7 @@
         margin-top: 2em;
         font-family: 'PT Sans', sans-serif!important;
         font-size: 1em;
-        text-align: left!important;
+        margin-left: 0 auto;
     }
 
     .data-sheet a {
@@ -284,11 +284,6 @@ a.ui.label {
     padding: 0em 1em 1em 1em;
 }
 
-.container-for-more-information {
-    width: 100%;
-    justify-content: center;
-    margin-left: 4.5em;
-}
 
 .section-container-products .for-specification {
     margin-top: 20px!important;
@@ -318,17 +313,6 @@ a.ui.label {
     margin-top: 1em;
     font-family: 'PT Sans', sans-serif;
     font-size: 1.2em;
-}
-
-.key-capacity-list li {
-    list-style: none;
-    font-family: 'PT Sans', sans-serif;
-}
-
-ul.key-capacity-list {
-    margin:0;
-    width: 100%;
-    border: 1px solid red;
 }
 
 .data-sheet a {
