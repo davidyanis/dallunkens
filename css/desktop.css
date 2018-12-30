@@ -41,8 +41,7 @@
         margin-top: 2em;
         font-family: 'PT Sans', sans-serif!important;
         font-size: 1em;
-        margin-left: 2em;
-        margin-right: 2em;
+        text-align: left!important;
     }
 
     .data-sheet a {
@@ -318,13 +317,18 @@ a.ui.label {
     display: none;
     margin-top: 1em;
     font-family: 'PT Sans', sans-serif;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 .key-capacity-list li {
     list-style: none;
-    margin: 0.5em;
     font-family: 'PT Sans', sans-serif;
+}
+
+ul.key-capacity-list {
+    margin:0;
+    width: 100%;
+    border: 1px solid red;
 }
 
 .data-sheet a {
