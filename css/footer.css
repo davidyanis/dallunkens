@@ -133,28 +133,11 @@
     .socialMediaIcons {
         display: flex;
         flex-direction: column;
-        padding-left: 4em;
-        flex-grow: 1;
     }
-    
-    .socialMediaIcons .twitter {
-        font-size: 2.5em;
-        color: #1da1f2;
-        line-height: 0.5em!important;
+
+    .socialMediaIcons a {
+        color: #fff!important;
     }
-    
-    .socialMediaIcons .linkedin {
-        font-size: 2.5em;
-        color: #1da1f2;
-        line-height: 0.5em!important;
-    }
-    
-    .socialMediaIcons .envelope {
-        font-size: 2.5em;
-        color: #1da1f2;
-        line-height: 0.5em!important;
-    }
-    
     
     .twitter:hover, .linkedin:hover, .envelope:hover {
         -webkit-animation: swing 1s ease;
@@ -183,40 +166,26 @@
             line-height: 2em;
             text-align: center;
         } 
+
     
         #back2Top {
             display: none;
         }
         
-        .fa-arrow-circle-up{
-            width: auto;
-            line-height: auto;
-            overflow: hidden;
+        .circle{
             z-index: 999;
-            cursor: pointer;
-            -moz-transform: rotate(360deg);
-            -webkit-transform: rotate(360deg);
-            -o-transform: rotate(360deg);
-            -ms-transform: rotate(360deg);
-            transform: rotate(360deg);
             position: fixed;
             bottom: 50px;
             right: 0;
-            background-color: #22AAEB;
-            color: #fff;
+            color: #333;
             text-align: center;
-            border-radius: 2em;
-            margin-right: 0.5em;
-            font-size: 3em;
-            outline: none;
-            border: 1px solid #22AAEB;
-            text-decoration: none;
+            font-size: 2.5em!important;
+            margin-right: 0.3em!important;
         }
     
         .fa-arrow-circle-up:hover {
-            background-color: #fff!important;
-            color: #22AAEB!important;
-            outline: none!important;
+            background-color: #fff;
+            color: #22AAEB;
         }
      
     }
@@ -276,20 +245,8 @@
             padding-bottom: 2em;
             text-align: center;
         }
-        
-        .socialMediaIcons .linkedin {
-            color: #0077B5;
-            font-size: 2em;
-        }
-        .socialMediaIcons .twitter {
-            color: #1da1f2;
-            font-size: 2em; 
-        }
-        .socialMediaIcons .envelope {
-            color: #333;
-            font-size: 2em;    
-        }
-        
+
+     
         /* Copyright and our credits */
         .copyRight {
             height: auto;
@@ -439,20 +396,7 @@
             padding-bottom: 2em;
             text-align: center;
         }
-        
-        .socialMediaIcons .linkedin {
-            color: #0077B5;
-            font-size: 2em;
-        }
-        .socialMediaIcons .twitter {
-            color: #1da1f2;
-            font-size: 2em; 
-        }
-        .socialMediaIcons .envelope {
-            color: #333;
-            font-size: 2em;    
-        }
-        
+    
         /* Copyright and our credits */
         .copyRight {
             height: auto;
