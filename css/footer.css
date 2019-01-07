@@ -122,6 +122,10 @@
         font-size: 1.1em;
         margin-top: 0;
     }
+
+    .twitter-button {
+        margin-top: 0.4em!important;
+    }
     
     .adressInfo {
         flex-grow: 1;
