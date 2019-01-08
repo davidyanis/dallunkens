@@ -108,6 +108,7 @@ nav ul li:hover ul.fallback {
     
 }
 
+
 .arrow-down {
     padding-left: 0.4em;
     font-size: 0.6em!important;
@@ -153,7 +154,7 @@ nav ul li:hover ul.fallback {
         float: left;       
     }
     nav ul li a:hover {
-        color: #22AAEB;
+        color: #000;
     }
     
     nav ul li a {
@@ -171,30 +172,31 @@ nav ul li:hover ul.fallback {
     /* dropdown box tablet */
     nav ul li ul {
         position: absolute;
-        width: 12em;
-        background: rgba(255, 255, 255, 0.9);
-        opacity: 1;
+       
+        height: 20em!important;
+        background: rgba(255, 255, 255, 1);
         z-index: 9999;
         border-top: 0.1em solid #ddd;
-        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.7)!important; 
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3)!important;
     }
     
     nav ul li ul li {
-        width:110px; 
-        
+        width: 30em; 
     }
     
     nav ul li ul li a {
         display: block;
-        padding: 10px 3px;
-        color: #444;
+        padding: 1.1em 0.5em;
+        color: #22AAEB;
         height: 2em;
+        width: 6em; 
+       
+
       
     }
 
     nav ul li ul li:hover a {
-        background-color: transparent;
-        border: none;
+        border-bottom: 2px solid #22AAEB;
     }
 
     nav ul li ul.fallback {
@@ -238,8 +240,8 @@ nav ul li:hover ul.fallback {
         height: 0.1em;
         -webkit-transition-property: left, right;
         transition-property: left, right;
-        -webkit-transition-duration: 0.1s;
-        transition-duration: 0.1s;
+        -webkit-transition-duration: 0.4s;
+        transition-duration: 0.4s;
         -webkit-transition-timing-function: ease-out;
         transition-timing-function: ease-out;
       }

@@ -20,8 +20,6 @@
 .wide-text-content {
     height: 40em;
     width: 100%;
-    margin-top: 4em;
-    margin-bottom: 4em;
     background-image: url("../images/sunrise-3808121_1920.jpg");
     background-position: center;
     background-size: cover;
@@ -57,17 +55,17 @@
 
 .wide-text-btn:hover {
     transform: translateY(-7px);
-    color: #22AAEB!important;
-    background-color: #fff!important;
+    background-color:rgb(0, 158, 231)!important;
   }
 
 
 .content a:hover {
-    color: #22AAEB!important;
+   text-decoration: underline;
 }
 
 .content .header {
     font-family: 'PT Sans', sans-serif!important;
+    color: #33adff!important;
 }
 
 .h1-bg{
@@ -94,13 +92,11 @@
 
 .home-wide-btn:hover {
     transform: translateY(-7px);
-    color: #22AAEB!important;
-    background-color: #fff!important;
   }
 
 .cards-container {
-    margin-top: 3em !important;
-    margin-bottom: 6em!important;
+    padding-top: 3em !important;
+    padding-bottom: 6em!important;
 }
 
 .description p {
@@ -111,5 +107,6 @@
 
 .margin-fix-cards {
     margin-top: 2em!important;
-    margin-bottom: 2em!important;
+    margin-bottom: 3em!important;
 }
+
