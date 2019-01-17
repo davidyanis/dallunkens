@@ -40,6 +40,7 @@ $(document).ready(function() {
             // Animation complete.
     });
 
+
     $('.dataSheet-btn').click(function() {
         $('.data-sheet').toggle()
         $(".dataSheet-btn").toggleClass("product-active-button");
