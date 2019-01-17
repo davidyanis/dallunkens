@@ -18,7 +18,6 @@
     width: 100%;
     padding: 3em;
     background-color: #fff!important;
-
 }
 
 .confirmation-button-mail {
@@ -51,9 +50,8 @@ div .field {
 .ui.multiple.dropdown > .label {
     background-color: #fff;
     color: black;
+    font-weight: 400!important;
 }
-
-
 
 a.ui.label {
     font-size: 1em!important;
