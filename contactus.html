@@ -77,12 +77,12 @@
                      <label>Company Name</label>
                      <input name="company-name" placeholder="" type="text">
                   </div>
-               </form>
-            </div>
-                     <!-- <div class="field">
-                           <label>Country/Region</label>
-                           <input name="country/region" placeholder="" type="text">
-                        </div> -->
+
+                  <div class="field">
+                        <label>Email</label>
+                        <input name="Enter Email" placeholder="" type="text">
+                     </div>
+
 
                   <div class="ui medium form">
                      <div class="field">
@@ -120,11 +120,14 @@
                      </div>
                   </div>
 
-                  <div class="ui fluid search selection dropdown">
-                        <input type="hidden" name="country">
-                        <i class="dropdown icon"></i>
-                        <div class="default text"></div>
-                        <div class="menu">
+                  <div class="ui medium form">
+                        <div class="field">
+                           <label>Country/Region</label>
+                           <div class="ui multiple selection dropdown">
+                              <input name="Company Size" type="hidden">
+                              <i class="dropdown icon"></i>
+                              <div class="default text">Choose</div>
+                              <div class="menu">
                         <div class="item" data-value="af"><i class="af flag"></i>Afghanistan</div>
                         <div class="item" data-value="ax"><i class="ax flag"></i>Aland Islands</div>
                         <div class="item" data-value="al"><i class="al flag"></i>Albania</div>
@@ -367,20 +370,19 @@
                         <div class="item" data-value="ye"><i class="ye flag"></i>Yemen</div>
                         <div class="item" data-value="zm"><i class="zm flag"></i>Zambia</div>
                         <div class="item" data-value="zw"><i class="zw flag"></i>Zimbabwe</div>
-                      </div>
-                       </div>
-
-                  <div class="field">
-                     <label>Email *</label>
-                     <input name="email" placeholder="" type="text">
+                     </div>
                   </div>
+               </div>
+            </div>
 
                </div>
                <div class="field">
                   <label>Message</label>
-                  <textarea name="message"></textarea>
+                  <textarea class="field-for-message" name="message"></textarea>
                </div>
                <button type="submit" class="ui submit blue big button confirmation-button-mail">Send</button>
+            </div>
+             </form>
             </div>
 
       <footer>
