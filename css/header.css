@@ -240,8 +240,8 @@ nav ul li:hover ul.fallback {
         height: 0.1em;
         -webkit-transition-property: left, right;
         transition-property: left, right;
-        -webkit-transition-duration: 0.4s;
-        transition-duration: 0.4s;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
         -webkit-transition-timing-function: ease-out;
         transition-timing-function: ease-out;
       }

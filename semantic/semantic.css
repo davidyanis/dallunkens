@@ -20210,7 +20210,7 @@ ol.ui.horizontal.list li:before,
 .ui.form input[type="text"],
 .ui.form input[type="file"],
 .ui.form input[type="url"] {
-  width: 100%;
+  width: auto;
   vertical-align: top;
 }
 
@@ -20317,7 +20317,7 @@ ol.ui.horizontal.list li:before,
 /* Block */
 
 .ui.form .field > .selection.dropdown {
-  width: 100%;
+  width: auto;
 }
 
 .ui.form .field > .selection.dropdown > .dropdown.icon {
