@@ -20210,7 +20210,7 @@ ol.ui.horizontal.list li:before,
 .ui.form input[type="text"],
 .ui.form input[type="file"],
 .ui.form input[type="url"] {
-  width: auto;
+  width: 14em;
   vertical-align: top;
 }
 

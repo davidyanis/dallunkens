@@ -2,7 +2,7 @@
 /* Mobile only */
 @media screen and (max-width: 767px) {
     body {
-        margin: 0;
+        margin: 0 auto;
         font-family: 'Roboto Condensed', sans-serif!important;
     }
 
@@ -12,22 +12,72 @@
     }
 
     /* Contact us */
-    .contact-container {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("../images/urban-438393_1920.jpg");
-    }
 
     .contact-form {
-        margin-top: 0!important;
+        width: 100%;
         padding: 3em;
-        background-color: white;
-        display: flex;
-        flex-direction: column;
+        background-color: #fff!important;
     }
+    
+    .contact-container {
+        margin-top: 1em;
+        margin-bottom: 3em;
+        margin-left: 0!important;
+        margin-right: 0!important;
+        height: auto;
+        width: 100%;
+        border: 1px solid red;
+    }
+    
+    .contact-container input, textarea{
+        color: #fff;
+    }
+    
+    .confirmation-button-mail {
+        background-color: #22AAEB!important;
+        font-size: 1em!important;
+        margin-left: -0.3em!important;
+    
+    }
+    
+    .confirmation-button-mail:hover {
+        background-color: #fff!important;
+        color: #22AAEB!important;
+    }
+    
+    div .field {
+        margin: 0.3em!important;
+    } 
+    
+    div .field-for-message {
+        width: 18em!important;
+        height: 10em!important;
+        margin-left: -0.5em!important;
+    }
+    
+    
+    .ui.form .fields > .field {
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    
+    .ui.multiple.dropdown > .label {
+        background-color: #fff;
+        color: black;
+        font-weight: 400!important;
+    }
+    
+    a.ui.label {
+        font-size: 1em!important;
+    }
+    
+    .contact-container h1{
+        text-align: center;
+        padding: 0.4em;
+        margin: 0;
+    }
+
+    /* contact us ends here!*/
 
     .home-wide-bg {
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) ), url("../images/mainSectionPicture.jpg");
@@ -89,54 +139,6 @@
         background-color: #ddd!important;
     }
 
-    /* vad ska vi ha här? .signInTextStyle {
-       
-    } */
-
-    .containerUsernameAndPassword input{
-        width: 10em;
-        padding: 0.8em;
-        margin-top: 1em;
-        font-size: 1.2em;
-    }
-
-    .containerUsernameAndPassword button{
-       margin-top: 1em!important;
-       margin-bottom: 0.5em!important;
-       align-items: center;
-    }
-
-    .containerUsernameAndPassword {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-    }
-
-    .description p {
-        color: #333;
-        font-size: 1.3em;
-        margin-top: 1em;
-    }
-   
-
-.contact-container h1{
-    text-align: center;
-    padding: 0.4em;
-    margin: 0;
-}
-
-.contact-container img{
-    width: 15em;
-    margin: 0 auto;
-    padding-bottom: 2em;
-  
-   
-}
-.contact-container input, textarea{
-    background-color: #f7f7f7!important;
-    color: #f7f7f7;
-}
 
 /* product container */
 .container-for-product-sheet {
@@ -336,5 +338,6 @@ article {
     background: cover;
     border: 1px solid red; 
 }
+
 
 }
