@@ -250,6 +250,10 @@
             text-align: center;
         }
 
+        .socialMediaIcons a {
+            color: #fff;
+        }
+
      
         /* Copyright and our credits */
         .copyRight {
@@ -283,40 +287,16 @@
                 text-align: center;
             } 
         
-            #back2Top {
+        #back2Top {
                 display: none;
-            }
+        }
             
-            .fa-arrow-circle-up{
-                width: auto;
-                line-height: auto;
-                overflow: hidden;
-                z-index: 999;
-                cursor: pointer;
-                -moz-transform: rotate(360deg);
-                -webkit-transform: rotate(360deg);
-                -o-transform: rotate(360deg);
-                -ms-transform: rotate(360deg);
-                transform: rotate(360deg);
-                position: fixed;
-                bottom: 50px;
-                right: 0;
-                background-color: #22AAEB;
-                color: #fff;
-                text-align: center;
-                border-radius: 2em;
-                margin-right: 0.5em;
-                font-size: 3em;
-                outline: none;
-                border: 1px solid #22AAEB;
-                text-decoration: none;
-            }
-        
-            .fa-arrow-circle-up:hover {
-                background-color: #fff!important;
-                color: #22AAEB!important;
-                outline: none!important;
-            }
+        .circle{
+            margin-top: 0.6em!important;
+            color: #333;
+            font-size: 2em!important;
+        }
+
     
     }
     
