@@ -71,22 +71,22 @@
             <div class="ui medium form contact-form">
                <h1>Contact Sheet</h1>
                <p> Fill the contact form below and we will contact you shortly.</p>
-               <div class="two fields">
+             
 
                   <div class="field">
-                     <label>Company Name</label>
+                     <label>Company Name *</label>
                      <input name="company-name" placeholder="" type="text">
                   </div>
 
                   
                   
-                  <div class="ui medium form">
+                  
                      <div class="field">
-                        <label>Company Size</label>
+                        <label>Company Size *</label>
                         <div class="ui multiple selection dropdown">
                            <input type="hidden" name="Company-size">
                            <i class="dropdown icon"></i>
-                           <div class="default text"></div>
+                           <div class="default text">ex. 20</div>
                            <div class="menu">
                               <div class="item" data-value="1">11-50</div>
                               <div class="item" data-value="2">51-100</div>
@@ -96,11 +96,9 @@
                            </div>
                         </div>
                      </div>
-                  </div>
 
-                     <div class="ui medium form">
                            <div class="field">
-                              <label>Country/Region</label>
+                              <label>Country/Region *</label>
                               <div class="ui multiple selection dropdown">
                                  <input name="Company Size" type="hidden">
                                  <i class="dropdown icon"></i>
@@ -351,11 +349,10 @@
                         </div>
                      </div>
                   </div>
-               </div>
 
-                     <div class="ui medium form">
+
                            <div class="field">
-                              <label>Available Solutions</label>
+                              <label>Available Solutions *</label>
                               <div class="ui multiple selection dropdown">
                                  <input name="Company Size" type="hidden">
                                  <i class="dropdown icon"></i>
@@ -369,22 +366,19 @@
                                  </div>
                               </div>
                            </div>
-                        </div>
 
                         <div class="field">
-                              <label>Email</label>
-                              <input name="Enter Email" placeholder="" type="text">
-                           </div>
+                              <label>Email *</label>
+                              <input name="Enter Email" placeholder="" type="email">
+                        </div>
 
                   
-
-               </div>
                <div class="field">
                   <label>Message</label>
-                  <textarea class="field-for-message" name="message"></textarea>
+                  <textarea class="field-for-message" name="message" rows="5"></textarea>
                </div>
                
-               <button type="submit" class="ui submit blue big button confirmation-button-mail">Send</button>
+               <button type="submit" class="ui submit big button">Send</button>
             </div>
              </form>
             </div>

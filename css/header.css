@@ -196,7 +196,7 @@ nav ul li:hover ul.fallback {
     }
 
     nav ul li ul li:hover a {
-        border-bottom: 2px solid #22AAEB;
+       color: rgb(13, 8, 67);;
     }
 
     nav ul li ul.fallback {

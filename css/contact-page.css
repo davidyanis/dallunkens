@@ -1,35 +1,34 @@
 /* Contact us SITE */
 
 .contact-container {
-    align-content: center;
-    align-items: center;
-    margin-top: 1em;
-    margin-right: 15em;
-    margin-left: 15em;
-    margin-bottom: 3em;
-    height: auto;
-}
-
-.contact-container input, textarea{
-    color: #f7f7f7;
+   width: 100%;
+    background-color: #e6e6e6;
+   
+   
 }
 
 .contact-form {
-    width: 100%;
+    width: 50em;
     padding: 3em;
-    background-color: #fff!important;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.contact-form h1 {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    padding: 0.6em;
+    background-color: rgb(13, 8, 67);
 }
 
-.confirmation-button-mail {
-    background-color: #22AAEB!important;
+.contact-form button {
+    background-color: rgb(55, 148, 30)!important;
     font-size: 1em!important;
-    margin-left: -0.3em!important;
-
+    color: #fff!important;
 }
 
-.confirmation-button-mail:hover {
-    background-color: #fff!important;
-    color: #22AAEB!important;
+.contact-form button:hover{
+    filter: brightness(75%)
 }
 
 div .field {
@@ -57,14 +56,8 @@ a.ui.label {
     font-size: 1em!important;
 }
 
-.contact-container h1{
-    text-align: center;
-    padding: 0.4em;
-    margin: 0;
+.field textarea {
+    width: 100%!important;
 }
 
-.contact-container img{
-    width: 15em;
-    margin: 0 auto;
-    padding-bottom: 2em; 
-}
+
