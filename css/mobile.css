@@ -91,10 +91,10 @@
     }
 
     .h1-bg {
-        font-size: 3em;
+        font-size: 7em;
         text-align: center;
         color: white;
-        margin: 0;
+        margin: 1;
     }
 
     .description-bg {
