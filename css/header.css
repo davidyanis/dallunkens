@@ -110,7 +110,7 @@ nav ul li:hover ul.fallback {
         width: 100%;
         overflow: visible;
         top: 0;
-        position: fixed;
+        position: absolute;
         z-index: 99999;
         transition: top 0.3s ease-in-out;
         display: flex;
@@ -121,7 +121,7 @@ nav ul li:hover ul.fallback {
     }
 
     header .nav-logo img{
-        height: 9em;
+        height: 11em;
         width: 100%;
         -o-transition:.5s;
         -ms-transition:.5s;
