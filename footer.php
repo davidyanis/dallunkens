@@ -2,11 +2,11 @@
 <div class="move-footer-center">
     <div class="footer-wrapper">
     <div class="footer-logo">
-        <a class="footer-logo-size" href="index.html"><img src="./images/sweratel-logo-png.png"></a>
+        <a class="footer-logo-size" href="index.php"><img src="./images/sweratel-logo-png.png"></a>
         <div class="footer-links-contact">
-            <li><a href="contactus.html" class="underlined-animation">Become our Partner </a></li>
-            <li><a href="contactus.html" class="underlined-animation">Request Showcase </a></li>
-            <li><a href="contactus.html" class="underlined-animation">Contact us</a></li>
+            <li><a href="contactus.php" class="underlined-animation">Become our Partner </a></li>
+            <li><a href="contactus.php" class="underlined-animation">Request Showcase </a></li>
+            <li><a href="contactus.php" class="underlined-animation">Contact us</a></li>
         </div>
     </div>
     <div class="footer-links">

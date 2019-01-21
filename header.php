@@ -5,12 +5,12 @@
         </div>
     <nav>
     <ul>
-        <li><a href="index.php" class="hvr-overline-from-center">Home</a></li>
+        <li><a href="index.php" class="hvr-overline-from-center">HOME</a></li>
         <li>
-            <a href="company.php" class="hvr-overline-from-center">Company </a>
+            <a href="company.php" class="hvr-overline-from-center">COMPANY </a>
         </li>
         <li>
-            <a href="#" class="hvr-overline-from-center">Technology <i class="chevron down icon arrow-down"></i></a>
+            <a href="#" class="hvr-overline-from-center">TECHNOLOGY <i class="chevron down icon arrow-down"></i></a>
             <ul class="fallback">
                 <li><a href="RNMS.php">RNMS</a></li>
                 <li><a href="SCM.php">SCM</a></li>
@@ -31,7 +31,7 @@
             </ul>
         </li>
         <li>
-            <a href="#" class="hvr-overline-from-center">Antennas <i class="chevron down icon arrow-down"></i></a>
+            <a href="#" class="hvr-overline-from-center">ANTENNAS <i class="chevron down icon arrow-down"></i></a>
             <ul class="fallback">
                 <li><a href="AX2.4.php">AX2.4</a></li>
                 <li><a href="AX5.php">AX5</a></li>
@@ -40,8 +40,8 @@
                 <h1>Choose a product</h1>
             </ul>
         </li>
-        <li><a href="press.php" class="hvr-overline-from-center">Press</a></li>
-        <li><a href="contactus.php" class="hvr-overline-from-center">Contact us</a></li>
+        <li><a href="press.php" class="hvr-overline-from-center">PRESS</a></li>
+        <li><a href="contactus.php" class="hvr-overline-from-center">CONTACT US</a></li>
     </ul>
     </nav>
 </header>
