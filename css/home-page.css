@@ -33,16 +33,19 @@
 }
 
 .wide-text-content h1 {
+    font-size: 2em;
     margin: 0;
     font-weight: bold;
     color: #fff;
+    text-align: center;
 }
 
 .wide-text-content h3 {
     text-align: center;
-    width: 50%;
+    width: 90%;
     font-weight: 100;
     color: #e6e6e6;
+    line-height: 1.5em;
 }
 
 .wide-text-btn {
@@ -71,10 +74,11 @@
 }
 
 .h1-bg{
-    font-size: 3em;
+    font-size: 2em;
     color: #fff;
-    margin: 0;
+    margin: 1;
     font-family: 'PT Sans', sans-serif!important;
+    text-align: center;
 }
 
 .description-bg {
