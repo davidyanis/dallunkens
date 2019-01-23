@@ -6,6 +6,12 @@
     margin-top: 1em;
 }
 
+.press-container h1{
+    background-color: rgb(13, 8, 67);
+    color: #fff;
+    padding: 0.5em;
+}
+
 .press-container .press-post {
     padding: 2em;
    
@@ -13,6 +19,7 @@
 
 .display-press-release {
     font-size: 0.8em;
+    color: #22AAEB;
 }
 
 .press-post {
