@@ -21,10 +21,10 @@ $(document).ready(function() {
         $('nav li ul').hide().removeClass('fallback');
         $('nav li').mouseover(function () {
             /* Change animation speed here slideDown(speed) */
-            $('ul', this).stop().slideDown(300);
+            $('ul', this).stop().fadeIn(300);
         });
         $('nav li').mouseleave(function() {
-            $('ul', this).stop().slideUp(300);
+            $('ul', this).stop().fadeOut(50);
         });
     }
     

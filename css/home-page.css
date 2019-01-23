@@ -1,6 +1,6 @@
  /* Main home content */
  main {
-    background: linear-gradient( rgba(0, 0, 45, 0.824), rgba(0, 7, 50, 0.79) ), url("../images/send-system-999245_1920.jpg");
+    background: linear-gradient( rgba(0, 0, 45, 0.100), rgba(0, 7, 50, 0.79) ), url("../images/send-system-999245_1920.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 85vh;

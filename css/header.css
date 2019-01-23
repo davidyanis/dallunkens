@@ -142,7 +142,6 @@ nav ul li:hover ul.fallback {
         width: 100%;
         height: 7em;
         margin: 0;
-
     }
 
     nav ul {
@@ -166,14 +165,15 @@ nav ul li:hover ul.fallback {
         -ms-transition:.3s;
         -moz-transition:.3s;
         -webkit-transition:.3s;
-        transition:.3s;
+        transition:.1s;
+        margin-bottom: 0.3em!important;
     }
     
     /* dropdown box tablet */
     nav ul li ul {
         position: absolute;
-       
-        height: 20em!important;
+        width: 13em;
+        height: auto;
         background: rgba(255, 255, 255, 1);
         z-index: 9999;
         border-top: 0.1em solid #ddd;
