@@ -1,8 +1,4 @@
 <header id="header" class="nav-down">
-    <div class="logo-nav-wrapper">
-            <a class="nav-logo" href="index.php"><img id="Logo" src="./images/SwratelLogo.png"></a>
-            <i id="exit-button" class="bars big icon menu-button" onclick="menuButtonClicked()"></i>
-        </div>
     <nav>
     <ul>
         <li><a href="index.php" class="hvr-overline-from-center">HOME</a></li>
@@ -19,6 +15,10 @@
                 <li><a href="Het-Net.php">Het-Net</a></li>
             </ul>
         </li>
+        <div class="logo-nav-wrapper">
+            <a class="nav-logo" href="index.php"><img id="Logo" src="./images/SwratelLogo.png"></a>
+            <i id="exit-button" class="bars big icon menu-button" onclick="menuButtonClicked()"></i>
+        </div>
         <li>
             <a href="#" class="hvr-overline-from-center">RAN <i class="chevron down icon arrow-down"></i></a>
             <ul class="fallback">
