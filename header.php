@@ -1,11 +1,7 @@
 <header id="header" class="nav-down">
-    <div class="logo-nav-wrapper">
-            <a class="nav-logo" href="index.php"><img id="Logo" src="./images/SwratelLogo.png"></a>
-            <i id="exit-button" class="bars big icon menu-button" onclick="menuButtonClicked()"></i>
-        </div>
+    <i id="exit-button" class="bars big icon menu-button" onclick="menuButtonClicked()"></i>
     <nav>
     <ul>
-        <li><a href="index.php" class="hvr-overline-from-center">HOME</a></li>
         <li>
             <a href="company.php" class="hvr-overline-from-center">COMPANY </a>
         </li>
@@ -30,6 +26,9 @@
                 <h1>Choose a product</h1>
             </ul>
         </li>
+        <div class="logo-nav-wrapper">
+            <a class="nav-logo" href="index.php"><img id="Logo" src="./images/SwratelLogo.png"></a>
+        </div>
         <li>
             <a href="#" class="hvr-overline-from-center">ANTENNAS <i class="chevron down icon arrow-down"></i></a>
             <ul class="fallback">

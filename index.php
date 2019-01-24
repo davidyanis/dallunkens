@@ -21,10 +21,9 @@
       <script src="./semantic/semantic.js"></script>
    </head>
    <body>
-
-      <?php include 'header.php';   ?>
       
       <main>
+         <?php include 'header.php';   ?>
          <div class="home-wide-bg">
             <h1 class="h1-bg">Sweratels Secure Public Wi-Fi</h1>
             <p class="description-bg">Preparing the future IT-Infrastructure</p>
