@@ -34,18 +34,17 @@
 }
 
 .wide-text-content h1 {
-    font-size: 2em;
     margin: 0;
     font-weight: bold;
-    color: #fff;
+    color: #22AAEB;
     text-align: center;
 }
 
 .wide-text-content h3 {
     text-align: center;
-    width: 90%;
+    width: 50%;
     font-weight: 100;
-    color: #e6e6e6;
+    color: rgb(235, 205, 34);
     line-height: 1.5em;
 }
 
@@ -100,7 +99,6 @@
   }
 
 .cards-container {
-    padding-top: 3em !important;
     padding-bottom: 6em!important;
 }
 
@@ -114,5 +112,7 @@
     margin-top: 2em!important;
     margin-bottom: 3em!important;
 }
+
+
 
 

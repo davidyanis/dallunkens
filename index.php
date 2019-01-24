@@ -38,7 +38,7 @@
       <div class="six-cards" style="background-color: #f2f2f2">
          <div class="ui grid container cards-container">
             <div class="ui stackable three link cards">
-               <div class="ui blue card">
+               <div class="ui yellow card">
                   <div class="image">
                      <img src="./images/in-new-york-city-1316639_1920.jpg">
                   </div>
@@ -49,7 +49,7 @@
                      </div>
                   </div>
                </div>
-               <div class="ui blue card">
+               <div class="ui yellow card">
                   <div class="image">
                      <img src="./images/urban-438393_1920.jpg">
                   </div>
@@ -60,7 +60,7 @@
                      </div>
                   </div>
                </div>
-               <div class="ui blue card">
+               <div class="ui yellow card">
                   <div class="image">
                      <img src="./images/tower-2723874_1920.jpg">
                   </div>
@@ -71,7 +71,7 @@
                      </div>
                   </div>
                </div>
-               <div class="ui blue card">
+               <div class="ui yellow card">
                   <div class="image">
                      <img src="./images/children.jpg">
                   </div>
@@ -82,7 +82,7 @@
                      </div>
                   </div>
                </div>
-               <div class="ui blue card">
+               <div class="ui yellow card">
                   <div class="image">
                      <img src="./images/weareHiring.jpg">
                   </div>
@@ -93,7 +93,7 @@
                      </div>
                   </div>
                </div>
-               <div class="ui blue card">
+               <div class="ui yellow card">
                   <div class="image">
                      <img src="./images/city-1149931_1920.jpg">
                   </div>
