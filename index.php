@@ -35,7 +35,7 @@
          </div>
       </main>
       <!-- six cards -->
-      <div class="six-cards" style="background-color: #f2f2f2">
+     
          <div class="ui grid container cards-container">
             <div class="ui stackable three link cards">
                <div class="ui yellow card">
@@ -106,7 +106,6 @@
                </div>
             </div>
          </div>
-      </div>
       <div class="wide-text-content">
          <h1> Sweratel combining flexible, robust and efficient solutions for worldwide customers.</h1>
          <h3> Our edge technology has improved our customers view on quality Public-WiFi & industrial IT-Solutions. The Data-Tsunami heading our way demands new technology to increase user experience without decreasing quality, security or pace.

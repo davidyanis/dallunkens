@@ -3,7 +3,7 @@
     background: linear-gradient( rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0) ), url("../images/huskvarna-2378745_1920.jpg");
     background-size: cover;
     background-attachment: fixed;
-    height: 85vh;
+    height: 90vh;
     width: 100%;
 }
 
@@ -100,6 +100,7 @@
 
 .cards-container {
     padding-bottom: 6em!important;
+    margin-top: -5em!important;
 }
 
 .description p {
