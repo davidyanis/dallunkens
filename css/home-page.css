@@ -1,6 +1,6 @@
  /* Main home content */
  main {
-    background: linear-gradient( rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0) ), url("../images/huskvarna-2378745_1920.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0) ), url("../images/huskvarna-2378745_1920.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 90vh;
@@ -101,6 +101,9 @@
 .cards-container {
     padding-bottom: 6em!important;
     margin-top: -5em!important;
+    background-color: #fff;
+    border: 2em solid #fff;
+    border-radius: 4em;
 }
 
 .description p {
