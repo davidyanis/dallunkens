@@ -5,6 +5,9 @@
     </div>
     <nav>
     <ul>
+    <li>
+            <a href="index.php" class="hvr-overline-from-center">HOME </a>
+        </li>
         <li>
             <a href="company.php" class="hvr-overline-from-center">COMPANY </a>
         </li>

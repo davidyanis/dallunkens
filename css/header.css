@@ -130,8 +130,8 @@ nav ul li:hover ul.fallback {
     }
 
     .nav-logo img{
-        height: 10em;
-        width: 15em;
+        height: 8em;
+        width: 12em;
     }
 
     nav {
@@ -153,7 +153,7 @@ nav ul li:hover ul.fallback {
     nav ul li a {
         padding: 1em;
         height: 3.77em;
-        font-size: 1.6em;
+        font-size: 1.5em;
         color: #22AAEB;
         -o-transition:.3s;
         -ms-transition:.3s;
