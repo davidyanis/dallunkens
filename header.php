@@ -16,7 +16,6 @@
                 <li><a href="CRM.php">CRM</a></li>
                 <li><a href="OLS.php">OLS</a></li>
                 <li><a href="Het-Net.php">Het-Net</a></li>
-                <h1>Choose a product</h1>
             </ul>
         </li>
         <li>
@@ -26,7 +25,6 @@
                 <li><a href="EBS.php">EBS</a></li>
                 <li><a href="IBS.php">IBS</a></li>
                 <li><a href="MNC.php">MNC</a></li>
-                <h1>Choose a product</h1>
             </ul>
         </li>
         <li>
@@ -36,7 +34,6 @@
                 <li><a href="AX5.php">AX5</a></li>
                 <li><a href="BH2.4.php">BH2.4</a></li>
                 <li><a href="BH5.php">BH5</a></li>
-                <h1>Choose a product</h1>
             </ul>
         </li>
         <li><a href="press.php" class="hvr-overline-from-center">PRESS</a></li>
