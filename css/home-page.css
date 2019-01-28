@@ -3,7 +3,7 @@
     background: linear-gradient( rgba(175, 186, 199, 0.1), rgba(132, 148, 168, 0.600) ), url("../images/city-3191556_1920.jpg");
     background-size: cover;
     background-attachment: fixed;
-    height: 90vh;
+    height: 85vh;
     width: 100%;
 }
 
@@ -127,11 +127,10 @@
   }
 
 .cards-container {
-    padding-bottom: 6em!important;
-    margin-top: -5em!important;
+    padding-bottom: 4em!important;
+    margin-top: 3em!important;
     background-color: #fff;
     border: 2em solid #fff;
-    border-radius: 4em;
 }
 
 .description p {
