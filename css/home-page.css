@@ -1,20 +1,19 @@
  /* Main home content */
  main {
-    background: linear-gradient( rgba(0, 0, 45, 0.100), rgba(0, 7, 50, 0.79) ), url("../images/send-system-999245_1920.jpg");
+    background: linear-gradient( rgba(175, 186, 199, 0.1), rgba(132, 148, 168, 0.600) ), url("../images/kuala-lumpur-1820944_1920.jpg");
     background-size: cover;
     background-attachment: fixed;
-    height: 85vh;
+    height: 90vh;
     width: 100%;
 }
 
 .home-wide-bg {
-    height: 75vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    
+    margin-top: 10em;
 }
 
 
@@ -32,25 +31,40 @@
     font-family: 'PT Sans', sans-serif!important;
 }
 
+.ui.compact.menu {
+    background-color: #22AAEB;
+}
+
+.ui.compact.menu:hover {
+    background-color: #22AAEB;
+}
+
+.ui.compact.menu .item:last-child {
+    color: #fff;
+}
+
+.ui.compact.menu .item:last-child:hover {
+    color: #fff;
+}
+
 .wide-text-content h1 {
-    font-size: 2em;
     margin: 0;
     font-weight: bold;
-    color: #fff;
-    text-align: center;
+    color: rgb(235, 205, 34);
+    text-align: center; 
 }
 
 .wide-text-content h3 {
     text-align: center;
-    width: 90%;
+    width: 50%;
     font-weight: 100;
-    color: #e6e6e6;
+    color: rgb(235, 205, 34);
     line-height: 1.5em;
 }
 
 .wide-text-btn {
     margin-top: 1em!important;
-    background-color:#22AAEB!important;
+    background-color: #22AAEB!important;
     font-size: 3em;
     color: #fff!important;
     transition: all 0.3s ease 0s!important;
@@ -78,11 +92,9 @@
     color: #fff;
     margin: 1;
     font-family: 'PT Sans', sans-serif!important;
-    text-align: center;
 }
 
 .description-bg {
-    text-align: center;
     font-size: 2em;
     color: #fff;
     font-family: 'PT Sans', sans-serif!important;
@@ -101,8 +113,11 @@
   }
 
 .cards-container {
-    padding-top: 3em !important;
     padding-bottom: 6em!important;
+    margin-top: -5em!important;
+    background-color: #fff;
+    border: 2em solid #fff;
+    border-radius: 4em;
 }
 
 .description p {
@@ -115,5 +130,7 @@
     margin-top: 2em!important;
     margin-bottom: 3em!important;
 }
+
+
 
 

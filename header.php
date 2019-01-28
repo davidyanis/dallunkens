@@ -1,11 +1,10 @@
 <header id="header" class="nav-down">
+    <i id="exit-button" class="bars big icon menu-button" onclick="menuButtonClicked()"></i>
     <div class="logo-nav-wrapper">
             <a class="nav-logo" href="index.php"><img id="Logo" src="./images/SwratelLogo.png"></a>
-            <i id="exit-button" class="bars big icon menu-button" onclick="menuButtonClicked()"></i>
-        </div>
+    </div>
     <nav>
     <ul>
-        <li><a href="index.php" class="hvr-overline-from-center">HOME</a></li>
         <li>
             <a href="company.php" class="hvr-overline-from-center">COMPANY </a>
         </li>

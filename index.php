@@ -21,10 +21,9 @@
       <script src="./semantic/semantic.js"></script>
    </head>
    <body>
-
-      <?php include 'header.php';   ?>
       
       <main>
+         <?php include 'header.php';   ?>
          <div class="home-wide-bg">
             <h1 class="h1-bg">Sweratels Secure Public Wi-Fi</h1>
             <p class="description-bg">Preparing the future IT-Infrastructure</p>
@@ -36,10 +35,10 @@
          </div>
       </main>
       <!-- six cards -->
-      <div class="six-cards" style="background-color: #f2f2f2">
+     
          <div class="ui grid container cards-container">
             <div class="ui stackable three link cards">
-               <div class="ui blue card">
+               <div class="ui yellow card">
                   <div class="image">
                      <img src="./images/in-new-york-city-1316639_1920.jpg">
                   </div>
@@ -50,7 +49,7 @@
                      </div>
                   </div>
                </div>
-               <div class="ui blue card">
+               <div class="ui yellow card">
                   <div class="image">
                      <img src="./images/urban-438393_1920.jpg">
                   </div>
@@ -61,7 +60,7 @@
                      </div>
                   </div>
                </div>
-               <div class="ui blue card">
+               <div class="ui yellow card">
                   <div class="image">
                      <img src="./images/tower-2723874_1920.jpg">
                   </div>
@@ -72,7 +71,7 @@
                      </div>
                   </div>
                </div>
-               <div class="ui blue card">
+               <div class="ui yellow card">
                   <div class="image">
                      <img src="./images/children.jpg">
                   </div>
@@ -83,7 +82,7 @@
                      </div>
                   </div>
                </div>
-               <div class="ui blue card">
+               <div class="ui yellow card">
                   <div class="image">
                      <img src="./images/weareHiring.jpg">
                   </div>
@@ -94,7 +93,7 @@
                      </div>
                   </div>
                </div>
-               <div class="ui blue card">
+               <div class="ui yellow card">
                   <div class="image">
                      <img src="./images/city-1149931_1920.jpg">
                   </div>
@@ -107,7 +106,6 @@
                </div>
             </div>
          </div>
-      </div>
       <div class="wide-text-content">
          <h1> Sweratel combining flexible, robust and efficient solutions for worldwide customers.</h1>
          <h3> Our edge technology has improved our customers view on quality Public-WiFi & industrial IT-Solutions. The Data-Tsunami heading our way demands new technology to increase user experience without decreasing quality, security or pace.
