@@ -10,7 +10,9 @@ header {
     height: 7em;
     overflow: hidden;
     transition: height 0.8s;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1)!important; 
  
+
 }
 
 .fullscreen {
@@ -22,18 +24,17 @@ header {
 .nav-logo img {
     height: 7em;
     padding: 1em;
-    
+    float: left;
 }
 
 .logo-nav-wrapper {
     height: 7em;
     width: 100%;
     float: left;
-    display: none;
 }
 
 .menu-button {
-    color: #fff;
+    color: #22AAEB;
     float: right;
     padding-top: 0.9em;
     padding-right: 0.5em!important;
@@ -53,7 +54,7 @@ header {
 
 /* Parent of navigation bar */
 nav {
-    margin-top: 10em;
+    margin-top: 8em;
     width: 100%;
     font-family: 'PT Sans', sans-serif;
 }
@@ -111,7 +112,7 @@ nav ul li:hover ul.fallback {
 .arrow-down {
     padding-left: 0.4em;
     font-size: 0.6em!important;
-    color: #22AAEB;
+    color: #656565;
 }
 
 /* Desktop only */
@@ -121,67 +122,81 @@ nav ul li:hover ul.fallback {
         width: 100%;
         overflow: visible;
         transition: top 0.3s ease-in-out;
+        background-color: #fff;
+    }
+
+    header .nav-logo img{
+        -o-transition:.5s;
+        -ms-transition:.5s;
+        -moz-transition:.5s;
+        -webkit-transition:.5s;
+        transition:.5s;
     }
 
     header .logo-nav-wrapper {
-        width: 15em;
-        height: 10em;
-        display: initial;
-    }
-
-    .nav-logo img{
-        height: 8em;
-        width: 12em;
+        width: 25%;
+        height: 100%;
     }
 
     nav {
-        margin-top: 0;
-        padding-top: 1em;
+        width: 100%;
+        height: 7em;
+        margin: 0;
     }
 
     nav ul {
-       display: flex;
-       justify-content: flex-end;
+       float: right;
        padding: 0;
-       margin: 0;
     }
     
+    nav ul li {
+        float: left;       
+    }
     nav ul li a:hover {
-        color: #22AAEB;
+        color: #000;
     }
     
     nav ul li a {
         padding: 1em;
         height: 3.77em;
-        font-size: 1.5em;
-        color: #22AAEB;
+        font-size: 1.4em;
+        color: #000;
         -o-transition:.3s;
         -ms-transition:.3s;
         -moz-transition:.3s;
         -webkit-transition:.3s;
-        transition:.3s;
+        transition:.1s;
+        margin-bottom: 0.3em!important;
     }
     
     /* dropdown box tablet */
     nav ul li ul {
         position: absolute;
+        width: 13em;
+        height: auto;
         background: rgba(255, 255, 255, 1);
         z-index: 9999;
         border-top: 0.1em solid #ddd;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3)!important;
     }
     
-    
+    nav ul li ul li {
+        width: 30em; 
+    }
     
     nav ul li ul li a {
         display: block;
-        padding: 1em;
+        padding: 1.1em 0.5em;
         color: #22AAEB;
-        height: 3em;
-        text-align: center;
+        height: 2em;
+        width: 6em; 
+       
+
+      
     }
 
     nav ul li ul li:hover a {
-       border-bottom: 2px solid #22AAEB;
+       color: rgb(13, 8, 67);;
     }
 
     nav ul li ul.fallback {
@@ -239,4 +254,3 @@ nav ul li:hover ul.fallback {
     
 
 }
-
