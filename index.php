@@ -29,7 +29,7 @@
             <p class="description-bg">Preparing the future IT-Infrastructure</p>
             <a href="company.php">
                <div class="ui big fade button wide-text-btn">
-                  Our role in shaping the future
+                  Our role in shaping the future <i class="fas fa-arrow-right"></i>
                </div>
             </a>
          </div>
