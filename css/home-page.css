@@ -52,8 +52,8 @@
     text-align: center; 
     margin-left: 0.5em;
     margin-top: 3em!important;
-    background-color: #22AAEB;
-    border-radius: 1em;
+    background-color: rgba(132, 148, 168, 0.600);
+    border-radius: 0.5em;
 }
 
 .wide-text-content h3 {
@@ -62,9 +62,9 @@
     font-weight: bolder;
     color: whitesmoke;
     line-height: 1.5em;
-    margin-left: 4em;
-    background-color: #22AAEB;
-    border-radius: 2em;
+    margin-left: 3.8em;
+    background-color: rgba(132, 148, 168, 0.600);    
+    border-radius: 1em;
 }
 
 #vertical-statistics{
