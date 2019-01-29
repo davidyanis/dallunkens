@@ -37,7 +37,7 @@
             <div class="ui small inverted statistics" id="vertical-statistics">
   <div class="statistic">
     <div class="value">
-      6.5 Billion
+      7.3 Billion
     </div>
     <div class="label">
     People on planet earth.
