@@ -133,7 +133,7 @@
                      <a class="header" class="underlined-animation">Flexibility</a>
                   </div>
                   <div class="image">
-                     <img src="/images/night-1149700_1920.jpg">
+                     <img src="/images/huskvarna-2378745_1920.jpg">
                   </div>
                   <div class="description" style=" margin-top: 1em;">
                      <p>&rdquo;Everybody should be connected, simple.&rdquo;</p>
