@@ -139,6 +139,7 @@
          <h1> Rush hour in technology term.</h1>
          <h3> Imagine being stuck in rush hour, You are sitting in a car or cab but moving very slow or none at all. Have you ever had full coverage on your phone but nothing happens, what you are trying to access is simply buffering. That is because of circuit switch and its internefece, we have solved the solution.
          </h3>
+         <h2> Sweratels IT-technologys Pros <i class="fas fa-arrow-right"></i></h2>
          </div>
          <div>
          <div class="ui huge inverted horizontal statistics" id="horizontal-statistics">
