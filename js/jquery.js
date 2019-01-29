@@ -31,7 +31,7 @@ $(document).ready(function() {
 
         /* shows and hides divs depending on which you click on */
 
-    $('.capacity-btn').click(function() {
+ /*    $('.capacity-btn').click(function() {
         $('.key-capacity').toggle()
             $(".capacity-btn").toggleClass("product-active-button");
             $('.specification').hide()
@@ -63,7 +63,7 @@ $(document).ready(function() {
         $('.show-more-text-btn').show()
         $('.show-less-text-btn').hide()
 
-    });
+    }); */
 
       /* On scroll down > 600px, display arrow */
     $(window).scroll(function() {
@@ -94,8 +94,13 @@ $(document).ready(function() {
 // var delta = 5;
 // var navbarHeight = $('header').outerHeight();
 
-    
 
+//product site 
+
+$('.shape')
+  .shape('set next side', '.second.side')
+  .shape('flip up')
+;
 
 });
      

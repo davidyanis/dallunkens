@@ -23,7 +23,7 @@ section .container-for-product-picture img {
     justify-content: center;    
 }
 
-section .information-about-product-text {
+/* section .information-about-product-text {
     font-family: 'PT Sans', sans-serif!important;
     font-size: 1.2em;
     margin-left: 4.5em;
@@ -81,12 +81,12 @@ section .information-about-product-text {
     font-family: 'PT Sans', sans-serif;
     font-size: 1.2em;
     padding: 0em 1em 1em 1em;
-}
+} */
 
 /* .container-for-more-information {
 } */
 
-.section-container-products .for-specification {
+./* section-container-products .for-specification {
     margin-top: 20px!important;
     border-radius: 10px!important;
 }
@@ -109,7 +109,7 @@ section .information-about-product-text {
 
 /* divs should switch inbetween depending on which you click */
 
-.key-capacity, .data-sheet  {
+/* .key-capacity, .data-sheet  {
     display: none;
     margin-top: 1em;
     font-family: 'PT Sans', sans-serif;
@@ -131,5 +131,4 @@ section .information-about-product-text {
 
 .product-active-button {
     color: #000!important;
-}
-
+} */
