@@ -40,7 +40,7 @@
       7.3 Billion
     </div>
     <div class="label">
-    People on planet earth.
+    People on planet earth
     </div>
   </div>
   <div class="statistic">
@@ -48,7 +48,7 @@
       4.3 Billion
     </div>
     <div class="label">
-      Are Connected with a smartphone
+      Are Connected with a smartdevice
     </div>
   </div>
   <div class="statistic">
@@ -56,7 +56,7 @@
       20.7 Billion $
     </div>
     <div class="label">
-      Market by year 2022
+      expected Wifi Market by year 2022
     </div>
   </div>
 </div>
@@ -139,10 +139,7 @@
          <h1> Rush hour in technology term.</h1>
          <h3> Imagine being stuck in rush hour, You are sitting in a car or cab but moving very slow or none at all. Have you ever had full coverage on your phone but nothing happens, what you are trying to access is simply buffering. That is because of circuit switch and its internefece, we have solved the solution.
          </h3>
-         <h2> Sweratels IT-technologys Pros <i class="fas fa-arrow-right"></i></h2>
-         </div>
-         <div>
-         <div class="ui huge inverted horizontal statistics" id="horizontal-statistics">
+         <div class="ui huge inverted statistics" id="horizontal-statistics">
          <div class="statistic">
             <div class="value">
                0
@@ -164,7 +161,7 @@
                0
             </div>
             <div class="label">
-               Square digging required
+               Square feet of digging required
             </div>
          </div>
             <div class="statistic">
@@ -178,6 +175,8 @@
             </div>
          </div>
       </div>
+         </div>
+         <div>
 
       <div class="three-cards-row" style="background-color: #f2f2f2">
          <div class="ui grid container special cards">
