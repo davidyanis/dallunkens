@@ -32,6 +32,32 @@
                   Our role in shaping the future <i class="fas fa-arrow-right"></i>
                </div>
             </a>
+            <div class="ui small inverted statistics">
+  <div class="statistic">
+    <div class="value">
+      6.5 Billion
+    </div>
+    <div class="label">
+    People on planet earth.
+    </div>
+  </div>
+  <div class="statistic">
+    <div class="value">
+      4.3 Billion
+    </div>
+    <div class="label">
+      Are Connected with a smartphone
+    </div>
+  </div>
+  <div class="statistic">
+    <div class="value">
+      20.7 Billion $
+    </div>
+    <div class="label">
+      Market
+    </div>
+  </div>
+</div>
          </div>
       </main>
       <!-- six cards -->
@@ -125,6 +151,7 @@
             </div>
          </a>
       </div>
+
       <div class="three-cards-row" style="background-color: #f2f2f2">
          <div class="ui grid container special cards">
             <div class="ui three stackable cards margin-fix-cards">
