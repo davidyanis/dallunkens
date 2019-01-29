@@ -52,7 +52,7 @@
     font-weight: bolder;
     color: whitesmoke;
     text-align: center; 
-    margin-top: 3em!important;
+    margin-top: 5em!important;
     border-radius: 0.5em;
     margin-right: 22em;
     margin-left: 22em;
@@ -76,7 +76,7 @@
 
 #horizontal-statistics {
     justify-content: center!important;
-    margin-top: 12em!important;
+    margin-top: 8em!important;
 }
 
 .wide-text-btn {
