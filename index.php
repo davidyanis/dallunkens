@@ -30,7 +30,7 @@
             <p class="description-bg">Preparing the future IT-Infrastructure</p>
             <a href="company.php">
                <div class="ui big fade button wide-text-btn">
-                  Our role in shaping the future
+                  Our role in shaping the future <i class="fas fa-arrow-right"></i>
                </div>
             </a>
          </div>
@@ -135,7 +135,7 @@
                      <a class="header" class="underlined-animation">Flexibility</a>
                   </div>
                   <div class="image">
-                     <img src="/images/night-1149700_1920.jpg">
+                     <img src="/images/huskvarna-2378745_1920.jpg">
                   </div>
                   <div class="description" style=" margin-top: 1em;">
                      <p>&rdquo;Everybody should be connected, simple.&rdquo;</p>
