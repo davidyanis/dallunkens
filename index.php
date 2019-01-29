@@ -34,7 +34,7 @@
                   Our role in shaping the future <i class="fas fa-arrow-right"></i>
                </div>
             </a>
-            <div class="ui small inverted statistics">
+            <div class="ui small inverted statistics" id="vertical-statistics">
   <div class="statistic">
     <div class="value">
       6.5 Billion
@@ -66,7 +66,7 @@
      
          <div class="ui grid container cards-container">
             <div class="ui stackable three link cards">
-               <div class="ui yellow card">
+               <div class="ui grey card">
                   <div class="image">
                      <img src="./images/in-new-york-city-1316639_1920.jpg">
                   </div>
@@ -77,7 +77,7 @@
                      </div>
                   </div>
                </div>
-               <div class="ui yellow card">
+               <div class="ui grey card">
                   <div class="image">
                      <img src="./images/urban-438393_1920.jpg">
                   </div>
@@ -88,7 +88,7 @@
                      </div>
                   </div>
                </div>
-               <div class="ui yellow card">
+               <div class="ui grey card">
                   <div class="image">
                      <img src="./images/tower-2723874_1920.jpg">
                   </div>
@@ -99,7 +99,7 @@
                      </div>
                   </div>
                </div>
-               <div class="ui yellow card">
+               <div class="ui grey card">
                   <div class="image">
                      <img src="./images/children.jpg">
                   </div>
@@ -110,7 +110,7 @@
                      </div>
                   </div>
                </div>
-               <div class="ui yellow card">
+               <div class="ui grey card">
                   <div class="image">
                      <img src="./images/weareHiring.jpg">
                   </div>
@@ -121,7 +121,7 @@
                      </div>
                   </div>
                </div>
-               <div class="ui yellow card">
+               <div class="ui grey card">
                   <div class="image">
                      <img src="./images/city-1149931_1920.jpg">
                   </div>
@@ -134,24 +134,48 @@
                </div>
             </div>
          </div>
-      <div class="wide-text-content">
-         <h1> Sweratel combining flexible, robust and efficient solutions for worldwide customers.</h1>
-         <h3> Our edge technology has improved our customers view on quality Public-WiFi & industrial IT-Solutions. The Data-Tsunami heading our way demands new technology to increase user experience without decreasing quality, security or pace.
+      <div class="wide-text-content">  
+         <div>
+         <h1> Rush hour in technology term.</h1>
+         <h3> Imagine being stuck in rush hour, You are sitting in a car or cab but moving very slow or none at all. Have you ever had full coverage on your phone but nothing happens, what you are trying to access is simply buffering. That is because of circuit switch and its internefece, we have solved the solution.
          </h3>
-         <a href="contactus.php">
-            <div class="ui compact menu">
-               <div class="ui simple dropdown item">
-                  Request Showcase/Demo
-                  <i class="dropdown icon"></i>
-                  <div class="menu">
-                     <div class="item">Outdoor-WiFi</div>
-                     <div class="item">Indoor-WiFi</div>
-                     <div class="item">Integrated Billing</div>
-                     <div class="item">Become a Partner</div>
-                  </div>
+         </div>
+         <div>
+         <div class="ui huge inverted horizontal statistics" id="horizontal-statistics">
+         <div class="statistic">
+            <div class="value">
+               0
+            </div>
+            <div class="label">
+               Circuit-Switches Required
+            </div>
+         </div>
+         <div class="statistic">
+            <div class="value">
+               0%
+            </div>
+            <div class="label">
+               Interference in channels
+            </div>
+         </div>
+         <div class="statistic">
+            <div class="value">
+               0
+            </div>
+            <div class="label">
+               Square digging required
+            </div>
+         </div>
+            <div class="statistic">
+               <div class="value">
+                  700%
+               </div>
+               <div class="label">
+                  Up to 700% longer Wifi-Penetration
                </div>
             </div>
-         </a>
+            </div>
+         </div>
       </div>
 
       <div class="three-cards-row" style="background-color: #f2f2f2">

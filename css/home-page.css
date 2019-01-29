@@ -20,13 +20,10 @@
 .wide-text-content {
     height: 40em;
     width: 100%;
-    background-image: url("../images/sunrise-3808121_1920.jpg");
+    background: linear-gradient( rgba(175, 186, 199, 0.1), rgba(132, 148, 168, 0.900) ), url("../images/aerial-view-houston-highways-1049506_1920.jpg");
     background-position: center;
     background-size: cover;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     background-attachment: fixed;
     font-family: 'PT Sans', sans-serif!important;
 }
@@ -48,22 +45,36 @@
 }
 
 .wide-text-content h1 {
+    width: 40%;
     margin: 0;
-    font-weight: bold;
-    color: rgb(235, 205, 34);
+    font-weight: bolder;
+    color: whitesmoke;
     text-align: center; 
+    margin-left: 0.5em;
+    margin-top: 3em!important;
+    background-color: #22AAEB;
+    border-radius: 1em;
 }
 
 .wide-text-content h3 {
+    width:30%;
     text-align: center;
-    width: 50%;
-    font-weight: 100;
-    color: rgb(235, 205, 34);
+    font-weight: bolder;
+    color: whitesmoke;
     line-height: 1.5em;
+    margin-left: 4em;
+    background-color: #22AAEB;
+    border-radius: 2em;
 }
 
-.statistics{
+#vertical-statistics{
     margin-top: 6em!important;
+}
+
+#horizontal-statistics {
+    margin-top: 3em!important;
+    margin-right: 5em!important;
+    width: 100%!important;
 }
 
 .wide-text-btn {
