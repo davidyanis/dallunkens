@@ -142,13 +142,14 @@
          <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet.</h2>
          </div>
          <div>
-         <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet.</h2>
+         <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet. <i class="fas fa-route"></i></h2>
          </div>
          <div>
-         <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet.</h2>
+         <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet. <i class="fas fa-snowplow"></i></h2>
          </div>
          <div>
-         <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet.</h2>
+         <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet.<i class="fas fa-wifi"></i></h2>
+         
          </div>
       </div>
 
@@ -192,7 +193,6 @@
          </div>
          <div>
       </div>
-
 
 
 
