@@ -61,12 +61,13 @@
   </div>
 </div>
          </div>
+
       </main>
       <!-- six cards -->
-     
-         <div class="ui grid container cards-container">
-            <div class="ui stackable three link cards">
-               <div class="ui grey card">
+     <div style="background-color: #f2f2f2">
+         <div class="ui grid container cards-container" style="background-color: #f2f2f2">
+            <div class="ui stackable three link cards" style="background-color: #f2f2f2">
+               <div class="ui grey card" style="background-color: #f2f2f2">
                   <div class="image">
                      <img src="./images/in-new-york-city-1316639_1920.jpg">
                   </div>
@@ -77,7 +78,7 @@
                      </div>
                   </div>
                </div>
-               <div class="ui grey card">
+               <div class="ui grey card" style="background-color: #f2f2f2">
                   <div class="image">
                      <img src="./images/urban-438393_1920.jpg">
                   </div>
@@ -134,12 +135,25 @@
                </div>
             </div>
          </div>
+</div>
+
       <div class="wide-text-content">  
          <div>
-         <h1> Rush hour in technology term.</h1>
-         <h3> Imagine being stuck in rush hour, You are sitting in a car or cab but moving very slow or none at all. Have you ever had full coverage on your phone but nothing happens, what you are trying to access is simply buffering. That is because of circuit switch and its internefece, we have solved the solution.
-         </h3>
-         <div class="ui huge inverted statistics" id="horizontal-statistics">
+         <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet.</h2>
+         </div>
+         <div>
+         <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet.</h2>
+         </div>
+         <div>
+         <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet.</h2>
+         </div>
+         <div>
+         <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet.</h2>
+         </div>
+      </div>
+
+      <div class="wide-text-content-2">
+         <div class="ui medium statistics" id="horizontal-statistics">
          <div class="statistic">
             <div class="value">
                0
@@ -177,6 +191,11 @@
       </div>
          </div>
          <div>
+      </div>
+
+
+
+
 
       <div class="three-cards-row" style="background-color: #f2f2f2">
          <div class="ui grid container special cards">

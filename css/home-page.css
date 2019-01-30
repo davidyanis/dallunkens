@@ -19,55 +19,36 @@
 
 .wide-text-content {
     margin: 0;
-    height: 40em;
+    height: 15em;
     width: 100%;
-    background: linear-gradient( rgba(175, 186, 199, 0.1), rgba(132, 148, 168, 0.900) ), url("../images/aerial-view-houston-highways-1049506_1920.jpg");
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    text-align: center!important;
-    justify-content: center!important;
-    background-attachment: fixed;
     font-family: 'PT Sans', sans-serif!important;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5em;
 }
 
-.ui.compact.menu {
+.wide-text-content h2 {
+    line-height: 1.3em;
+    margin-top: 3em!important;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    padding: 0.5em;
     background-color: #22AAEB;
+    color: whitesmoke;
+    opacity: 0.8;
+    border-radius: 0.5em
+
 }
 
-.ui.compact.menu:hover {
-    background-color: #22AAEB;
-}
-
-.ui.compact.menu .item:last-child {
-    color: #fff;
-}
-
-.ui.compact.menu .item:last-child:hover {
-    color: #fff;
-}
-
-.wide-text-content h1 {
+.wide-text-content-2 {
     margin: 0;
-    font-weight: bolder;
-    color: whitesmoke;
-    text-align: center; 
-    margin-top: 5em!important;
-    border-radius: 0.5em;
-    margin-right: 22em;
-    margin-left: 22em;
-    background-color: rgba(132, 148, 168, 0.700);
-}
-
-.wide-text-content h3 {
-    text-align: center;
-    font-weight: bolder;
-    color: whitesmoke;
-    line-height: 1.5em;
-    border-radius: 1em;
-    margin-right: 15em;
-    margin-left: 15em;
-    background-color: rgba(132, 148, 168, 0.700);
+    height: 25em;
+    width: 100%;
+    font-family: 'PT Sans', sans-serif!important;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5em;
+    justify-content: center!important;
 }
 
 #vertical-statistics{
@@ -75,9 +56,10 @@
 }
 
 #horizontal-statistics {
-    justify-content: center!important;
-    margin-top: 8em!important;
+    justify-content: space-evenly!important;
+    margin-top: 10em!important;
 }
+
 
 .wide-text-btn {
     margin-top: 1em!important;
@@ -144,10 +126,9 @@
   }
 
 .cards-container {
-    padding-bottom: 4em!important;
-    margin-top: 3em!important;
-    background-color: #fff;
-    border: 2em solid #fff;
+    padding: 0em!important;
+    margin: 0 auto!important;
+    background-color: #f2f2f2!important;
 }
 
 .description p {
@@ -157,8 +138,8 @@
 }
 
 .margin-fix-cards {
-    margin-top: 2em!important;
-    margin-bottom: 3em!important;
+    margin-top: 3em!important;
+    margin-bottom: 4em!important;
 }
 
 
