@@ -36,19 +36,19 @@
             </a>
             <div class="ui small inverted statistics" id="vertical-statistics">
   <div class="statistic">
-    <div class="value">
-      7.3 Billion
+     <div class="value">
+         <span id="worldpop" style="font-weight: bold"></span>
     </div>
     <div class="label">
-    People on planet earth
+    Living on planet earth
     </div>
   </div>
   <div class="statistic">
-    <div class="value">
-      4.3 Billion
-    </div>
+    <div class="value" id="world-population">
+       0
+   </div>
     <div class="label">
-      Are Connected with a smartdevice
+      will be connected with a smartdevice by 2025
     </div>
   </div>
   <div class="statistic">
