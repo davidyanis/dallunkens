@@ -137,6 +137,7 @@
          </div>
 </div>
 
+<div class="update-text"> This container is under development. please take that in consideration</div>
       <div class="wide-text-content">  
          <div>
          <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet.</h2>
