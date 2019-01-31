@@ -53,6 +53,8 @@
 
 #vertical-statistics{
     margin-top: 6em!important;
+    justify-content: space-evenly!important;
+
 }
 
 #horizontal-statistics {

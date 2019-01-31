@@ -15,6 +15,7 @@
       <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
       <!-- Javascript, jQuery -->
+      <script src="javascripts/jquery.animateNumber.js"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
       <script src="./js/jquery.js"></script>
       <script src="./js/script.js"></script>
@@ -23,7 +24,6 @@
       <script src="/path/to/fomantic/dist/semantic.min.js"></script>
    </head>
    <body>
-      
       <main>
          <?php include 'header.php';   ?>
          <div class="home-wide-bg">
@@ -44,8 +44,8 @@
     </div>
   </div>
   <div class="statistic">
-    <div class="value" id="world-population">
-       0
+    <div class="value">
+       <span id="smart-device-counter">livefeed will be put here</span>
    </div>
     <div class="label">
       will be connected with a smartdevice by 2025
@@ -53,10 +53,10 @@
   </div>
   <div class="statistic">
     <div class="value">
-      20.7 Billion $
+      50 %
     </div>
     <div class="label">
-      expected Wifi Market by year 2022
+      are still not connected
     </div>
   </div>
 </div>

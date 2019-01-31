@@ -103,6 +103,13 @@ $('.shape')
 ;
 
 
+var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',')
+$('#smart-device-counter').animateNumber(
+  {
+    number: 7095217980,
+    numberStep: comma_separator_number_step
+  }
+);
 
 });
 

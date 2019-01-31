@@ -59,6 +59,6 @@ ChangeValue(totaleschuld,1);
 
 timerID = setTimeout("now(startdatum.getYear(),startdatum.getMonth(),startdatum.getDate(),startdatum.getHours(),startdatum.getMinutes(),startdatum.getSeconds())",200)
 }
-
 window.onload=maind
+
 //animation ends here
