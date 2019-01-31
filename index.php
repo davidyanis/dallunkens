@@ -15,8 +15,6 @@
       <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
       <!-- Javascript, jQuery -->
-      <script src="javascripts/jquery.animateNumber.js"></script>
-      <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
       <script src="./js/jquery.js"></script>
       <script src="./js/script.js"></script>
       <script src="./semantic/semantic.js"></script>
@@ -45,7 +43,7 @@
   </div>
   <div class="statistic">
     <div class="value">
-       <span id="smart-device-counter">livefeed will be put here</span>
+      feed animation on how connected
    </div>
     <div class="label">
       will be connected with a smartdevice by 2025

@@ -62,3 +62,12 @@ timerID = setTimeout("now(startdatum.getYear(),startdatum.getMonth(),startdatum.
 window.onload=maind
 
 //animation ends here
+
+
+// animation smart devices start here 
+
+var Cont={val:0,} , NewVal = 4300000000 ; 
+
+TweenLite.to(Cont,5,{val:NewVal,roundProps:"val",onUpdate:function(){  
+  document.getElementById("smart-device-counter").innerHTML=Cont.val
+}}); 
