@@ -105,10 +105,10 @@ $('.shape')
 
   //clock animations starts here
   $('#smart-device-counter').each(function () {
-    $(this).prop('Counter',0).animate({
+    $(this).prop('Counter', 4000000000).animate({
         Counter: $(this).text()
     }, {
-        duration: 2500,
+        duration: 5000,
         easing: 'swing',
         step: function (now) {
             $(this).text(Math.ceil(now).toLocaleString('dot'));
