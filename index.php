@@ -47,7 +47,7 @@
      <span id="smart-device-counter" style="font-weight: bold"> 4300000000</span>
    </div>
     <div class="label">
-      will be connected with a smartdevice by 2025
+      Smartdevices will be connected by 2025
     </div>
   </div>
   <div class="statistic">

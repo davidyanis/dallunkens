@@ -101,6 +101,9 @@ $('.shape')
   .shape('set next side', '.second.side')
   .shape('flip up');
 
+
+
+  //clock animations starts here
   $('#smart-device-counter').each(function () {
     $(this).prop('Counter',0).animate({
         Counter: $(this).text()
@@ -125,6 +128,10 @@ $('.shape')
     //alert('finished');
     }
 });
+
+///ends here
+
+$('.home-wide-bg').fadeIn(20000,swing);
 
 });
 
