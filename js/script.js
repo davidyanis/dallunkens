@@ -32,7 +32,7 @@ function ChangeValue(number,pv){
 	    number= number / 10
 	    j++
 	    if (number > 1 && j==3) { 
-			numberstring = "." + numberstring 
+			numberstring = "," + numberstring 
 			j=0}
 	    i++
 	 }
@@ -66,8 +66,8 @@ window.onload=maind
 
 // animation smart devices start here 
 
-var Cont={val:0,} , NewVal = 4300000000 ; 
+/* var Cont={val:0,} , NewVal = 4300000000 ; 
 
 TweenLite.to(Cont,5,{val:NewVal,roundProps:"val",onUpdate:function(){  
   document.getElementById("smart-device-counter").innerHTML=Cont.val
-}}); 
+}});  */

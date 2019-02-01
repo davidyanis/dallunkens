@@ -99,10 +99,32 @@ $(document).ready(function() {
 
 $('.shape')
   .shape('set next side', '.second.side')
-  .shape('flip up')
-;
+  .shape('flip up');
+
+  $('#smart-device-counter').each(function () {
+    $(this).prop('Counter',0).animate({
+        Counter: $(this).text()
+    }, {
+        duration: 2500,
+        easing: 'swing',
+        step: function (now) {
+            $(this).text(Math.ceil(now).toLocaleString('dot'));
+        }
+    });
+});
 
 
+  $({ countNum: $('#percentage-not-connected').html() }).animate({ countNum: 50 }, {
+    duration: 3000,
+    easing: 'linear',
+    step: function () {
+    $('#percentage-not-connected').html(Math.floor(this.countNum) + "%");
+    },
+    complete: function () {
+    $('#percentage-not-connected').html(this.countNum + "%");
+    //alert('finished');
+    }
+});
 
 });
 

@@ -15,6 +15,7 @@
       <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
       <!-- Javascript, jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
       <script src="./js/jquery.js"></script>
       <script src="./js/script.js"></script>
       <script src="./semantic/semantic.js"></script>
@@ -38,12 +39,12 @@
          <span id="worldpop" style="font-weight: bold"></span>
     </div>
     <div class="label">
-    Living on planet earth
+    Current Population
     </div>
   </div>
   <div class="statistic">
     <div class="value">
-      feed animation on how connected
+     <span id="smart-device-counter" style="font-weight: bold"> 4300000000</span>
    </div>
     <div class="label">
       will be connected with a smartdevice by 2025
@@ -51,7 +52,7 @@
   </div>
   <div class="statistic">
     <div class="value">
-      50 %
+      <span id="percentage-not-connected" style="font-weight: bold">50 % </span>
     </div>
     <div class="label">
       are still not connected
