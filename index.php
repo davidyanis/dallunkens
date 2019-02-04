@@ -84,7 +84,7 @@
                   <div class="content">
                      <a class="header">Mission and Vison</a>
                      <div class="description">
-                        <p>&rdquo;The right to be Connected&rdquo;</p>
+                        <p>&rdquo;Don't look for greatness, feel it.&rdquo;</p>
                      </div>
                   </div>
                </div>
@@ -136,7 +136,8 @@
          </div>
 </div>
 
-<div class="update-text"> This container is under development. please take that in consideration</div>
+<div class="picture-for-container">
+<div class="update-text"> In search for greatness there is always search.</div>
       <div class="wide-text-content">  
          <div>
          <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet.</h2>
@@ -154,7 +155,7 @@
       </div>
 
       <div class="wide-text-content-2">
-         <div class="ui medium statistics" id="horizontal-statistics">
+         <div class="ui inverted medium statistics" id="horizontal-statistics">
          <div class="statistic">
             <div class="value">
                0
@@ -181,10 +182,10 @@
          </div>
             <div class="statistic">
                <div class="value">
-                  700%
+                  <span id="wifi-penetration-percentage">700 %</span>
                </div>
                <div class="label">
-                  Up to 700% longer Wifi-Penetration
+                  Longer wifi penetration
                </div>
             </div>
             </div>
@@ -193,6 +194,8 @@
          </div>
          <div>
       </div>
+
+</div>
 
 
 
