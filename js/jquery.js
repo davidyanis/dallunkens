@@ -105,10 +105,14 @@ $('.shape')
 
   //clock animations starts here
   $('#smart-device-counter').each(function () {
-    $(this).prop('Counter',0).animate({
+    $(this).prop('Counter', 0).animate({
         Counter: $(this).text()
     }, {
+<<<<<<< HEAD
         duration: 10000,
+=======
+        duration: 5000,
+>>>>>>> Peters-Branch-For-template
         easing: 'swing',
         step: function (now) {
             $(this).text(Math.ceil(now).toLocaleString('dot'));
@@ -131,7 +135,22 @@ $('.shape')
 
 ///ends here
 
-$('.home-wide-bg').fadeIn(20000,swing);
+
+// wifi-penetration-percentage counter here
+$({ countNum: $('#wifi-penetration-percentage').html() }).animate({ countNum: 700 }, {
+    duration: 20000,
+    easing: 'linear',
+    step: function () {
+    $('#wifi-penetration-percentage').html(Math.floor(this.countNum) + "%");
+    },
+    complete: function () {
+    $('#wifi-penetration-percentage').html(this.countNum + "%");
+    //alert('finished');
+    }
+});
+
+//ends here
+
 
 });
 
