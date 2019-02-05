@@ -118,7 +118,7 @@ nav ul li:hover ul.fallback {
 /* Desktop only */
 @media screen and (min-width: 1100px) {
     header {
-        height: 7em;
+        height: 7.4em;
         width: 100%;
         overflow: visible;
         transition: top 0.3s ease-in-out;
@@ -186,9 +186,9 @@ nav ul li:hover ul.fallback {
     
     nav ul li ul li a {
         display: block;
-        padding: 1.1em 0.5em;
-        color: #22AAEB;
         height: 2em;
+        padding: 0.5em;
+        color: #22AAEB;
         width: 6em; 
        
 

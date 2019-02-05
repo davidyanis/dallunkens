@@ -74,6 +74,10 @@
     margin-bottom: 2.5em;
 }
 
+.fa-snowplow {
+    text-decoration: line-through;
+}
+
 .picture-for-container {
     background: linear-gradient( rgba(175, 186, 199, 0.1), rgba(132, 148, 168, 0.600) ), url("../images/skyline-731496_1920.jpg");
     background-size: cover;
