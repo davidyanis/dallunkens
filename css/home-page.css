@@ -1,6 +1,6 @@
  /* Main home content */
  main {
-    background: linear-gradient( rgba(175, 186, 199, 0.1), rgba(132, 148, 168, 0.600) ), url("../images/tianjin-2185510_1920.jpg");
+    background: linear-gradient( rgba(175, 186, 199, 0.1), rgba(132, 148, 168, 0.600) ), url("../images/send-system-999245_1920.jpg");
     background-size: cover;
     background-attachment: fixed;
     height: 85vh;
@@ -161,6 +161,13 @@
     margin-bottom: 4em!important;
 }
 
+.information-about-personel {
+    font-family: 'PT Sans', sans-serif!important;
+}
 
+.center-column-text {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif!important;
+}
 
 

@@ -136,67 +136,44 @@
          </div>
 </div>
 
-<div class="picture-for-container">
-<div class="update-text"> In search for greatness there is always search.</div>
-      <div class="wide-text-content">  
-         <div>
-         <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet.</h2>
-         </div>
-         <div>
-         <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet. <i class="fas fa-route"></i></h2>
-         </div>
-         <div>
-         <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet. <i class="fas fa-snowplow"></i></h2>
-         </div>
-         <div>
-         <h2>orem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. Lorem ipsum har varit standard ända sedan 1500-talet.<i class="fas fa-wifi"></i></h2>
-         
-         </div>
-      </div>
 
-      <div class="wide-text-content-2">
-         <div class="ui inverted medium statistics" id="horizontal-statistics">
-         <div class="statistic">
-            <div class="value">
-               0
-            </div>
-            <div class="label">
-               Circuit-Switches Required
-            </div>
-         </div>
-         <div class="statistic">
-            <div class="value">
-               0%
-            </div>
-            <div class="label">
-               Interference in channels
-            </div>
-         </div>
-         <div class="statistic">
-            <div class="value">
-               0
-            </div>
-            <div class="label">
-               Square feet of digging required
-            </div>
-         </div>
-            <div class="statistic">
-               <div class="value">
-                  <span id="wifi-penetration-percentage">700 %</span>
-               </div>
-               <div class="label">
-                  Longer wifi penetration
-               </div>
-            </div>
-            </div>
-         </div>
-      </div>
-         </div>
-         <div>
-      </div>
-
+<div class="ui internally celled grid">
+  <div class="row">
+    <div class="three wide column information-about-personel">
+    <h1> Business Developer</h1>
+         <h2> Taher Fahd </h2>
+         <p> PHD Degre in IT economy Managment from Austria </p>
+    <img src="/images/softwarePicture.jpg">
+    </div>
+    <div class="ten wide column center-column-text">
+       <h1> Maintaining High quality and secure Public WiFi.</h1>
+       <p> We believe in adapting to the tremendous lack of IT-Infrastructure and we </p>
+       </div>
+       <div class="three wide column information-about-personel">
+         <h1> Business Developer</h1>
+         <h2> Taher Fahd </h2>
+         <p> PHD Degre in IT economy Managment from Austria </p>
+    <img src="/images/softwarePicture.jpg">
+    </div>
+  </div>
+  <div class="row">
+    <div class="three wide column information-about-personel">
+    <h1> Business Developer</h1>
+         <h2> Taher Fahd </h2>
+         <p> PHD Degre in IT economy Managment from Austria </p>
+    <img src="/images/softwarePicture.jpg">
+    </div>
+    <div class="ten wide column">
+      <p></p>
+    </div>
+    <div class="three wide column information-about-personel">
+    <h1> Business Developer</h1>
+         <h2> Taher Fahd </h2>
+         <p> PHD Degre in IT economy Managment from Austria </p>
+      <img src="/images/softwarePicture.jpg">
+    </div>
+  </div>
 </div>
-
 
 
 
