@@ -1,0 +1,177 @@
+ /* Main home content */
+ main {
+    background: linear-gradient( rgba(175, 186, 199, 0.1), rgba(132, 148, 168, 0.600) ), url("../images/send-system-999245_1920.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 85vh;
+    width: 100%;
+}
+
+.home-wide-bg {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10em;
+}
+
+
+.wide-text-content {
+    margin: 0;
+    height: 15em;
+    width: 100%;
+    font-family: 'PT Sans', sans-serif!important;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5em;
+}
+
+.wide-text-content h2 {
+    line-height: 1.2em;
+    margin-top: 2em!important;
+    margin-right: 1em;
+    margin-left: 1em;
+    padding: 0.4em;
+    font-weight: 300;
+    opacity: 0.8;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    justify-content: space-evenly!important;
+}
+
+.wide-text-content-2 {
+    margin: 0;
+    height: 25em;
+    width: 100%;
+    font-family: 'PT Sans', sans-serif!important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly!important;
+}
+
+#vertical-statistics{
+    margin-top: 4em!important;
+    justify-content: space-evenly!important;
+    width: 100%!important;
+
+}
+
+#horizontal-statistics {
+    justify-content: space-evenly!important;
+    margin-top: 2em!important;
+    width: 100%!important;
+}
+
+.update-text {
+    font-size:3em;
+    height: 2em;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    padding-top: 3em;
+    margin-bottom: 2.5em;
+}
+
+.fa-snowplow {
+    text-decoration: line-through;
+}
+
+.picture-for-container {
+    background: linear-gradient( rgba(175, 186, 199, 0.1), rgba(132, 148, 168, 0.600) ), url("../images/skyline-731496_1920.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wide-text-btn {
+    margin-top: 1em!important;
+    background-color: #22AAEB!important;
+    font-size: 3em;
+    color: #fff!important;
+    transition: all 0.3s ease 0s!important;
+    font-family: 'PT Sans', sans-serif!important;
+}
+ */
+
+ .wide-text-btn {
+    margin-top: 1em!important;
+    background-color: #22AAEB!important;
+    font-size: 2em;
+    transition: all 0.3s ease 0s!important;
+    font-family: 'PT Sans', sans-serif!important;
+}
+
+.fa-arrow-right {
+    font-size: 1.1em;
+}
+
+.wide-text-btn:hover {
+    transform: translateY(-7px);
+    border: 2px solid #22AAEB!important;
+    background-color:rgba(0, 0, 0, 0.077)!important;
+    color: white!important;
+  }
+
+
+.content a:hover {
+   text-decoration: underline;
+}
+
+.content .header {
+    font-family: 'PT Sans', sans-serif!important;
+    color: #33adff!important;
+}
+
+.h1-bg{
+    font-size: 2em;
+    color: #fff;
+    margin: 1;
+    font-family: 'PT Sans', sans-serif!important;
+}
+
+.description-bg {
+    font-size: 2em;
+    color: #fff;
+    font-family: 'PT Sans', sans-serif!important;
+}
+
+.home-wide-btn {
+    background-color: #22AAEB!important;
+    font-size: 3em;
+    color: #fff!important;
+    transition: all 0.3s ease 0s!important;
+    font-family: 'PT Sans', sans-serif!important;
+}
+
+.home-wide-btn:hover {
+    transform: translateY(-7px);
+  }
+
+.cards-container {
+    padding: 0em!important;
+    margin: 0 auto!important;
+    background-color: #f2f2f2!important;
+}
+
+.description p {
+    color: #333;
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+
+.margin-fix-cards {
+    margin-top: 3em!important;
+    margin-bottom: 4em!important;
+}
+
+.information-about-personel {
+    font-family: 'PT Sans', sans-serif!important;
+}
+
+.center-column-text {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif!important;
+}
+
+
