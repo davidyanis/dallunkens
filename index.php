@@ -137,46 +137,6 @@
 </div>
 
 
-<div class="ui internally celled grid">
-  <div class="row">
-    <div class="three wide column information-about-personel">
-    <h1> Business Developer</h1>
-         <h2> Taher Fahd </h2>
-         <p> PHD Degre in IT economy Managment from Austria </p>
-    <img src="/images/softwarePicture.jpg">
-    </div>
-    <div class="ten wide column center-column-text">
-       <h1> Maintaining High quality and secure Public WiFi.</h1>
-       <p> We believe in adapting to the tremendous lack of IT-Infrastructure and we </p>
-       </div>
-       <div class="three wide column information-about-personel">
-         <h1> Business Developer</h1>
-         <h2> Taher Fahd </h2>
-         <p> PHD Degre in IT economy Managment from Austria </p>
-    <img src="/images/softwarePicture.jpg">
-    </div>
-  </div>
-  <div class="row">
-    <div class="three wide column information-about-personel">
-    <h1> Business Developer</h1>
-         <h2> Taher Fahd </h2>
-         <p> PHD Degre in IT economy Managment from Austria </p>
-    <img src="/images/softwarePicture.jpg">
-    </div>
-    <div class="ten wide column">
-      <p></p>
-    </div>
-    <div class="three wide column information-about-personel">
-    <h1> Business Developer</h1>
-         <h2> Taher Fahd </h2>
-         <p> PHD Degre in IT economy Managment from Austria </p>
-      <img src="/images/softwarePicture.jpg">
-    </div>
-  </div>
-</div>
-
-
-
       <div class="three-cards-row" style="background-color: #f2f2f2">
          <div class="ui grid container special cards">
             <div class="ui three stackable cards margin-fix-cards">
