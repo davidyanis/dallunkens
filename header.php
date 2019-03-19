@@ -11,7 +11,7 @@
         <li>
             <a href="company.php" class="hvr-overline-from-center">COMPANY </a>
         </li>
-        <li>
+        <!-- <li>
             <a href="#" class="hvr-overline-from-center">TECHNOLOGY <i class="chevron down icon arrow-down"></i></a>
             <ul class="fallback">
                 <li><a href="RNMS.php">RNMS</a></li>
@@ -38,7 +38,7 @@
                 <li><a href="BH2.4.php">BH2.4</a></li>
                 <li><a href="BH5.php">BH5</a></li>
             </ul>
-        </li>
+        </li> -->
         <li><a href="press.php" class="hvr-overline-from-center">PRESS</a></li>
         <li><a href="contactus.php" class="hvr-overline-from-center">CONTACT US</a></li>
     </ul>

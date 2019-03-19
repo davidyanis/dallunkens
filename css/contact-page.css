@@ -2,23 +2,23 @@
 
 .contact-container {
    width: 100%;
-    background-color: #e6e6e6;
+    background-color: white;
    
    
 }
 
 .contact-form {
-    width: 50em;
+    width: auto;
     padding: 3em;
     margin: 0 auto;
     background-color: #fff;
 }
 .contact-form h1 {
     width: 100%;
-    color: #fff;
+    color: black;
     text-align: center;
     padding: 0.6em;
-    background-color: rgb(13, 8, 67);
+    border-radius: 1em;
 }
 
 .contact-form button {
