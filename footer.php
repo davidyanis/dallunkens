@@ -11,27 +11,27 @@
     </div>
     <div class="footer-links">
         <h3>Company</h3>
-        <li><a href="#" class="underlined-animation">Heterogenoussolution </a></li>
-        <li><a href="#" class="underlined-animation">Infrastructure </a></li>
-        <li><a href="#" class="underlined-animation">Request demo </a></li>
-        <li><a href="#" class="underlined-animation">Delivery time </a></li>
-        <li><a href="#" class="underlined-animation">Investor relations </a></li>
+        <li><a href="#" style="text-decoration: line-through;">Heterogenoussolution </a></li>
+        <li><a href="#" >Infrastructure </a></li>
+        <li><a href="#" >Request demo </a></li>
+        <li><a href="#" >Delivery time </a></li>
+        <li><a href="#" >Investor relations </a></li>
     </div>
     <div class="footer-links">
         <h3>Technology</h3>
-        <li><a href="#" class="underlined-animation">Software </a></li>
-        <li><a href="#" class="underlined-animation">Security</a></li>
-        <li><a href="#" class="underlined-animation">Privacy </a></li>
-        <li><a href="#" class="underlined-animation">Maintainance </a></li>
-        <li><a href="#" class="underlined-animation">CellularWiFi </a></li>
+        <li><a href="#" >Software </a></li>
+        <li><a href="#" >Security</a></li>
+        <li><a href="#" >Privacy </a></li>
+        <li><a href="#" >Maintainance </a></li>
+        <li><a href="#" >CellularWiFi </a></li>
     </div>
     <div class="footer-links">
         <h3>Products</h3>
-        <li><a href="#" class="underlined-animation">Portfolio </a></li>
-        <li><a href="#" class="underlined-animation">Antennas </a></li>
-        <li><a href="#" class="underlined-animation">Hardware </a></li>
-        <li><a href="#" class="underlined-animation">Security </a></li>
-        <li><a href="#" class="underlined-animation">Contact us </a></li>
+        <li><a href="#" >Portfolio </a></li>
+        <li><a href="#" >Antennas </a></li>
+        <li><a href="#" >Hardware </a></li>
+        <li><a href="#" >Security </a></li>
+        <li><a href="#" >Contact us </a></li>
     </div>
     <div class="adressInfo">
         <h3>Adress</h3>
